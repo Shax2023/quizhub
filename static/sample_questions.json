@@ -1,0 +1,35 @@
+[
+  {
+    "text_uz": "Python qaysi yilda yaratilgan?",
+    "explanation_uz": "Python 1991 yilda Guido van Rossum tomonidan yaratilgan.",
+    "order": 1,
+    "choices": [
+      {"text_uz": "1989", "is_correct": false},
+      {"text_uz": "1991", "is_correct": true},
+      {"text_uz": "1995", "is_correct": false},
+      {"text_uz": "2000", "is_correct": false}
+    ]
+  },
+  {
+    "text_uz": "Python dasturlash tilida izoh qanday belgi bilan boshlanadi?",
+    "explanation_uz": "Pythonda bir qatorli izohlar # belgisi bilan boshlanadi.",
+    "order": 2,
+    "choices": [
+      {"text_uz": "//", "is_correct": false},
+      {"text_uz": "/*", "is_correct": false},
+      {"text_uz": "#", "is_correct": true},
+      {"text_uz": "--", "is_correct": false}
+    ]
+  },
+  {
+    "text_uz": "Pythonda ro'yxat (list) qanday yaratiladi?",
+    "explanation_uz": "Pythonda ro'yxat kvadrat qavslar [] yordamida yaratiladi.",
+    "order": 3,
+    "choices": [
+      {"text_uz": "(1, 2, 3)", "is_correct": false},
+      {"text_uz": "{1, 2, 3}", "is_correct": false},
+      {"text_uz": "[1, 2, 3]", "is_correct": true},
+      {"text_uz": "<1, 2, 3>", "is_correct": false}
+    ]
+  }
+]

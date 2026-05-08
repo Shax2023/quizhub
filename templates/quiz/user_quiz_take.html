@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ quiz.title }} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="quiz-take-layout">
+  <div class="quiz-header-bar">
+    <div>
+      <div class="quiz-header-title">{{ quiz.title }}</div>
+      <div class="quiz-header-meta">
+        {% if lang == 'uz' %}Savol{% else %}Q{% endif %}
+        <span id="current-q-num">1</span>/{{ questions_count }}
+        · {{ quiz.category }}
+        {% if show_mode == 'instant' %}
+        <span style="margin-left:8px;padding:2px 8px;background:var(--accent-light);color:var(--accent);border-radius:99px;font-size:11px;font-weight:700;">
+          ⚡ {% if lang == 'uz' %}Zahoti{% else %}Instant{% endif %}
+        </span>
+        {% endif %}
+      </div>
+    </div>
+    <div class="timer-box">
+      <div class="timer-label">{% if lang == 'uz' %}Qolgan vaqt{% else %}Time left{% endif %}</div>
+      <div class="timer-val" id="timer-val">{{ quiz.time_limit }}:00</div>
+    </div>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+  </div>
+
+  <form method="post" id="quiz-form">
+    {% csrf_token %}
+    <input type="hidden" name="question_ids" value="{{ selected_question_ids }}">
+    <input type="hidden" name="show_mode" value="{{ show_mode }}">
+
+    {% for question in questions %}
+    <div class="question-card one-question"
+         id="q-{{ question.id }}"
+         data-index="{{ forloop.counter0 }}"
+         data-qid="{{ question.id }}"
+         style="{% if not forloop.first %}display:none;{% endif %}">
+      <div class="question-header">
+        <div class="question-num-badge">{{ forloop.counter }}</div>
+        <div class="question-text">{{ question.text }}</div>
+      </div>
+      <div class="choices-grid">
+        {% for choice in question.ucq_choices.all %}
+        <div class="choice-label"
+             data-question="{{ question.id }}"
+             data-choice="{{ choice.id }}"
+             data-correct="{{ choice.is_correct|lower }}"
+             onclick="selectChoice(this)">
+          <input type="radio" name="question_{{ question.id }}" value="{{ choice.id }}" style="position:absolute;opacity:0;pointer-events:none;width:0;height:0;">
+          <div class="choice-letter">{% if forloop.counter == 1 %}A{% elif forloop.counter == 2 %}B{% elif forloop.counter == 3 %}C{% elif forloop.counter == 4 %}D{% else %}{{ forloop.counter }}{% endif %}</div>
+          <div class="choice-text">{{ choice.text }}</div>
+        </div>
+        {% endfor %}
+      </div>
+
+      {% if question.explanation %}
+      <div class="q-explanation" id="exp-{{ question.id }}" style="display:none;">
+        <span class="material-icons-round" style="font-size:16px;flex-shrink:0;">info</span>
+        <span>{{ question.explanation }}</span>
+      </div>
+      {% endif %}
+
+      <div class="q-nav-row">
+        {% if not forloop.first %}
+        <button type="button" class="btn-outline" onclick="showQuestion({{ forloop.counter0 }} - 1)" style="font-size:13px;padding:9px 18px;">
+          ← {% if lang == 'uz' %}Oldingi{% else %}Prev{% endif %}
+        </button>
+        {% else %}<span></span>{% endif %}
+
+        {% if not forloop.last %}
+        <button type="button" class="btn-primary" onclick="showQuestion({{ forloop.counter0 }} + 1)" style="padding:9px 22px;">
+          {% if lang == 'uz' %}Keyingi{% else %}Next{% endif %} →
+        </button>
+        {% else %}
+        <button type="button" class="btn-submit" onclick="submitQuiz()">
+          <span class="material-icons-round">send</span>
+          {% if lang == 'uz' %}Yakunlash{% else %}Submit{% endif %}
+        </button>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="q-dots-nav">
+      {% for question in questions %}
+      <button type="button"
+              class="q-dot {% if forloop.first %}q-dot-current{% endif %}"
+              data-index="{{ forloop.counter0 }}"
+              data-qid="{{ question.id }}"
+              onclick="showQuestion({{ forloop.counter0 }})">{{ forloop.counter }}</button>
+      {% endfor %}
+    </div>
+  </form>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+const SHOW_MODE = "{{ show_mode }}";
+const QUIZ_LANG = "{{ lang }}";
+const TOTAL = {{ questions_count }};
+let currentIndex = 0;
+let answered = {};
+let locked = {};
+let totalSeconds = {{ quiz.time_limit }} * 60;
+
+function updateTimerDisplay() {
+  var el = document.getElementById('timer-val');
+  if (!el) return;
+  var m = Math.floor(totalSeconds / 60);
+  var s = totalSeconds % 60;
+  el.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+  el.className = 'timer-val';
+  if (totalSeconds <= 60) el.classList.add('danger');
+  else if (totalSeconds <= 300) el.classList.add('warning');
+}
+setInterval(function() {
+  totalSeconds--;
+  updateTimerDisplay();
+  if (totalSeconds <= 0) document.getElementById('quiz-form').submit();
+}, 1000);
+updateTimerDisplay();
+
+function showQuestion(idx) {
+  if (idx < 0 || idx >= TOTAL) return;
+  document.querySelectorAll('.one-question').forEach(function(el) {
+    el.style.display = 'none';
+  });
+  var el = document.querySelector('.one-question[data-index="' + idx + '"]');
+  if (el) el.style.display = 'block';
+  currentIndex = idx;
+  document.getElementById('current-q-num').textContent = idx + 1;
+  document.querySelectorAll('.q-dot').forEach(function(d) { d.classList.remove('q-dot-current'); });
+  var dot = document.querySelector('.q-dot[data-index="' + idx + '"]');
+  if (dot) dot.classList.add('q-dot-current');
+  var bar = document.getElementById('progress-fill');
+  if (bar) bar.style.width = (Object.keys(answered).length / TOTAL * 100) + '%';
+}
+
+function selectChoice(el) {
+  var qid = el.getAttribute('data-question');
+  var choiceId = el.getAttribute('data-choice');
+  var isCorrect = el.getAttribute('data-correct') === 'true';
+  if (locked[qid]) return;
+
+  var radio = el.querySelector('input[type="radio"]');
+  if (radio) radio.checked = true;
+
+  document.querySelectorAll('.choice-label[data-question="' + qid + '"]').forEach(function(l) {
+    l.classList.remove('selected');
+  });
+  el.classList.add('selected');
+  answered[qid] = { choiceId: choiceId, correct: isCorrect };
+
+  var dot = document.querySelector('.q-dot[data-qid="' + qid + '"]');
+  if (dot) { dot.classList.remove('q-dot-wrong','q-dot-correct','q-dot-answered'); dot.classList.add('q-dot-answered'); }
+  var bar = document.getElementById('progress-fill');
+  if (bar) bar.style.width = (Object.keys(answered).length / TOTAL * 100) + '%';
+
+  if (SHOW_MODE === 'instant') {
+    locked[qid] = true;
+    document.querySelectorAll('.choice-label[data-question="' + qid + '"]').forEach(function(l) {
+      l.style.pointerEvents = 'none';
+      if (l.getAttribute('data-correct') === 'true') l.classList.add('instant-correct');
+      else if (l === el && !isCorrect) l.classList.add('instant-wrong');
+    });
+    var exp = document.getElementById('exp-' + qid);
+    if (exp) exp.style.display = 'flex';
+    if (dot) { dot.classList.remove('q-dot-answered'); dot.classList.add(isCorrect ? 'q-dot-correct' : 'q-dot-wrong'); }
+  }
+}
+
+function submitQuiz() {
+  var u = TOTAL - Object.keys(answered).length;
+  var msg = QUIZ_LANG === 'uz'
+    ? (u > 0 ? u + ' ta savol javobsiz. Topshirasizmi?' : 'Testni yakunlashni tasdiqlaysizmi?')
+    : (u > 0 ? u + ' unanswered. Submit anyway?' : 'Submit quiz?');
+  if (confirm(msg)) document.getElementById('quiz-form').submit();
+}
+
+showQuestion(0);
+</script>
+{% endblock %}

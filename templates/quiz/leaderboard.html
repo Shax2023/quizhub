@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static quiz_tags %}
+
+{% block title %}{% if lang == 'uz' %}Reyting{% elif lang == 'ru' %}Рейтинг{% else %}Leaderboard{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="page-header" style="margin-bottom:24px;">
+  <h1 class="page-title">{% if lang == 'uz' %}🏆 Top o'yinchilar{% elif lang == 'ru' %}🏆 Топ игроков{% else %}🏆 Top Players{% endif %}</h1>
+  <p class="page-sub">{% if lang == 'uz' %}Eng ko'p ball yig'gan foydalanuvchilar{% elif lang == 'ru' %}Пользователи с наибольшим количеством очков{% else %}Users with the most points{% endif %}</p>
+</div>
+
+<div class="section" style="padding-top:0;">
+  {% if top_users %}
+  <div class="leaderboard-list">
+    {% for profile in top_users %}
+    <div class="lb-item" style="{% if forloop.counter <= 3 %}border-color: {% if forloop.counter == 1 %}#F59E0B{% elif forloop.counter == 2 %}#94A3B8{% else %}#C2844B{% endif %};{% endif %}">
+      <div class="lb-rank {% if forloop.counter == 1 %}gold{% elif forloop.counter == 2 %}silver{% elif forloop.counter == 3 %}bronze{% endif %}">
+        {% if forloop.counter == 1 %}🥇{% elif forloop.counter == 2 %}🥈{% elif forloop.counter == 3 %}🥉{% else %}#{{ forloop.counter }}{% endif %}
+      </div>
+      <div class="lb-avatar" style="background:{{ profile.avatar_color }}; color:#fff;">{{ profile.initials }}</div>
+      <div style="flex:1;">
+        <div class="lb-name">{{ profile.user.get_full_name|default:profile.user.username }}</div>
+        <div class="lb-meta">
+          {{ profile.quizzes_taken }} {% if lang == 'uz' %}test{% elif lang == 'ru' %}тестов{% else %}quizzes{% endif %}
+          · {{ profile.average_score }}% {% if lang == 'uz' %}o'rtacha{% elif lang == 'ru' %}среднее{% else %}avg{% endif %}
+        </div>
+      </div>
+      <div class="lb-score">
+        {{ profile.total_points }} {% if lang == 'uz' %}ball{% elif lang == 'ru' %}очков{% else %}pts{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <div class="empty-icon">🏆</div>
+    <div class="empty-title">{% if lang == 'uz' %}Hali ro'yxat bo'sh{% elif lang == 'ru' %}Список пока пуст{% else %}No players yet{% endif %}</div>
+    <div class="empty-sub">{% if lang == 'uz' %}Birinchi bo'ling!{% elif lang == 'ru' %}Будьте первым!{% else %}Be the first!{% endif %}</div>
+    <a href="{% url 'quiz_list' %}" class="btn-primary" style="margin-top:16px; display:inline-flex;">
+      {% if lang == 'uz' %}Testni boshlash{% elif lang == 'ru' %}Начать тест{% else %}Start a Quiz{% endif %}
+    </a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+[
+  {
+    "text_uz": "Test savol?",
+    "explanation_uz": "Test izoh",
+    "order": 1,
+    "choices": [
+      {"text_uz": "To'g'ri", "is_correct": true},
+      {"text_uz": "Noto'g'ri", "is_correct": false}
+    ]
+  }
+]

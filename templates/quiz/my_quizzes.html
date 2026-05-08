@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Mening testlarim — QuizHub{% endblock %}
+
+{% block content %}
+<div style="max-width:900px; margin:0 auto; padding:24px 16px;">
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px; flex-wrap:wrap; gap:12px;">
+    <div>
+      <h1 style="font-size:22px; font-weight:800; color:var(--text-primary);">
+        {% if lang == 'uz' %}Mening testlarim{% elif lang == 'ru' %}Мои тесты{% else %}My Quizzes{% endif %}
+      </h1>
+      <p style="font-size:13px; color:var(--text-secondary); margin-top:4px;">
+        {% if lang == 'uz' %}Siz yaratgan testlar. Boshqalar ham ko'ra oladi.{% else %}Your created quizzes. Visible to everyone.{% endif %}
+      </p>
+    </div>
+    <a href="{% url 'user_quiz_create' %}" class="btn-primary" style="display:inline-flex; gap:6px; align-items:center;">
+      <span class="material-icons-round">add</span>
+      {% if lang == 'uz' %}Yangi test{% elif lang == 'ru' %}Новый тест{% else %}New Quiz{% endif %}
+    </a>
+  </div>
+
+  {% if messages %}
+    {% for msg in messages %}
+    <div style="padding:12px 16px; border-radius:10px; margin-bottom:16px; background:var(--success-light); color:var(--success); border:1px solid var(--success); font-size:13px;">{{ msg }}</div>
+    {% endfor %}
+  {% endif %}
+
+  {% if quizzes %}
+  <div style="display:flex; flex-direction:column; gap:12px;">
+    {% for quiz in quizzes %}
+    <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:18px 20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+      <div style="flex:1; min-width:200px;">
+        <div style="font-size:15px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">{{ quiz.title }}</div>
+        <div style="font-size:12px; color:var(--text-secondary); display:flex; gap:12px; flex-wrap:wrap;">
+          <span>{{ quiz.category }}</span>
+          <span>{{ quiz.question_count }} {% if lang == 'uz' %}savol{% else %}questions{% endif %}</span>
+          <span>{{ quiz.attempt_count }} {% if lang == 'uz' %}urinish{% else %}attempts{% endif %}</span>
+          {% if quiz.is_published %}
+          <span style="color:var(--success);">● {% if lang == 'uz' %}Nashr etilgan{% else %}Published{% endif %}</span>
+          {% else %}
+          <span style="color:var(--text-muted);">● {% if lang == 'uz' %}Yashirin{% else %}Hidden{% endif %}</span>
+          {% endif %}
+        </div>
+      </div>
+      <div style="display:flex; gap:8px; flex-shrink:0;">
+        <a href="{% url 'user_quiz_edit' quiz.id %}" class="btn-outline" style="font-size:12px; padding:7px 14px; display:inline-flex; align-items:center; gap:4px;">
+          <span class="material-icons-round" style="font-size:15px;">edit</span>
+          {% if lang == 'uz' %}Tahrirlash{% else %}Edit{% endif %}
+        </a>
+        {% if quiz.is_published %}
+        <a href="{% url 'user_quiz_detail' quiz.id %}" class="btn-primary" style="font-size:12px; padding:7px 14px; display:inline-flex; align-items:center; gap:4px;">
+          <span class="material-icons-round" style="font-size:15px;">visibility</span>
+          {% if lang == 'uz' %}Ko'rish{% else %}View{% endif %}
+        </a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div style="text-align:center; padding:60px 20px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg);">
+    <div style="font-size:48px; margin-bottom:16px;">📝</div>
+    <h3 style="font-size:16px; font-weight:700; color:var(--text-primary); margin-bottom:8px;">
+      {% if lang == 'uz' %}Hali test yaratmagansiz{% else %}No quizzes yet{% endif %}
+    </h3>
+    <p style="font-size:13px; color:var(--text-secondary); margin-bottom:20px;">
+      {% if lang == 'uz' %}Birinchi testingizni yarating va boshqalar bilan ulashing.{% else %}Create your first quiz and share it with others.{% endif %}
+    </p>
+    <a href="{% url 'user_quiz_create' %}" class="btn-primary" style="display:inline-flex; gap:6px;">
+      <span class="material-icons-round">add</span>
+      {% if lang == 'uz' %}Test yaratish{% else %}Create Quiz{% endif %}
+    </a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

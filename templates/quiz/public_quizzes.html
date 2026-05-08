@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Jamiyat testlari — QuizHub{% endblock %}
+
+{% block content %}
+<div style="max-width:900px; margin:0 auto; padding:24px 16px;">
+  <div style="margin-bottom:24px;">
+    <h1 style="font-size:22px; font-weight:800; color:var(--text-primary);">
+      🌐 {% if lang == 'uz' %}Jamiyat testlari{% elif lang == 'ru' %}Тесты сообщества{% else %}Community Quizzes{% endif %}
+    </h1>
+    <p style="font-size:13px; color:var(--text-secondary); margin-top:4px;">
+      {% if lang == 'uz' %}Foydalanuvchilar tomonidan yaratilgan testlar{% else %}Quizzes created by users{% endif %}
+    </p>
+  </div>
+
+  <form method="get" style="margin-bottom:20px; display:flex; gap:8px;">
+    <input type="text" name="q" value="{{ search }}" placeholder="{% if lang == 'uz' %}Test qidirish...{% else %}Search quizzes...{% endif %}"
+      style="flex:1; padding:10px 14px; border-radius:10px; border:1px solid var(--border-strong); background:var(--bg-card); color:var(--text-primary); font-size:14px; font-family:var(--font); outline:none;">
+    <button type="submit" class="btn-primary" style="padding:10px 18px;">
+      <span class="material-icons-round">search</span>
+    </button>
+  </form>
+
+  {% if quizzes %}
+  <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:14px;">
+    {% for quiz in quizzes %}
+    <a href="{% url 'user_quiz_detail' quiz.id %}" style="text-decoration:none;">
+      <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:18px 20px; height:100%; transition:border-color 0.2s, box-shadow 0.2s;" 
+           onmouseover="this.style.borderColor='var(--accent)'; this.style.boxShadow='0 4px 16px rgba(124,92,252,0.12)'"
+           onmouseout="this.style.borderColor='var(--border)'; this.style.boxShadow='none'">
+        <div style="font-size:11px; color:var(--accent); font-weight:600; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.5px;">
+          {{ quiz.category }}
+        </div>
+        <div style="font-size:15px; font-weight:700; color:var(--text-primary); margin-bottom:8px; line-height:1.4;">{{ quiz.title }}</div>
+        {% if quiz.description %}
+        <div style="font-size:12px; color:var(--text-secondary); margin-bottom:10px; line-height:1.5;">{{ quiz.description|truncatechars:80 }}</div>
+        {% endif %}
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:auto; padding-top:10px; border-top:1px solid var(--border);">
+          <div style="font-size:11px; color:var(--text-muted); display:flex; gap:10px;">
+            <span>{{ quiz.question_count }} {% if lang == 'uz' %}savol{% else %}q{% endif %}</span>
+            <span>{{ quiz.attempt_count }} {% if lang == 'uz' %}urinish{% else %}attempts{% endif %}</span>
+          </div>
+          <div style="font-size:11px; color:var(--text-muted);">@{{ quiz.author.username }}</div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div style="text-align:center; padding:60px 20px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg);">
+    <div style="font-size:48px; margin-bottom:16px;">🔍</div>
+    <p style="color:var(--text-secondary); font-size:14px;">
+      {% if search %}{% if lang == 'uz' %}Hech narsa topilmadi{% else %}Nothing found{% endif %}{% else %}{% if lang == 'uz' %}Hali jamoat testlari yo'q{% else %}No community quizzes yet{% endif %}{% endif %}
+    </p>
+    {% if user.is_authenticated %}
+    <a href="{% url 'user_quiz_create' %}" class="btn-primary" style="display:inline-flex; gap:6px; margin-top:16px;">
+      <span class="material-icons-round">add</span>
+      {% if lang == 'uz' %}Birinchi bo'lib test yarating{% else %}Be the first to create one{% endif %}
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

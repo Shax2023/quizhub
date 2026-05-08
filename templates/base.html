@@ -1,0 +1,182 @@
+{% load i18n static quiz_tags %}
+<!DOCTYPE html>
+<html lang="{{ current_lang }}" data-theme="{{ current_theme }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}QuizHub{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  {% block extra_css %}{% endblock %}
+</head>
+<body class="theme-{{ current_theme }}">
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="{% url 'home' %}" class="nav-logo">
+      <div class="logo-icon"><span class="material-icons-round">bolt</span></div>
+      <span>QuizHub</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="{% url 'categories' %}" class="nav-link {% if request.resolver_match.url_name == 'categories' %}active{% endif %}">
+        {% if current_lang == 'uz' %}Kategoriyalar{% elif current_lang == 'ru' %}Категории{% else %}Categories{% endif %}
+      </a>
+      <a href="{% url 'quiz_list' %}" class="nav-link {% if request.resolver_match.url_name == 'quiz_list' %}active{% endif %}">
+        {% if current_lang == 'uz' %}Testlar{% elif current_lang == 'ru' %}Тесты{% else %}Quizzes{% endif %}
+      </a>
+      <a href="{% url 'public_quizzes' %}" class="nav-link {% if request.resolver_match.url_name == 'public_quizzes' %}active{% endif %}">
+        🌐 {% if current_lang == 'uz' %}Jamiyat{% elif current_lang == 'ru' %}Сообщество{% else %}Community{% endif %}
+      </a>
+      <a href="{% url 'leaderboard' %}" class="nav-link {% if request.resolver_match.url_name == 'leaderboard' %}active{% endif %}">
+        {% if current_lang == 'uz' %}Reyting{% elif current_lang == 'ru' %}Рейтинг{% else %}Leaderboard{% endif %}
+      </a>
+    </div>
+
+    <div class="nav-actions">
+      <div class="lang-switcher">
+        <button class="lang-btn {% if current_lang == 'uz' %}active{% endif %}" onclick="setLang('uz')">UZ</button>
+        <button class="lang-btn {% if current_lang == 'ru' %}active{% endif %}" onclick="setLang('ru')">RU</button>
+        <button class="lang-btn {% if current_lang == 'en' %}active{% endif %}" onclick="setLang('en')">EN</button>
+      </div>
+
+      <button class="theme-toggle" onclick="toggleTheme()" title="Tema">
+        <span class="material-icons-round" id="theme-icon">{% if current_theme == 'dark' %}light_mode{% else %}dark_mode{% endif %}</span>
+      </button>
+
+      {% if user.is_authenticated %}
+        <a href="{% url 'my_quizzes' %}" class="btn-outline-sm" style="display:inline-flex; align-items:center; gap:4px;">
+          <span class="material-icons-round" style="font-size:14px;">edit_note</span>
+          {% if current_lang == 'uz' %}Testlarim{% elif current_lang == 'ru' %}Мои тесты{% else %}My Quizzes{% endif %}
+        </a>
+        <a href="{% url 'profile' %}" class="nav-avatar" title="{{ user.username }}">
+          {{ user.username|first|upper }}
+        </a>
+        <form method="post" action="{% url 'logout' %}" style="display:inline">
+          {% csrf_token %}
+          <button type="submit" class="btn-outline-sm">
+            {% if current_lang == 'uz' %}Chiqish{% elif current_lang == 'ru' %}Выход{% else %}Logout{% endif %}
+          </button>
+        </form>
+      {% else %}
+        <a href="{% url 'login' %}" class="btn-outline-sm">
+          {% if current_lang == 'uz' %}Kirish{% elif current_lang == 'ru' %}Войти{% else %}Login{% endif %}
+        </a>
+        <a href="{% url 'register' %}" class="btn-primary-sm">
+          {% if current_lang == 'uz' %}Ro'yxatdan o'tish{% elif current_lang == 'ru' %}Регистрация{% else %}Register{% endif %}
+        </a>
+      {% endif %}
+    </div>
+
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+      <span class="material-icons-round">menu</span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="{% url 'categories' %}" class="mobile-link">
+      {% if current_lang == 'uz' %}Kategoriyalar{% elif current_lang == 'ru' %}Категории{% else %}Categories{% endif %}
+    </a>
+    <a href="{% url 'quiz_list' %}" class="mobile-link">
+      {% if current_lang == 'uz' %}Testlar{% elif current_lang == 'ru' %}Тесты{% else %}Quizzes{% endif %}
+    </a>
+    <a href="{% url 'leaderboard' %}" class="mobile-link">
+      {% if current_lang == 'uz' %}Reyting{% elif current_lang == 'ru' %}Рейтинг{% else %}Leaderboard{% endif %}
+    </a>
+    {% if user.is_authenticated %}
+      <a href="{% url 'profile' %}" class="mobile-link">
+        {% if current_lang == 'uz' %}Profil{% elif current_lang == 'ru' %}Профиль{% else %}Profile{% endif %}
+      </a>
+    {% else %}
+      <a href="{% url 'login' %}" class="mobile-link">
+        {% if current_lang == 'uz' %}Kirish{% elif current_lang == 'ru' %}Войти{% else %}Login{% endif %}
+      </a>
+      <a href="{% url 'register' %}" class="mobile-link">
+        {% if current_lang == 'uz' %}Ro'yxatdan o'tish{% elif current_lang == 'ru' %}Регистрация{% else %}Register{% endif %}
+      </a>
+    {% endif %}
+  </div>
+</nav>
+
+{% if messages %}
+<div class="messages-container">
+  {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">
+      <span class="material-icons-round">{% if message.tags == 'success' %}check_circle{% elif message.tags == 'error' %}error{% else %}info{% endif %}</span>
+      {{ message }}
+      <button onclick="this.parentElement.remove()" class="alert-close">
+        <span class="material-icons-round">close</span>
+      </button>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<main>
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <div class="logo-icon small"><span class="material-icons-round">bolt</span></div>
+      <span>QuizHub</span>
+    </div>
+    <p class="footer-copy">
+      {% if current_lang == 'uz' %}© 2025 QuizHub. Barcha huquqlar himoyalangan.
+      {% elif current_lang == 'ru' %}© 2025 QuizHub. Все права защищены.
+      {% else %}© 2025 QuizHub. All rights reserved.{% endif %}
+    </p>
+  </div>
+</footer>
+
+<script>
+const CSRF_TOKEN = '{{ csrf_token }}';
+const CURRENT_THEME = '{{ current_theme }}';
+const CURRENT_LANG = '{{ current_lang }}';
+
+function setLang(lang) {
+  fetch('{% url "set_language" %}', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/x-www-form-urlencoded', 'X-CSRFToken': CSRF_TOKEN},
+    body: 'lang=' + lang
+  }).then(() => location.reload());
+}
+
+function toggleTheme() {
+  const newTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  fetch('{% url "set_theme" %}', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/x-www-form-urlencoded', 'X-CSRFToken': CSRF_TOKEN},
+    body: 'theme=' + newTheme
+  }).then(() => location.reload());
+}
+
+function toggleMobileMenu() {
+  const menu = document.getElementById('mobileMenu');
+  menu.classList.toggle('open');
+}
+
+setTimeout(() => {
+  document.querySelectorAll('.alert').forEach(el => el.remove());
+}, 4000);
+</script>
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    displayMath: [['\\[','\\]']]
+  },
+  options: {
+    skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
+<script src="{% static 'js/main.js' %}"></script>
+{% block extra_js %}{% endblock %}
+</body>
+</html>

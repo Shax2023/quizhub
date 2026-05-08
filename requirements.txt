@@ -1,0 +1,15 @@
+django>=5.0,<6.0
+psycopg2-binary>=2.9
+django-unfold>=0.90
+Pillow>=10.0
+django-rosetta>=0.10
+whitenoise>=6.0
+python-decouple>=3.8
+django
+django-rosetta
+django-unfold
+Pillow
+psycopg2-binary
+python-decouple
+whitenoise
+dj-database-url

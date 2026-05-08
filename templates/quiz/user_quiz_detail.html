@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ quiz.title }} — QuizHub{% endblock %}
+
+{% block content %}
+<div style="max-width:700px; margin:0 auto; padding:24px 16px;">
+  <a href="{% url 'public_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px; margin-bottom:20px;">
+    ← {% if lang == 'uz' %}Jamiyat testlari{% else %}Community{% endif %}
+  </a>
+
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:var(--accent); font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">{{ quiz.category }}</div>
+    <h1 style="font-size:22px; font-weight:800; color:var(--text-primary); margin-bottom:8px;">{{ quiz.title }}</h1>
+    {% if quiz.description %}
+    <p style="font-size:14px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">{{ quiz.description }}</p>
+    {% endif %}
+    <div style="display:flex; flex-wrap:wrap; gap:14px; font-size:13px; color:var(--text-secondary); margin-bottom:20px;">
+      <span style="display:flex; align-items:center; gap:4px;"><span class="material-icons-round" style="font-size:16px;">help_outline</span>{{ quiz.question_count }} {% if lang == 'uz' %}savol{% else %}questions{% endif %}</span>
+      <span style="display:flex; align-items:center; gap:4px;"><span class="material-icons-round" style="font-size:16px;">schedule</span>{{ quiz.time_limit }} {% if lang == 'uz' %}daqiqa{% else %}min{% endif %}</span>
+      <span style="display:flex; align-items:center; gap:4px;"><span class="material-icons-round" style="font-size:16px;">person</span>@{{ quiz.author.username }}</span>
+    </div>
+
+    <form method="get" action="{% url 'user_quiz_take' quiz.id %}" style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end;">
+      <label style="font-size:14px; display:flex; align-items:center; gap:8px;">
+        {% if lang == 'uz' %}Savollar soni:{% else %}Questions:{% endif %}
+        <input type="number" name="num_questions" min="1" max="{{ quiz.question_count }}" value="{{ quiz.question_count|default:30 }}"
+          style="width:80px; padding:8px 10px; border-radius:8px; border:1px solid var(--border); background:var(--bg); color:var(--text-primary);">
+      </label>
+      <div style="display:flex; flex-direction:column; gap:6px;">
+        <div style="font-size:13px; color:var(--text-secondary); font-weight:600;">
+          {% if lang == 'uz' %}Javob ko'rsatish:{% else %}Answer display:{% endif %}
+        </div>
+        <div style="display:flex; gap:8px;">
+          <label style="display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; padding:7px 12px; border:1px solid var(--border); border-radius:8px; background:var(--bg-card);">
+            <input type="radio" name="show_mode" value="end" checked style="accent-color:var(--accent);">
+            {% if lang == 'uz' %}Oxirida{% else %}At end{% endif %}
+          </label>
+          <label style="display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; padding:7px 12px; border:1px solid var(--accent); border-radius:8px; background:var(--accent-light); color:var(--accent-text);">
+            <input type="radio" name="show_mode" value="instant" style="accent-color:var(--accent);">
+            ⚡ {% if lang == 'uz' %}Zahoti{% else %}Instant{% endif %}
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn-primary" style="display:inline-flex; align-self:flex-end;">
+        <span class="material-icons-round">play_arrow</span>
+        {% if lang == 'uz' %}Boshlash{% else %}Start{% endif %}
+      </button>
+    </form>
+  </div>
+
+  {% if request.user == quiz.author %}
+  <div style="text-align:center;">
+    <a href="{% url 'user_quiz_edit' quiz.id %}" class="btn-outline" style="font-size:13px; display:inline-flex; align-items:center; gap:6px;">
+      <span class="material-icons-round" style="font-size:16px;">edit</span>
+      {% if lang == 'uz' %}Testni tahrirlash{% else %}Edit Quiz{% endif %}
+    </a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

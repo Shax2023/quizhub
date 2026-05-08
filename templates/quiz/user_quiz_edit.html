@@ -1,0 +1,194 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ quiz.title }} — Tahrirlash{% endblock %}
+
+{% block content %}
+<div style="max-width:800px; margin:0 auto; padding:24px 16px;">
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:24px; flex-wrap:wrap; gap:12px;">
+    <div>
+      <a href="{% url 'my_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px;">
+        ← {% if lang == 'uz' %}Mening testlarim{% else %}My Quizzes{% endif %}
+      </a>
+      <h1 style="font-size:20px; font-weight:800; color:var(--text-primary); margin-top:8px;">{{ quiz.title }}</h1>
+    </div>
+    <div style="display:flex; gap:8px;">
+      {% if quiz.is_published %}
+      <a href="{% url 'user_quiz_detail' quiz.id %}" class="btn-outline" style="font-size:12px; padding:7px 14px; display:inline-flex; align-items:center; gap:4px;">
+        <span class="material-icons-round" style="font-size:15px;">open_in_new</span>
+        {% if lang == 'uz' %}Ko'rish{% else %}Preview{% endif %}
+      </a>
+      {% endif %}
+      <form method="post" action="{% url 'user_quiz_delete' quiz.id %}" onsubmit="return confirm('{% if lang == "uz" %}Testni o\'chirasizmi?{% else %}Delete this quiz?{% endif %}')">
+        {% csrf_token %}
+        <button type="submit" style="padding:7px 14px; border-radius:8px; border:1px solid var(--error); background:transparent; color:var(--error); font-size:12px; cursor:pointer; display:inline-flex; align-items:center; gap:4px;">
+          <span class="material-icons-round" style="font-size:15px;">delete</span>
+          {% if lang == 'uz' %}O'chirish{% else %}Delete{% endif %}
+        </button>
+      </form>
+    </div>
+  </div>
+
+  {% if messages %}
+    {% for msg in messages %}
+    <div style="padding:12px 16px; border-radius:10px; margin-bottom:16px; background:var(--success-light); color:var(--success); border:1px solid var(--success); font-size:13px;">{{ msg }}</div>
+    {% endfor %}
+  {% endif %}
+
+  <!-- Quiz info edit -->
+  <details style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); margin-bottom:20px; overflow:hidden;">
+    <summary style="padding:16px 20px; font-size:14px; font-weight:700; cursor:pointer; color:var(--text-primary); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+      <span>⚙️ {% if lang == 'uz' %}Test ma'lumotlari{% else %}Quiz Settings{% endif %}</span>
+      <span class="material-icons-round" style="font-size:18px; color:var(--text-muted);">expand_more</span>
+    </summary>
+    <div style="padding:20px; border-top:1px solid var(--border);">
+      <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="save_info" value="1">
+        {% for field in form %}
+        <div style="margin-bottom:16px;">
+          <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">{{ field.label }}</label>
+          {{ field }}
+          {% for error in field.errors %}<div style="font-size:12px; color:var(--error); margin-top:3px;">{{ error }}</div>{% endfor %}
+        </div>
+        {% endfor %}
+        <button type="submit" class="btn-primary" style="padding:9px 20px;">
+          {% if lang == 'uz' %}Saqlash{% else %}Save{% endif %}
+        </button>
+      </form>
+    </div>
+  </details>
+
+  <!-- Questions list -->
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); margin-bottom:20px; overflow:hidden;">
+    <div style="padding:16px 20px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+      <span style="font-size:15px; font-weight:700; color:var(--text-primary);">
+        {% if lang == 'uz' %}Savollar{% else %}Questions{% endif %} ({{ questions.count }})
+      </span>
+    </div>
+    {% for question in questions %}
+    <div style="padding:14px 20px; border-bottom:1px solid var(--border);">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px;">
+        <div style="flex:1;">
+          <div style="font-size:13px; font-weight:600; color:var(--text-primary); margin-bottom:6px;">
+            <span style="opacity:0.5; margin-right:6px;">{{ forloop.counter }}.</span>{{ question.text }}
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px;">
+            {% for choice in question.ucq_choices.all %}
+            <span style="font-size:11px; padding:3px 8px; border-radius:6px; {% if choice.is_correct %}background:var(--success-light); color:var(--success); border:1px solid var(--success);{% else %}background:var(--bg-elevated); color:var(--text-secondary); border:1px solid var(--border);{% endif %}">
+              {% if choice.is_correct %}✓ {% endif %}{{ choice.text }}
+            </span>
+            {% endfor %}
+          </div>
+        </div>
+        <form method="post" action="{% url 'user_quiz_delete_question' quiz.id question.id %}" onsubmit="return confirm('{% if lang == "uz" %}O\'chirasizmi?{% else %}Delete?{% endif %}')">
+          {% csrf_token %}
+          <button type="submit" style="padding:5px 8px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--error); cursor:pointer; font-size:12px; flex-shrink:0;">
+            <span class="material-icons-round" style="font-size:15px; vertical-align:middle;">delete</span>
+          </button>
+        </form>
+      </div>
+    </div>
+    {% empty %}
+    <div style="padding:24px; text-align:center; color:var(--text-muted); font-size:13px;">
+      {% if lang == 'uz' %}Hali savol yo'q. Quyida qo'shing.{% else %}No questions yet. Add below.{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Add question form -->
+  <div style="background:var(--bg-card); border:1px solid var(--accent); border-radius:var(--radius-lg); padding:24px;">
+    <h3 style="font-size:15px; font-weight:700; color:var(--text-primary); margin-bottom:18px;">
+      ➕ {% if lang == 'uz' %}Yangi savol qo'shish{% else %}Add New Question{% endif %}
+    </h3>
+    <form method="post" action="{% url 'user_quiz_add_question' quiz.id %}" id="add-q-form">
+      {% csrf_token %}
+      <div style="margin-bottom:16px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:6px;">
+          {% if lang == 'uz' %}Savol matni *{% else %}Question text *{% endif %}
+        </label>
+        <textarea name="text" rows="2" required placeholder="{% if lang == 'uz' %}Savol yozing...{% else %}Enter question...{% endif %}" style="width:100%; padding:10px 12px; border-radius:10px; border:1px solid var(--border-strong); background:var(--bg-primary); color:var(--text-primary); font-size:14px; font-family:var(--font); resize:vertical;"></textarea>
+      </div>
+
+      <div style="margin-bottom:16px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:6px;">
+          {% if lang == 'uz' %}Izoh (ixtiyoriy){% else %}Explanation (optional){% endif %}
+        </label>
+        <textarea name="explanation" rows="1" placeholder="{% if lang == 'uz' %}To'g'ri javob haqida qisqa izoh...{% else %}Brief explanation for the correct answer...{% endif %}" style="width:100%; padding:10px 12px; border-radius:10px; border:1px solid var(--border-strong); background:var(--bg-primary); color:var(--text-primary); font-size:14px; font-family:var(--font); resize:vertical;"></textarea>
+      </div>
+
+      <div id="choices-list" style="margin-bottom:16px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:8px;">
+          {% if lang == 'uz' %}Variantlar (to'g'ri javoblarni belgilang) *{% else %}Choices (check correct ones) *{% endif %}
+        </label>
+        <div id="choice-items">
+          {% for i in "0123" %}
+          <div class="choice-row" style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+            <input type="checkbox" name="choice_correct" value="{{ forloop.counter0 }}" style="accent-color:var(--accent); width:16px; height:16px; flex-shrink:0; cursor:pointer;" title="{% if lang == 'uz' %}To'g'ri javob{% else %}Correct{% endif %}">
+            <input type="text" name="choice_text" placeholder="{% if lang == 'uz' %}Variant {{ forloop.counter }}{% else %}Choice {{ forloop.counter }}{% endif %}" style="flex:1; padding:9px 12px; border-radius:8px; border:1px solid var(--border-strong); background:var(--bg-primary); color:var(--text-primary); font-size:13px; font-family:var(--font);">
+            {% if forloop.counter > 2 %}
+            <button type="button" class="rm-choice-btn" style="padding:6px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--error); cursor:pointer;">
+              <span class="material-icons-round" style="font-size:16px;">close</span>
+            </button>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        <button type="button" id="add-choice-btn" style="font-size:12px; padding:6px 14px; border-radius:8px; border:1px solid var(--border); background:transparent; color:var(--accent); cursor:pointer; display:inline-flex; align-items:center; gap:4px;">
+          <span class="material-icons-round" style="font-size:15px;">add</span>
+          {% if lang == 'uz' %}Variant qo'shish{% else %}Add choice{% endif %}
+        </button>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">
+        <span class="material-icons-round">add_circle</span>
+        {% if lang == 'uz' %}Savol qo'shish{% else %}Add Question{% endif %}
+      </button>
+    </form>
+  </div>
+</div>
+
+<style>
+.form-input, select, textarea, input[type="text"], input[type="number"], input[type="email"] {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 13px;
+  font-family: var(--font);
+  outline: none;
+}
+input[type="checkbox"] { width: auto !important; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+
+<script>
+let choiceCount = 4;
+const lang = "{{ lang }}";
+
+document.getElementById('add-choice-btn').addEventListener('click', function() {
+  const container = document.getElementById('choice-items');
+  const div = document.createElement('div');
+  div.className = 'choice-row';
+  div.style.cssText = 'display:flex; align-items:center; gap:8px; margin-bottom:8px;';
+  div.innerHTML = `
+    <input type="checkbox" name="choice_correct" value="${choiceCount}" style="accent-color:var(--accent); width:16px; height:16px; flex-shrink:0; cursor:pointer;">
+    <input type="text" name="choice_text" placeholder="${lang === 'uz' ? 'Variant ' + (choiceCount+1) : 'Choice ' + (choiceCount+1)}" style="flex:1; padding:9px 12px; border-radius:8px; border:1px solid var(--border-strong); background:var(--bg-primary); color:var(--text-primary); font-size:13px; font-family:var(--font);">
+    <button type="button" class="rm-choice-btn" style="padding:6px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--error); cursor:pointer;">
+      <span class="material-icons-round" style="font-size:16px;">close</span>
+    </button>`;
+  container.appendChild(div);
+  choiceCount++;
+  bindRemove();
+});
+
+function bindRemove() {
+  document.querySelectorAll('.rm-choice-btn').forEach(btn => {
+    btn.onclick = function() { this.closest('.choice-row').remove(); };
+  });
+}
+bindRemove();
+</script>
+{% endblock %}

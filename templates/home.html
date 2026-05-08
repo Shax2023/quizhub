@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static quiz_tags %}
+
+{% block title %}QuizHub — {% if lang == 'uz' %}Bilimingizni sinab ko'ring{% elif lang == 'ru' %}Проверьте свои знания{% else %}Test Your Knowledge{% endif %}{% endblock %}
+
+{% block content %}
+
+<div class="hero">
+  <div class="hero-badge">
+    <span class="material-icons-round">star</span>
+    {% if lang == 'uz' %}{{ total_users|default:"50,000" }}+ foydalanuvchi
+    {% elif lang == 'ru' %}{{ total_users|default:"50,000" }}+ пользователей
+    {% else %}{{ total_users|default:"50,000" }}+ users{% endif %}
+  </div>
+  <h1>
+    {% if lang == 'uz' %}Bilimingizni sinab ko'ring, o'zingizni rivojlantiring
+    {% elif lang == 'ru' %}Проверьте свои знания, развивайте себя
+    {% else %}Test your knowledge, grow yourself{% endif %}
+  </h1>
+  <p>
+    {% if lang == 'uz' %}Minglab testlar, jonli reyting va qiziqarli mavzular — barchasi bir joyda.
+    {% elif lang == 'ru' %}Тысячи тестов, рейтинг в реальном времени и интересные темы — всё в одном месте.
+    {% else %}Thousands of quizzes, live leaderboard and exciting topics — all in one place.{% endif %}
+  </p>
+  <div class="hero-btns">
+    <a href="{% url 'quiz_list' %}" class="btn-primary">
+      <span class="material-icons-round" style="font-size:18px;">play_arrow</span>
+      {% if lang == 'uz' %}Hozir boshlash{% elif lang == 'ru' %}Начать сейчас{% else %}Start Now{% endif %}
+    </a>
+    <a href="{% url 'categories' %}" class="btn-outline">
+      {% if lang == 'uz' %}Kategoriyalarni ko'rish{% elif lang == 'ru' %}Смотреть категории{% else %}Browse Categories{% endif %}
+    </a>
+  </div>
+</div>
+
+<div class="stats-row">
+  <div class="stat-item">
+    <div class="stat-num">{{ total_quizzes|default:"0" }}+</div>
+    <div class="stat-lbl">{% if lang == 'uz' %}Testlar soni{% elif lang == 'ru' %}Количество тестов{% else %}Total Quizzes{% endif %}</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">{{ total_attempts|default:"0" }}+</div>
+    <div class="stat-lbl">{% if lang == 'uz' %}Urinishlar{% elif lang == 'ru' %}Попыток{% else %}Attempts{% endif %}</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">{{ total_users|default:"0" }}+</div>
+    <div class="stat-lbl">{% if lang == 'uz' %}O'yinchilar{% elif lang == 'ru' %}Игроков{% else %}Players{% endif %}</div>
+  </div>
+</div>
+
+{% if categories %}
+<div class="section">
+  <div class="section-head">
+    <span class="section-title">{% if lang == 'uz' %}Kategoriyalar{% elif lang == 'ru' %}Категории{% else %}Categories{% endif %}</span>
+    <a href="{% url 'categories' %}" class="see-all">{% if lang == 'uz' %}Barchasi{% elif lang == 'ru' %}Все{% else %}All{% endif %} →</a>
+  </div>
+  <div class="cats">
+    {% for cat in categories %}
+    <a href="{% url 'quiz_list' %}?category={{ cat.id }}" class="cat-card">
+      <div class="cat-icon" style="background:{{ cat.bg_color }};">
+        <span style="font-size:22px;">{{ cat.icon }}</span>
+      </div>
+      <div class="cat-name">{{ cat|get_name:lang }}</div>
+      <div class="cat-count">{{ cat.active_quiz_count }} {% if lang == 'uz' %}test{% elif lang == 'ru' %}тестов{% else %}quizzes{% endif %}</div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if popular_quizzes %}
+<div class="section" style="padding-top:0;">
+  <div class="section-head">
+    <span class="section-title">{% if lang == 'uz' %}Mashhur testlar{% elif lang == 'ru' %}Популярные тесты{% else %}Popular Quizzes{% endif %}</span>
+    <a href="{% url 'quiz_list' %}" class="see-all">{% if lang == 'uz' %}Barchasi{% elif lang == 'ru' %}Все{% else %}All{% endif %} →</a>
+  </div>
+  <div class="quiz-cards">
+    {% for quiz in popular_quizzes %}
+    <a href="{% url 'quiz_detail' quiz.id %}" class="quiz-card">
+      <div class="quiz-card-top">
+        <div class="quiz-tag diff-{{ quiz.difficulty }}" style="background:{{ quiz.category.bg_color }}; color:{{ quiz.category.icon_color }};">
+          {{ quiz.category|get_name:lang }}
+        </div>
+        <div class="quiz-card-title">{{ quiz|get_title:lang }}</div>
+      </div>
+      <div class="quiz-card-meta">
+        <div class="meta-item">
+          <span class="material-icons-round">help_outline</span>
+          {{ quiz.question_count }} {% if lang == 'uz' %}savol{% elif lang == 'ru' %}вопр{% else %}qs{% endif %}
+        </div>
+        <div class="meta-item">
+          <span class="material-icons-round">schedule</span>
+          {{ quiz.time_limit }} min
+        </div>
+        <div class="meta-item">
+          <span class="material-icons-round">star</span>
+          {{ quiz.rating }}
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if top_users %}
+<div class="section" style="padding-top:0;">
+  <div class="section-head">
+    <span class="section-title">{% if lang == 'uz' %}Top o'yinchilar{% elif lang == 'ru' %}Топ игроков{% else %}Top Players{% endif %}</span>
+    <a href="{% url 'leaderboard' %}" class="see-all">{% if lang == 'uz' %}To'liq reyting{% elif lang == 'ru' %}Полный рейтинг{% else %}Full leaderboard{% endif %} →</a>
+  </div>
+  <div class="leaderboard-list">
+    {% for profile in top_users %}
+    <div class="lb-item">
+      <div class="lb-rank {% if forloop.counter == 1 %}gold{% elif forloop.counter == 2 %}silver{% elif forloop.counter == 3 %}bronze{% endif %}">
+        {% if forloop.counter == 1 %}🥇{% elif forloop.counter == 2 %}🥈{% elif forloop.counter == 3 %}🥉{% else %}#{{ forloop.counter }}{% endif %}
+      </div>
+      <div class="lb-avatar" style="background:{{ profile.avatar_color }}; color:#fff;">{{ profile.initials }}</div>
+      <div class="lb-name">{{ profile.user.get_full_name|default:profile.user.username }}</div>
+      <div class="lb-meta">{{ profile.quizzes_taken }} test</div>
+      <div class="lb-score">{{ profile.total_points }} {% if lang == 'uz' %}ball{% elif lang == 'ru' %}очков{% else %}pts{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if not user.is_authenticated %}
+<div class="cta-band">
+  <div class="cta-text">
+    <h3>{% if lang == 'uz' %}Hoziroq ro'yxatdan o'ting — bepul!{% elif lang == 'ru' %}Зарегистрируйтесь сейчас — бесплатно!{% else %}Register now — it's free!{% endif %}</h3>
+    <p>{% if lang == 'uz' %}Cheksiz testlar, shaxsiy statistika va natijalarga kirish.{% elif lang == 'ru' %}Неограниченные тесты, личная статистика и доступ к результатам.{% else %}Unlimited quizzes, personal stats and result history.{% endif %}</p>
+  </div>
+  <a href="{% url 'register' %}" class="cta-band-btn">
+    {% if lang == 'uz' %}Boshlash{% elif lang == 'ru' %}Начать{% else %}Get Started{% endif %} →
+  </a>
+</div>
+{% endif %}
+
+{% endblock %}

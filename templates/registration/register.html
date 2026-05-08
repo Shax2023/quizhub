@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{% if current_lang == 'uz' %}Ro'yxatdan o'tish{% elif current_lang == 'ru' %}Регистрация{% else %}Register{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="auth-page">
+  <div class="auth-card" style="max-width:440px;">
+    <div class="auth-logo">
+      <div class="logo-icon"><span class="material-icons-round">bolt</span></div>
+      QuizHub
+    </div>
+    <h1 class="auth-title">
+      {% if current_lang == 'uz' %}Ro'yxatdan o'tish{% elif current_lang == 'ru' %}Регистрация{% else %}Create Account{% endif %}
+    </h1>
+    <p class="auth-sub">
+      {% if current_lang == 'uz' %}Statistikangizni saqlash uchun ro'yxatdan o'ting{% elif current_lang == 'ru' %}Зарегистрируйтесь, чтобы сохранять статистику{% else %}Register to save your statistics{% endif %}
+    </p>
+
+    <form method="post">
+      {% csrf_token %}
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:4px;">
+        <div class="form-group" style="margin-bottom:0;">
+          <label class="form-label">{% if current_lang == 'uz' %}Ism{% elif current_lang == 'ru' %}Имя{% else %}First Name{% endif %}</label>
+          {{ form.first_name }}
+          {% if form.first_name.errors %}<div class="form-errors">{{ form.first_name.errors.0 }}</div>{% endif %}
+        </div>
+        <div class="form-group" style="margin-bottom:0;">
+          <label class="form-label">{% if current_lang == 'uz' %}Familiya{% elif current_lang == 'ru' %}Фамилия{% else %}Last Name{% endif %}</label>
+          {{ form.last_name }}
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">{% if current_lang == 'uz' %}Foydalanuvchi nomi{% elif current_lang == 'ru' %}Имя пользователя{% else %}Username{% endif %} *</label>
+        {{ form.username }}
+        {% if form.username.errors %}<div class="form-errors">{{ form.username.errors.0 }}</div>{% endif %}
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        {{ form.email }}
+      </div>
+      <div class="form-group">
+        <label class="form-label">{% if current_lang == 'uz' %}Parol{% elif current_lang == 'ru' %}Пароль{% else %}Password{% endif %} *</label>
+        {{ form.password1 }}
+        {% if form.password1.errors %}<div class="form-errors">{{ form.password1.errors.0 }}</div>{% endif %}
+      </div>
+      <div class="form-group">
+        <label class="form-label">{% if current_lang == 'uz' %}Parolni tasdiqlang{% elif current_lang == 'ru' %}Повторите пароль{% else %}Confirm Password{% endif %} *</label>
+        {{ form.password2 }}
+        {% if form.password2.errors %}<div class="form-errors">{{ form.password2.errors.0 }}</div>{% endif %}
+      </div>
+      <button type="submit" class="auth-submit">
+        {% if current_lang == 'uz' %}Ro'yxatdan o'tish{% elif current_lang == 'ru' %}Зарегистрироваться{% else %}Create Account{% endif %}
+      </button>
+    </form>
+    <div class="auth-link">
+      {% if current_lang == 'uz' %}Hisobingiz bormi?
+      {% elif current_lang == 'ru' %}Уже есть аккаунт?
+      {% else %}Already have an account?{% endif %}
+      <a href="{% url 'login' %}">
+        {% if current_lang == 'uz' %}Kirish{% elif current_lang == 'ru' %}Войти{% else %}Sign In{% endif %}
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}

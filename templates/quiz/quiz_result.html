@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load static quiz_tags %}
+
+{% block title %}
+{% if lang == 'uz' %}Natijalar{% elif lang == 'ru' %}Результаты{% else %}Results{% endif %} — QuizHub
+{% endblock %}
+
+{% block content %}
+<div class="result-layout">
+
+  {% if is_anonymous %}
+  <div class="anon-result-warn">
+    <span class="material-icons-round">warning</span>
+    <div>
+      <h4>{% if lang == 'uz' %}Natija saqlanmadi!{% elif lang == 'ru' %}Результат не сохранён!{% else %}Result not saved!{% endif %}</h4>
+      <p>
+        {% if lang == 'uz' %}Siz ro'yxatdan o'tmagan holda test ishladingiz. Shu sababli natijangiz saqlanmadi. Kelajakda natijalaringizni ko'rish uchun ro'yxatdan o'ting.
+        {% elif lang == 'ru' %}Вы прошли тест без регистрации. Поэтому ваш результат не сохранён. Зарегистрируйтесь, чтобы отслеживать свои результаты.
+        {% else %}You took this quiz without registering, so your result was not saved. Register to track your progress.{% endif %}
+      </p>
+      <a href="{% url 'register' %}" class="register-link">
+        <span class="material-icons-round">person_add</span>
+        {% if lang == 'uz' %}Ro'yxatdan o'tish{% elif lang == 'ru' %}Зарегистрироваться{% else %}Register{% endif %}
+      </a>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="result-hero">
+    <div class="grade-circle" style="color:{{ grade_color }};">{{ grade }}</div>
+    <div class="result-score-big">{{ attempt.score }}/{{ attempt.total_questions }}</div>
+    <div class="result-score-sub">
+      {{ attempt.score_percentage }}%
+      · {% if lang == 'uz' %}to'g'ri javoblar{% elif lang == 'ru' %}правильных ответов{% else %}correct answers{% endif %}
+    </div>
+    <div class="result-stats-row">
+      <div class="result-stat">
+        <div class="result-stat-val" style="color:{{ grade_color }};">{{ grade }}</div>
+        <div class="result-stat-lbl">{% if lang == 'uz' %}Baho{% elif lang == 'ru' %}Оценка{% else %}Grade{% endif %}</div>
+      </div>
+      <div class="result-stat">
+        <div class="result-stat-val">{{ attempt.total_questions }}</div>
+        <div class="result-stat-lbl">{% if lang == 'uz' %}Savollar{% elif lang == 'ru' %}Вопросов{% else %}Questions{% endif %}</div>
+      </div>
+      <div class="result-stat">
+        <div class="result-stat-val">{{ attempt.duration_minutes }} min</div>
+        <div class="result-stat-lbl">{% if lang == 'uz' %}Vaqt{% elif lang == 'ru' %}Время{% else %}Time{% endif %}</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:24px;">
+    <a href="{% url 'quiz_take' attempt.quiz.id %}" class="btn-primary">
+      <span class="material-icons-round">refresh</span>
+      {% if lang == 'uz' %}Qayta urinish{% elif lang == 'ru' %}Повторить{% else %}Retry{% endif %}
+    </a>
+    <a href="{% url 'quiz_list' %}" class="btn-outline">
+      {% if lang == 'uz' %}Boshqa testlar{% elif lang == 'ru' %}Другие тесты{% else %}Other quizzes{% endif %}
+    </a>
+  </div>
+
+  <h3 style="font-size:17px; font-weight:700; color:var(--text-primary); margin-bottom:16px;">
+    {% if lang == 'uz' %}Javoblaringiz tahlili{% elif lang == 'ru' %}Разбор ответов{% else %}Answer Review{% endif %}
+  </h3>
+
+  <div class="answers-review">
+    {% for answer in answers %}
+    <div class="answer-item {% if answer.is_correct %}correct-item{% else %}wrong-item{% endif %}">
+      <div class="answer-header">
+        <span class="answer-status-icon">{% if answer.is_correct %}✅{% else %}❌{% endif %}</span>
+        <div style="flex:1;">
+          <div style="font-size:11px; color:var(--text-muted); font-weight:600; margin-bottom:4px;">
+            {% if lang == 'uz' %}Savol{% elif lang == 'ru' %}Вопрос{% else %}Question{% endif %} {{ forloop.counter }}
+          </div>
+          <div style="font-size:14px; font-weight:600; color:var(--text-primary);">{{ answer.question.text }}</div>
+        </div>
+      </div>
+      <div class="choices-grid" style="padding:12px 18px 16px;">
+        {% for choice in answer.question.choices.all %}
+        <div class="choice-label
+          {% if choice.is_correct %}correct
+          {% elif answer.choice and answer.choice.id == choice.id and not choice.is_correct %}wrong
+          {% endif %}">
+          <div class="choice-letter">
+            {% if forloop.counter == 1 %}A{% elif forloop.counter == 2 %}B{% elif forloop.counter == 3 %}C{% elif forloop.counter == 4 %}D{% else %}{{ forloop.counter }}{% endif %}
+          </div>
+          <div class="choice-text">{{ choice.text }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      {% if answer.question.explanation and not answer.is_correct %}
+        <div style="padding:10px 18px 14px; font-size:13px; color:var(--text-secondary); border-top:1px solid var(--border);">
+          <strong>{% if lang == 'uz' %}Izoh{% elif lang == 'ru' %}Пояснение{% else %}Explanation{% endif %}:</strong>
+          {{ answer.question.explanation }}
+        </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load static quiz_tags %}
+
+{% block title %}{{ quiz|get_title:lang }} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="quiz-detail-layout">
+  <div class="quiz-detail-hero">
+    <div style="display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap;">
+      <div class="quiz-tag" style="background:{{ quiz.category.bg_color }}; color:{{ quiz.category.icon_color }};">
+        {{ quiz.category|get_name:lang }}
+      </div>
+      <div class="chip diff-{{ quiz.difficulty }}">
+        {% if quiz.difficulty == 'easy' %}{% if lang == 'uz' %}Oson{% elif lang == 'ru' %}Лёгкий{% else %}Easy{% endif %}
+        {% elif quiz.difficulty == 'medium' %}{% if lang == 'uz' %}O'rta{% elif lang == 'ru' %}Средний{% else %}Medium{% endif %}
+        {% else %}{% if lang == 'uz' %}Qiyin{% elif lang == 'ru' %}Сложный{% else %}Hard{% endif %}{% endif %}
+      </div>
+    </div>
+    <h1 class="quiz-detail-title">{{ quiz|get_title:lang }}</h1>
+    {% if quiz|get_description:lang %}
+    <p style="font-size:14px; color:var(--text-secondary); margin-bottom:20px; line-height:1.6;">{{ quiz|get_description:lang }}</p>
+    {% endif %}
+    <div class="quiz-info-row">
+      <div class="quiz-info-item">
+        <span class="material-icons-round">help_outline</span>
+        {{ quiz.question_count }} {% if lang == 'uz' %}savol{% elif lang == 'ru' %}вопросов{% else %}questions{% endif %}
+      </div>
+      <div class="quiz-info-item">
+        <span class="material-icons-round">schedule</span>
+        {{ quiz.time_limit }} {% if lang == 'uz' %}daqiqa{% elif lang == 'ru' %}минут{% else %}minutes{% endif %}
+      </div>
+      <div class="quiz-info-item">
+        <span class="material-icons-round">people</span>
+        {{ quiz.attempt_count }} {% if lang == 'uz' %}urinish{% elif lang == 'ru' %}попыток{% else %}attempts{% endif %}
+      </div>
+      <div class="quiz-info-item">
+        <span class="material-icons-round">star</span>
+        {{ quiz.rating }}/5.0
+      </div>
+    </div>
+
+    <form method="get" action="{% url 'quiz_take' quiz.id %}" style="margin-top:22px; display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end;">
+      <label style="font-size:14px; display:flex; align-items:center; gap:8px;">
+        {% if lang == 'uz' %}Savollar soni:{% elif lang == 'ru' %}Количество вопросов:{% else %}Number of questions:{% endif %}
+        <input type="number" name="num_questions" min="1" max="{{ quiz.question_count }}" style="width:90px; padding:8px 10px; border-radius:8px; border:1px solid var(--border); background:var(--bg); color:var(--text-primary);" {% if quiz.question_count < 30 %}value="{{ quiz.question_count }}"{% else %}value="30"{% endif %}>
+      </label>
+      <div style="display:flex; flex-direction:column; gap:6px;">
+        <div style="font-size:13px; color:var(--text-secondary); font-weight:600;">
+          {% if lang == 'uz' %}Javob ko'rsatish:{% elif lang == 'ru' %}Показ ответов:{% else %}Answer display:{% endif %}
+        </div>
+        <div style="display:flex; gap:8px;">
+          <label style="display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; padding:7px 12px; border:1px solid var(--border); border-radius:8px; background:var(--bg-card);">
+            <input type="radio" name="show_mode" value="end" checked style="accent-color:var(--accent);">
+            {% if lang == 'uz' %}Oxirida{% elif lang == 'ru' %}В конце{% else %}At end{% endif %}
+          </label>
+          <label style="display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; padding:7px 12px; border:1px solid var(--accent); border-radius:8px; background:var(--accent-light); color:var(--accent-text);">
+            <input type="radio" name="show_mode" value="instant" style="accent-color:var(--accent);">
+            ⚡ {% if lang == 'uz' %}Zahoti{% elif lang == 'ru' %}Сразу{% else %}Instant{% endif %}
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn-primary" style="display:inline-flex; align-self:flex-end;">
+        <span class="material-icons-round">play_arrow</span>
+        {% if lang == 'uz' %}Testni boshlash{% elif lang == 'ru' %}Начать тест{% else %}Start Quiz{% endif %}
+      </button>
+    </form>
+    <p style="margin-top:10px; color:var(--text-secondary); font-size:13px;">
+      {% if lang == 'uz' %}«Zahoti» — javob tanlagach shu zahoti to'g'ri/xato ko'rinadi va qayta tanlab bo'lmaydi.{% elif lang == 'ru' %}«Сразу» — ответ показывается мгновенно, выбор заблокирован.{% else %}«Instant» — answer shown right after picking, can't change.{% endif %}
+    </p>
+  </div>
+
+  {% if user_attempts %}
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:20px 24px; margin-bottom:20px;">
+    <h3 style="font-size:15px; font-weight:700; color:var(--text-primary); margin-bottom:14px;">
+      {% if lang == 'uz' %}Mening natijalari{% elif lang == 'ru' %}Мои результаты{% else %}My Results{% endif %}
+    </h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>{% if lang == 'uz' %}Sana{% elif lang == 'ru' %}Дата{% else %}Date{% endif %}</th>
+            <th>{% if lang == 'uz' %}Ball{% elif lang == 'ru' %}Счёт{% else %}Score{% endif %}</th>
+            <th>{% if lang == 'uz' %}Foiz{% elif lang == 'ru' %}Процент{% else %}Percent{% endif %}</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for attempt in user_attempts %}
+          <tr>
+            <td>{{ attempt.started_at|date:"d.m.Y H:i" }}</td>
+            <td>{{ attempt.score }}/{{ attempt.total_questions }}</td>
+            <td>
+              {% with grade=attempt.get_grade %}
+              <span style="color:{{ grade.1 }}; font-weight:700;">{{ attempt.score_percentage }}%</span>
+              {% endwith %}
+            </td>
+            <td><a href="{% url 'quiz_result' attempt.id %}" style="color:var(--accent); font-size:12px; font-weight:600;">
+              {% if lang == 'uz' %}Ko'rish{% elif lang == 'ru' %}Посмотреть{% else %}View{% endif %}
+            </a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% endif %}
+
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden;">
+    <div style="padding:16px 20px; border-bottom:1px solid var(--border);">
+      <span style="font-size:15px; font-weight:700; color:var(--text-primary);">
+        {% if lang == 'uz' %}Savollar ro'yxati{% elif lang == 'ru' %}Список вопросов{% else %}Question List{% endif %}
+        ({{ quiz.question_count }})
+      </span>
+    </div>
+    {% for question in questions %}
+    <div style="padding:14px 20px; border-bottom:1px solid var(--border); display:flex; align-items:flex-start; gap:12px;">
+      <div style="width:28px; height:28px; border-radius:8px; background:var(--accent-light); color:var(--accent); font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+        {{ forloop.counter }}
+      </div>
+      <div style="font-size:14px; color:var(--text-primary); line-height:1.4;">{{ question.text }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

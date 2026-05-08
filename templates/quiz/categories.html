@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static quiz_tags %}
+
+{% block title %}{% if lang == 'uz' %}Kategoriyalar{% elif lang == 'ru' %}Категории{% else %}Categories{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="page-header" style="margin-bottom:24px;">
+  <h1 class="page-title">{% if lang == 'uz' %}Kategoriyalar{% elif lang == 'ru' %}Категории{% else %}Categories{% endif %}</h1>
+  <p class="page-sub">{% if lang == 'uz' %}Qiziqtirgan sohaingizni tanlang{% elif lang == 'ru' %}Выберите интересующую вас область{% else %}Choose your area of interest{% endif %}</p>
+</div>
+<div class="section" style="padding-top:0;">
+  <div class="cats" style="grid-template-columns:repeat(auto-fill,minmax(160px,1fr));">
+    {% for cat in categories %}
+    <a href="{% url 'quiz_list' %}?category={{ cat.id }}" class="cat-card">
+      <div class="cat-icon" style="background:{{ cat.bg_color }};">
+        <span style="font-size:24px;">{{ cat.icon }}</span>
+      </div>
+      <div class="cat-name" style="font-size:15px;">{{ cat|get_name:lang }}</div>
+      <div class="cat-count">{{ cat.active_quiz_count }} {% if lang == 'uz' %}test{% elif lang == 'ru' %}тестов{% else %}quizzes{% endif %}</div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

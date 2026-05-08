@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Natija — {{ quiz.title }}{% endblock %}
+
+{% block content %}
+<div class="result-layout">
+  <div class="result-hero">
+    <div class="result-score-big">{{ score }}/{{ total }}</div>
+    <div class="result-score-sub">{{ pct }}% · {% if lang == 'uz' %}to'g'ri javoblar{% else %}correct answers{% endif %}</div>
+    <div class="result-stats-row">
+      <div class="result-stat">
+        <div class="result-stat-val">{{ score }}</div>
+        <div class="result-stat-lbl">{% if lang == 'uz' %}To'g'ri{% else %}Correct{% endif %}</div>
+      </div>
+      <div class="result-stat">
+        <div class="result-stat-val">{{ total|add:"-"|add:score|default:total }}</div>
+        <div class="result-stat-lbl">{% if lang == 'uz' %}Xato{% else %}Wrong{% endif %}</div>
+      </div>
+      <div class="result-stat">
+        <div class="result-stat-val">{{ total }}</div>
+        <div class="result-stat-lbl">{% if lang == 'uz' %}Jami{% else %}Total{% endif %}</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:24px;">
+    <a href="{% url 'user_quiz_detail' quiz.id %}" class="btn-primary">
+      <span class="material-icons-round">refresh</span>
+      {% if lang == 'uz' %}Qayta urinish{% else %}Try Again{% endif %}
+    </a>
+    <a href="{% url 'public_quizzes' %}" class="btn-outline">
+      {% if lang == 'uz' %}Boshqa testlar{% else %}Other Quizzes{% endif %}
+    </a>
+  </div>
+
+  <h3 style="font-size:17px; font-weight:700; color:var(--text-primary); margin-bottom:16px;">
+    {% if lang == 'uz' %}Javoblar tahlili{% else %}Answer Review{% endif %}
+  </h3>
+
+  <div class="answers-review">
+    {% for r in results %}
+    <div class="answer-item {% if r.is_correct %}correct-item{% else %}wrong-item{% endif %}">
+      <div class="answer-header">
+        <span class="answer-status-icon">{% if r.is_correct %}✅{% else %}❌{% endif %}</span>
+        <div style="flex:1;">
+          <div style="font-size:11px; color:var(--text-muted); font-weight:600; margin-bottom:4px;">
+            {% if lang == 'uz' %}Savol{% else %}Question{% endif %} {{ forloop.counter }}
+          </div>
+          <div style="font-size:14px; font-weight:600; color:var(--text-primary);">{{ r.question.text }}</div>
+        </div>
+      </div>
+      <div class="choices-grid" style="padding:12px 18px 16px;">
+        {% for choice in r.question.ucq_choices.all %}
+        <div class="choice-label
+          {% if choice.is_correct %}correct
+          {% elif r.chosen and r.chosen.id == choice.id and not choice.is_correct %}wrong{% endif %}">
+          <div class="choice-letter">{% if forloop.counter == 1 %}A{% elif forloop.counter == 2 %}B{% elif forloop.counter == 3 %}C{% elif forloop.counter == 4 %}D{% else %}{{ forloop.counter }}{% endif %}</div>
+          <div class="choice-text">{{ choice.text }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      {% if r.question.explanation and not r.is_correct %}
+      <div style="padding:10px 18px 14px; font-size:13px; color:var(--text-secondary); border-top:1px solid var(--border);">
+        <strong>{% if lang == 'uz' %}Izoh{% else %}Explanation{% endif %}:</strong> {{ r.question.explanation }}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load static quiz_tags %}
+
+{% block title %}{% if lang == 'uz' %}Profil{% elif lang == 'ru' %}Профиль{% else %}Profile{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="profile-layout">
+  <div class="profile-hero">
+    <div class="profile-avatar" style="background:{{ user_profile.avatar_color }};">
+      {{ user_profile.initials }}
+    </div>
+    <div>
+      <div class="profile-name">{{ user.get_full_name|default:user.username }}</div>
+      <div class="profile-username">@{{ user.username }}</div>
+      <div class="profile-stats">
+        <div>
+          <div class="profile-stat-val">{{ user_profile.total_points }}</div>
+          <div class="profile-stat-lbl">{% if lang == 'uz' %}Ball{% elif lang == 'ru' %}Очков{% else %}Points{% endif %}</div>
+        </div>
+        <div>
+          <div class="profile-stat-val">{{ user_profile.quizzes_taken }}</div>
+          <div class="profile-stat-lbl">{% if lang == 'uz' %}Testlar{% elif lang == 'ru' %}Тестов{% else %}Quizzes{% endif %}</div>
+        </div>
+        <div>
+          <div class="profile-stat-val">{{ user_profile.average_score }}%</div>
+          <div class="profile-stat-lbl">{% if lang == 'uz' %}O'rtacha{% elif lang == 'ru' %}Среднее{% else %}Average{% endif %}</div>
+        </div>
+        <div>
+          <div class="profile-stat-val">#{{ user_profile.rank }}</div>
+          <div class="profile-stat-lbl">{% if lang == 'uz' %}Reyting{% elif lang == 'ru' %}Место{% else %}Rank{% endif %}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="font-size:16px; font-weight:700; color:var(--text-primary); margin-bottom:14px;">
+    {% if lang == 'uz' %}So'nggi natijalari{% elif lang == 'ru' %}Последние результаты{% else %}Recent Results{% endif %}
+  </h3>
+
+  {% if recent_attempts %}
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden;">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>{% if lang == 'uz' %}Test{% elif lang == 'ru' %}Тест{% else %}Quiz{% endif %}</th>
+            <th>{% if lang == 'uz' %}Ball{% elif lang == 'ru' %}Счёт{% else %}Score{% endif %}</th>
+            <th>%</th>
+            <th>{% if lang == 'uz' %}Sana{% elif lang == 'ru' %}Дата{% else %}Date{% endif %}</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for attempt in recent_attempts %}
+          <tr>
+            <td style="font-weight:500;">{{ attempt.quiz|get_title:lang }}</td>
+            <td>{{ attempt.score }}/{{ attempt.total_questions }}</td>
+            <td>
+              {% with grade=attempt.get_grade %}
+              <span style="color:{{ grade.1 }}; font-weight:700;">{{ attempt.score_percentage }}%</span>
+              {% endwith %}
+            </td>
+            <td style="color:var(--text-muted);">{{ attempt.started_at|date:"d.m.Y" }}</td>
+            <td>
+              <a href="{% url 'quiz_result' attempt.id %}" style="color:var(--accent); font-size:12px; font-weight:600;">
+                {% if lang == 'uz' %}Ko'rish{% elif lang == 'ru' %}Смотреть{% else %}View{% endif %}
+              </a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <div class="empty-icon">📝</div>
+    <div class="empty-title">{% if lang == 'uz' %}Hali test ishlamadingiz{% elif lang == 'ru' %}Вы ещё не прошли тесты{% else %}No quizzes taken yet{% endif %}</div>
+    <a href="{% url 'quiz_list' %}" class="btn-primary" style="margin-top:16px; display:inline-flex;">
+      {% if lang == 'uz' %}Testni boshlash{% elif lang == 'ru' %}Начать тест{% else %}Start a Quiz{% endif %}
+    </a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

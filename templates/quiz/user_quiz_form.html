@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{% if mode == 'create' %}Test yaratish{% else %}Test tahrirlash{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div style="max-width:600px; margin:0 auto; padding:24px 16px;">
+  <div style="margin-bottom:24px;">
+    <a href="{% url 'my_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px;">
+      ← {% if lang == 'uz' %}Mening testlarim{% else %}My Quizzes{% endif %}
+    </a>
+    <h1 style="font-size:22px; font-weight:800; color:var(--text-primary); margin-top:10px;">
+      {% if mode == 'create' %}
+        {% if lang == 'uz' %}Yangi test yaratish{% else %}Create New Quiz{% endif %}
+      {% else %}
+        {% if lang == 'uz' %}Test ma'lumotlari{% else %}Quiz Info{% endif %}
+      {% endif %}
+    </h1>
+  </div>
+
+  {% if messages %}
+    {% for msg in messages %}
+    <div style="padding:12px 16px; border-radius:10px; margin-bottom:16px; background:var(--success-light); color:var(--success); border:1px solid var(--success); font-size:13px;">{{ msg }}</div>
+    {% endfor %}
+  {% endif %}
+
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px;">
+    <form method="post">
+      {% csrf_token %}
+      {% if mode != 'create' %}<input type="hidden" name="save_info" value="1">{% endif %}
+
+      {% for field in form %}
+      <div style="margin-bottom:18px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:6px;">
+          {{ field.label }}{% if field.field.required %} *{% endif %}
+        </label>
+        {{ field }}
+        {% if field.help_text %}
+        <div style="font-size:11px; color:var(--text-muted); margin-top:4px;">{{ field.help_text }}</div>
+        {% endif %}
+        {% for error in field.errors %}
+        <div style="font-size:12px; color:var(--error); margin-top:4px;">{{ error }}</div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
+      <button type="submit" class="btn-primary" style="width:100%; justify-content:center; margin-top:8px;">
+        {% if mode == 'create' %}
+          {% if lang == 'uz' %}Yaratish va savollar qo'shish{% else %}Create & Add Questions{% endif %}
+        {% else %}
+          {% if lang == 'uz' %}Saqlash{% else %}Save{% endif %}
+        {% endif %}
+      </button>
+    </form>
+  </div>
+</div>
+
+<style>
+.form-input, input[name], select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 14px;
+  font-family: var(--font);
+  outline: none;
+  transition: border-color 0.2s;
+}
+.form-input:focus, input:focus, select:focus, textarea:focus {
+  border-color: var(--accent);
+}
+input[type="checkbox"] { width: auto; }
+</style>
+{% endblock %}

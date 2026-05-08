@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static quiz_tags %}
+
+{% block title %}{% if lang == 'uz' %}Testlar{% elif lang == 'ru' %}Тесты{% else %}Quizzes{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1 class="page-title">{% if lang == 'uz' %}Barcha testlar{% elif lang == 'ru' %}Все тесты{% else %}All Quizzes{% endif %}</h1>
+  <p class="page-sub">{% if lang == 'uz' %}{{ quizzes|length }} ta test topildi{% elif lang == 'ru' %}Найдено {{ quizzes|length }} тестов{% else %}{{ quizzes|length }} quizzes found{% endif %}</p>
+</div>
+
+<form method="get" class="filter-bar">
+  <input class="filter-input" type="search" name="q" value="{{ search }}"
+    placeholder="{% if lang == 'uz' %}Test nomi bo'yicha qidiring...{% elif lang == 'ru' %}Поиск по названию...{% else %}Search quizzes...{% endif %}">
+  <select class="filter-select" name="category" onchange="this.form.submit()">
+    <option value="">{% if lang == 'uz' %}Barcha kategoriyalar{% elif lang == 'ru' %}Все категории{% else %}All categories{% endif %}</option>
+    {% for cat in categories %}
+    <option value="{{ cat.id }}" {% if selected_category == cat.id|stringformat:"s" %}selected{% endif %}>
+      {{ cat|get_name:lang }}
+    </option>
+    {% endfor %}
+  </select>
+  <select class="filter-select" name="difficulty" onchange="this.form.submit()">
+    <option value="">{% if lang == 'uz' %}Qiyinlik{% elif lang == 'ru' %}Сложность{% else %}Difficulty{% endif %}</option>
+    <option value="easy" {% if selected_difficulty == 'easy' %}selected{% endif %}>{% if lang == 'uz' %}Oson{% elif lang == 'ru' %}Лёгкий{% else %}Easy{% endif %}</option>
+    <option value="medium" {% if selected_difficulty == 'medium' %}selected{% endif %}>{% if lang == 'uz' %}O'rta{% elif lang == 'ru' %}Средний{% else %}Medium{% endif %}</option>
+    <option value="hard" {% if selected_difficulty == 'hard' %}selected{% endif %}>{% if lang == 'uz' %}Qiyin{% elif lang == 'ru' %}Сложный{% else %}Hard{% endif %}</option>
+  </select>
+  <button type="submit" class="btn-primary" style="padding:10px 20px; font-size:13px;">
+    <span class="material-icons-round" style="font-size:16px;">search</span>
+  </button>
+</form>
+
+<div class="section" style="padding-top:0;">
+  {% if quizzes %}
+  <div class="quiz-cards">
+    {% for quiz in quizzes %}
+    <a href="{% url 'quiz_detail' quiz.id %}" class="quiz-card">
+      <div class="quiz-card-top">
+        <div style="display:flex; gap:8px; align-items:center; margin-bottom:10px;">
+          <div class="quiz-tag" style="background:{{ quiz.category.bg_color }}; color:{{ quiz.category.icon_color }};">
+            {{ quiz.category|get_name:lang }}
+          </div>
+          <div class="chip diff-{{ quiz.difficulty }}" style="font-size:10px;">
+            {% if quiz.difficulty == 'easy' %}{% if lang == 'uz' %}Oson{% elif lang == 'ru' %}Лёгкий{% else %}Easy{% endif %}
+            {% elif quiz.difficulty == 'medium' %}{% if lang == 'uz' %}O'rta{% elif lang == 'ru' %}Средний{% else %}Medium{% endif %}
+            {% else %}{% if lang == 'uz' %}Qiyin{% elif lang == 'ru' %}Сложный{% else %}Hard{% endif %}{% endif %}
+          </div>
+        </div>
+        <div class="quiz-card-title">{{ quiz|get_title:lang }}</div>
+      </div>
+      <div class="quiz-card-meta">
+        <div class="meta-item">
+          <span class="material-icons-round">help_outline</span>
+          {{ quiz.question_count }} {% if lang == 'uz' %}savol{% elif lang == 'ru' %}вопр.{% else %}qs{% endif %}
+        </div>
+        <div class="meta-item">
+          <span class="material-icons-round">schedule</span>
+          {{ quiz.time_limit }} min
+        </div>
+        <div class="meta-item">
+          <span class="material-icons-round">people</span>
+          {{ quiz.attempt_count }} {% if lang == 'uz' %}marta{% elif lang == 'ru' %}раз{% else %}times{% endif %}
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <div class="empty-icon">🔍</div>
+    <div class="empty-title">{% if lang == 'uz' %}Test topilmadi{% elif lang == 'ru' %}Тесты не найдены{% else %}No quizzes found{% endif %}</div>
+    <div class="empty-sub">{% if lang == 'uz' %}Boshqa kalit so'zni sinab ko'ring{% elif lang == 'ru' %}Попробуйте другой запрос{% else %}Try a different search{% endif %}</div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,178 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block title %}JSON Import — QuizHub Admin{% endblock %}
+
+{% block content %}
+<div style="max-width:900px;">
+
+  <div style="display:flex; align-items:center; gap:12px; margin-bottom:28px;">
+    <a href="{% url 'admin:quiz_quiz_changelist' %}"
+       style="display:inline-flex; align-items:center; gap:6px; font-size:13px; color:#6B7280; text-decoration:none;">
+      ← Testlar ro'yxatiga qaytish
+    </a>
+  </div>
+
+  <h1 style="font-size:22px; font-weight:700; margin-bottom:6px; color:var(--color-fg-primary, #111);">
+    JSON dan test va savollarni yuklash
+  </h1>
+  <p style="font-size:14px; color:#6B7280; margin-bottom:28px;">
+    JSON faylingizni yuklang — test, savollar va javob variantlari avtomatik yaratiladi.
+  </p>
+
+  {% if messages %}
+    {% for message in messages %}
+      <div style="padding:12px 16px; border-radius:8px; margin-bottom:16px; font-size:14px;
+        {% if message.tags == 'success' %}background:#F0FDF4; border:1px solid #86EFAC; color:#166534;
+        {% elif message.tags == 'error' %}background:#FEF2F2; border:1px solid #FCA5A5; color:#991B1B;
+        {% else %}background:#FFFBEB; border:1px solid #FDE68A; color:#92400E;{% endif %}">
+        {{ message }}
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px;">
+
+    <!-- UPLOAD FORM -->
+    <div style="background:var(--color-bg-secondary, #F9FAFB); border:1px solid var(--color-border, #E5E7EB); border-radius:12px; padding:24px; grid-column: 1 / -1;">
+      <h2 style="font-size:15px; font-weight:700; margin-bottom:20px;">📝 Test ma'lumotlari va JSON fayl</h2>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+          <!-- Title -->
+          <div>
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px; color:#374151;">
+              Test nomi <span style="color:#DC2626;">*</span>
+            </label>
+            <input type="text" name="title_uz" required placeholder="Masalan: Python asoslari"
+              style="width:100%; padding:10px 12px; border:1px solid #D1D5DB; border-radius:8px;
+                     font-size:13px; background:#fff; box-sizing:border-box;">
+          </div>
+          
+          <!-- Description -->
+          <div>
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px; color:#374151;">
+              Test tavsifi (ixtiyoriy)
+            </label>
+            <input type="text" name="description_uz" placeholder="Masalan: Asosiy tushunchalar"
+              style="width:100%; padding:10px 12px; border:1px solid #D1D5DB; border-radius:8px;
+                     font-size:13px; background:#fff; box-sizing:border-box;">
+          </div>
+
+          <!-- Category -->
+          <div>
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px; color:#374151;">
+              Kategoriya <span style="color:#DC2626;">*</span>
+            </label>
+            <select name="category" required
+              style="width:100%; padding:10px 12px; border:1px solid #D1D5DB; border-radius:8px;
+                     font-size:13px; background:#fff; box-sizing:border-box;">
+              <option value="">-- Kategoriya tanlang --</option>
+              {% for cat in categories %}
+              <option value="{{ cat.id }}">{{ cat.name_uz }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <!-- Difficulty -->
+          <div>
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px; color:#374151;">
+              Qiyinchiligi <span style="color:#DC2626;">*</span>
+            </label>
+            <select name="difficulty" required
+              style="width:100%; padding:10px 12px; border:1px solid #D1D5DB; border-radius:8px;
+                     font-size:13px; background:#fff; box-sizing:border-box;">
+              <option value="easy">Oson</option>
+              <option value="medium" selected>O'rtacha</option>
+              <option value="hard">Qiyin</option>
+            </select>
+          </div>
+
+          <!-- Time Limit -->
+          <div>
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px; color:#374151;">
+              Vaqt chegarasi (daqiqalarda) <span style="color:#DC2626;">*</span>
+            </label>
+            <input type="number" name="time_limit" value="30" required min="1" max="180"
+              style="width:100%; padding:10px 12px; border:1px solid #D1D5DB; border-radius:8px;
+                     font-size:13px; background:#fff; box-sizing:border-box;">
+          </div>
+
+          <!-- JSON File -->
+          <div>
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:8px; color:#374151;">
+              JSON fayl (savollar) <span style="color:#DC2626;">*</span>
+            </label>
+            <input type="file" name="json_file" accept=".json" required
+              style="width:100%; padding:10px 12px; border:1px dashed #D1D5DB; border-radius:8px;
+                     font-size:13px; background:#fff; cursor:pointer; box-sizing:border-box;">
+          </div>
+        </div>
+
+        <button type="submit"
+          style="width:100%; padding:11px; background:#7C3AED; color:#fff; border:none;
+                 border-radius:8px; font-size:14px; font-weight:600; cursor:pointer;">
+          ⬆ Yuklash
+        </button>
+      </form>
+    </div>
+
+    <!-- JSON FORMAT REFERENCE -->
+    <div style="background:var(--color-bg-secondary, #F9FAFB); border:1px solid var(--color-border, #E5E7EB); border-radius:12px; padding:24px; overflow:hidden; grid-column: 1 / -1;">
+      <h2 style="font-size:15px; font-weight:700; margin-bottom:16px;">📋 JSON format namunasi (faqat savollar)</h2>
+      <pre style="background:#1E1E2E; color:#CDD6F4; border-radius:8px; padding:16px;
+                  font-size:11.5px; line-height:1.7; overflow:auto; max-height:300px; margin:0;"><code><span style="color:#89B4FA;">[</span>
+  <span style="color:#89B4FA;">{</span>
+    <span style="color:#F38BA8;">"text_uz"</span><span style="color:#CDD6F4;">: </span><span style="color:#A6E3A1;">"Savol matni"</span><span style="color:#CDD6F4;">,</span>
+    <span style="color:#F38BA8;">"explanation_uz"</span><span style="color:#CDD6F4;">: </span><span style="color:#A6E3A1;">"Izoh (ixtiyoriy)"</span><span style="color:#CDD6F4;">,</span>
+    <span style="color:#F38BA8;">"order"</span><span style="color:#CDD6F4;">: </span><span style="color:#FAB387;">1</span><span style="color:#CDD6F4;">,</span>
+    <span style="color:#F38BA8;">"choices"</span><span style="color:#CDD6F4;">: [</span>
+      <span style="color:#CDD6F4;">{</span>
+        <span style="color:#F38BA8;">"text_uz"</span><span style="color:#CDD6F4;">: </span><span style="color:#A6E3A1;">"To'g'ri variant"</span><span style="color:#CDD6F4;">,</span>
+        <span style="color:#F38BA8;">"is_correct"</span><span style="color:#CDD6F4;">: </span><span style="color:#89DCEB;">true</span>
+      <span style="color:#CDD6F4;">},</span>
+      <span style="color:#CDD6F4;">{</span>
+        <span style="color:#F38BA8;">"text_uz"</span><span style="color:#CDD6F4;">: </span><span style="color:#A6E3A1;">"Noto'g'ri variant"</span><span style="color:#CDD6F4;">,</span>
+        <span style="color:#F38BA8;">"is_correct"</span><span style="color:#CDD6F4;">: </span><span style="color:#89DCEB;">false</span>
+      <span style="color:#CDD6F4;">}</span>
+    <span style="color:#CDD6F4;">]</span>
+  <span style="color:#CDD6F4;">}</span>
+<span style="color:#89B4FA;">]</span></code></pre>
+    </div>
+
+  </div>
+
+  <!-- RULES TABLE -->
+  <div style="margin-top:24px; background:var(--color-bg-secondary, #F9FAFB); border:1px solid var(--color-border, #E5E7EB); border-radius:12px; padding:24px;">
+    <h2 style="font-size:15px; font-weight:700; margin-bottom:16px;">📌 Muhim qoidalar</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; font-size:13px;">
+      <div style="display:flex; gap:8px; align-items:flex-start;">
+        <span style="color:#7C3AED; font-size:16px; line-height:1;">•</span>
+        <span><b>JSON fayl:</b> Faqat savollar array <code>[ {...}, {...} ]</code></span>
+      </div>
+      <div style="display:flex; gap:8px; align-items:flex-start;">
+        <span style="color:#7C3AED; font-size:16px; line-height:1;">•</span>
+        <span><b>Test nomi:</b> Formada majburiy, JSON ichida bo'lmasin</span>
+      </div>
+      <div style="display:flex; gap:8px; align-items:flex-start;">
+        <span style="color:#7C3AED; font-size:16px; line-height:1;">•</span>
+        <span><b>Kategoriya:</b> Formadan tanlang (majburiy)</span>
+      </div>
+      <div style="display:flex; gap:8px; align-items:flex-start;">
+        <span style="color:#7C3AED; font-size:16px; line-height:1;">•</span>
+        <span><b>is_correct:</b> Har savolda kamida 1 ta <code>true</code> bo'lsin</span>
+      </div>
+      <div style="display:flex; gap:8px; align-items:flex-start;">
+        <span style="color:#7C3AED; font-size:16px; line-height:1;">•</span>
+        <span><b>Difficulty:</b> <code>easy</code> / <code>medium</code> / <code>hard</code></span>
+      </div>
+      <div style="display:flex; gap:8px; align-items:flex-start;">
+        <span style="color:#7C3AED; font-size:16px; line-height:1;">•</span>
+        <span><b>time_limit:</b> Daqiqalarda son, formada majburiy (1-180)</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

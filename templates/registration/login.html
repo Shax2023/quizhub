@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{% if current_lang == 'uz' %}Kirish{% elif current_lang == 'ru' %}Вход{% else %}Login{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div class="auth-page">
+  <div class="auth-card">
+    <div class="auth-logo">
+      <div class="logo-icon"><span class="material-icons-round">bolt</span></div>
+      QuizHub
+    </div>
+    <h1 class="auth-title">
+      {% if current_lang == 'uz' %}Tizimga kirish{% elif current_lang == 'ru' %}Войти в систему{% else %}Sign In{% endif %}
+    </h1>
+    <p class="auth-sub">
+      {% if current_lang == 'uz' %}Statistikangizni ko'rish uchun kiring{% elif current_lang == 'ru' %}Войдите, чтобы видеть статистику{% else %}Sign in to view your statistics{% endif %}
+    </p>
+
+    {% if form.errors %}
+    <div class="anon-warning" style="margin-bottom:16px;">
+      <span class="material-icons-round">error</span>
+      {% if current_lang == 'uz' %}Noto'g'ri foydalanuvchi nomi yoki parol{% elif current_lang == 'ru' %}Неверный логин или пароль{% else %}Invalid username or password{% endif %}
+    </div>
+    {% endif %}
+
+    <form method="post">
+      {% csrf_token %}
+      {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
+      <div class="form-group">
+        <label class="form-label">{% if current_lang == 'uz' %}Foydalanuvchi nomi{% elif current_lang == 'ru' %}Имя пользователя{% else %}Username{% endif %}</label>
+        <input class="form-input" type="text" name="username" autofocus
+          placeholder="{% if current_lang == 'uz' %}Foydalanuvchi nomingiz{% elif current_lang == 'ru' %}Ваш логин{% else %}Your username{% endif %}">
+      </div>
+      <div class="form-group">
+        <label class="form-label">{% if current_lang == 'uz' %}Parol{% elif current_lang == 'ru' %}Пароль{% else %}Password{% endif %}</label>
+        <input class="form-input" type="password" name="password"
+          placeholder="{% if current_lang == 'uz' %}Parolingiz{% elif current_lang == 'ru' %}Ваш пароль{% else %}Your password{% endif %}">
+      </div>
+      <button type="submit" class="auth-submit">
+        {% if current_lang == 'uz' %}Kirish{% elif current_lang == 'ru' %}Войти{% else %}Sign In{% endif %}
+      </button>
+    </form>
+    <div class="auth-link">
+      {% if current_lang == 'uz' %}Hisobingiz yo'qmi?
+      {% elif current_lang == 'ru' %}Нет аккаунта?
+      {% else %}Don't have an account?{% endif %}
+      <a href="{% url 'register' %}">
+        {% if current_lang == 'uz' %}Ro'yxatdan o'ting{% elif current_lang == 'ru' %}Зарегистрируйтесь{% else %}Register{% endif %}
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:12px;">
+      <a href="{% url 'quiz_list' %}" style="font-size:12px; color:var(--text-muted);">
+        {% if current_lang == 'uz' %}Ro'yxatdan o'tmasdan davom etish{% elif current_lang == 'ru' %}Продолжить без регистрации{% else %}Continue without registering{% endif %}
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}
