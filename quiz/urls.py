@@ -25,4 +25,12 @@ urlpatterns = [
     path('community/', views.public_quizzes, name='public_quizzes'),
     path('community/<int:quiz_id>/', views.user_quiz_detail, name='user_quiz_detail'),
     path('community/<int:quiz_id>/take/', views.user_quiz_take, name='user_quiz_take'),
+
+    # Shared (private) quiz via token
+    path('shared/<uuid:token>/', views.shared_quiz_detail, name='shared_quiz_detail'),
+    path('shared/<uuid:token>/take/', views.shared_quiz_take, name='shared_quiz_take'),
+
+    # Quiz file upload
+    path('upload-quiz/', views.quiz_upload, name='quiz_upload'),
+    path('upload-quiz/request/', views.quiz_upload_request, name='quiz_upload_request'),
 ]

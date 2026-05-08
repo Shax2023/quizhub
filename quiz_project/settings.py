@@ -125,6 +125,16 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
+# Email backend reads SMTP settings from DB (SiteSettings model)
+EMAIL_BACKEND = 'quiz.email_backend.DBEmailBackend'
+DEFAULT_FROM_EMAIL = 'QuizHub <noreply@quizhub.uz>'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+# Password reset settings
+PASSWORD_RESET_TIMEOUT = 86400  # 24 hours
+
 SESSION_COOKIE_AGE = 86400 * 30
 
 UNFOLD = {

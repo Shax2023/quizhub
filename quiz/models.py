@@ -1,3 +1,4 @@
+import uuid
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
@@ -35,7 +36,7 @@ class Category(models.Model):
 class Quiz(models.Model):
     DIFFICULTY_CHOICES = [
         ('easy', _('Oson')),
-        ('medium', _('O\'rta')),
+        ('medium', _("O'rta")),
         ('hard', _('Qiyin')),
     ]
 
@@ -199,14 +200,14 @@ class QuizAttempt(models.Model):
 
 
 class UserCreatedQuiz(models.Model):
-    """Foydalanuvchi tomonidan yaratilgan test (public ko'rinishda)"""
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='created_quizzes', verbose_name=_("Muallif"))
     title = models.CharField(max_length=255, verbose_name=_("Sarlavha"))
     description = models.TextField(blank=True, verbose_name=_("Tavsif"))
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='user_quizzes', verbose_name=_("Kategoriya"))
     difficulty = models.CharField(max_length=10, choices=[('easy', _('Oson')), ('medium', _("O'rta")), ('hard', _('Qiyin'))], default='medium')
     time_limit = models.PositiveIntegerField(default=30, verbose_name=_("Vaqt limiti (daqiqa)"))
-    is_published = models.BooleanField(default=True, verbose_name=_("Nashr etilgan"))
+    is_published = models.BooleanField(default=True, verbose_name=_("Ommaviy (Public)"))
+    share_token = models.UUIDField(default=uuid.uuid4, unique=True, editable=False, verbose_name=_("Ulashish tokeni"))
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -224,9 +225,11 @@ class UserCreatedQuiz(models.Model):
     def attempt_count(self):
         return self.ucq_attempts.filter(completed=True).count()
 
+    def get_share_url(self):
+        return f"/shared/{self.share_token}/"
+
 
 class UserCreatedAttempt(models.Model):
-    """UserCreatedQuiz uchun urinish modeli"""
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='ucq_attempts', null=True, blank=True)
     quiz = models.ForeignKey(UserCreatedQuiz, on_delete=models.CASCADE, related_name='ucq_attempts')
     started_at = models.DateTimeField(auto_now_add=True)
@@ -283,3 +286,60 @@ class UserAnswer(models.Model):
 
     def __str__(self):
         return f"{self.attempt} — {self.question.text_uz[:40]}"
+
+
+class SiteSettings(models.Model):
+    email_host = models.CharField(max_length=255, default='smtp.gmail.com', verbose_name=_("Email server (SMTP host)"))
+    email_port = models.IntegerField(default=587, verbose_name=_("Port"))
+    email_use_tls = models.BooleanField(default=True, verbose_name=_("TLS ishlatish"))
+    email_use_ssl = models.BooleanField(default=False, verbose_name=_("SSL ishlatish"))
+    email_host_user = models.EmailField(blank=True, verbose_name=_("Email manzili (login)"))
+    email_host_password = models.CharField(max_length=255, blank=True, verbose_name=_("Email paroli (App Password)"))
+    admin_email = models.EmailField(blank=True, verbose_name=_("Admin email manzili"))
+    site_name = models.CharField(max_length=100, default='QuizHub', verbose_name=_("Sayt nomi"))
+    site_url = models.URLField(blank=True, verbose_name=_("Sayt URL manzili"))
+
+    class Meta:
+        verbose_name = _("Sayt sozlamalari")
+        verbose_name_plural = _("Sayt sozlamalari")
+
+    def __str__(self):
+        return "Sayt sozlamalari"
+
+    @classmethod
+    def get_settings(cls):
+        obj, _ = cls.objects.get_or_create(pk=1)
+        return obj
+
+    def save(self, *args, **kwargs):
+        self.pk = 1
+        super().save(*args, **kwargs)
+
+
+class QuizUploadRequest(models.Model):
+    STATUS_CHOICES = [
+        ('pending', _("Kutilmoqda")),
+        ('processing', _("Ko'rib chiqilmoqda")),
+        ('done', _("Bajarildi")),
+        ('rejected', _("Rad etildi")),
+    ]
+
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, verbose_name=_("Foydalanuvchi"))
+    user_email = models.EmailField(blank=True, verbose_name=_("Email"))
+    category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, verbose_name=_("Kategoriya"))
+    quiz_title = models.CharField(max_length=255, verbose_name=_("Test nomi"))
+    time_limit = models.PositiveIntegerField(default=30, verbose_name=_("Vaqt limiti (daqiqa)"))
+    upload_file = models.FileField(upload_to='quiz_uploads/', verbose_name=_("Fayl"))
+    note = models.TextField(blank=True, verbose_name=_("Izoh"))
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='pending', verbose_name=_("Holati"))
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        verbose_name = _("Quiz yuklash so'rovi")
+        verbose_name_plural = _("Quiz yuklash so'rovlari")
+        ordering = ['-created_at']
+
+    def __str__(self):
+        user_str = self.user.username if self.user else self.user_email or "Anonim"
+        return f"{user_str} — {self.quiz_title}"

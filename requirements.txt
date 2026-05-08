@@ -21,3 +21,6 @@ Pillow
 psycopg2-binary
 python-decouple
 whitenoise
+openpyxl
+pypdf
+python-docx

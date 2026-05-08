@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{% if lang == 'uz' %}Fayl yuklash{% elif lang == 'ru' %}Загрузка файла{% else %}Upload Quiz File{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div style="max-width:680px; margin:0 auto; padding:24px 16px;">
+  <a href="{% url 'my_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px; margin-bottom:20px;">
+    ← {% if lang == 'uz' %}Mening testlarim{% elif lang == 'ru' %}Мои тесты{% else %}My Quizzes{% endif %}
+  </a>
+
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:28px;">
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:24px;">
+      <div style="width:48px; height:48px; border-radius:12px; background:var(--accent-light); display:flex; align-items:center; justify-content:center;">
+        <span class="material-icons-round" style="font-size:24px; color:var(--accent);">upload_file</span>
+      </div>
+      <div>
+        <h1 style="font-size:20px; font-weight:800; color:var(--text-primary); margin-bottom:2px;">
+          {% if lang == 'uz' %}Fayl orqali test yuklash{% elif lang == 'ru' %}Загрузка теста из файла{% else %}Upload Quiz from File{% endif %}
+        </h1>
+        <p style="font-size:13px; color:var(--text-secondary);">
+          {% if lang == 'uz' %}JSON, Excel, Word, PDF formatlarini qabul qilamiz{% elif lang == 'ru' %}Принимаем JSON, Excel, Word, PDF{% else %}Accepts JSON, Excel, Word, PDF{% endif %}
+        </p>
+      </div>
+    </div>
+
+    <!-- Supported formats info -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-bottom:24px;">
+      {% for fmt, icon, desc in formats %}
+      {% empty %}
+      <div style="padding:12px; background:var(--bg-elevated); border-radius:var(--radius-md); border:1px solid var(--border); text-align:center;">
+        <div style="font-size:22px; margin-bottom:4px;">📄</div>
+        <div style="font-size:12px; font-weight:700; color:var(--text-primary);">JSON</div>
+        <div style="font-size:11px; color:var(--text-muted);">Tavsiya etilgan</div>
+      </div>
+      <div style="padding:12px; background:var(--bg-elevated); border-radius:var(--radius-md); border:1px solid var(--border); text-align:center;">
+        <div style="font-size:22px; margin-bottom:4px;">📊</div>
+        <div style="font-size:12px; font-weight:700; color:var(--text-primary);">Excel</div>
+        <div style="font-size:11px; color:var(--text-muted);">.xlsx / .xls</div>
+      </div>
+      <div style="padding:12px; background:var(--bg-elevated); border-radius:var(--radius-md); border:1px solid var(--border); text-align:center;">
+        <div style="font-size:22px; margin-bottom:4px;">📝</div>
+        <div style="font-size:12px; font-weight:700; color:var(--text-primary);">Word</div>
+        <div style="font-size:11px; color:var(--text-muted);">.docx / .doc</div>
+      </div>
+      <div style="padding:12px; background:var(--bg-elevated); border-radius:var(--radius-md); border:1px solid var(--border); text-align:center;">
+        <div style="font-size:22px; margin-bottom:4px;">📕</div>
+        <div style="font-size:12px; font-weight:700; color:var(--text-primary);">PDF</div>
+        <div style="font-size:11px; color:var(--text-muted);">.pdf</div>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% if messages %}
+    {% for msg in messages %}
+    <div style="padding:12px 16px; border-radius:10px; margin-bottom:16px; background:var(--error-light); color:var(--error); border:1px solid var(--error); font-size:13px; display:flex; align-items:center; gap:8px;">
+      <span class="material-icons-round" style="font-size:16px;">error</span>{{ msg }}
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div style="margin-bottom:16px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+          {% if lang == 'uz' %}Test nomi *{% elif lang == 'ru' %}Название теста *{% else %}Quiz Title *{% endif %}
+        </label>
+        <input type="text" name="quiz_title" class="form-input" required
+          placeholder="{% if lang == 'uz' %}Test sarlavhasi{% elif lang == 'ru' %}Название теста{% else %}Quiz title{% endif %}">
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px;">
+        <div>
+          <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+            {% if lang == 'uz' %}Kategoriya{% elif lang == 'ru' %}Категория{% else %}Category{% endif %}
+          </label>
+          <select name="category" class="form-input">
+            <option value="">—</option>
+            {% for cat in categories %}
+            <option value="{{ cat.pk }}">
+              {% if lang == 'uz' %}{{ cat.name_uz }}{% elif lang == 'ru' %}{{ cat.name_ru }}{% else %}{{ cat.name_en }}{% endif %}
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+        <div>
+          <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+            {% if lang == 'uz' %}Vaqt (daqiqa){% elif lang == 'ru' %}Время (мин){% else %}Time (min){% endif %}
+          </label>
+          <input type="number" name="time_limit" class="form-input" value="30" min="1" max="180">
+        </div>
+      </div>
+
+      <div style="margin-bottom:24px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+          {% if lang == 'uz' %}Fayl yuklash *{% elif lang == 'ru' %}Загрузить файл *{% else %}Upload File *{% endif %}
+        </label>
+        <input type="file" name="file" class="form-input" required
+          accept=".json,.xlsx,.xls,.docx,.doc,.pdf"
+          style="padding:10px;">
+        <div style="font-size:11px; color:var(--text-muted); margin-top:4px;">
+          {% if lang == 'uz' %}JSON, Excel (.xlsx), Word (.docx), PDF qabul qilinadi
+          {% elif lang == 'ru' %}Принимаются JSON, Excel (.xlsx), Word (.docx), PDF
+          {% else %}Accepts JSON, Excel (.xlsx), Word (.docx), PDF{% endif %}
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width:100%; justify-content:center; padding:13px;">
+        <span class="material-icons-round">cloud_upload</span>
+        {% if lang == 'uz' %}Yuklash va tahlil qilish{% elif lang == 'ru' %}Загрузить и обработать{% else %}Upload and Process{% endif %}
+      </button>
+    </form>
+
+    <div style="margin-top:20px; padding:14px 16px; background:var(--info-light); border:1px solid var(--info); border-radius:var(--radius-md); display:flex; gap:10px; align-items:flex-start;">
+      <span class="material-icons-round" style="font-size:18px; color:var(--info); flex-shrink:0; margin-top:1px;">info</span>
+      <div style="font-size:12.5px; color:var(--text-secondary); line-height:1.7;">
+        {% if lang == 'uz' %}
+          <strong style="color:var(--text-primary);">Eslatma:</strong> Fayl avtomatik tahlil qilinadi.
+          Agar muvaffaqiyatsiz bo'lsa, adminga so'rov yuborish formasi chiqadi.
+        {% elif lang == 'ru' %}
+          <strong style="color:var(--text-primary);">Примечание:</strong> Файл будет обработан автоматически.
+          Если не получится — откроется форма для отправки запроса администратору.
+        {% else %}
+          <strong style="color:var(--text-primary);">Note:</strong> The file will be processed automatically.
+          If it fails, you'll see a form to send a request to the admin.
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

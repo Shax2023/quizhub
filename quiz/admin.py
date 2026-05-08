@@ -9,7 +9,9 @@ from django.db.models import Count, Avg
 from django.utils.html import format_html
 from unfold.admin import ModelAdmin, TabularInline, StackedInline
 from unfold.decorators import display
-from .models import Category, Quiz, Question, Choice, UserProfile, QuizAttempt, UserAnswer
+from .models import (Category, Quiz, Question, Choice, UserProfile, QuizAttempt, UserAnswer,
+                     UserCreatedQuiz, UserCreatedQuestion, UserCreatedChoice, UserCreatedAttempt,
+                     SiteSettings, QuizUploadRequest)
 from .forms import JsonImportForm
 
 
@@ -49,11 +51,7 @@ class QuizAdmin(ModelAdmin):
     search_fields = ['title_uz']
     inlines = [QuestionInline]
     list_editable = ['is_active']
-    fields = [
-        'title_uz',
-        'description_uz',
-        'category', 'difficulty', 'time_limit', 'is_active'
-    ]
+    fields = ['title_uz', 'description_uz', 'category', 'difficulty', 'time_limit', 'is_active']
 
     def get_urls(self):
         urls = super().get_urls()
@@ -67,55 +65,30 @@ class QuizAdmin(ModelAdmin):
             form = JsonImportForm(request.POST, request.FILES)
             if form.is_valid():
                 try:
-                    # Quiz ma'lumotlari formadan olinadi
                     title_uz = request.POST.get('title_uz', '').strip()
                     description_uz = request.POST.get('description_uz', '').strip()
                     category_id = request.POST.get('category')
                     difficulty = request.POST.get('difficulty', 'medium')
                     time_limit = request.POST.get('time_limit', 30)
 
-                    # Validatsiya
                     if not title_uz:
                         self.message_user(request, "Test nomi majburiy!", level=messages.ERROR)
-                        form = JsonImportForm()
-                        context = {
-                            **self.admin_site.each_context(request),
-                            'form': form,
-                            'title': 'JSON dan test va savollarni yuklash',
-                            'opts': self.model._meta,
-                        }
-                        return render(request, 'admin/quiz/quiz/import_json.html', context)
+                        return self._render_import(request, JsonImportForm())
 
                     if not category_id:
                         self.message_user(request, "Kategoriya tanlash majburiy!", level=messages.ERROR)
-                        form = JsonImportForm()
-                        context = {
-                            **self.admin_site.each_context(request),
-                            'form': form,
-                            'title': 'JSON dan test va savollarni yuklash',
-                            'opts': self.model._meta,
-                        }
-                        return render(request, 'admin/quiz/quiz/import_json.html', context)
+                        return self._render_import(request, JsonImportForm())
 
                     try:
                         category = Category.objects.get(id=category_id)
                     except Category.DoesNotExist:
                         self.message_user(request, "Kategoriya topilmadi!", level=messages.ERROR)
-                        form = JsonImportForm()
-                        context = {
-                            **self.admin_site.each_context(request),
-                            'form': form,
-                            'title': 'JSON dan test va savollarni yuklash',
-                            'opts': self.model._meta,
-                        }
-                        return render(request, 'admin/quiz/quiz/import_json.html', context)
+                        return self._render_import(request, JsonImportForm())
 
-                    # JSON faylni o'qish (faqat savollar)
                     questions_data = json.loads(request.FILES['json_file'].read().decode('utf-8'))
                     if isinstance(questions_data, dict):
                         questions_data = [questions_data]
 
-                    # Test yaratish
                     quiz = Quiz.objects.create(
                         title_uz=title_uz,
                         description_uz=description_uz,
@@ -134,7 +107,6 @@ class QuizAdmin(ModelAdmin):
                             order=q_data.get('order', 0),
                         )
                         total_questions += 1
-
                         for c_data in q_data.get('choices', []):
                             Choice.objects.create(
                                 question=question,
@@ -155,7 +127,9 @@ class QuizAdmin(ModelAdmin):
                     self.message_user(request, f"Xatolik: {e}", level=messages.ERROR)
         else:
             form = JsonImportForm()
+        return self._render_import(request, form)
 
+    def _render_import(self, request, form):
         context = {
             **self.admin_site.each_context(request),
             'form': form,
@@ -264,4 +238,48 @@ class QuizAttemptAdmin(ModelAdmin):
         return f'{mins} min' if mins else '—'
 
     def has_add_permission(self, request):
+        return False
+
+
+@admin.register(UserCreatedQuiz)
+class UserCreatedQuizAdmin(ModelAdmin):
+    list_display = ['title', 'author', 'category', 'question_count_display', 'is_published', 'created_at']
+    list_filter = ['is_published', 'category']
+    search_fields = ['title', 'author__username']
+    readonly_fields = ['share_token', 'created_at', 'updated_at']
+
+    @display(description=_("Savollar"))
+    def question_count_display(self, obj):
+        return obj.question_count()
+
+
+@admin.register(QuizUploadRequest)
+class QuizUploadRequestAdmin(ModelAdmin):
+    list_display = ['quiz_title', 'user', 'user_email', 'category', 'status', 'created_at']
+    list_filter = ['status', 'category']
+    search_fields = ['quiz_title', 'user__username', 'user_email']
+    list_editable = ['status']
+    readonly_fields = ['user', 'user_email', 'quiz_title', 'category', 'time_limit', 'upload_file', 'note', 'created_at']
+
+
+@admin.register(SiteSettings)
+class SiteSettingsAdmin(ModelAdmin):
+    fieldsets = [
+        (_("Email sozlamalari (SMTP)"), {
+            'fields': ['email_host', 'email_port', 'email_use_tls', 'email_use_ssl',
+                       'email_host_user', 'email_host_password', 'admin_email'],
+            'description': _(
+                "Gmail uchun: host=smtp.gmail.com, port=587, TLS=True. "
+                "Email parolini Gmail > Sozlamalar > Xavfsizlik > App Passwords dan oling."
+            )
+        }),
+        (_("Sayt sozlamalari"), {
+            'fields': ['site_name', 'site_url'],
+        }),
+    ]
+
+    def has_add_permission(self, request):
+        return not SiteSettings.objects.exists()
+
+    def has_delete_permission(self, request, obj=None):
         return False

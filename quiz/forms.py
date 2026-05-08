@@ -2,7 +2,7 @@ from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from django.utils.translation import gettext_lazy as _
-from .models import UserCreatedQuiz, UserCreatedQuestion, UserCreatedChoice, Category
+from .models import UserCreatedQuiz, Category, QuizUploadRequest
 
 
 class UserQuizForm(forms.ModelForm):
@@ -59,3 +59,25 @@ class RegisterForm(UserCreationForm):
         self.fields['password2'].widget.attrs.update({'class': 'form-input', 'placeholder': _('Parolni tasdiqlang')})
         for field in self.fields.values():
             field.error_messages = {k: str(v) for k, v in field.error_messages.items()}
+
+
+class QuizUploadRequestForm(forms.ModelForm):
+    class Meta:
+        model = QuizUploadRequest
+        fields = ['quiz_title', 'category', 'time_limit', 'upload_file', 'note', 'user_email']
+        widgets = {
+            'quiz_title': forms.TextInput(attrs={'class': 'form-input', 'placeholder': _('Test nomi')}),
+            'category': forms.Select(attrs={'class': 'form-input'}),
+            'time_limit': forms.NumberInput(attrs={'class': 'form-input', 'min': 1, 'max': 180}),
+            'upload_file': forms.FileInput(attrs={'class': 'form-input', 'accept': '.json,.xlsx,.xls,.docx,.doc,.pdf'}),
+            'note': forms.Textarea(attrs={'class': 'form-input', 'rows': 3, 'placeholder': _('Qo\'shimcha izoh...')}),
+            'user_email': forms.EmailInput(attrs={'class': 'form-input', 'placeholder': 'email@example.com'}),
+        }
+        labels = {
+            'quiz_title': _("Test nomi"),
+            'category': _("Kategoriya"),
+            'time_limit': _("Vaqt limiti (daqiqa)"),
+            'upload_file': _("Fayl (JSON, Excel, Word, PDF)"),
+            'note': _("Izoh"),
+            'user_email': _("Sizning emailingiz (javob uchun)"),
+        }

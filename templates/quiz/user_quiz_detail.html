@@ -3,59 +3,138 @@
 
 {% block title %}{{ quiz.title }} — QuizHub{% endblock %}
 
+{% block extra_css %}
+<style>
+.share-link-box {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--bg-elevated); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: 8px 12px; margin-top: 12px;
+}
+.share-link-input {
+  flex: 1; font-size: 12px; color: var(--text-secondary);
+  background: transparent; border: none; outline: none; font-family: monospace;
+}
+.copy-btn {
+  padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border);
+  background: transparent; color: var(--accent); cursor: pointer;
+  font-size: 12px; display: inline-flex; align-items: center; gap: 4px;
+  white-space: nowrap; transition: all 0.15s;
+}
+.copy-btn:hover { background: var(--accent-light); }
+</style>
+{% endblock %}
+
 {% block content %}
 <div style="max-width:700px; margin:0 auto; padding:24px 16px;">
-  <a href="{% url 'public_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px; margin-bottom:20px;">
-    ← {% if lang == 'uz' %}Jamiyat testlari{% else %}Community{% endif %}
+  {% if via_share %}
+  <a href="#" onclick="history.back();return false;" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px; margin-bottom:20px;">
+    ← {% if lang == 'uz' %}Orqaga{% elif lang == 'ru' %}Назад{% else %}Back{% endif %}
   </a>
+  {% else %}
+  <a href="{% url 'public_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px; margin-bottom:20px;">
+    ← {% if lang == 'uz' %}Jamiyat testlari{% elif lang == 'ru' %}Сообщество{% else %}Community{% endif %}
+  </a>
+  {% endif %}
 
   <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px; margin-bottom:20px;">
-    <div style="font-size:11px; color:var(--accent); font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px;">{{ quiz.category }}</div>
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+      <div style="font-size:11px; color:var(--accent); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">{{ quiz.category }}</div>
+      {% if not quiz.is_published %}
+      <span style="font-size:11px;padding:2px 8px;background:var(--warning-light);color:var(--warning);border-radius:99px;font-weight:700;display:inline-flex;align-items:center;gap:3px;">
+        <span class="material-icons-round" style="font-size:12px;">lock</span>
+        {% if lang == 'uz' %}Yashirin{% elif lang == 'ru' %}Приватный{% else %}Private{% endif %}
+      </span>
+      {% endif %}
+    </div>
     <h1 style="font-size:22px; font-weight:800; color:var(--text-primary); margin-bottom:8px;">{{ quiz.title }}</h1>
     {% if quiz.description %}
     <p style="font-size:14px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">{{ quiz.description }}</p>
     {% endif %}
     <div style="display:flex; flex-wrap:wrap; gap:14px; font-size:13px; color:var(--text-secondary); margin-bottom:20px;">
-      <span style="display:flex; align-items:center; gap:4px;"><span class="material-icons-round" style="font-size:16px;">help_outline</span>{{ quiz.question_count }} {% if lang == 'uz' %}savol{% else %}questions{% endif %}</span>
-      <span style="display:flex; align-items:center; gap:4px;"><span class="material-icons-round" style="font-size:16px;">schedule</span>{{ quiz.time_limit }} {% if lang == 'uz' %}daqiqa{% else %}min{% endif %}</span>
-      <span style="display:flex; align-items:center; gap:4px;"><span class="material-icons-round" style="font-size:16px;">person</span>@{{ quiz.author.username }}</span>
+      <span style="display:flex; align-items:center; gap:4px;">
+        <span class="material-icons-round" style="font-size:16px;">help_outline</span>{{ quiz.question_count }}
+        {% if lang == 'uz' %}savol{% elif lang == 'ru' %}вопросов{% else %}questions{% endif %}
+      </span>
+      <span style="display:flex; align-items:center; gap:4px;">
+        <span class="material-icons-round" style="font-size:16px;">schedule</span>{{ quiz.time_limit }}
+        {% if lang == 'uz' %}daqiqa{% elif lang == 'ru' %}мин{% else %}min{% endif %}
+      </span>
+      <span style="display:flex; align-items:center; gap:4px;">
+        <span class="material-icons-round" style="font-size:16px;">person</span>@{{ quiz.author.username }}
+      </span>
     </div>
 
+    {% if via_share %}
+    <form method="get" action="{% url 'shared_quiz_take' share_token %}" style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end;">
+    {% else %}
     <form method="get" action="{% url 'user_quiz_take' quiz.id %}" style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end;">
+    {% endif %}
       <label style="font-size:14px; display:flex; align-items:center; gap:8px;">
-        {% if lang == 'uz' %}Savollar soni:{% else %}Questions:{% endif %}
-        <input type="number" name="num_questions" min="1" max="{{ quiz.question_count }}" value="{{ quiz.question_count|default:30 }}"
+        {% if lang == 'uz' %}Savollar soni:{% elif lang == 'ru' %}Кол-во вопросов:{% else %}Questions:{% endif %}
+        <input type="number" name="num_questions" min="1" max="{{ quiz.question_count }}" value="{% if quiz.question_count < 30 %}{{ quiz.question_count }}{% else %}30{% endif %}"
           style="width:80px; padding:8px 10px; border-radius:8px; border:1px solid var(--border); background:var(--bg); color:var(--text-primary);">
       </label>
       <div style="display:flex; flex-direction:column; gap:6px;">
         <div style="font-size:13px; color:var(--text-secondary); font-weight:600;">
-          {% if lang == 'uz' %}Javob ko'rsatish:{% else %}Answer display:{% endif %}
+          {% if lang == 'uz' %}Javob ko'rsatish:{% elif lang == 'ru' %}Показ ответов:{% else %}Answer display:{% endif %}
         </div>
         <div style="display:flex; gap:8px;">
           <label style="display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; padding:7px 12px; border:1px solid var(--border); border-radius:8px; background:var(--bg-card);">
             <input type="radio" name="show_mode" value="end" checked style="accent-color:var(--accent);">
-            {% if lang == 'uz' %}Oxirida{% else %}At end{% endif %}
+            {% if lang == 'uz' %}Oxirida{% elif lang == 'ru' %}В конце{% else %}At end{% endif %}
           </label>
           <label style="display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; padding:7px 12px; border:1px solid var(--accent); border-radius:8px; background:var(--accent-light); color:var(--accent-text);">
             <input type="radio" name="show_mode" value="instant" style="accent-color:var(--accent);">
-            ⚡ {% if lang == 'uz' %}Zahoti{% else %}Instant{% endif %}
+            ⚡ {% if lang == 'uz' %}Zahoti{% elif lang == 'ru' %}Мгновенно{% else %}Instant{% endif %}
           </label>
         </div>
       </div>
       <button type="submit" class="btn-primary" style="display:inline-flex; align-self:flex-end;">
         <span class="material-icons-round">play_arrow</span>
-        {% if lang == 'uz' %}Boshlash{% else %}Start{% endif %}
+        {% if lang == 'uz' %}Boshlash{% elif lang == 'ru' %}Начать{% else %}Start{% endif %}
       </button>
     </form>
+
+    {% if is_author and not quiz.is_published %}
+    <div style="margin-top:16px; padding-top:16px; border-top:1px solid var(--border);">
+      <div style="font-size:12px; font-weight:600; color:var(--text-secondary); margin-bottom:6px; display:flex; align-items:center; gap:4px;">
+        <span class="material-icons-round" style="font-size:14px;">link</span>
+        {% if lang == 'uz' %}Do'stlaringizga ulashish havolasi:{% elif lang == 'ru' %}Ссылка для друзей:{% else %}Share link for friends:{% endif %}
+      </div>
+      <div class="share-link-box">
+        <input class="share-link-input" type="text"
+          value="{{ request.scheme }}://{{ request.get_host }}{% url 'shared_quiz_detail' quiz.share_token %}"
+          id="detail-share-link" readonly>
+        <button class="copy-btn" onclick="copyDetailLink()">
+          <span class="material-icons-round" style="font-size:13px;">content_copy</span>
+          {% if lang == 'uz' %}Nusxalash{% elif lang == 'ru' %}Скопировать{% else %}Copy{% endif %}
+        </button>
+      </div>
+    </div>
+    {% endif %}
   </div>
 
-  {% if request.user == quiz.author %}
+  {% if is_author %}
   <div style="text-align:center;">
     <a href="{% url 'user_quiz_edit' quiz.id %}" class="btn-outline" style="font-size:13px; display:inline-flex; align-items:center; gap:6px;">
       <span class="material-icons-round" style="font-size:16px;">edit</span>
-      {% if lang == 'uz' %}Testni tahrirlash{% else %}Edit Quiz{% endif %}
+      {% if lang == 'uz' %}Testni tahrirlash{% elif lang == 'ru' %}Редактировать тест{% else %}Edit Quiz{% endif %}
     </a>
   </div>
   {% endif %}
 </div>
+
+<script>
+function copyDetailLink() {
+  var input = document.getElementById('detail-share-link');
+  input.select();
+  navigator.clipboard.writeText(input.value).then(function() {
+    var btn = document.querySelector('.copy-btn');
+    var orig = btn.innerHTML;
+    btn.innerHTML = '<span class="material-icons-round" style="font-size:13px;">check</span> {% if lang == "uz" %}Nusxalandi{% elif lang == "ru" %}Скопировано{% else %}Copied{% endif %}';
+    btn.style.color = 'var(--success)';
+    setTimeout(function() { btn.innerHTML = orig; btn.style.color = ''; }, 2000);
+  });
+}
+</script>
 {% endblock %}

@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{% if lang == 'uz' %}Adminga murojaat{% else %}Contact Admin{% endif %} — QuizHub{% endblock %}
+
+{% block content %}
+<div style="max-width:680px; margin:0 auto; padding:24px 16px;">
+
+  {% if parse_error %}
+  <!-- Auto-parse failed notice -->
+  <div style="padding:16px 18px; border-radius:var(--radius-md); background:var(--warning-light); border:1px solid var(--warning); margin-bottom:20px; display:flex; gap:10px; align-items:flex-start;">
+    <span class="material-icons-round" style="font-size:20px; color:var(--warning); flex-shrink:0;">warning</span>
+    <div>
+      <div style="font-size:13px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">
+        {% if lang == 'uz' %}Fayl avtomatik o'qilmadi{% elif lang == 'ru' %}Файл не удалось обработать автоматически{% else %}File could not be processed automatically{% endif %}
+      </div>
+      <div style="font-size:12px; color:var(--text-secondary);">{{ parse_error }}</div>
+    </div>
+  </div>
+  {% endif %}
+
+  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:28px;">
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:24px;">
+      <div style="width:48px; height:48px; border-radius:12px; background:var(--accent-light); display:flex; align-items:center; justify-content:center;">
+        <span class="material-icons-round" style="font-size:24px; color:var(--accent);">support_agent</span>
+      </div>
+      <div>
+        <h1 style="font-size:20px; font-weight:800; color:var(--text-primary); margin-bottom:2px;">
+          {% if lang == 'uz' %}Adminga so'rov yuborish{% elif lang == 'ru' %}Отправить запрос администратору{% else %}Send Request to Admin{% endif %}
+        </h1>
+        <p style="font-size:13px; color:var(--text-secondary);">
+          {% if lang == 'uz' %}Admin faylni ko'rib chiqib, testni qo'shib beradi{% elif lang == 'ru' %}Администратор обработает файл и добавит тест{% else %}Admin will review the file and add the quiz{% endif %}
+        </p>
+      </div>
+    </div>
+
+    {% if messages %}
+    {% for msg in messages %}
+    <div style="padding:12px 16px; border-radius:10px; margin-bottom:16px; background:var(--success-light); color:var(--success); border:1px solid var(--success); font-size:13px;">{{ msg }}</div>
+    {% endfor %}
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data" action="{% url 'quiz_upload_request' %}">
+      {% csrf_token %}
+
+      <div style="margin-bottom:16px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+          {% if lang == 'uz' %}Test nomi *{% elif lang == 'ru' %}Название теста *{% else %}Quiz Title *{% endif %}
+        </label>
+        <input type="text" name="quiz_title" class="form-input" required
+          placeholder="{% if lang == 'uz' %}Test sarlavhasi{% elif lang == 'ru' %}Название теста{% else %}Quiz title{% endif %}">
+        {% if form.quiz_title.errors %}<div style="font-size:12px;color:var(--error);margin-top:3px;">{{ form.quiz_title.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px;">
+        <div>
+          <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+            {% if lang == 'uz' %}Kategoriya{% elif lang == 'ru' %}Категория{% else %}Category{% endif %}
+          </label>
+          <select name="category" class="form-input">
+            <option value="">—</option>
+            {% for cat in form.category.field.queryset %}
+            <option value="{{ cat.pk }}">
+              {% if lang == 'uz' %}{{ cat.name_uz }}{% elif lang == 'ru' %}{{ cat.name_ru }}{% else %}{{ cat.name_en }}{% endif %}
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+        <div>
+          <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+            {% if lang == 'uz' %}Vaqt (daqiqa){% elif lang == 'ru' %}Время (мин){% else %}Time (min){% endif %}
+          </label>
+          <input type="number" name="time_limit" class="form-input" value="30" min="1" max="180">
+        </div>
+      </div>
+
+      <div style="margin-bottom:16px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+          {% if lang == 'uz' %}Fayl (JSON, Excel, Word, PDF) *{% else %}File (JSON, Excel, Word, PDF) *{% endif %}
+        </label>
+        <input type="file" name="upload_file" class="form-input" required
+          accept=".json,.xlsx,.xls,.docx,.doc,.pdf"
+          style="padding:10px;">
+        {% if form.upload_file.errors %}<div style="font-size:12px;color:var(--error);margin-top:3px;">{{ form.upload_file.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div style="margin-bottom:16px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+          {% if lang == 'uz' %}Sizning emailingiz (javob uchun){% elif lang == 'ru' %}Ваш email (для ответа){% else %}Your email (for reply){% endif %}
+        </label>
+        <input type="email" name="user_email" class="form-input"
+          value="{% if request.user.is_authenticated %}{{ request.user.email }}{% endif %}"
+          placeholder="email@example.com">
+      </div>
+
+      <div style="margin-bottom:24px;">
+        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:5px;">
+          {% if lang == 'uz' %}Qo'shimcha izoh{% elif lang == 'ru' %}Дополнительное примечание{% else %}Additional Notes{% endif %}
+        </label>
+        <textarea name="note" class="form-input" rows="3"
+          placeholder="{% if lang == 'uz' %}Faylda qanday formatda savollar bor? Boshqa ma'lumot...{% elif lang == 'ru' %}Что находится в файле? Другая информация...{% else %}What's in the file? Any other info...{% endif %}"></textarea>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width:100%; justify-content:center; padding:13px;">
+        <span class="material-icons-round">send</span>
+        {% if lang == 'uz' %}Adminga yuborish{% elif lang == 'ru' %}Отправить администратору{% else %}Send to Admin{% endif %}
+      </button>
+    </form>
+  </div>
+</div>
+{% endblock %}
