@@ -1,0 +1,6252 @@
+[
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "21. \\( z = x^2 y \\) uchun \\( dz \\) ni yozing.",
+    "answers": [
+      {
+        "text": "\\( 2xy\\,dx + x^2\\,dy \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x^2\\,dx + 2xy\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2x\\,dx + y\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( xy\\,dx + dy \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "22. \\( z = \\sin(xy) \\) uchun \\( dz \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( y\\cos(xy)\\,dx + x\\cos(xy)\\,dy \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\cos(xy)(dx + dy) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x\\cos(xy)\\,dx + y\\cos(xy)\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "23. \\( z = x^2 + y^2 \\) ning \\( (1,1) \\) dagi \\( dz \\) qiymati?",
+    "answers": [
+      {
+        "text": "\\( 2\\,dx + 2\\,dy \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( dx + dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2x\\,dx + 2y\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "24. \\( \\Delta z \\) va \\( dz \\) farqi nimaga intiladi?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\infty \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( dy \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "25. \\( z = x^2 + 3xy \\) ning \\( x \\) bo'yicha differensiali?",
+    "answers": [
+      {
+        "text": "\\( (2x + 3y)\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2x\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2x + 3y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3y\\,dx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "26. \\( x = x(t),\\; y = y(t) \\) bo'lsa, \\( \\dfrac{dz}{dt} \\) qoidasi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{\\partial z}{\\partial x}\\dfrac{dx}{dt} + \\dfrac{\\partial z}{\\partial y}\\dfrac{dy}{dt} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{\\partial z}{\\partial x} + \\dfrac{\\partial z}{\\partial y} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{dx}{dt} + \\dfrac{dy}{dt} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{\\partial z}{\\partial t} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "27. \\( z = \\sqrt{x^2 + y^2} \\) uchun \\( dz \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{x\\,dx + y\\,dy}{\\sqrt{x^2+y^2}} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{dx+dy}{\\sqrt{x^2+y^2}} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{x+y}{\\sqrt{x^2+y^2}} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( dx + dy \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "28. \\( z = x^y \\) ning \\( (1,1) \\) dagi \\( dz \\) qiymati?",
+    "answers": [
+      {
+        "text": "\\( dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( dx + dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "29. \\( u = x^2 + y^2 + z^2 \\) uchun \\( du \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 2x\\,dx + 2y\\,dy + 2z\\,dz \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x\\,dx + y\\,dy + z\\,dz \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\,dx + 2\\,dy + 2\\,dz \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "30. \\( dz = A\\,dx + B\\,dy \\) da \\( A \\) nimani anglatadi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{\\partial z}{\\partial x} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{\\partial z}{\\partial y} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{\\partial^2 z}{\\partial x^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( z \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "31. \\( z = \\arctan\\!\\left(\\dfrac{y}{x}\\right) \\) uchun \\( dz \\)?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{x\\,dy - y\\,dx}{x^2+y^2} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{y\\,dx - x\\,dy}{x^2+y^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{dx+dy}{x^2+y^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "32. \\( z = x\\sin y \\) uchun \\( dz \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( \\sin y\\,dx + x\\cos y\\,dy \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x\\cos y\\,dx + \\sin y\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\cos y\\,dx + \\sin y\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "33. \\( f(x,y) = x^2 y^3 \\) uchun \\( d^2z \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 2y^3\\,dx^2 + 12xy^2\\,dx\\,dy + 6x^2 y\\,dy^2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2\\,dx^2 + 6\\,dy^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x^2\\,dx^2 + y^3\\,dy^2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "34. \\( z = e^{xy} \\) uchun \\( dz \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( e^{xy}(y\\,dx + x\\,dy) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( e^{xy}(dx + dy) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( xye^{xy}(dx + dy) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( e^{xy}\\,dx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "35. \\( 1.02^3 \\cdot 0.99^2 \\) ni taqribiy hisoblash uchun qulay funksiya?",
+    "answers": [
+      {
+        "text": "\\( f(x,y) = x^3 y^2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( f(x,y) = x^3 + y^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( f(x,y) = x^2 y^3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( f(x,y) = xy \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "36. \\( z = x^2 - y^2 \\) ning \\( (2,1) \\) da \\( dx=0.1,\\; dy=0.01 \\) uchun \\( dz \\) qiymati?",
+    "answers": [
+      {
+        "text": "\\( 0.38 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0.42 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0.1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0.05 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "37. \\( z = \\ln(x^2 + y) \\) uchun \\( dz \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{2x\\,dx + dy}{x^2+y} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{2x+1}{x^2+y}(dx+dy) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{dx+dy}{x^2+y} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "38. \\( P(x,y)\\,dx + Q(x,y)\\,dy \\) ifoda to'la differensial bo'lishi uchun shart?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{\\partial P}{\\partial y} = \\dfrac{\\partial Q}{\\partial x} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{\\partial P}{\\partial x} = \\dfrac{\\partial Q}{\\partial y} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{\\partial P}{\\partial y} = -\\dfrac{\\partial Q}{\\partial x} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{\\partial P}{\\partial x} = -\\dfrac{\\partial Q}{\\partial y} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "39. \\( z = x^2 + y^2 \\) da \\( dz \\) ning geometrik ma'nosi nima?",
+    "answers": [
+      {
+        "text": "Urinma tekislik orttirmasi",
+        "is_correct": true
+      },
+      {
+        "text": "Funksiya qiymati",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent",
+        "is_correct": false
+      },
+      {
+        "text": "Normal",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "40. \\( z = \\sin x + \\cos y \\) ning \\( (0,0) \\) nuqtadagi \\( dz \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( dx + dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "1. Ikki karrali integral \\( \\iint_D f(x,y)\\,dA \\) geometrik jihatdan nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "Egri chiziqli silindr hajmini",
+        "is_correct": true
+      },
+      {
+        "text": "Sirt yuzini",
+        "is_correct": false
+      },
+      {
+        "text": "Chiziq uzunligini",
+        "is_correct": false
+      },
+      {
+        "text": "Massa markazini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "2. To'g'ri to'rtburchakli \\( D=[a,b]\\times[c,d] \\) soha uchun Fubini teoremasi qaysi?",
+    "answers": [
+      {
+        "text": "\\( \\int_a^b dx\\int_c^d f(x,y)\\,dy = \\int_c^d dy\\int_a^b f(x,y)\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA = f(b,d)-f(a,c) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA = \\int_a^b f(x,c)\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA = \\text{Area}(D) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "3. Ikki karrali integralda qutb koordinatalariga o'tishda Yakobian \\( J \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( r \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( r^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho^2\\sin\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "4. \\( \\iint_D dx\\,dy \\) integrali nimani hisoblaydi?",
+    "answers": [
+      {
+        "text": "\\( D \\) sohaning yuzini",
+        "is_correct": true
+      },
+      {
+        "text": "\\( D \\) sohaning hajmini",
+        "is_correct": false
+      },
+      {
+        "text": "Massa",
+        "is_correct": false
+      },
+      {
+        "text": "Inersiya momenti",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "5. Uch karrali integralda sferik koordinatalarga o'tish Yakobiani nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\rho^2\\sin\\varphi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\rho\\sin\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho^2\\cos\\varphi \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "6. Silindrik koordinatalar sistemasida \\( dV \\) hajm elementi qanday yoziladi?",
+    "answers": [
+      {
+        "text": "\\( r\\,dz\\,dr\\,d\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( dr\\,d\\theta\\,dz \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r^2\\sin\\varphi\\,dr\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( dx\\,dy\\,dz \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "7. Markazi koordinata boshida bo'lgan \\( x^2+y^2 \\le R^2 \\) doira bo'yicha integrallashda qaysi sistema qulay?",
+    "answers": [
+      {
+        "text": "Qutb koordinatalar sistemasi",
+        "is_correct": true
+      },
+      {
+        "text": "Dekart sistemasi",
+        "is_correct": false
+      },
+      {
+        "text": "Sferik sistema",
+        "is_correct": false
+      },
+      {
+        "text": "Silindrik sistema",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "8. \\( \\int_0^1 dx\\int_0^2 dy \\) integralning qiymati qancha?",
+    "answers": [
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0.5 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "9. Sirt yuzini hisoblash formulasi: \\( S=\\iint_D\\sqrt{1+(z'_x)^2+(z'_y)^2}\\,dA \\). Bu yerda \\( z=f(x,y) \\) sirtning nimasini ifodalaydi?",
+    "answers": [
+      {
+        "text": "Sirtning tenglamasini (applikatasini)",
+        "is_correct": true
+      },
+      {
+        "text": "Gradiyentini",
+        "is_correct": false
+      },
+      {
+        "text": "Uzunligini",
+        "is_correct": false
+      },
+      {
+        "text": "Proyeksiyasini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "10. Uch karrali integral yordamida jismning massasi qanday topiladi (\\( \\rho \\) — zichlik)?",
+    "answers": [
+      {
+        "text": "\\( M=\\iiint_V \\rho(x,y,z)\\,dV \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( M=\\iiint_V dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( M=\\rho\\cdot S \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( M=\\iint_D \\rho\\,dA \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "11. \\( x^2+y^2+z^2\\le a^2 \\) shar hajmini hisoblashda qaysi sistema eng samarali?",
+    "answers": [
+      {
+        "text": "Sferik koordinatalar sistemasi",
+        "is_correct": true
+      },
+      {
+        "text": "Silindrik sistema",
+        "is_correct": false
+      },
+      {
+        "text": "Dekart sistemasi",
+        "is_correct": false
+      },
+      {
+        "text": "Qutb sistemasi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "12. \\( D \\) soha \\( x \\)-o'qiga nisbatan simmetrik va \\( f(x,y) \\) funksiya \\( y \\) bo'yicha toq bo'lsa, \\( \\iint_D f(x,y)\\,dA=? \\)",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{Area}(D) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\iint_D f\\,dA \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "13. Inersiya momenti \\( I_z \\) uch karrali integralda qanday ifodalanadi?",
+    "answers": [
+      {
+        "text": "\\( \\iiint_V (x^2+y^2)\\rho\\,dV \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iiint_V z^2\\rho\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V xyz\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D r^2\\,dA \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "14. \\( \\int_0^1 dx\\int_0^x (x+y)\\,dy \\) integralni hisoblang.",
+    "answers": [
+      {
+        "text": "\\( 2/3 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1/2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1/3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "15. Sferik koordinatalarda \\( \\rho \\) o'zgarish oralig'i shar (radius \\( R \\)) uchun qanday?",
+    "answers": [
+      {
+        "text": "\\( [0,R] \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( [0,2\\pi] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [0,\\pi] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [-R,R] \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "16. \\( \\int_{-1}^{1}dx\\int_{-\\sqrt{1-x^2}}^{\\sqrt{1-x^2}}dy \\) integrali qaysi shakl yuzini beradi?",
+    "answers": [
+      {
+        "text": "Birlik doira yuzi",
+        "is_correct": true
+      },
+      {
+        "text": "Kvadrat yuzi",
+        "is_correct": false
+      },
+      {
+        "text": "Uchburchak yuzi",
+        "is_correct": false
+      },
+      {
+        "text": "Ellips yuzi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "17. Qutb koordinatalarida \\( x^2+y^2 \\) ifodasi nimaga almashadi?",
+    "answers": [
+      {
+        "text": "\\( r^2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( r \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r^2\\cos^2\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho^2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "18. Agar integral chegaralari barchasi o'zgarmas son bo'lsa, integrallash sohasi qanday shaklda bo'ladi?",
+    "answers": [
+      {
+        "text": "To'g'ri to'rtburchak (yoki paralelepiped)",
+        "is_correct": true
+      },
+      {
+        "text": "Doira",
+        "is_correct": false
+      },
+      {
+        "text": "Uchburchak",
+        "is_correct": false
+      },
+      {
+        "text": "Ixtiyoriy egri chiziqli soha",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "19. \\( \\int_0^2 dx\\int_0^1 x^2 y\\,dy \\) integrali qiymati:",
+    "answers": [
+      {
+        "text": "\\( 4/3 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2/3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 8/3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "20. Sferik koordinatalarda \\( \\varphi \\) (zenit burchagi) qaysi oraliqda o'zgaradi?",
+    "answers": [
+      {
+        "text": "\\( [0,\\pi] \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( [0,2\\pi] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [-\\pi/2,\\pi/2] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [0,\\pi/2] \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "21. Jismning og'irlik markazi koordinatasi \\( \\bar{x} \\) qanday topiladi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{1}{M}\\iiint_V x\\rho\\,dV \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iiint_V x\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{1}{V}\\iint_D x\\,dA \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( M\\cdot x \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "22. \\( V \\) — birlik kub bo'lsa \\( (0\\le x,y,z\\le1) \\), \\( \\iiint_V(x+y+z)\\,dV=? \\)",
+    "answers": [
+      {
+        "text": "\\( 1.5 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0.5 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "23. \\( z=0,\\; x=0,\\; y=0,\\; x+y+z=1 \\) tekisliklar bilan chegaralangan jism shakli nima?",
+    "answers": [
+      {
+        "text": "Tetraedr",
+        "is_correct": true
+      },
+      {
+        "text": "Paralelepiped",
+        "is_correct": false
+      },
+      {
+        "text": "Silindr",
+        "is_correct": false
+      },
+      {
+        "text": "Konus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "24. Sferik koordinatalarda \\( z=? \\)",
+    "answers": [
+      {
+        "text": "\\( \\rho\\cos\\varphi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\rho\\sin\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r\\cos\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho\\sin\\varphi\\cos\\theta \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "25. \\( \\iiint_V(x^2+y^2+z^2)\\,dV \\) integrali sferik koordinatalarda qanday ko'rinishga keladi?",
+    "answers": [
+      {
+        "text": "\\( \\iiint_V \\rho^4\\sin\\varphi\\,d\\rho\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iiint_V \\rho^2\\sin\\varphi\\,d\\rho\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V \\rho^3\\,d\\rho\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V \\rho^2\\,d\\rho\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "26. Ikki karrali integral yordamida yassi shaklning \\( x \\)-o'qiga nisbatan statik momenti \\( S_x=? \\)",
+    "answers": [
+      {
+        "text": "\\( \\iint_D y\\rho(x,y)\\,dA \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_D x\\rho(x,y)\\,dA \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D xy\\,dA \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D y^2\\,dA \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "27. \\( \\int_0^1 dx\\int_0^1 dy\\int_0^1 dz \\) integrali nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1/6 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "28. Jismning \\( Oz \\) o'qiga nisbatan inersiya momenti \\( I_z \\) formulasi:",
+    "answers": [
+      {
+        "text": "\\( \\iiint_V(x^2+y^2)\\rho\\,dV \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iiint_V(y^2+z^2)\\rho\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V(x^2+z^2)\\rho\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V z^2\\rho\\,dV \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "29. Qutb koordinatalarida \\( dA=r\\,dr\\,d\\theta \\) dagi \\( r \\) koeffitsiyenti (Yakobian) qanday kelib chiqqan?",
+    "answers": [
+      {
+        "text": "O'zgaruvchilarni almashtirish Yakobianidan",
+        "is_correct": true
+      },
+      {
+        "text": "Radius formulasidan",
+        "is_correct": false
+      },
+      {
+        "text": "Pi sonidan",
+        "is_correct": false
+      },
+      {
+        "text": "Ixtiyoriy tanlangan",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "30. Agar \\( f(x,y)=g(x)h(y) \\) bo'lsa va soha to'g'ri to'rtburchak bo'lsa, ikki karrali integral:",
+    "answers": [
+      {
+        "text": "Ikki bitta karrali integral ko'paytmasiga teng",
+        "is_correct": true
+      },
+      {
+        "text": "Nolga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Ularning yig'indisiga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Hisoblab bo'lmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "31. Uch karrali integralda integrallash tartibini o'zgartirish necha xil bo'lishi mumkin?",
+    "answers": [
+      {
+        "text": "\\( 6 \\) xil \\( (3!) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 3 \\) xil",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\) xil",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\) xil",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "32. Ikki karrali integralning o'rta qiymat haqidagi teoremasi:",
+    "answers": [
+      {
+        "text": "\\( \\iint_D f\\,dA = f(\\xi,\\eta)\\cdot\\text{Area}(D) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA = f(a,b) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA = \\text{Area}(D)/2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "33. Silindrik koordinatalarda \\( x^2+y^2 \\) ifodasi nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( r^2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( z^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho^2\\sin^2\\varphi \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "34. \\( \\iint_D dA \\) integrali \\( D \\) soha birlik kvadrat bo'lganda nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "35. Ikki karrali integralda soha \\( D=\\{r\\le1\\} \\) bo'lsa, qutb burchagi \\( \\theta \\) oralig'i:",
+    "answers": [
+      {
+        "text": "\\( [0,2\\pi] \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( [0,\\pi] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [-\\pi/2,\\pi/2] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [0,1] \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "36. \\( \\iiint_V dx\\,dy\\,dz \\) integrali nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "\\( V \\) jismning hajmini",
+        "is_correct": true
+      },
+      {
+        "text": "\\( V \\) jismning massasini",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt yuzini",
+        "is_correct": false
+      },
+      {
+        "text": "Zichlikni",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "37. Yakobian determinanti nolga teng bo'lsa, o'zgaruvchini almashtirish:",
+    "answers": [
+      {
+        "text": "Mumkin emas (maxsus nuqta)",
+        "is_correct": true
+      },
+      {
+        "text": "Doim mumkin",
+        "is_correct": false
+      },
+      {
+        "text": "Integralni oshiradi",
+        "is_correct": false
+      },
+      {
+        "text": "Integralni nolga aylantiradi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "38. \\( \\int_0^1 dy\\int_y^1 dx \\) integrallash sohasi qanday shaklda?",
+    "answers": [
+      {
+        "text": "Uchburchak",
+        "is_correct": true
+      },
+      {
+        "text": "Kvadrat",
+        "is_correct": false
+      },
+      {
+        "text": "Doira sektori",
+        "is_correct": false
+      },
+      {
+        "text": "Parabola segmenti",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "39. Qutb koordinatalarida \\( x=? \\)",
+    "answers": [
+      {
+        "text": "\\( r\\cos\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( r\\sin\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho\\cos\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( z \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "40. Ikki karrali integralda \\( x=u+v,\\; y=u-v \\) bo'lsa, \\( |J|=? \\)",
+    "answers": [
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "41. Ikki karrali integralda soha additivligi xossasi qaysi?",
+    "answers": [
+      {
+        "text": "\\( \\iint_{D_1\\cup D_2}f\\,dA=\\iint_{D_1}f\\,dA+\\iint_{D_2}f\\,dA \\) (agar kesishmasa)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_D kf\\,dA=k\\iint_D f\\,dA \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D(f+g)\\,dA=\\iint_D f\\,dA+\\iint_D g\\,dA \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA\\ge0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "42. Silindrik koordinatalarda \\( x^2+y^2+z^2=R^2 \\) sferaning tenglamasi qanday yoziladi?",
+    "answers": [
+      {
+        "text": "\\( r^2+z^2=R^2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( r^2=R^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( z=R \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r+z=R \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "43. \\( D \\) soha \\( [0,\\pi]\\times[0,\\pi] \\) bo'lsa, \\( \\iint_D\\sin(x+y)\\,dA \\) integrali nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "44. Uch karrali integralda Dekart koordinatalaridan silindrikka o'tishda \\( x \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( r\\cos\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( r\\sin\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho\\sin\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( z\\cos\\theta \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "45. \\( \\iint_D f(x,y)\\,dA\\le\\iint_D g(x,y)\\,dA \\) sharti qachon bajariladi?",
+    "answers": [
+      {
+        "text": "Agar \\( f(x,y)\\le g(x,y) \\) bo'lsa",
+        "is_correct": true
+      },
+      {
+        "text": "Agar \\( D \\) soha kichik bo'lsa",
+        "is_correct": false
+      },
+      {
+        "text": "Har doim",
+        "is_correct": false
+      },
+      {
+        "text": "Agar \\( f \\) va \\( g \\) musbat bo'lsa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "46. Ikki karrali integralda integrallash tartibini o'zgartirish: \\( \\int_0^1 dx\\int_x^1 f(x,y)\\,dy=? \\)",
+    "answers": [
+      {
+        "text": "\\( \\int_0^1 dy\\int_0^y f(x,y)\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\int_0^1 dy\\int_y^1 f(x,y)\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\int_0^1 dy\\int_0^1 f(x,y)\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\int_x^1 dy\\int_0^1 f(x,y)\\,dx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "47. Sferik koordinatalarda \\( \\theta \\) (azimut burchagi) qaysi oraliqda o'zgaradi?",
+    "answers": [
+      {
+        "text": "\\( [0,2\\pi] \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( [0,\\pi] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [-\\pi/2,\\pi/2] \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( [0,\\infty) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "48. Bir jinsli plastinka (\\( \\rho=\\text{const} \\)) uchun massa markazi:",
+    "answers": [
+      {
+        "text": "Geometrik markaz bilan ustma-ust tushadi",
+        "is_correct": true
+      },
+      {
+        "text": "Har doim koordinata boshida bo'ladi",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat doira uchun mavjud",
+        "is_correct": false
+      },
+      {
+        "text": "Hisoblab bo'lmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "49. \\( \\iiint_V xyz\\,dV \\) integrali \\( V \\) jism koordinata tekisliklariga nisbatan simmetrik bo'lsa:",
+    "answers": [
+      {
+        "text": "\\( 0 \\) ga teng",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\) ga teng",
+        "is_correct": false
+      },
+      {
+        "text": "\\( V \\) ga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Musbat bo'ladi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "50. Ikki karrali integralda soha yuzini hisoblash uchun \\( f(x,y) \\) nimaga teng bo'lishi kerak?",
+    "answers": [
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x+y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "51. \\( \\int_0^1 dx\\int_0^1 dy\\int_0^{1-x-y}dz \\) integrali qaysi shakl hajmini hisoblaydi?",
+    "answers": [
+      {
+        "text": "Tetraedr (piramida)",
+        "is_correct": true
+      },
+      {
+        "text": "Kub",
+        "is_correct": false
+      },
+      {
+        "text": "Silindr",
+        "is_correct": false
+      },
+      {
+        "text": "Shar segmenti",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "52. Qutb koordinatalarida \\( r=a \\) tenglamasi nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "Markazi koordinata boshida bo'lgan aylanani",
+        "is_correct": true
+      },
+      {
+        "text": "To'g'ri chiziqni",
+        "is_correct": false
+      },
+      {
+        "text": "Ellipsni",
+        "is_correct": false
+      },
+      {
+        "text": "Parabolani",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "53. Uch karrali integralda Yakobian \\( J=\\dfrac{\\partial(x,y,z)}{\\partial(\\rho,\\varphi,\\theta)} \\) sferik sistema uchun:",
+    "answers": [
+      {
+        "text": "\\( \\rho^2\\sin\\varphi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\rho\\cos\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho^2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "54. \\( \\iint_D(x^2+y^2)\\,dA \\) integrali qutb koordinatalarida qanday yoziladi?",
+    "answers": [
+      {
+        "text": "\\( \\iint_D r^3\\,dr\\,d\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_D r^2\\,dr\\,d\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D r\\,dr\\,d\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D r^4\\,dr\\,d\\theta \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "55. Agar \\( f(x,y) \\) funksiya uzluksiz bo'lsa, ikki karrali integral:",
+    "answers": [
+      {
+        "text": "Har doim mavjud",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat soha doira bo'lsa mavjud",
+        "is_correct": false
+      },
+      {
+        "text": "Mavjud emas",
+        "is_correct": false
+      },
+      {
+        "text": "Cheksizga teng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "56. Inersiya momenti \\( I_x \\) (\\( x \\)-o'qiga nisbatan) ikki karrali integralda:",
+    "answers": [
+      {
+        "text": "\\( \\iint_D y^2\\rho\\,dA \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_D x^2\\rho\\,dA \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D(x^2+y^2)\\rho\\,dA \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D xy\\rho\\,dA \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "57. Sferik koordinatalarda \\( \\rho^2=x^2+y^2+z^2 \\). Bu o'zgaruvchi nimani bildiradi?",
+    "answers": [
+      {
+        "text": "Nuqtadan koordinata boshigacha bo'lgan masofani",
+        "is_correct": true
+      },
+      {
+        "text": "Burchakni",
+        "is_correct": false
+      },
+      {
+        "text": "Proyeksiyani",
+        "is_correct": false
+      },
+      {
+        "text": "Balandlikni",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "58. \\( \\int_0^\\pi d\\theta\\int_0^1 r\\,dr \\) integrali nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\pi/2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "59. \\( D \\) soha \\( x^2+y^2\\le1 \\) bo'lsa, \\( \\iint_D\\sqrt{x^2+y^2}\\,dA=? \\)",
+    "answers": [
+      {
+        "text": "\\( 2\\pi/3 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\pi/2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\pi/3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "60. Ikki karrali integralning xossasiga ko'ra: \\( \\left|\\iint_D f\\,dA\\right|\\le? \\)",
+    "answers": [
+      {
+        "text": "\\( \\iint_D|f|\\,dA \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\left(\\iint_D f\\,dA\\right)^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{Area}(D) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "61. Silindrik koordinatalarda \\( y=? \\)",
+    "answers": [
+      {
+        "text": "\\( r\\sin\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( r\\cos\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( z\\sin\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho\\sin\\varphi \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "62. Uch karrali integralda \\( dV=dx\\,dy\\,dz \\) hajm elementi boshqa sistemada:",
+    "answers": [
+      {
+        "text": "\\( |J|\\,du\\,dv\\,dw \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( du\\,dv\\,dw \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( J^2\\,du\\,dv\\,dw \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{1}{J}\\,du\\,dv\\,dw \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "63. Bir jinsli jismning massasi \\( M=\\rho\\cdot V \\) bo'lsa, \\( \\rho \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "O'zgarmas zichlikka",
+        "is_correct": true
+      },
+      {
+        "text": "Hajmga",
+        "is_correct": false
+      },
+      {
+        "text": "Applikataga",
+        "is_correct": false
+      },
+      {
+        "text": "1 ga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "64. \\( \\iint_D(x+y)\\,dA \\) integrali \\( D \\) soha markazi \\( (0,0) \\) bo'lgan kvadrat bo'lsa:",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{Area}(D) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "65. Sferik koordinatalarda hajm elementi \\( dV \\):",
+    "answers": [
+      {
+        "text": "\\( \\rho^2\\sin\\varphi\\,d\\rho\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\rho\\sin\\varphi\\,d\\rho\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r\\,dr\\,d\\theta\\,dz \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( d\\rho\\,d\\varphi\\,d\\theta \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "66. Agar \\( D \\) soha bir nechta qismlarga bo'linsa, integral qiymati:",
+    "answers": [
+      {
+        "text": "Qismlardagi integrallar yig'indisiga teng",
+        "is_correct": true
+      },
+      {
+        "text": "O'zgarmaydi",
+        "is_correct": false
+      },
+      {
+        "text": "Ko'paytmasiga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Nolga aylanadi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "67. Qutb koordinatalarida \\( r=2\\cos\\theta \\) tenglamasi nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "Aylana",
+        "is_correct": true
+      },
+      {
+        "text": "Kardioida",
+        "is_correct": false
+      },
+      {
+        "text": "To'g'ri chiziq",
+        "is_correct": false
+      },
+      {
+        "text": "Lemniskata",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "68. \\( \\int_0^1 dx\\int_0^2 dy\\int_0^3 dz=? \\)",
+    "answers": [
+      {
+        "text": "\\( 6 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "69. To'rt karrali integral qaysi fazodagi 'hajm'ni ifodalaydi?",
+    "answers": [
+      {
+        "text": "To'rt o'lchamli fazodagi",
+        "is_correct": true
+      },
+      {
+        "text": "Tekislikdagi",
+        "is_correct": false
+      },
+      {
+        "text": "Uch o'lchamli fazodagi",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt yuzidagi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "70. Ikki karrali integralning o'rta qiymat haqidagi teorema:",
+    "answers": [
+      {
+        "text": "\\( \\iint_D f\\,dA=f(\\xi,\\eta)\\cdot\\text{Area}(D) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA=f(a,b) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D f\\,dA=\\text{Area}(D)/2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "71. \\( V \\) soha \\( x^2+y^2+z^2\\le1 \\) bo'lsa, \\( \\iiint_V 1\\,dV=? \\)",
+    "answers": [
+      {
+        "text": "\\( 4\\pi/3 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4\\pi \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "72. Sferik koordinatalarda tekislik proyeksiyasi \\( x^2+y^2 \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\rho^2\\sin^2\\varphi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\rho^2\\cos^2\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\rho^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r^2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "73. Ikki karrali integralni hisoblashda tartib muhimmi?",
+    "answers": [
+      {
+        "text": "Fubini teoremasi bo'yicha natija bir xil chiqadi",
+        "is_correct": true
+      },
+      {
+        "text": "Har doim har xil chiqadi",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat x bo'yicha hisoblash shart",
+        "is_correct": false
+      },
+      {
+        "text": "Tartibni o'zgartirib bo'lmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "74. Silindrik koordinatalarda \\( z \\) o'zgaruvchisi:",
+    "answers": [
+      {
+        "text": "O'zgarmas qoladi \\( (z=z) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\rho\\cos\\varphi \\) ga aylanadi",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r\\sin\\theta \\) bo'ladi",
+        "is_correct": false
+      },
+      {
+        "text": "Burchakka aylanadi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "75. \\( \\iint_D e^{x^2+y^2}\\,dA \\) integrali uchun qaysi sistema qulay?",
+    "answers": [
+      {
+        "text": "Qutb koordinatalari",
+        "is_correct": true
+      },
+      {
+        "text": "Dekart sistemasi",
+        "is_correct": false
+      },
+      {
+        "text": "Sferik sistema",
+        "is_correct": false
+      },
+      {
+        "text": "Silindrik sistema",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "76. Ikki karrali integralda \\( D \\) soha chegarasi \\( y=x^2 \\) va \\( y=x \\) bo'lsa:",
+    "answers": [
+      {
+        "text": "Integrallash sohasi parabola va chiziq orasida",
+        "is_correct": true
+      },
+      {
+        "text": "Soha butun tekislik",
+        "is_correct": false
+      },
+      {
+        "text": "Soha nuqta",
+        "is_correct": false
+      },
+      {
+        "text": "Soha cheksiz",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "77. Uch karrali integralda o'rta qiymat haqidagi teorema:",
+    "answers": [
+      {
+        "text": "\\( \\iiint_V f\\,dV=f(P)\\cdot\\text{Volume}(V) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iiint_V f\\,dV=0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V f\\,dV=M \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V f\\,dV=f(0,0,0) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "78. \\( r=a(1+\\cos\\theta) \\) shakli (kardioida) yuzini hisoblashda:",
+    "answers": [
+      {
+        "text": "\\( \\int_0^{2\\pi}d\\theta\\int_0^{a(1+\\cos\\theta)}r\\,dr \\) ishlatiladi",
+        "is_correct": true
+      },
+      {
+        "text": "Dekart sistemasi qulay",
+        "is_correct": false
+      },
+      {
+        "text": "Sferik sistema ishlatiladi",
+        "is_correct": false
+      },
+      {
+        "text": "Integral 0 ga teng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "79. Jismning \\( Oz \\) o'qiga nisbatan inersiya momenti \\( I_z \\) formulasi:",
+    "answers": [
+      {
+        "text": "\\( \\iiint_V(x^2+y^2)\\rho\\,dV \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iiint_V(y^2+z^2)\\rho\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V(x^2+z^2)\\rho\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iiint_V z^2\\rho\\,dV \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "80. Karrali integrallarni hisoblashda asosiy usul:",
+    "answers": [
+      {
+        "text": "Takroriy integralga keltirish",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat grafik chizish",
+        "is_correct": false
+      },
+      {
+        "text": "Ta'rif bo'yicha limit hisoblash",
+        "is_correct": false
+      },
+      {
+        "text": "Differensiallash",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "1. \\( \\vec{a}(x_1,y_1,z_1) \\) va \\( \\vec{b}(x_2,y_2,z_2) \\) vektorlarning skalyar ko'paytmasi qaysi formula bilan topiladi?",
+    "answers": [
+      {
+        "text": "\\( x_1 x_2+y_1 y_2+z_1 z_2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x_1 y_2-x_2 y_1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{x_1^2+y_1^2+z_1^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( (x_1+x_2,\\,y_1+y_2,\\,z_1+z_2) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "2. Ikki vektorning perpendikulyarlik sharti qaysi?",
+    "answers": [
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b}=0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{a}\\times\\vec{b}=0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |\\vec{a}|=|\\vec{b}| \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b}=1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "3. \\( \\vec{a}(3,-1,2) \\) va \\( \\vec{b}(1,2,-1) \\) vektorlarning skalyar ko'paytmasini toping.",
+    "answers": [
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "4. Vektor ko'paytma \\( \\vec{a}\\times\\vec{b} \\) natijasi qanday miqdor bo'ladi?",
+    "answers": [
+      {
+        "text": "Vektor",
+        "is_correct": true
+      },
+      {
+        "text": "Skalyar",
+        "is_correct": false
+      },
+      {
+        "text": "Son",
+        "is_correct": false
+      },
+      {
+        "text": "Matritsa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "5. Ikki vektor orasidagi burchak kosinusini topish formulasini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( \\cos\\varphi=\\dfrac{\\vec{a}\\cdot\\vec{b}}{|\\vec{a}|\\cdot|\\vec{b}|} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\cos\\varphi=\\dfrac{|\\vec{a}\\times\\vec{b}|}{|\\vec{a}|\\cdot|\\vec{b}|} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\cos\\varphi=\\vec{a}\\cdot\\vec{b} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\cos\\varphi=\\dfrac{x_1}{x_2} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "6. \\( \\vec{a},\\vec{b},\\vec{c} \\) vektorlarning aralash ko'paytmasi \\( (\\vec{a},\\vec{b},\\vec{c})=0 \\) bo'lsa, bu vektorlar qanday joylashgan?",
+    "answers": [
+      {
+        "text": "Komplanar",
+        "is_correct": true
+      },
+      {
+        "text": "Kollinear",
+        "is_correct": false
+      },
+      {
+        "text": "Perpendikulyar",
+        "is_correct": false
+      },
+      {
+        "text": "Ayqash",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "7. Aralash ko'paytmaning geometrik ma'nosi nima?",
+    "answers": [
+      {
+        "text": "Paralelepiped hajmi",
+        "is_correct": true
+      },
+      {
+        "text": "Parallelogramm yuzi",
+        "is_correct": false
+      },
+      {
+        "text": "Uchburchak yuzi",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor uzunligi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "8. Vektor ko'paytma \\( |\\vec{a}\\times\\vec{b}| \\) moduli nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( |\\vec{a}||\\vec{b}|\\sin\\varphi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( |\\vec{a}||\\vec{b}|\\cos\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "9. Ikki vektorning kollinearlik sharti qaysi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{x_1}{x_2}=\\dfrac{y_1}{y_2}=\\dfrac{z_1}{z_2} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x_1 x_2+y_1 y_2=0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b}=1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |\\vec{a}|=|\\vec{b}| \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "10. Piramida hajmi \\( V \\) aralash ko'paytma orqali qanday topiladi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{1}{6}|(\\vec{a},\\vec{b},\\vec{c})| \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{1}{3}|(\\vec{a},\\vec{b},\\vec{c})| \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |(\\vec{a},\\vec{b},\\vec{c})| \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3V \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "11. Vektorni bazis vektorlar bo'yicha yoyish formulasi qaysi?",
+    "answers": [
+      {
+        "text": "\\( \\vec{a}=x\\vec{i}+y\\vec{j}+z\\vec{k} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( |\\vec{a}|=\\sqrt{x^2+y^2+z^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{i}\\times\\vec{j}=\\vec{k} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "12. \\( \\vec{i}\\cdot\\vec{j} \\) skalyar ko'paytma nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{k} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "13. Yo'naltiruvchi kosinuslar yig'indisi kvadrati \\( \\cos^2\\alpha+\\cos^2\\beta+\\cos^2\\gamma \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "14. \\( \\vec{a} \\) vektorning \\( \\vec{b} \\) vektor yo'nalishidagi proyeksiyasi:",
+    "answers": [
+      {
+        "text": "\\( \\text{pr}_{\\vec{b}}\\vec{a}=\\dfrac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |\\vec{a}|\\sin\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{\\vec{a}}{|\\vec{b}|} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "15. Vektor ko'paytma uchun qaysi xossa o'rinli?",
+    "answers": [
+      {
+        "text": "\\( \\vec{a}\\times\\vec{b}=-(\\vec{b}\\times\\vec{a}) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{a}\\times\\vec{b}=\\vec{b}\\times\\vec{a} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{a}\\times\\vec{b}=\\vec{a}\\cdot\\vec{b} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{a}\\times\\vec{b}=|\\vec{a}||\\vec{b}| \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "16. Birlik vektor deb nimaga aytiladi?",
+    "answers": [
+      {
+        "text": "Uzunligi (moduli) 1 ga teng bo'lgan vektorga",
+        "is_correct": true
+      },
+      {
+        "text": "Koordinatasi faqat 1 dan iborat vektorga",
+        "is_correct": false
+      },
+      {
+        "text": "Yo'nalishi musbat bo'lgan vektorga",
+        "is_correct": false
+      },
+      {
+        "text": "Nol vektorga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "17. \\( \\vec{a} \\) va \\( \\vec{b} \\) vektorlarga qurilgan parallelogramm yuzi qaysi formula bilan topiladi?",
+    "answers": [
+      {
+        "text": "\\( |\\vec{a}\\times\\vec{b}| \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{1}{2}|\\vec{a}\\times\\vec{b}| \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |\\vec{a}|+|\\vec{b}| \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "18. \\( \\vec{a}\\cdot\\vec{a} \\) (skalyar kvadrat) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( |\\vec{a}|^2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "19. \\( \\vec{a}(4,3,0) \\) vektorining yo'naltiruvchi kosinusi \\( \\cos\\alpha \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 4/5 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 3/5 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "20. Vektor ko'paytma \\( \\vec{a}\\times\\vec{b}=\\vec{0} \\) sharti nimani anglatadi?",
+    "answers": [
+      {
+        "text": "Vektorlarning kollinearligini",
+        "is_correct": true
+      },
+      {
+        "text": "Vektorlarning perpendikulyarligini",
+        "is_correct": false
+      },
+      {
+        "text": "Vektorlarning tengligini",
+        "is_correct": false
+      },
+      {
+        "text": "Vektorlarning nolga tengligini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "21. Uchburchak yuzi \\( S \\) vektorlar orqali qanday topiladi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{1}{2}|\\vec{a}\\times\\vec{b}| \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( |\\vec{a}\\times\\vec{b}| \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{a}\\cdot\\vec{b} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |\\vec{a}|\\cdot|\\vec{b}| \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "22. \\( \\vec{a}(m,2,1) \\) va \\( \\vec{b}(3,-1,4) \\) vektorlar perpendikulyar bo'lsa, \\( m \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( -2/3 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2/3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "23. Ortlar sistemasi uchun qaysi ifoda to'g'ri?",
+    "answers": [
+      {
+        "text": "\\( \\vec{i}\\times\\vec{j}=\\vec{k} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{j}\\times\\vec{i}=\\vec{k} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{i}\\cdot\\vec{j}=1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{i}\\times\\vec{i}=\\vec{k} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "24. \\( \\vec{a}(1,-1,2) \\) va \\( \\vec{b}(3,0,1) \\) vektorlarning vektor ko'paytmasini toping.",
+    "answers": [
+      {
+        "text": "\\( (-1,\\,5,\\,3) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( (1,\\,2,\\,3) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( (3,\\,0,\\,2) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( (0,\\,0,\\,0) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "25. Agar \\( \\vec{a}\\cdot\\vec{b}>0 \\) bo'lsa, ular orasidagi burchak qanday?",
+    "answers": [
+      {
+        "text": "O'tkir",
+        "is_correct": true
+      },
+      {
+        "text": "O'tmas",
+        "is_correct": false
+      },
+      {
+        "text": "To'g'ri",
+        "is_correct": false
+      },
+      {
+        "text": "Yoyiq",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "26. Aralash ko'paytma natijasi nima bo'ladi?",
+    "answers": [
+      {
+        "text": "Skalyar (son)",
+        "is_correct": true
+      },
+      {
+        "text": "Vektor",
+        "is_correct": false
+      },
+      {
+        "text": "Matritsa",
+        "is_correct": false
+      },
+      {
+        "text": "Yo'nalish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "27. \\( \\vec{a}(1,2,3) \\) va \\( \\vec{b}(x,4,6) \\) kollinear bo'lsa, \\( x \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "28. Vektorlar ayirmasi \\( \\vec{a}-\\vec{b} \\) qaysi geometrik qoida bilan topiladi?",
+    "answers": [
+      {
+        "text": "Uchburchak yoki parallelogramm qoidasi",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat ko'paytirish orqali",
+        "is_correct": false
+      },
+      {
+        "text": "Modullarni ayirish orqali",
+        "is_correct": false
+      },
+      {
+        "text": "Skalyar ko'paytma orqali",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "29. \\( \\vec{a}(3,4,0) \\) vektorining moduli (uzunligi) qancha?",
+    "answers": [
+      {
+        "text": "\\( 5 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 7 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 25 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 12 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "30. Skalyar ko'paytma kommutativmi?",
+    "answers": [
+      {
+        "text": "Ha, \\( \\vec{a}\\cdot\\vec{b}=\\vec{b}\\cdot\\vec{a} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Yo'q",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat birlik vektorlar uchun",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat burchak 0 bo'lganda",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "31. Vektorning o'qqa proyeksiyasi qanday miqdor?",
+    "answers": [
+      {
+        "text": "Skalyar (son)",
+        "is_correct": true
+      },
+      {
+        "text": "Vektor",
+        "is_correct": false
+      },
+      {
+        "text": "Matritsa",
+        "is_correct": false
+      },
+      {
+        "text": "Burchak",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "32. \\( \\vec{a}(1,2,3),\\; \\vec{b}(0,1,2),\\; \\vec{c}(-1,0,1) \\) vektorlar aralash ko'paytmasini toping.",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 5 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "33. Aralash ko'paytmada \\( (\\vec{a},\\vec{b},\\vec{c})=-(\\vec{b},\\vec{a},\\vec{c}) \\) xossasi to'g'rimi?",
+    "answers": [
+      {
+        "text": "To'g'ri, ikki vektor o'rni almashsa ishora o'zgaradi",
+        "is_correct": true
+      },
+      {
+        "text": "Noto'g'ri, o'zgarmaydi",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat musbat bo'ladi",
+        "is_correct": false
+      },
+      {
+        "text": "Natija nol bo'ladi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "34. Ixtiyoriy \\( \\vec{a} \\) vektor uchun \\( \\vec{a}\\times\\vec{a}=? \\)",
+    "answers": [
+      {
+        "text": "\\( \\vec{0} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( |\\vec{a}|^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "35. Fazodagi ikki nuqta \\( A(1,2,3) \\) va \\( B(4,6,3) \\) orasidagi masofani toping.",
+    "answers": [
+      {
+        "text": "\\( 5 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 25 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 7 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{10} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "36. Vektorning \\( Oz \\) o'qi bilan burchagi \\( \\gamma=90^\\circ \\) bo'lsa, uning \\( z \\) koordinatasi:",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Musbat",
+        "is_correct": false
+      },
+      {
+        "text": "Manfiy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "37. \\( \\vec{a}(2,1,0) \\) va \\( \\vec{b}(1,3,0) \\) vektorlarga qurilgan parallelogramm yuzini toping.",
+    "answers": [
+      {
+        "text": "\\( 5 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 7 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{5} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "38. Birlik normal vektor qanday belgilanadi?",
+    "answers": [
+      {
+        "text": "\\( \\vec{n}_0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{n} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\hat{n} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{n}\\times\\vec{n} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "39. \\( \\vec{i},\\vec{j},\\vec{k} \\) bazis vektorlar orasidagi burchaklar qancha?",
+    "answers": [
+      {
+        "text": "\\( 90^\\circ \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0^\\circ \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 180^\\circ \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 45^\\circ \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "40. Vektorni koordinata o'qlari bo'yicha yoyishda \\( x,y,z \\) nima deb ataladi?",
+    "answers": [
+      {
+        "text": "Vektorning koordinatalari (proyeksiyalari)",
+        "is_correct": true
+      },
+      {
+        "text": "Vektorning uzunligi",
+        "is_correct": false
+      },
+      {
+        "text": "Vektorning yo'nalishi",
+        "is_correct": false
+      },
+      {
+        "text": "Vektorning moduli",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "41. Skalyar ko'paytma \\( \\vec{a}\\cdot\\vec{b}=|\\vec{a}||\\vec{b}|\\cos\\varphi \\) formulada \\( \\varphi \\) nima?",
+    "answers": [
+      {
+        "text": "Vektorlar orasidagi burchak",
+        "is_correct": true
+      },
+      {
+        "text": "Vektorning o'q bilan burchagi",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor uzunligi",
+        "is_correct": false
+      },
+      {
+        "text": "Yo'naltiruvchi kosinus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "42. Vektor ko'paytmaning moduli geometrik jihatdan nimaga teng?",
+    "answers": [
+      {
+        "text": "Vektorlarga qurilgan parallelogramm yuziga",
+        "is_correct": true
+      },
+      {
+        "text": "Vektorlarga qurilgan piramida hajmiga",
+        "is_correct": false
+      },
+      {
+        "text": "Vektorlar yig'indisiga",
+        "is_correct": false
+      },
+      {
+        "text": "Vektorlar skalyar ko'paytmasiga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "43. Uchburchak yuzi \\( S=\\dfrac{1}{2}|\\overrightarrow{AB}\\times\\overrightarrow{AC}| \\) formula qachon ishlatiladi?",
+    "answers": [
+      {
+        "text": "Uchlari berilgan uchburchak yuzini topishda",
+        "is_correct": true
+      },
+      {
+        "text": "Piramida hajmida",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor uzunligini topishda",
+        "is_correct": false
+      },
+      {
+        "text": "Skalyar ko'paytmada",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "44. Vektorning yo'naltiruvchi kosinuslari kvadratlari yig'indisi har doim:",
+    "answers": [
+      {
+        "text": "\\( 1 \\) ga teng",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\) ga teng",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\) ga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Modulga teng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "45. Ikki vektor ko'paytmasi natijasi skalyar bo'lsa, bu qanday ko'paytma?",
+    "answers": [
+      {
+        "text": "Skalyar ko'paytma",
+        "is_correct": true
+      },
+      {
+        "text": "Vektor ko'paytma",
+        "is_correct": false
+      },
+      {
+        "text": "Aralash ko'paytma",
+        "is_correct": false
+      },
+      {
+        "text": "Sonli ko'paytma",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "46. Agar uchta vektor komplanar bo'lsa, ularning aralash ko'paytmasi:",
+    "answers": [
+      {
+        "text": "\\( 0 \\) ga teng",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\) ga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Musbat",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor miqdor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "47. Vektorlar algebrasida \\( \\vec{0} \\) vektor:",
+    "answers": [
+      {
+        "text": "Boshi va oxiri ustma-ust tushgan, moduli 0 bo'lgan vektor",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat boshi nol bo'lgan vektor",
+        "is_correct": false
+      },
+      {
+        "text": "Koordinatalari yig'indisi 0 bo'lgan vektor",
+        "is_correct": false
+      },
+      {
+        "text": "Yo'nalishi yo'q vektor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "48. Vektor ko'paytma \\( \\vec{a}\\times\\vec{b} \\) qaysi tomonga yo'nalgan?",
+    "answers": [
+      {
+        "text": "Ikkala vektor tekisligiga perpendikulyar",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{a} \\) vektor yo'nalishida",
+        "is_correct": false
+      },
+      {
+        "text": "Tekislikda yotadi",
+        "is_correct": false
+      },
+      {
+        "text": "Koordinata boshiga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "49. Vektorlar algebrasida 'aralash ko'paytma' deganda nima nazarda tutiladi?",
+    "answers": [
+      {
+        "text": "Ikki vektorni vektor ko'paytirib, natijani uchinchi vektorga skalyar ko'paytirish",
+        "is_correct": true
+      },
+      {
+        "text": "Uchala vektorni skalyar ko'paytirish",
+        "is_correct": false
+      },
+      {
+        "text": "Uchala vektorni vektor ko'paytirish",
+        "is_correct": false
+      },
+      {
+        "text": "Vektorlar yig'indisini ko'paytirish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "50. Vektorlar orasidagi burchak kosinusi \\( -1 \\) bo'lsa, ular:",
+    "answers": [
+      {
+        "text": "Qarama-qarshi yo'nalgan (kollinear)",
+        "is_correct": true
+      },
+      {
+        "text": "Bir xil yo'nalgan",
+        "is_correct": false
+      },
+      {
+        "text": "Perpendikulyar",
+        "is_correct": false
+      },
+      {
+        "text": "Yassi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "51. Vektor maydon oqimi musbat \\( (\\Phi>0) \\) bo'lsa, bu nimani bildiradi?",
+    "answers": [
+      {
+        "text": "Sirt ichidan tashqariga oqim chiqayotganini",
+        "is_correct": true
+      },
+      {
+        "text": "Sirt ichiga oqim kirayotganini",
+        "is_correct": false
+      },
+      {
+        "text": "Oqim yo'qligini",
+        "is_correct": false
+      },
+      {
+        "text": "Maydon uyurmali ekanini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "52. \\( \\vec{A}=\\text{rot}\\vec{B} \\) bo'lsa, \\( \\vec{B} \\) vektor nima deb ataladi?",
+    "answers": [
+      {
+        "text": "Vektor potensial",
+        "is_correct": true
+      },
+      {
+        "text": "Skalyar potensial",
+        "is_correct": false
+      },
+      {
+        "text": "Garmonika",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "53. Uzluksiz differensiallanuvchi skalyar maydon uchun \\( \\nabla\\times(\\nabla\\varphi) \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\vec{0} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\Delta\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{div}(\\text{grad}\\,\\varphi) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "54. Gamilton operatori \\( \\nabla \\) yordamida divergensiya qanday yoziladi?",
+    "answers": [
+      {
+        "text": "\\( \\nabla\\cdot\\vec{A} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\nabla\\times\\vec{A} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\nabla\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\nabla^2\\vec{A} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "55. \\( \\vec{r}(t) \\) egri chiziqning \\( t \\) parametr bo'yicha yoyi uzunligi differensiali \\( ds \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( |\\vec{r}'(t)|\\,dt \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{r}'(t)\\,dt \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{dt} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "56. Potensial maydonda ikki nuqta orasidagi chiziqli integral:",
+    "answers": [
+      {
+        "text": "Yo'l shakliga bog'liq emas",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat to'g'ri chiziq bo'yicha hisoblanadi",
+        "is_correct": false
+      },
+      {
+        "text": "Har doim nolga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat vaqtga bog'liq",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "57. \\( \\text{div}(\\vec{A}+\\vec{B}) \\) yig'indining divergensiyasi nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\text{div}\\vec{A}+\\text{div}\\vec{B} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\text{div}\\vec{A}\\cdot\\text{div}\\vec{B} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{rot}(\\vec{A}+\\vec{B}) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "58. Sirt integrali \\( \\iint_S\\vec{A}\\cdot\\vec{n}\\,dS \\) nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "Vektor maydon oqimini",
+        "is_correct": true
+      },
+      {
+        "text": "Vektor maydon sirkulyatsiyasini",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt hajmini",
+        "is_correct": false
+      },
+      {
+        "text": "Maydon ishini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "59. Egri chiziqning asosiy normal vektori \\( \\vec{\\nu} \\) yo'nalishi:",
+    "answers": [
+      {
+        "text": "Egrilik markaziga tomon yo'nalgan",
+        "is_correct": true
+      },
+      {
+        "text": "Urinmaga parallel",
+        "is_correct": false
+      },
+      {
+        "text": "Ixtiyoriy",
+        "is_correct": false
+      },
+      {
+        "text": "Binormalga teskari",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "60. Laplas operatori \\( \\Delta \\) qaysi operatorning divergensiyasi?",
+    "answers": [
+      {
+        "text": "Gradiyentning \\( (\\text{div}(\\text{grad}\\,\\varphi)) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Rotorning",
+        "is_correct": false
+      },
+      {
+        "text": "Skalyar ko'paytmaning",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor potensialning",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "61. Agar vektor maydon uchun \\( \\text{div}\\vec{A}>0 \\) bo'lsa, u nuqta nima deyiladi?",
+    "answers": [
+      {
+        "text": "Manba (istok)",
+        "is_correct": true
+      },
+      {
+        "text": "Botqoqlik (stok)",
+        "is_correct": false
+      },
+      {
+        "text": "Tugun",
+        "is_correct": false
+      },
+      {
+        "text": "Markaz",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "62. Vektor maydon sirkulyatsiyasi kontur bilan chegaralangan sirt orqali o'tuvchi rotor oqimiga teng. Bu qaysi teorema?",
+    "answers": [
+      {
+        "text": "Stoks teoremasi",
+        "is_correct": true
+      },
+      {
+        "text": "Gauss teoremasi",
+        "is_correct": false
+      },
+      {
+        "text": "Grin teoremasi",
+        "is_correct": false
+      },
+      {
+        "text": "Koshi teoremasi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "63. \\( \\vec{r}(t)=(R\\cos t,\\,R\\sin t,\\,0) \\) aylananing \\( t \\) bo'yicha ikkinchi tartibli hosilasi moduli:",
+    "answers": [
+      {
+        "text": "\\( R \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( R^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "64. Skalyar maydon \\( \\varphi=xyz \\) uchun \\( \\text{grad}\\,\\varphi \\) ning \\( (1,1,1) \\) nuqtadagi moduli:",
+    "answers": [
+      {
+        "text": "\\( \\sqrt{3} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "65. Vektor maydon \\( \\vec{A} \\) potensial bo'lishi uchun uning rotori:",
+    "answers": [
+      {
+        "text": "Nol vektor bo'lishi kerak",
+        "is_correct": true
+      },
+      {
+        "text": "Musbat bo'lishi kerak",
+        "is_correct": false
+      },
+      {
+        "text": "Skalyar bo'lishi kerak",
+        "is_correct": false
+      },
+      {
+        "text": "O'zgarmas bo'lishi kerak",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "66. \\( \\text{rot}(\\varphi\\vec{A}) \\) ifodaning yoyilmasi qanday?",
+    "answers": [
+      {
+        "text": "\\( \\varphi\\,\\text{rot}\\vec{A}+[\\text{grad}\\,\\varphi\\times\\vec{A}] \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\varphi\\,\\text{div}\\vec{A} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{grad}\\,\\varphi\\cdot\\vec{A} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{0} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "67. Egri chiziqning egrilik radiusi \\( R \\) va egriligi \\( K \\) o'rtasidagi bog'liqlik:",
+    "answers": [
+      {
+        "text": "\\( R=1/K \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( R=K^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( R=\\sqrt{K} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( R\\cdot K=0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "68. \\( \\vec{A}=\\text{grad}\\,\\varphi \\) maydonning sirkulyatsiyasi yopiq konturda har doim:",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2\\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{Area}(S) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{div}\\vec{A} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "69. Maddiy nuqtaning tezligi doimiy bo'lsa \\( (|\\vec{v}|=\\text{const}) \\), tezlanish:",
+    "answers": [
+      {
+        "text": "Tezlikka perpendikulyar bo'ladi",
+        "is_correct": true
+      },
+      {
+        "text": "Nolga teng bo'ladi",
+        "is_correct": false
+      },
+      {
+        "text": "Tezlik bilan bir xil yo'naladi",
+        "is_correct": false
+      },
+      {
+        "text": "Skalyar miqdor bo'ladi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "70. Gauss teoremasiga ko'ra yopiq sirt orqali o'tayotgan oqim nimaga teng?",
+    "answers": [
+      {
+        "text": "Shu sirt bilan chegaralangan hajmdagi divergensiya integraliga",
+        "is_correct": true
+      },
+      {
+        "text": "Sirt yuziga",
+        "is_correct": false
+      },
+      {
+        "text": "Rotorning chiziqli integraliga",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent moduliga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "71. \\( \\vec{r}(t)=(t,t^2,t^3) \\) egri chiziq uchun 'burilish' (torsion) qachon nolga teng bo'ladi?",
+    "answers": [
+      {
+        "text": "Hech qachon (chunki u fazoviy egri chiziq)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( t=0 \\) da",
+        "is_correct": false
+      },
+      {
+        "text": "\\( t=1 \\) da",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat tekislikda yotsa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "72. Solenoidal maydonda oqim chiziqlari:",
+    "answers": [
+      {
+        "text": "Uzilmaydi (yoki yopiq bo'ladi, yoki cheksizlikka ketadi)",
+        "is_correct": true
+      },
+      {
+        "text": "Bir nuqtadan boshlanadi",
+        "is_correct": false
+      },
+      {
+        "text": "Bir nuqtada tugaydi",
+        "is_correct": false
+      },
+      {
+        "text": "Har doim to'g'ri chiziq bo'ladi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "73. Skalyar funksiya \\( \\varphi \\) uchun \\( \\nabla^2\\varphi \\) nima?",
+    "answers": [
+      {
+        "text": "Laplasian \\( (\\text{div}(\\text{grad}\\,\\varphi)) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Rotor",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent kvadrat",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor miqdor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "74. \\( \\vec{A}=(-y,x,0) \\) maydonning divergensiyasi nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x-y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "75. Binormal vektorning yo'nalishi qaysi tekislikka perpendikulyar?",
+    "answers": [
+      {
+        "text": "Yopishuvchi tekislikka (urinma va normal yotgan tekislik)",
+        "is_correct": true
+      },
+      {
+        "text": "Normal tekislikka",
+        "is_correct": false
+      },
+      {
+        "text": "Rektifikatsiyalovchi tekislikka",
+        "is_correct": false
+      },
+      {
+        "text": "Koordinata tekisligiga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "76. Vektor maydon sirkulyatsiyasi qaysi fizik kattalikni ifodalashi mumkin?",
+    "answers": [
+      {
+        "text": "Kuch maydonining bajargan ishini",
+        "is_correct": true
+      },
+      {
+        "text": "Suyuqlik bosimini",
+        "is_correct": false
+      },
+      {
+        "text": "Jism massasini",
+        "is_correct": false
+      },
+      {
+        "text": "Issiqlik oqimini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "77. \\( \\vec{r}(t)=(e^t,e^{-t},t\\sqrt{2}) \\) egri chiziqning yoy uzunligi differensiali:",
+    "answers": [
+      {
+        "text": "\\( (e^t+e^{-t})\\,dt \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( e^t\\,dt \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\,dt \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{t}\\,dt \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "78. Vektor maydon \\( \\vec{A}=(x,y,z) \\) garmonikmi?",
+    "answers": [
+      {
+        "text": "Yo'q, chunki \\( \\Delta\\vec{A}\\ne\\vec{0} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Ha",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat koordinata boshida",
+        "is_correct": false
+      },
+      {
+        "text": "Skalyar bo'lgandagina",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "79. \\( \\text{grad}(1/r) \\) (bu yerda \\( r=|\\vec{r}| \\)) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( -\\vec{r}/r^3 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{r}/r^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1/r^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{0} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "80. Vektor funksiyaning vektor ko'paytmasidan hosila olish: \\( (\\vec{u}\\times\\vec{v})'=? \\)",
+    "answers": [
+      {
+        "text": "\\( (\\vec{u}'\\times\\vec{v})+(\\vec{u}\\times\\vec{v}') \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{u}'\\times\\vec{v}' \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{u}'\\cdot\\vec{v}+\\vec{u}\\cdot\\vec{v}' \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "81. Vektor maydon 'uyurmasiz' (irrotational) bo'lsa:",
+    "answers": [
+      {
+        "text": "\\( \\text{rot}\\vec{A}=\\vec{0} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\text{div}\\vec{A}=0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{grad}\\vec{A}=0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Maydon o'zgarmas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "82. Ikkinchi tur egri chiziqli integral \\( \\int_L P\\,dx+Q\\,dy+R\\,dz \\) nimaga bog'liq?",
+    "answers": [
+      {
+        "text": "Yo'nalishga (yo'nalish o'zgarsa ishora o'zgaradi)",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat masofaga",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat funksiya moduliga",
+        "is_correct": false
+      },
+      {
+        "text": "Hech nimaga bog'liq emas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "83. \\( \\vec{A}=\\vec{c}\\times\\vec{r} \\) (bu yerda \\( \\vec{c}=\\text{const} \\)) bo'lsa, \\( \\text{div}\\vec{A}=? \\)",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2\\vec{c} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |\\vec{c}| \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "84. \\( \\vec{A}=\\vec{c}\\times\\vec{r} \\) bo'lsa, \\( \\text{rot}\\vec{A}=? \\)",
+    "answers": [
+      {
+        "text": "\\( 2\\vec{c} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{0} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{c} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -\\vec{c} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "85. Sirtning qaysi nuqtalarida gradiyent aniqlanmagan bo'lishi mumkin?",
+    "answers": [
+      {
+        "text": "Funksiya uziladigan yoki silliq bo'lmagan nuqtalarda",
+        "is_correct": true
+      },
+      {
+        "text": "Maksimum nuqtalarda",
+        "is_correct": false
+      },
+      {
+        "text": "Nolga teng nuqtalarda",
+        "is_correct": false
+      },
+      {
+        "text": "Markazda",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "86. Nabla operatorining skalyar funksiyaga ta'siri:",
+    "answers": [
+      {
+        "text": "Gradiyentni beradi",
+        "is_correct": true
+      },
+      {
+        "text": "Divergensiyani beradi",
+        "is_correct": false
+      },
+      {
+        "text": "Rotorni beradi",
+        "is_correct": false
+      },
+      {
+        "text": "Sonli qiymat beradi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "87. Skalyar maydon \\( \\varphi=x^2-y^2 \\) uchun sath chiziqlari nima?",
+    "answers": [
+      {
+        "text": "Giperbolalar",
+        "is_correct": true
+      },
+      {
+        "text": "Aylanalar",
+        "is_correct": false
+      },
+      {
+        "text": "Parabolalar",
+        "is_correct": false
+      },
+      {
+        "text": "To'g'ri chiziqlar",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "88. Vektor maydon oqimi o'lchov birligi (fizikada):",
+    "answers": [
+      {
+        "text": "Maydon kuchlanganligi va yuza ko'paytmasiga mos",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat metr",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat Nyuton",
+        "is_correct": false
+      },
+      {
+        "text": "Joul",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "89. \\( \\text{div}(\\text{grad}(x+y+z))=? \\)",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x+y+z \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "90. Frene formulalari nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "\\( \\vec{\\tau},\\vec{\\nu},\\vec{\\beta} \\) vektorlarining yoy uzunligi bo'yicha hosilalarini",
+        "is_correct": true
+      },
+      {
+        "text": "Integral qiymatlarini",
+        "is_correct": false
+      },
+      {
+        "text": "Maydon potensialini",
+        "is_correct": false
+      },
+      {
+        "text": "Vaqt bo'yicha hosilani",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "91. Vektor funksiyaning uzluksizligi:",
+    "answers": [
+      {
+        "text": "Har bir komponenti uzluksiz bo'lishini talab qiladi",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat moduli uzluksiz bo'lishi yetarli",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat bitta o'qda uzluksiz bo'lishi yetarli",
+        "is_correct": false
+      },
+      {
+        "text": "Uzluksiz bo'lishi shart emas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "92. \\( \\vec{r}(t)=(a\\cos t,\\,b\\sin t,\\,0) \\) ellipsning yuzini vektor ko'paytma yordamida topsa bo'ladimi?",
+    "answers": [
+      {
+        "text": "Ha, \\( \\dfrac{1}{2}\\int|\\vec{r}\\times d\\vec{r}| \\) orqali",
+        "is_correct": true
+      },
+      {
+        "text": "Yo'q",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat \\( a=b \\) bo'lsa",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat sirt integrali orqali",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "93. \\( \\nabla^2\\vec{A}=\\text{grad}(\\text{div}\\vec{A})-\\text{rot}(\\text{rot}\\vec{A}) \\) ayniyati to'g'rimi?",
+    "answers": [
+      {
+        "text": "Ha",
+        "is_correct": true
+      },
+      {
+        "text": "Yo'q",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat skalyar maydon uchun",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat nol maydon uchun",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "94. Agar \\( \\text{div}\\vec{A}<0 \\) bo'lsa, oqim:",
+    "answers": [
+      {
+        "text": "Ichkariga yutiladi (sink/botiqlik)",
+        "is_correct": true
+      },
+      {
+        "text": "Tashqariga chiqadi",
+        "is_correct": false
+      },
+      {
+        "text": "Aylanma harakat qiladi",
+        "is_correct": false
+      },
+      {
+        "text": "O'zgarmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "95. Vektor maydon chiziqlari bir-biri bilan kesishishi mumkinmi?",
+    "answers": [
+      {
+        "text": "Yo'q (maxsus nuqtalar mustasno)",
+        "is_correct": true
+      },
+      {
+        "text": "Ha, har doim",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat rotor nol bo'lsa",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat cheksizlikda",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "96. \\( \\text{grad}\\,\\varphi\\cdot d\\vec{r} \\) ko'paytma nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( d\\varphi \\) (to'la differensial)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( |\\text{grad}\\,\\varphi| \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "97. Vektor funksiyalar skalyar ko'paytmasidan hosila: \\( (\\vec{u}\\cdot\\vec{v})'=? \\)",
+    "answers": [
+      {
+        "text": "\\( \\vec{u}'\\cdot\\vec{v}+\\vec{u}\\cdot\\vec{v}' \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{u}'\\cdot\\vec{v}' \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\vec{u}'\\times\\vec{v}' \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "98. \\( \\varphi=C \\) sath sirtlariga perpendikulyar vektor:",
+    "answers": [
+      {
+        "text": "\\( \\text{grad}\\,\\varphi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\text{rot}\\vec{A} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Urinma vektor",
+        "is_correct": false
+      },
+      {
+        "text": "Binormal vektor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "99. Fazoviy egri chiziqning egriligi har doim:",
+    "answers": [
+      {
+        "text": "Nomanfiy \\( (K\\ge0) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Manfiy",
+        "is_correct": false
+      },
+      {
+        "text": "Nolga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat butun son",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "100. Vektor maydonlar nazariyasi asosan qaysi sohalarda keng qo'llaniladi?",
+    "answers": [
+      {
+        "text": "Gidrodinamika va elektrodinamikada",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat sonlar nazariyasida",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat biologiyada",
+        "is_correct": false
+      },
+      {
+        "text": "Kimyoviy kinetikada emas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "1. Birinchi tur egri chiziqli integral \\( \\int_L f(x,y,z)\\,ds \\) da \\( ds \\) nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "Yoy uzunligi elementi",
+        "is_correct": true
+      },
+      {
+        "text": "Koordinata orttirmasi",
+        "is_correct": false
+      },
+      {
+        "text": "Yuza elementi",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor miqdor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "2. Ikkinchi tur egri chiziqli integral \\( \\int_L P\\,dx+Q\\,dy \\) nimani hisoblashda ishlatiladi?",
+    "answers": [
+      {
+        "text": "Kuchning bajargan ishini",
+        "is_correct": true
+      },
+      {
+        "text": "Jism massasini",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt yuzini",
+        "is_correct": false
+      },
+      {
+        "text": "Inersiya momentini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "3. Grin formulasining to'g'ri ko'rinishini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( \\oint_L P\\,dx+Q\\,dy=\\iint_D\\!\\left(\\dfrac{\\partial Q}{\\partial x}-\\dfrac{\\partial P}{\\partial y}\\right)dx\\,dy \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\oint_L P\\,dx+Q\\,dy=\\iint_D\\!\\left(\\dfrac{\\partial P}{\\partial x}+\\dfrac{\\partial Q}{\\partial y}\\right)dx\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\oint_L P\\,dx+Q\\,dy=\\int_a^b f(x)\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_D P\\,dx\\,dy \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "4. Stoks formulasi kontur bo'yicha sirkulyatsiyani nima orqali ifodalaydi?",
+    "answers": [
+      {
+        "text": "Sirt bo'yicha rotor oqimi",
+        "is_correct": true
+      },
+      {
+        "text": "Divergensiya",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent",
+        "is_correct": false
+      },
+      {
+        "text": "Hajm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "5. Birinchi tur sirt integrali \\( \\iint_S f(x,y,z)\\,d\\sigma \\) da \\( d\\sigma \\) nima?",
+    "answers": [
+      {
+        "text": "Sirt yuzi elementi",
+        "is_correct": true
+      },
+      {
+        "text": "Yoy uzunligi",
+        "is_correct": false
+      },
+      {
+        "text": "Hajm elementi",
+        "is_correct": false
+      },
+      {
+        "text": "Normal vektor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "6. Ikkinchi tur sirt integrali \\( \\iint_S P\\,dy\\,dz+Q\\,dz\\,dx+R\\,dx\\,dy \\) nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "Vektor maydon oqimini",
+        "is_correct": true
+      },
+      {
+        "text": "Jism massasini",
+        "is_correct": false
+      },
+      {
+        "text": "Kuch ishini",
+        "is_correct": false
+      },
+      {
+        "text": "Egri chiziq uzunligini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "7. Egri chiziqli integral yo'lga bog'liq bo'lmaslik sharti qaysi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{\\partial Q}{\\partial x}=\\dfrac{\\partial P}{\\partial y} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( P=Q \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{div}\\vec{A}=0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( P+Q=1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "8. Ostrogradskiy-Gauss formulasi yopiq sirt bo'yicha oqimni nima bilan bog'laydi?",
+    "answers": [
+      {
+        "text": "Hajmiy integral (divergensiyadan)",
+        "is_correct": true
+      },
+      {
+        "text": "Kontur integrali",
+        "is_correct": false
+      },
+      {
+        "text": "Chiziqli integral",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "9. \\( \\vec{A} \\) maydon potensial bo'lsa, uning yopiq kontur bo'yicha sirkulyatsiyasi:",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2\\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\iint_S\\text{div}\\vec{A}\\,d\\sigma \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "10. Sirtning 'musbat' tomoni deb qaysi tomon tushuniladi?",
+    "answers": [
+      {
+        "text": "Normal vektor tashqariga yo'nalgan tomon",
+        "is_correct": true
+      },
+      {
+        "text": "\\( z>0 \\) bo'lgan tomon",
+        "is_correct": false
+      },
+      {
+        "text": "Koordinata boshiga qaragan tomon",
+        "is_correct": false
+      },
+      {
+        "text": "Sirtning ichki tomoni",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "11. \\( \\oint_L x\\,dy-y\\,dx \\) integrali Grin formulasiga ko'ra nimani beradi?",
+    "answers": [
+      {
+        "text": "\\( 2\\times\\text{Area}(D) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\text{Area}(D) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Perimetr",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "12. Stoks teoremasining vektor ko'rinishi:",
+    "answers": [
+      {
+        "text": "\\( \\oint_L\\vec{A}\\cdot d\\vec{r}=\\iint_S(\\text{rot}\\vec{A})\\cdot d\\vec{\\sigma} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\iint_S\\vec{A}\\cdot d\\vec{\\sigma}=\\iiint_V\\text{div}\\vec{A}\\,dV \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{div}\\vec{A}=0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{grad}f=\\text{rot}\\vec{A} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "13. Birinchi tur egri chiziqli integralda integral yo'nalishi o'zgarsa:",
+    "answers": [
+      {
+        "text": "Qiymat o'zgarmaydi",
+        "is_correct": true
+      },
+      {
+        "text": "Ishora o'zgaradi",
+        "is_correct": false
+      },
+      {
+        "text": "Qiymat nol bo'ladi",
+        "is_correct": false
+      },
+      {
+        "text": "Mavjud bo'lmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "14. Ikkinchi tur egri chiziqli integralda yo'nalish o'zgarsa:",
+    "answers": [
+      {
+        "text": "Ishora o'zgaradi",
+        "is_correct": true
+      },
+      {
+        "text": "O'zgarmaydi",
+        "is_correct": false
+      },
+      {
+        "text": "Moduli o'zgaradi",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\) ga teng bo'ladi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "15. Agar \\( \\text{rot}\\vec{A}=\\vec{0} \\) bo'lsa, sirkulyatsiya nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Sirt yuziga",
+        "is_correct": false
+      },
+      {
+        "text": "Maksimum qiymatga",
+        "is_correct": false
+      },
+      {
+        "text": "Cheksizlikka",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "16. \\( z=f(x,y) \\) sirt uchun birinchi tur sirt integrali elementi \\( d\\sigma \\):",
+    "answers": [
+      {
+        "text": "\\( \\sqrt{1+(z'_x)^2+(z'_y)^2}\\,dx\\,dy \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( dx\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( dz\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( r\\,dr\\,d\\theta \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "17. Kuch maydoni \\( \\vec{F}=\\text{grad}\\,U \\) bo'lsa, bajarilgan ish nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( U(B)-U(A) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\oint_L\\vec{F}\\,dl \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( U(A)\\cdot U(B) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "18. \\( \\iint_S x\\,dy\\,dz+y\\,dz\\,dx+z\\,dx\\,dy \\) integrali yopiq sirt uchun nimani beradi?",
+    "answers": [
+      {
+        "text": "\\( 3\\times\\text{Volume}(V) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\text{Volume}(V) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt yuzi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "19. Maydon solenoidal bo'lsa \\( (\\text{div}\\vec{A}=0) \\), yopiq sirt bo'yicha oqim:",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Hajm",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Cheksiz",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "20. Moebius varog'i qanday sirt hisoblanadi?",
+    "answers": [
+      {
+        "text": "Bir tomonli sirt",
+        "is_correct": true
+      },
+      {
+        "text": "Ikki tomonli sirt",
+        "is_correct": false
+      },
+      {
+        "text": "Yopiq sirt",
+        "is_correct": false
+      },
+      {
+        "text": "Tekislik",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "21. Egri chiziqli integral yordamida yassi shakl yuzasini hisoblash:",
+    "answers": [
+      {
+        "text": "\\( S=\\dfrac{1}{2}\\oint_L x\\,dy-y\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( S=\\oint_L ds \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( S=\\iint_D dx\\,dy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( S=\\int y\\,dx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "22. Agar \\( \\vec{A}=x\\vec{i} \\) bo'lsa, birlik sfera bo'yicha oqim qancha?",
+    "answers": [
+      {
+        "text": "\\( 4\\pi/3 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4\\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "23. Potensial maydonning uyurmasi (rotori):",
+    "answers": [
+      {
+        "text": "Har doim nol vektor",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\vec{i}+\\vec{j}+\\vec{k} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Doimiy skalyar",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyentga teng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "24. \\( \\int_L ds \\) integrali nimani beradi?",
+    "answers": [
+      {
+        "text": "Egri chiziq uzunligini",
+        "is_correct": true
+      },
+      {
+        "text": "Sirt yuzi",
+        "is_correct": false
+      },
+      {
+        "text": "Hajm",
+        "is_correct": false
+      },
+      {
+        "text": "Massani",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "25. Stoks formulasida sirt chegarasi va normal yo'nalishi qaysi qoida bilan bog'langan?",
+    "answers": [
+      {
+        "text": "O'ng qo'l (parma) qoidasi",
+        "is_correct": true
+      },
+      {
+        "text": "Chap qo'l qoidasi",
+        "is_correct": false
+      },
+      {
+        "text": "Amper qoidasi",
+        "is_correct": false
+      },
+      {
+        "text": "Lens qoidasi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "26. \\( \\iint_S\\text{rot}\\vec{A}\\cdot\\vec{n}\\,d\\sigma=0 \\) bo'lishi uchun nima shart?",
+    "answers": [
+      {
+        "text": "Sirt yopiq bo'lishi kerak",
+        "is_correct": true
+      },
+      {
+        "text": "Maydon divergensiyasi nol bo'lishi kerak",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt tekis bo'lishi kerak",
+        "is_correct": false
+      },
+      {
+        "text": "Bunday holat mumkin emas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "27. Ostrogradskiy formulasida \\( \\dfrac{\\partial P}{\\partial x}+\\dfrac{\\partial Q}{\\partial y}+\\dfrac{\\partial R}{\\partial z} \\) nima deb ataladi?",
+    "answers": [
+      {
+        "text": "Divergensiya",
+        "is_correct": true
+      },
+      {
+        "text": "Rotor",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent",
+        "is_correct": false
+      },
+      {
+        "text": "Laplasian",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "28. \\( L \\) yopiq kontur bo'lsa, \\( \\oint_L df=? \\)",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( f(B)-f(A) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{Area}(L) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "29. Sirtning ikki tomonli bo'lishi nima degani?",
+    "answers": [
+      {
+        "text": "Normal vektor uzluksiz harakatda qarama-qarshi tomonga o'tib ketmaydi",
+        "is_correct": true
+      },
+      {
+        "text": "Sirtning qalinligi bor",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt yopiq",
+        "is_correct": false
+      },
+      {
+        "text": "Sirt tekislikdan iborat",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "30. Stoks formulasi Grin formulasining qanday ko'rinishi?",
+    "answers": [
+      {
+        "text": "Fazoviy (umumlashtirilgan) ko'rinishi",
+        "is_correct": true
+      },
+      {
+        "text": "Xususiy ko'rinishi",
+        "is_correct": false
+      },
+      {
+        "text": "Teskari ko'rinishi",
+        "is_correct": false
+      },
+      {
+        "text": "Hech qanday aloqasi yo'q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "31. \\( ds=\\sqrt{(x')^2+(y')^2}\\,dt \\) ifodasi nima?",
+    "answers": [
+      {
+        "text": "Yoy uzunligi differensiali (parametrik ko'rinishda)",
+        "is_correct": true
+      },
+      {
+        "text": "Yuza elementi",
+        "is_correct": false
+      },
+      {
+        "text": "Hajm elementi",
+        "is_correct": false
+      },
+      {
+        "text": "Tezlik",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "32. Gradiyent maydonining rotori nimaga teng?",
+    "answers": [
+      {
+        "text": "Nol vektorga",
+        "is_correct": true
+      },
+      {
+        "text": "Laplasian \\( f \\) ga",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\) ga",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\text{div}\\,f \\) ga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "33. Rotor maydonining divergensiyasi nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\) ga",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\) ga",
+        "is_correct": false
+      },
+      {
+        "text": "Nol vektorga",
+        "is_correct": false
+      },
+      {
+        "text": "Laplasian \\( \\vec{A} \\) ga",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "34. \\( \\iint_S d\\sigma \\) integrali nimani hisoblaydi?",
+    "answers": [
+      {
+        "text": "Sirt yuzini",
+        "is_correct": true
+      },
+      {
+        "text": "Sirt massasini",
+        "is_correct": false
+      },
+      {
+        "text": "Jism hajmini",
+        "is_correct": false
+      },
+      {
+        "text": "Oqimni",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "35. \\( \\vec{n}=(\\cos\\alpha,\\cos\\beta,\\cos\\gamma) \\) vektor nima?",
+    "answers": [
+      {
+        "text": "Birlik normal vektorining yo'naltiruvchi kosinuslari",
+        "is_correct": true
+      },
+      {
+        "text": "Urinma vektor",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent",
+        "is_correct": false
+      },
+      {
+        "text": "Radius-vektor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "36. Fazodagi sirtning bir tomonini tanlash nima deyiladi?",
+    "answers": [
+      {
+        "text": "Sirtni orientatsiyalash (yo'naltirish)",
+        "is_correct": true
+      },
+      {
+        "text": "Sirtni proyeksiyalash",
+        "is_correct": false
+      },
+      {
+        "text": "Sirtni silliqlash",
+        "is_correct": false
+      },
+      {
+        "text": "Sirtni yopish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "37. Yopiq sirt bo'yicha ikkinchi tur sirt integrali \\( \\iint_S\\vec{A}\\cdot d\\vec{\\sigma} \\) natijasi musbat bo'lsa:",
+    "answers": [
+      {
+        "text": "Jism ichida manbalar (istochnik) bor",
+        "is_correct": true
+      },
+      {
+        "text": "Jism ichida botiqlar (stok) bor",
+        "is_correct": false
+      },
+      {
+        "text": "Maydon solenoidal",
+        "is_correct": false
+      },
+      {
+        "text": "Maydon mavjud emas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "38. \\( \\oint_L P\\,dx+Q\\,dy \\) integralda \\( L \\) kontur yo'nalishi soat mili bo'yicha bo'lsa, Grin formulasiga:",
+    "answers": [
+      {
+        "text": "Manfiy ishora qo'yiladi",
+        "is_correct": true
+      },
+      {
+        "text": "Musbat ishora qo'yiladi",
+        "is_correct": false
+      },
+      {
+        "text": "Nol qo'yiladi",
+        "is_correct": false
+      },
+      {
+        "text": "O'zgarishsiz qoladi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "39. Gamilton operatori \\( \\nabla \\) (nabla) yordamida divergensiya:",
+    "answers": [
+      {
+        "text": "\\( \\nabla\\cdot\\vec{A} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\nabla\\times\\vec{A} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\nabla\\varphi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\nabla^2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "40. \\( \\iint_S\\vec{A}\\cdot d\\vec{\\sigma} \\) integrali o'zbek tilida nima deb ataladi?",
+    "answers": [
+      {
+        "text": "Vektor maydonning sirt bo'yicha oqimi (potoki)",
+        "is_correct": true
+      },
+      {
+        "text": "Vektor maydonning sirkulyatsiyasi",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor maydonning gradiyenti",
+        "is_correct": false
+      },
+      {
+        "text": "Vektor maydonning rotori",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "41. \\( \\int_L y^2\\,dx+x^2\\,dy \\) integrali birlik kvadrat bo'yicha (0 dan 1 gacha) soat miliga teskari:",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1/2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "42. Egri chiziqli integral yo'lga bog'liq bo'lmasa, bu maydon qanday ataladi?",
+    "answers": [
+      {
+        "text": "Konservativ (potensial) maydon",
+        "is_correct": true
+      },
+      {
+        "text": "Solenoidal maydon",
+        "is_correct": false
+      },
+      {
+        "text": "Uyurmali maydon",
+        "is_correct": false
+      },
+      {
+        "text": "Statsionar maydon",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "43. Sirt integrali qachon sirtning proyeksiyasi yuzasiga teng bo'ladi?",
+    "answers": [
+      {
+        "text": "Agar integrallanayotgan funksiya 1 bo'lsa va sirt tekis bo'lib \\( Oxy \\) ga parallel bo'lsa",
+        "is_correct": true
+      },
+      {
+        "text": "Har doim",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat sfera bo'lsa",
+        "is_correct": false
+      },
+      {
+        "text": "Hech qachon teng bo'lmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "44. Birinchi tur sirt integrali \\( \\iint_S f\\,d\\sigma \\) qanday miqdor?",
+    "answers": [
+      {
+        "text": "Skalyar miqdor",
+        "is_correct": true
+      },
+      {
+        "text": "Vektor miqdor",
+        "is_correct": false
+      },
+      {
+        "text": "Matritsa",
+        "is_correct": false
+      },
+      {
+        "text": "Funksiya emas",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "45. Ikkinchi tur sirt integralida sirt tomoni (orientatsiyasi) nima bilan aniqlanadi?",
+    "answers": [
+      {
+        "text": "Normal vektor yo'nalishi bilan",
+        "is_correct": true
+      },
+      {
+        "text": "Sirt yuzi bilan",
+        "is_correct": false
+      },
+      {
+        "text": "Sohaning chegarasi bilan",
+        "is_correct": false
+      },
+      {
+        "text": "Koordinata o'qlari bilan",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "46. Fazodagi sirtning egriligi birinchi tur sirt integralida qanday hisobga olinadi?",
+    "answers": [
+      {
+        "text": "\\( d\\sigma \\) dagi ildiz ostidagi hosilalar orqali",
+        "is_correct": true
+      },
+      {
+        "text": "Yakobian orqali",
+        "is_correct": false
+      },
+      {
+        "text": "Rotor orqali",
+        "is_correct": false
+      },
+      {
+        "text": "Divergensiya orqali",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "47. Radius-vektor \\( \\vec{r}=(x,y,z) \\) uchun birlik sfera bo'yicha oqim:",
+    "answers": [
+      {
+        "text": "\\( 4\\pi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4\\pi/3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "48. Agar \\( \\iint_S\\vec{A}\\cdot d\\vec{\\sigma}=0 \\) bo'lsa, maydon qanday bo'lishi mumkin?",
+    "answers": [
+      {
+        "text": "Solenoidal",
+        "is_correct": true
+      },
+      {
+        "text": "Potensial",
+        "is_correct": false
+      },
+      {
+        "text": "Uyurmali",
+        "is_correct": false
+      },
+      {
+        "text": "Markaziy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "49. Birinchi tur egri chiziqli integral yordamida simning massasini topish:",
+    "answers": [
+      {
+        "text": "\\( M=\\int_L\\rho(x,y,z)\\,ds \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( M=\\oint_L ds \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( M=\\rho\\cdot V \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( M=\\iint_S\\rho\\,d\\sigma \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "50. Stoks formulasining fizik ma'nosi:",
+    "answers": [
+      {
+        "text": "Kontur bo'ylab suyuqlik aylanishi sirt bo'ylab uyurmalar yig'indisiga teng",
+        "is_correct": true
+      },
+      {
+        "text": "Suyuqlik oqimi manbalar quvvatiga teng",
+        "is_correct": false
+      },
+      {
+        "text": "Ish yo'lga bog'liq emas",
+        "is_correct": false
+      },
+      {
+        "text": "Gradiyent har doim sirtga perpendikulyar",
+        "is_correct": false
+      }
+    ]
+  }
+]

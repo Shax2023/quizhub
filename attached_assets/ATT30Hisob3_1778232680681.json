@@ -1,0 +1,736 @@
+[
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "61. \\( f(x) = \\cos 3x \\) funksiyaning Furye yoyilmasida \\( a_3 \\) koeffitsienti nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{1}{2} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "62. \\( f(x) = C \\) (o'zgarmas) bo'lsa, uning Furye qatori nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( C \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{C}{2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sum \\cos nx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "63. Furye almashtirishi qaysi funksiyalar uchun ishlatiladi?",
+    "answers": [
+      {
+        "text": "Davriy bo'lmagan (lekin absolyut integrallanuvchi)",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat davriy",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat chiziqli",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat butun",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "64. Furye qatorining yaqinlashishini tezlashtirish nima degani?",
+    "answers": [
+      {
+        "text": "Qator hadlari nolgacha tezroq kamayishini ta'minlash",
+        "is_correct": true
+      },
+      {
+        "text": "Hadlarni ko'paytirish",
+        "is_correct": false
+      },
+      {
+        "text": "Integrallashni to'xtatish",
+        "is_correct": false
+      },
+      {
+        "text": "Limitni cheksizlikka intiltirish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "65. \\( [-\\pi,\\,\\pi] \\) oraliqda \\( \\int_{-\\pi}^{\\pi} \\cos mx \\cos nx\\,dx \\) (\\( m \\neq n \\)) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "66. Furye qatorining yaqinlashishi uchun funksiya bo'lakli-monoton bo'lishi shartligi kimning nomi bilan ataladi?",
+    "answers": [
+      {
+        "text": "Dirixle",
+        "is_correct": true
+      },
+      {
+        "text": "Koshi",
+        "is_correct": false
+      },
+      {
+        "text": "Riman",
+        "is_correct": false
+      },
+      {
+        "text": "Teylor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "67. \\( [0,\\,\\pi] \\) oraliqda \\( f(x) = 1 \\) ni faqat sinuslar bo'yicha yoyganda \\( b_n \\) (toq \\( n \\) uchun) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{4}{n\\pi} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{2}{n} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "68. Furye qatori qo'llaniladigan \"Akustika\" fani nimani o'rganadi?",
+    "answers": [
+      {
+        "text": "Tovush to'lqinlarini",
+        "is_correct": true
+      },
+      {
+        "text": "Yorug'lik zarrachalarini",
+        "is_correct": false
+      },
+      {
+        "text": "Suyuqlik oqimini",
+        "is_correct": false
+      },
+      {
+        "text": "Kimyoviy reaksiyalarni",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "69. \\( f(x) = e^x \\) funksiyasining \\( [-\\pi,\\,\\pi] \\) dagi yoyilmasi qanday ko'rinishda bo'ladi?",
+    "answers": [
+      {
+        "text": "To'liq Furye qatori (ham sinus, ham kosinusli)",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat sinusli",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat kosinusli",
+        "is_correct": false
+      },
+      {
+        "text": "Yoyilmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "70. \\( \\dfrac{a_0}{2} \\) had nima uchun ishlatiladi?",
+    "answers": [
+      {
+        "text": "Funksiyaning o'rtacha qiymatini ko'rsatish uchun",
+        "is_correct": true
+      },
+      {
+        "text": "Amplitudani oshirish uchun",
+        "is_correct": false
+      },
+      {
+        "text": "Faza siljishini hisoblash uchun",
+        "is_correct": false
+      },
+      {
+        "text": "Limitni aniqlash uchun",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "71. \\( z = x^2 + 3xy + y^2 \\) uchun \\( \\dfrac{\\partial z}{\\partial x} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 2x + 3y \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2x + y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3x + 2y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x + 3y \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "72. \\( z = \\sin(xy) \\) uchun \\( \\dfrac{\\partial z}{\\partial y} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( x\\cos(xy) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( y\\cos(xy) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\cos(xy) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( xy\\cos(xy) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "73. \\( z = e^{x^2+y^2} \\) uchun \\( \\dfrac{\\partial z}{\\partial x} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 2x\\,e^{x^2+y^2} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2y\\,e^{x^2+y^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( e^{x^2+y^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x\\,e^{x^2+y^2} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "74. \\( z = \\ln\\!\\left(x + \\sqrt{x^2+y^2}\\right) \\) uchun \\( \\dfrac{\\partial z}{\\partial x} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{1}{\\sqrt{x^2+y^2}} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{1}{x+y} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{x}{x^2+y^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{1}{x} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "75. \\( z = x^y \\) uchun \\( \\dfrac{\\partial z}{\\partial x} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( y\\,x^{y-1} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x^y \\ln x \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( y\\,x^y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x^{y-1} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "76. \\( z = x^y \\) uchun \\( \\dfrac{\\partial z}{\\partial y} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( x^y \\ln x \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( y\\,x^{y-1} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x^y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( y\\ln x \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "77. \\( z = \\arctan\\!\\left(\\dfrac{y}{x}\\right) \\) uchun \\( \\dfrac{\\partial z}{\\partial x} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( -\\dfrac{y}{x^2+y^2} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{x}{x^2+y^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{y}{x^2+y^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -\\dfrac{x}{x^2+y^2} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "78. \\( z = \\sqrt{x^2+y^2} \\) uchun \\( \\dfrac{\\partial^2 z}{\\partial x^2} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{y^2}{(x^2+y^2)^{3/2}} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{x^2}{(x^2+y^2)^{3/2}} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{1}{\\sqrt{x^2+y^2}} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{xy}{x^2+y^2} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "79. \\( f(x,\\,y,\\,z) = xyz \\) uchun \\( \\dfrac{\\partial f}{\\partial x} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( yz \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( xz \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( xy \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( xyz \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "80. \\( u = x^2y + y^2z + z^2x \\) uchun \\( \\dfrac{\\partial u}{\\partial z} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( y^2 + 2zx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x^2 + 2yz \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2xy + z^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2xz + y \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "81. \\( z = x^3 - 3xy^2 + y^3 \\) uchun \\( \\dfrac{\\partial^2 z}{\\partial x\\,\\partial y} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( -6y \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 6y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -6x \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3x^2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "82. \\( z = \\cos(x^2 y) \\) uchun \\( \\dfrac{\\partial z}{\\partial y} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( -x^2\\sin(x^2 y) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x^2\\sin(x^2 y) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -y\\sin(x^2 y) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sin(x^2 y) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "83. \\( f(x,\\,y) = x^y \\) funksiyaning \\( (1,\\,2) \\) dagi \\( \\dfrac{\\partial f}{\\partial x} \\) qiymati?",
+    "answers": [
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( e \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "84. \\( z = \\ln(xy) \\) uchun \\( \\dfrac{\\partial z}{\\partial x} + \\dfrac{\\partial z}{\\partial y} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{1}{x} + \\dfrac{1}{y} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{2}{xy} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\ln(xy) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "85. \\( z = \\tan(x+y) \\) uchun \\( \\dfrac{\\partial z}{\\partial x} - \\dfrac{\\partial z}{\\partial y} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\sec^2(x+y) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "86. \\( z = x^y \\) uchun \\( \\dfrac{\\partial^2 z}{\\partial x\\,\\partial y} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( x^{y-1} + y\\,x^{y-1}\\ln x \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x^{y-1}\\ln x \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( y\\,x^{y-1} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x^y \\ln x \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "87. \\( u = \\sin(xyz) \\) uchun \\( \\dfrac{\\partial^3 u}{\\partial x\\,\\partial y\\,\\partial z} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( \\cos(xyz) - xyz\\sin(xyz) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\cos(xyz) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( xyz\\cos(xyz) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -\\sin(xyz) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "88. \\( z = x^2 + y^2 \\) ning \\( (1,\\,1) \\) dagi gradiyenti?",
+    "answers": [
+      {
+        "text": "\\( \\{2,\\;2\\} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\{1,\\;1\\} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\{2,\\;0\\} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\{0,\\;2\\} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "89. \\( z = f(x,\\,y) \\) uchun to'la differensial formulasi: \\( dz = \\dfrac{\\partial z}{\\partial x}\\,dx + \\dfrac{\\partial z}{\\partial y}\\,dy \\) to'g'rimi?",
+    "answers": [
+      {
+        "text": "Ha",
+        "is_correct": true
+      },
+      {
+        "text": "Yo'q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_3",
+    "text": "90. \\( z = e^{x+y} \\) uchun \\( \\dfrac{\\partial^2 z}{\\partial x^2} = \\dfrac{\\partial^2 z}{\\partial y^2} \\) tenglik o'rinlimi?",
+    "answers": [
+      {
+        "text": "Ha",
+        "is_correct": true
+      },
+      {
+        "text": "Yo'q",
+        "is_correct": false
+      }
+    ]
+  }
+]

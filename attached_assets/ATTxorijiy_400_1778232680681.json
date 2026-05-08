@@ -1,0 +1,9902 @@
+[
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "1. ' … you students?' 'No, we are teachers.'",
+    "answers": [
+      {
+        "text": "Are",
+        "is_correct": true
+      },
+      {
+        "text": "Is",
+        "is_correct": false
+      },
+      {
+        "text": "And",
+        "is_correct": false
+      },
+      {
+        "text": "Am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "2. __ is your favorite sport?",
+    "answers": [
+      {
+        "text": "What",
+        "is_correct": true
+      },
+      {
+        "text": "Do",
+        "is_correct": false
+      },
+      {
+        "text": "Can",
+        "is_correct": false
+      },
+      {
+        "text": "Is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "3. _____ she your teacher?",
+    "answers": [
+      {
+        "text": "Is",
+        "is_correct": true
+      },
+      {
+        "text": "Do",
+        "is_correct": false
+      },
+      {
+        "text": "Are",
+        "is_correct": false
+      },
+      {
+        "text": "Be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "4. __ you like apples?",
+    "answers": [
+      {
+        "text": "Do",
+        "is_correct": true
+      },
+      {
+        "text": "Is",
+        "is_correct": false
+      },
+      {
+        "text": "Are",
+        "is_correct": false
+      },
+      {
+        "text": "Be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "5. ___ does your father do in his free time?",
+    "answers": [
+      {
+        "text": "What",
+        "is_correct": true
+      },
+      {
+        "text": "how many",
+        "is_correct": false
+      },
+      {
+        "text": "what kind",
+        "is_correct": false
+      },
+      {
+        "text": "why",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "6. ___ is your birthday?",
+    "answers": [
+      {
+        "text": "When",
+        "is_correct": true
+      },
+      {
+        "text": "Do",
+        "is_correct": false
+      },
+      {
+        "text": "Is",
+        "is_correct": false
+      },
+      {
+        "text": "Does",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "7. ___ is your English teacher?",
+    "answers": [
+      {
+        "text": "Who",
+        "is_correct": true
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "how",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "8. ___ you like coffee?",
+    "answers": [
+      {
+        "text": "Do",
+        "is_correct": true
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "text": "Will",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "9. ___ you like tea or coffee?",
+    "answers": [
+      {
+        "text": "Do",
+        "is_correct": true
+      },
+      {
+        "text": "Are",
+        "is_correct": false
+      },
+      {
+        "text": "Is",
+        "is_correct": false
+      },
+      {
+        "text": "Am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "10. ___ your parents at home now?",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "11. ____ _____ languages does she speak?",
+    "answers": [
+      {
+        "text": "How many",
+        "is_correct": true
+      },
+      {
+        "text": "How much",
+        "is_correct": false
+      },
+      {
+        "text": "Where",
+        "is_correct": false
+      },
+      {
+        "text": "Why",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "12. ____ you like some more coffee?",
+    "answers": [
+      {
+        "text": "Do",
+        "is_correct": true
+      },
+      {
+        "text": "Did",
+        "is_correct": false
+      },
+      {
+        "text": "Have",
+        "is_correct": false
+      },
+      {
+        "text": "Are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "13. _____ a magazine.",
+    "answers": [
+      {
+        "text": "Read",
+        "is_correct": true
+      },
+      {
+        "text": "Live",
+        "is_correct": false
+      },
+      {
+        "text": "Go",
+        "is_correct": false
+      },
+      {
+        "text": "Have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_KI",
+    "text": "14. _____ are you ? I am Jun",
+    "answers": [
+      {
+        "text": "Who",
+        "is_correct": true
+      },
+      {
+        "text": "What",
+        "is_correct": false
+      },
+      {
+        "text": "Which",
+        "is_correct": false
+      },
+      {
+        "text": "Why",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "15. _____ coffee is there?",
+    "answers": [
+      {
+        "text": "How much",
+        "is_correct": true
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      },
+      {
+        "text": "How long",
+        "is_correct": false
+      },
+      {
+        "text": "How many",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "16. A. _____ do you do your homework? B. After dinner.",
+    "answers": [
+      {
+        "text": "When",
+        "is_correct": true
+      },
+      {
+        "text": "What",
+        "is_correct": false
+      },
+      {
+        "text": "Where",
+        "is_correct": false
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "17. _____ does Andy's little brother play with?",
+    "answers": [
+      {
+        "text": "Who",
+        "is_correct": true
+      },
+      {
+        "text": "Why",
+        "is_correct": false
+      },
+      {
+        "text": "How old",
+        "is_correct": false
+      },
+      {
+        "text": "Where",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "18. _____ English books do you have?",
+    "answers": [
+      {
+        "text": "How many",
+        "is_correct": true
+      },
+      {
+        "text": "How some",
+        "is_correct": false
+      },
+      {
+        "text": "How much",
+        "is_correct": false
+      },
+      {
+        "text": "How any",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "19. _____ he sleep well?",
+    "answers": [
+      {
+        "text": "Does",
+        "is_correct": true
+      },
+      {
+        "text": "Has",
+        "is_correct": false
+      },
+      {
+        "text": "Have",
+        "is_correct": false
+      },
+      {
+        "text": "Do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "20. _____ is crying? - A little girl.",
+    "answers": [
+      {
+        "text": "Who",
+        "is_correct": true
+      },
+      {
+        "text": "which",
+        "is_correct": false
+      },
+      {
+        "text": "where",
+        "is_correct": false
+      },
+      {
+        "text": "how",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "21. _____ Kate live near Jane?",
+    "answers": [
+      {
+        "text": "Does",
+        "is_correct": true
+      },
+      {
+        "text": "Are",
+        "is_correct": false
+      },
+      {
+        "text": "Do",
+        "is_correct": false
+      },
+      {
+        "text": "Is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "22. _____ rice is there?",
+    "answers": [
+      {
+        "text": "How much",
+        "is_correct": true
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      },
+      {
+        "text": "How long",
+        "is_correct": false
+      },
+      {
+        "text": "How many",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "23. _____ she _____ French?",
+    "answers": [
+      {
+        "text": "Does/speak",
+        "is_correct": true
+      },
+      {
+        "text": "Do/speaks",
+        "is_correct": false
+      },
+      {
+        "text": "Does/speaks",
+        "is_correct": false
+      },
+      {
+        "text": "Is/speak",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "24. ______ are you eating?",
+    "answers": [
+      {
+        "text": "What",
+        "is_correct": true
+      },
+      {
+        "text": "who",
+        "is_correct": false
+      },
+      {
+        "text": "when",
+        "is_correct": false
+      },
+      {
+        "text": "Where",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "25. ______ are you from? I'm from Japan.",
+    "answers": [
+      {
+        "text": "Where",
+        "is_correct": true
+      },
+      {
+        "text": "Who",
+        "is_correct": false
+      },
+      {
+        "text": "What",
+        "is_correct": false
+      },
+      {
+        "text": "When",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "26. ______ do you go to bed? - Now.",
+    "answers": [
+      {
+        "text": "When",
+        "is_correct": true
+      },
+      {
+        "text": "where",
+        "is_correct": false
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "27. ______ is the best player? - Tom.",
+    "answers": [
+      {
+        "text": "Who",
+        "is_correct": true
+      },
+      {
+        "text": "when",
+        "is_correct": false
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "Which",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "28. ______a police car.",
+    "answers": [
+      {
+        "text": "There is",
+        "is_correct": true
+      },
+      {
+        "text": "there are",
+        "is_correct": false
+      },
+      {
+        "text": "Here",
+        "is_correct": false
+      },
+      {
+        "text": "there",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "29. ______ two children.",
+    "answers": [
+      {
+        "text": "There are",
+        "is_correct": true
+      },
+      {
+        "text": "there is",
+        "is_correct": false
+      },
+      {
+        "text": "There",
+        "is_correct": false
+      },
+      {
+        "text": "here",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "30. _______ are they doing? – Dancing.",
+    "answers": [
+      {
+        "text": "What",
+        "is_correct": true
+      },
+      {
+        "text": "who",
+        "is_correct": false
+      },
+      {
+        "text": "where",
+        "is_correct": false
+      },
+      {
+        "text": "which",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "31. _______ did you buy it? – In the market.",
+    "answers": [
+      {
+        "text": "Where",
+        "is_correct": true
+      },
+      {
+        "text": "when",
+        "is_correct": false
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "which",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "32. _______ did you call her? - Last month.",
+    "answers": [
+      {
+        "text": "When",
+        "is_correct": true
+      },
+      {
+        "text": "who",
+        "is_correct": false
+      },
+      {
+        "text": "where",
+        "is_correct": false
+      },
+      {
+        "text": "how",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "33. ________ was your wedding? – On Sunday.",
+    "answers": [
+      {
+        "text": "When",
+        "is_correct": true
+      },
+      {
+        "text": "where",
+        "is_correct": false
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "34. ______animal is that? - A bear.",
+    "answers": [
+      {
+        "text": "What",
+        "is_correct": true
+      },
+      {
+        "text": "who",
+        "is_correct": false
+      },
+      {
+        "text": "which",
+        "is_correct": false
+      },
+      {
+        "text": "when",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "35. ______broke the glass?",
+    "answers": [
+      {
+        "text": "Who",
+        "is_correct": true
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "when",
+        "is_correct": false
+      },
+      {
+        "text": "Where",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "36. ______is Tashkent? - In Uzbekistan.",
+    "answers": [
+      {
+        "text": "Where",
+        "is_correct": true
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "who",
+        "is_correct": false
+      },
+      {
+        "text": "how",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "37. ______is the food? — In the fridge.",
+    "answers": [
+      {
+        "text": "Where",
+        "is_correct": true
+      },
+      {
+        "text": "when",
+        "is_correct": false
+      },
+      {
+        "text": "what",
+        "is_correct": false
+      },
+      {
+        "text": "Who",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "38. A. ____ their names Jack & Benny? B. Yes, ______.",
+    "answers": [
+      {
+        "text": "Are/they are",
+        "is_correct": true
+      },
+      {
+        "text": "Aren't/the are",
+        "is_correct": false
+      },
+      {
+        "text": "Am/their",
+        "is_correct": false
+      },
+      {
+        "text": "Is/they're",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "39. A. _____ _____ is a hamburger and chips? B. Three pounds fifty.",
+    "answers": [
+      {
+        "text": "How much",
+        "is_correct": true
+      },
+      {
+        "text": "How many",
+        "is_correct": false
+      },
+      {
+        "text": "How often",
+        "is_correct": false
+      },
+      {
+        "text": "How long",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "40. A. _____ do you like your job? B. Because it's interesting.",
+    "answers": [
+      {
+        "text": "Why",
+        "is_correct": true
+      },
+      {
+        "text": "When",
+        "is_correct": false
+      },
+      {
+        "text": "What",
+        "is_correct": false
+      },
+      {
+        "text": "Where",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "41. A. _____ her name Donna? B. No, _____.",
+    "answers": [
+      {
+        "text": "Is/ it isn't",
+        "is_correct": true
+      },
+      {
+        "text": "Is/it are not",
+        "is_correct": false
+      },
+      {
+        "text": "Is/ she isn't",
+        "is_correct": false
+      },
+      {
+        "text": "What/it isn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "42. A. ______ are you? B. I'm Alex.",
+    "answers": [
+      {
+        "text": "Who",
+        "is_correct": true
+      },
+      {
+        "text": "Why",
+        "is_correct": false
+      },
+      {
+        "text": "What",
+        "is_correct": false
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "43. Are you a pupil? Yes, I _____.",
+    "answers": [
+      {
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "aren't",
+        "is_correct": false
+      },
+      {
+        "text": "isn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "44. Are you a student? Yes, I ___ .",
+    "answers": [
+      {
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "45. Is he a student? Yes, he _____.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "aren't",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "46. Are you married? No, _____.",
+    "answers": [
+      {
+        "text": "I'm not",
+        "is_correct": true
+      },
+      {
+        "text": "I am",
+        "is_correct": false
+      },
+      {
+        "text": "I amn't",
+        "is_correct": false
+      },
+      {
+        "text": "I not",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "48. Is she Uzbek? No, _____.",
+    "answers": [
+      {
+        "text": "she isn't",
+        "is_correct": true
+      },
+      {
+        "text": "hers isn't",
+        "is_correct": false
+      },
+      {
+        "text": "she doesn't",
+        "is_correct": false
+      },
+      {
+        "text": "she do not",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "49. Is your dog 2 years old? Yes, _____.",
+    "answers": [
+      {
+        "text": "it is",
+        "is_correct": true
+      },
+      {
+        "text": "dog are",
+        "is_correct": false
+      },
+      {
+        "text": "it has",
+        "is_correct": false
+      },
+      {
+        "text": "is dog",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "50. Is your elder brother married? No, _____.",
+    "answers": [
+      {
+        "text": "he isn't",
+        "is_correct": true
+      },
+      {
+        "text": "brother isn't",
+        "is_correct": false
+      },
+      {
+        "text": "he are not",
+        "is_correct": false
+      },
+      {
+        "text": "she isn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "51. What _____ she do? She is an interpreter.",
+    "answers": [
+      {
+        "text": "does",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "52. What ______ this? It's ______ umbrella.",
+    "answers": [
+      {
+        "text": "is/an",
+        "is_correct": true
+      },
+      {
+        "text": "its/an",
+        "is_correct": false
+      },
+      {
+        "text": "is/a",
+        "is_correct": false
+      },
+      {
+        "text": "are/a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "53. What time is it? 3:45",
+    "answers": [
+      {
+        "text": "It is a quarter to four.",
+        "is_correct": true
+      },
+      {
+        "text": "It is fifteen past four.",
+        "is_correct": false
+      },
+      {
+        "text": "It is three.",
+        "is_correct": false
+      },
+      {
+        "text": "It is fifty to four.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "54. _____ are you from?",
+    "answers": [
+      {
+        "text": "Where",
+        "is_correct": true
+      },
+      {
+        "text": "What",
+        "is_correct": false
+      },
+      {
+        "text": "Which",
+        "is_correct": false
+      },
+      {
+        "text": "who",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "55. ______ the dog on the chair?",
+    "answers": [
+      {
+        "text": "Is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "56. A dog is ______ animal.",
+    "answers": [
+      {
+        "text": "an",
+        "is_correct": true
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "57. A friend of mine likes _____ on picnic at weekends.",
+    "answers": [
+      {
+        "text": "going",
+        "is_correct": true
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "Goed",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "58. A lot of British people _____ to the cinema.",
+    "answers": [
+      {
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "recognize",
+        "is_correct": false
+      },
+      {
+        "text": "honor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "59. A: _____ does Natalie's nephew do? B: He's an architect.",
+    "answers": [
+      {
+        "text": "What",
+        "is_correct": true
+      },
+      {
+        "text": "When",
+        "is_correct": false
+      },
+      {
+        "text": "Whom",
+        "is_correct": false
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "60. A: _____ does Tony Blair live? B: In Great Britain.",
+    "answers": [
+      {
+        "text": "Where",
+        "is_correct": true
+      },
+      {
+        "text": "Why",
+        "is_correct": false
+      },
+      {
+        "text": "How",
+        "is_correct": false
+      },
+      {
+        "text": "What time",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "61. A: _____ there many mice in the house? B: No, there _____.",
+    "answers": [
+      {
+        "text": "Are/aren't",
+        "is_correct": true
+      },
+      {
+        "text": "Are/are",
+        "is_correct": false
+      },
+      {
+        "text": "Are/not",
+        "is_correct": false
+      },
+      {
+        "text": "Are/is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "62. A: Let's see. It is small. What ____ do you need? B: Medium",
+    "answers": [
+      {
+        "text": "size",
+        "is_correct": true
+      },
+      {
+        "text": "hope",
+        "is_correct": false
+      },
+      {
+        "text": "belief",
+        "is_correct": false
+      },
+      {
+        "text": "trustworth",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "63. A: Look! Is this your bag? B: No, my bag's ______ . A: Ah, there it is.",
+    "answers": [
+      {
+        "text": "brown",
+        "is_correct": true
+      },
+      {
+        "text": "wonderfully",
+        "is_correct": false
+      },
+      {
+        "text": "longth",
+        "is_correct": false
+      },
+      {
+        "text": "deep",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "64. A: The changing ____ are over there. B: Thank you.",
+    "answers": [
+      {
+        "text": "rooms",
+        "is_correct": true
+      },
+      {
+        "text": "rain",
+        "is_correct": false
+      },
+      {
+        "text": "classroom",
+        "is_correct": false
+      },
+      {
+        "text": "wind",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "65. A: What _____ you _____? B: I am an engineer.",
+    "answers": [
+      {
+        "text": "do/do",
+        "is_correct": true
+      },
+      {
+        "text": "does/do",
+        "is_correct": false
+      },
+      {
+        "text": "are/do",
+        "is_correct": false
+      },
+      {
+        "text": "do/are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "66. A: What _____ your niece _____? B: She is a nurse.",
+    "answers": [
+      {
+        "text": "does/do",
+        "is_correct": true
+      },
+      {
+        "text": "do/do",
+        "is_correct": false
+      },
+      {
+        "text": "does/is",
+        "is_correct": false
+      },
+      {
+        "text": "is/do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "67. Alice is from the USA. She is ___.",
+    "answers": [
+      {
+        "text": "American",
+        "is_correct": true
+      },
+      {
+        "text": "Uzbek",
+        "is_correct": false
+      },
+      {
+        "text": "Scottish",
+        "is_correct": false
+      },
+      {
+        "text": "Russian",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "68. Ann is _____ wife.",
+    "answers": [
+      {
+        "text": "John's",
+        "is_correct": true
+      },
+      {
+        "text": "John is",
+        "is_correct": false
+      },
+      {
+        "text": "John",
+        "is_correct": false
+      },
+      {
+        "text": "John's is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "69. Are the boys ______ the garden? No, they are not.",
+    "answers": [
+      {
+        "text": "in",
+        "is_correct": true
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "70. Are there _____ chips?",
+    "answers": [
+      {
+        "text": "any",
+        "is_correct": true
+      },
+      {
+        "text": "some",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "71. Are there many windows in the house? Yes, ______ .",
+    "answers": [
+      {
+        "text": "there are",
+        "is_correct": true
+      },
+      {
+        "text": "they are",
+        "is_correct": false
+      },
+      {
+        "text": "is there",
+        "is_correct": false
+      },
+      {
+        "text": "are there",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "72. Are they your friends?",
+    "answers": [
+      {
+        "text": "Yes, they are",
+        "is_correct": true
+      },
+      {
+        "text": "No, My book",
+        "is_correct": false
+      },
+      {
+        "text": "Yes, Parents",
+        "is_correct": false
+      },
+      {
+        "text": "No, Animals",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "73. Are they students?",
+    "answers": [
+      {
+        "text": "Yes, they are",
+        "is_correct": true
+      },
+      {
+        "text": "No, I do not",
+        "is_correct": false
+      },
+      {
+        "text": "Thank you",
+        "is_correct": false
+      },
+      {
+        "text": "Bye",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "74. Are you hungry?",
+    "answers": [
+      {
+        "text": "Yes, I am",
+        "is_correct": true
+      },
+      {
+        "text": "I can",
+        "is_correct": false
+      },
+      {
+        "text": "I do",
+        "is_correct": false
+      },
+      {
+        "text": "He is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "75. Artists are people who _____ and paint the pictures.",
+    "answers": [
+      {
+        "text": "draw",
+        "is_correct": true
+      },
+      {
+        "text": "drink",
+        "is_correct": false
+      },
+      {
+        "text": "goal",
+        "is_correct": false
+      },
+      {
+        "text": "target",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "76. Bern _____ in a flat in Birmingham.",
+    "answers": [
+      {
+        "text": "lives",
+        "is_correct": true
+      },
+      {
+        "text": "stands",
+        "is_correct": false
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "text": "wants",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "77. Can I have _____ bread?",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "78. Can I have _____ stamps, please?",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      },
+      {
+        "text": "An",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "79. Can I have _____ tea?",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "80. Can you give me _____ money?",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      },
+      {
+        "text": "An",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "81. Canada _______ in Europe.",
+    "answers": [
+      {
+        "text": "isn't",
+        "is_correct": true
+      },
+      {
+        "text": "aren't",
+        "is_correct": false
+      },
+      {
+        "text": "is no",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "82. Carla ______ to the beach every weekend.",
+    "answers": [
+      {
+        "text": "goes",
+        "is_correct": true
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "to have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "83. Carol ______ drink wine with her meals.",
+    "answers": [
+      {
+        "text": "doesn't",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "text": "don't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "84. Children always ____ a lot of water.",
+    "answers": [
+      {
+        "text": "drink",
+        "is_correct": true
+      },
+      {
+        "text": "eating",
+        "is_correct": false
+      },
+      {
+        "text": "is drink",
+        "is_correct": false
+      },
+      {
+        "text": "put",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "85. Chinese people eat a lot of ______.",
+    "answers": [
+      {
+        "text": "rice",
+        "is_correct": true
+      },
+      {
+        "text": "eggs",
+        "is_correct": false
+      },
+      {
+        "text": "tomatoes",
+        "is_correct": false
+      },
+      {
+        "text": "cucumbers",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "86. Choose the correct form: \"I _____ a student.\"",
+    "answers": [
+      {
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "87. Do you ___ music?",
+    "answers": [
+      {
+        "text": "listen",
+        "is_correct": true
+      },
+      {
+        "text": "see",
+        "is_correct": false
+      },
+      {
+        "text": "book",
+        "is_correct": false
+      },
+      {
+        "text": "Pen",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "88. Do you like _____ English?",
+    "answers": [
+      {
+        "text": "learning",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "listen",
+        "is_correct": false
+      },
+      {
+        "text": "Like",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "89. Do you like _____ homework?",
+    "answers": [
+      {
+        "text": "doing",
+        "is_correct": true
+      },
+      {
+        "text": "making",
+        "is_correct": false
+      },
+      {
+        "text": "did",
+        "is_correct": false
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "90. Do you like _____ in your free time?",
+    "answers": [
+      {
+        "text": "reading",
+        "is_correct": true
+      },
+      {
+        "text": "running",
+        "is_correct": false
+      },
+      {
+        "text": "stopping",
+        "is_correct": false
+      },
+      {
+        "text": "reads",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "91. Do you like _____?",
+    "answers": [
+      {
+        "text": "cooking",
+        "is_correct": true
+      },
+      {
+        "text": "cook",
+        "is_correct": false
+      },
+      {
+        "text": "cooks",
+        "is_correct": false
+      },
+      {
+        "text": "to cook",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "92. Do you like _____?",
+    "answers": [
+      {
+        "text": "shopping",
+        "is_correct": true
+      },
+      {
+        "text": "shopped",
+        "is_correct": false
+      },
+      {
+        "text": "shopes",
+        "is_correct": false
+      },
+      {
+        "text": "shop",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "93. Dogs _____ animals.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "94. Every time he _____ a glass of lemonade before breakfast.",
+    "answers": [
+      {
+        "text": "has",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "95. Every year millions of people _____ The London Museum.",
+    "answers": [
+      {
+        "text": "visit",
+        "is_correct": true
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "come",
+        "is_correct": false
+      },
+      {
+        "text": "want",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "96. Find the opposite word. \"big\" - ______",
+    "answers": [
+      {
+        "text": "small",
+        "is_correct": true
+      },
+      {
+        "text": "high",
+        "is_correct": false
+      },
+      {
+        "text": "tall",
+        "is_correct": false
+      },
+      {
+        "text": "slow",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "97. Find the opposite word. \"easy\" - ______",
+    "answers": [
+      {
+        "text": "difficult",
+        "is_correct": true
+      },
+      {
+        "text": "cold",
+        "is_correct": false
+      },
+      {
+        "text": "cheap",
+        "is_correct": false
+      },
+      {
+        "text": "difference",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "98. Find the opposite word. \"expensive\" - ______",
+    "answers": [
+      {
+        "text": "cheap",
+        "is_correct": true
+      },
+      {
+        "text": "big",
+        "is_correct": false
+      },
+      {
+        "text": "cold",
+        "is_correct": false
+      },
+      {
+        "text": "hot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "99. Find the opposite word. \"fast\" - ______",
+    "answers": [
+      {
+        "text": "slow",
+        "is_correct": true
+      },
+      {
+        "text": "small",
+        "is_correct": false
+      },
+      {
+        "text": "quick",
+        "is_correct": false
+      },
+      {
+        "text": "warm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "100. Find the opposite word. \"hot\" - ______",
+    "answers": [
+      {
+        "text": "cold",
+        "is_correct": true
+      },
+      {
+        "text": "new",
+        "is_correct": false
+      },
+      {
+        "text": "warm",
+        "is_correct": false
+      },
+      {
+        "text": "small",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "101. Find the opposite word. \"lovely\" - ______",
+    "answers": [
+      {
+        "text": "horrible",
+        "is_correct": true
+      },
+      {
+        "text": "old",
+        "is_correct": false
+      },
+      {
+        "text": "expensive",
+        "is_correct": false
+      },
+      {
+        "text": "quick",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "102. Find the opposite word. \"young\" - ______",
+    "answers": [
+      {
+        "text": "old",
+        "is_correct": true
+      },
+      {
+        "text": "big",
+        "is_correct": false
+      },
+      {
+        "text": "small",
+        "is_correct": false
+      },
+      {
+        "text": "quick",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "103. Frank _____ biology.",
+    "answers": [
+      {
+        "text": "studies",
+        "is_correct": true
+      },
+      {
+        "text": "learn",
+        "is_correct": false
+      },
+      {
+        "text": "studied",
+        "is_correct": false
+      },
+      {
+        "text": "study",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "104. He ___ a lot of water when he runs.",
+    "answers": [
+      {
+        "text": "drinks",
+        "is_correct": true
+      },
+      {
+        "text": "eating",
+        "is_correct": false
+      },
+      {
+        "text": "is look",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "105. He ___ in a bank.",
+    "answers": [
+      {
+        "text": "works",
+        "is_correct": true
+      },
+      {
+        "text": "play",
+        "is_correct": false
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "106. He ___ late for class.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "107. He ___ very happy today.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "108. He ____ English every day.",
+    "answers": [
+      {
+        "text": "studies",
+        "is_correct": true
+      },
+      {
+        "text": "studied",
+        "is_correct": false
+      },
+      {
+        "text": "study",
+        "is_correct": false
+      },
+      {
+        "text": "studying",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "109. He _____ a bus.",
+    "answers": [
+      {
+        "text": "drives",
+        "is_correct": true
+      },
+      {
+        "text": "to drive",
+        "is_correct": false
+      },
+      {
+        "text": "to do",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "110. He _____ a T-shirt.",
+    "answers": [
+      {
+        "text": "wears",
+        "is_correct": true
+      },
+      {
+        "text": "wearing",
+        "is_correct": false
+      },
+      {
+        "text": "to wear",
+        "is_correct": false
+      },
+      {
+        "text": "wear",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "111. He _____ his car every weekend.",
+    "answers": [
+      {
+        "text": "washes",
+        "is_correct": true
+      },
+      {
+        "text": "clean",
+        "is_correct": false
+      },
+      {
+        "text": "keeping",
+        "is_correct": false
+      },
+      {
+        "text": "washed",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "112. He _____ to help people.",
+    "answers": [
+      {
+        "text": "likes",
+        "is_correct": true
+      },
+      {
+        "text": "flies",
+        "is_correct": false
+      },
+      {
+        "text": "runs",
+        "is_correct": false
+      },
+      {
+        "text": "swim",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "113. He ______ his hands.",
+    "answers": [
+      {
+        "text": "washes",
+        "is_correct": true
+      },
+      {
+        "text": "to do",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "to wash",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "114. He _____ a beer every evening in the pub.",
+    "answers": [
+      {
+        "text": "has",
+        "is_correct": true
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "is have",
+        "is_correct": false
+      },
+      {
+        "text": "had",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "115. He always _____ coffee after lunch.",
+    "answers": [
+      {
+        "text": "has",
+        "is_correct": true
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "Is has",
+        "is_correct": false
+      },
+      {
+        "text": "Is have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "116. He always _______ football in the mornings.",
+    "answers": [
+      {
+        "text": "plays",
+        "is_correct": true
+      },
+      {
+        "text": "play",
+        "is_correct": false
+      },
+      {
+        "text": "going play",
+        "is_correct": false
+      },
+      {
+        "text": "playing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "117. He always has _____ egg for breakfast.",
+    "answers": [
+      {
+        "text": "an",
+        "is_correct": true
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "118. He is ____ teacher.",
+    "answers": [
+      {
+        "text": "a",
+        "is_correct": true
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "119. He is _______ engineer.",
+    "answers": [
+      {
+        "text": "an",
+        "is_correct": true
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "120. He is English. He is ___ Cambridge.",
+    "answers": [
+      {
+        "text": "from",
+        "is_correct": true
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "121. He is from the U.S.A. He is ______.",
+    "answers": [
+      {
+        "text": "American",
+        "is_correct": true
+      },
+      {
+        "text": "english",
+        "is_correct": false
+      },
+      {
+        "text": "british",
+        "is_correct": false
+      },
+      {
+        "text": "U.S.A",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "122. Hello what_____ your name?",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "Are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "123. Help me _____ my homework.",
+    "answers": [
+      {
+        "text": "with",
+        "is_correct": true
+      },
+      {
+        "text": "to",
+        "is_correct": false
+      },
+      {
+        "text": "of",
+        "is_correct": false
+      },
+      {
+        "text": "about",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "124. His sister doesn't _____ eating a hamburger.",
+    "answers": [
+      {
+        "text": "like",
+        "is_correct": true
+      },
+      {
+        "text": "look",
+        "is_correct": false
+      },
+      {
+        "text": "living",
+        "is_correct": false
+      },
+      {
+        "text": "Liked",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "125. How ___ you today?",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "Can",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "126. How _____ milk is there in the fridge?",
+    "answers": [
+      {
+        "text": "much",
+        "is_correct": true
+      },
+      {
+        "text": "there",
+        "is_correct": false
+      },
+      {
+        "text": "a few",
+        "is_correct": false
+      },
+      {
+        "text": "many",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "127. How are you?",
+    "answers": [
+      {
+        "text": "I'm tired",
+        "is_correct": true
+      },
+      {
+        "text": "He is going",
+        "is_correct": false
+      },
+      {
+        "text": "You can",
+        "is_correct": false
+      },
+      {
+        "text": "Uzbek",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "128. How old are you?",
+    "answers": [
+      {
+        "text": "I am 20 years old",
+        "is_correct": true
+      },
+      {
+        "text": "I am a pupil",
+        "is_correct": false
+      },
+      {
+        "text": "I have a pen",
+        "is_correct": false
+      },
+      {
+        "text": "I'm teacher",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "129. How old are you? I____ 18.",
+    "answers": [
+      {
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "130. I ______  18, but my sister ____ 15 years old.",
+    "answers": [
+      {
+        "text": "am/is",
+        "is_correct": true
+      },
+      {
+        "text": "am/am not",
+        "is_correct": false
+      },
+      {
+        "text": "am not /is",
+        "is_correct": false
+      },
+      {
+        "text": "am/am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "131. I ___ a car.",
+    "answers": [
+      {
+        "text": "have",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "132. I ___ like cold weather.",
+    "answers": [
+      {
+        "text": "don't",
+        "is_correct": true
+      },
+      {
+        "text": "not",
+        "is_correct": false
+      },
+      {
+        "text": "next",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "133. I ___ lunch at 1 p.m.",
+    "answers": [
+      {
+        "text": "eat",
+        "is_correct": true
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "run",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "134. I ___ my homework every day.",
+    "answers": [
+      {
+        "text": "do",
+        "is_correct": true
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "play",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "135. I ___ to the gym three times a week.",
+    "answers": [
+      {
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "run",
+        "is_correct": false
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "136. I ___ TV every evening.",
+    "answers": [
+      {
+        "text": "watch",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "137. I ___ very tired after work.",
+    "answers": [
+      {
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "text": "Are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "138. I ____ Italian.",
+    "answers": [
+      {
+        "text": "speak",
+        "is_correct": true
+      },
+      {
+        "text": "spell",
+        "is_correct": false
+      },
+      {
+        "text": "to live",
+        "is_correct": false
+      },
+      {
+        "text": "to see",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "139. I ____ to the beach yesterday.",
+    "answers": [
+      {
+        "text": "went",
+        "is_correct": true
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "140. I _____ a bicycle when I was young.",
+    "answers": [
+      {
+        "text": "Had",
+        "is_correct": true
+      },
+      {
+        "text": "am having",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "have got",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "141. I _____ an accountant.",
+    "answers": [
+      {
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "142. I _____ football.",
+    "answers": [
+      {
+        "text": "play",
+        "is_correct": true
+      },
+      {
+        "text": "To plays",
+        "is_correct": false
+      },
+      {
+        "text": "played",
+        "is_correct": false
+      },
+      {
+        "text": "playing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "143. I _____ him three months ago.",
+    "answers": [
+      {
+        "text": "saw",
+        "is_correct": true
+      },
+      {
+        "text": "play",
+        "is_correct": false
+      },
+      {
+        "text": "look",
+        "is_correct": false
+      },
+      {
+        "text": "stay",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "144. I _____ my teeth every morning.",
+    "answers": [
+      {
+        "text": "brush",
+        "is_correct": true
+      },
+      {
+        "text": "brushing",
+        "is_correct": false
+      },
+      {
+        "text": "Brushes",
+        "is_correct": false
+      },
+      {
+        "text": "to brush",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "145. I ______ 22 years old, but Andrew ______ 20",
+    "answers": [
+      {
+        "text": "am/is",
+        "is_correct": true
+      },
+      {
+        "text": "are/am",
+        "is_correct": false
+      },
+      {
+        "text": "am/am",
+        "is_correct": false
+      },
+      {
+        "text": "are/are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "146. I _______ at school.",
+    "answers": [
+      {
+        "text": "work",
+        "is_correct": true
+      },
+      {
+        "text": "to works",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "working",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "147. I _______ more ice-cream.",
+    "answers": [
+      {
+        "text": "want",
+        "is_correct": true
+      },
+      {
+        "text": "wants",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "to do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "148. I ______ a boy.",
+    "answers": [
+      {
+        "text": "am",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "it",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "149. I ______ in the big house.",
+    "answers": [
+      {
+        "text": "live",
+        "is_correct": true
+      },
+      {
+        "text": "life",
+        "is_correct": false
+      },
+      {
+        "text": "look",
+        "is_correct": false
+      },
+      {
+        "text": "do live",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "150. I _____ to London every year.",
+    "answers": [
+      {
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "151. I _______ water when it is hot.",
+    "answers": [
+      {
+        "text": "drink",
+        "is_correct": true
+      },
+      {
+        "text": "drinks",
+        "is_correct": false
+      },
+      {
+        "text": "am drink",
+        "is_correct": false
+      },
+      {
+        "text": "drinking",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "152. I ______ a new laptop.",
+    "answers": [
+      {
+        "text": "want",
+        "is_correct": true
+      },
+      {
+        "text": "am wanting",
+        "is_correct": false
+      },
+      {
+        "text": "is want",
+        "is_correct": false
+      },
+      {
+        "text": "wants",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "153. I always ___ breakfast at 8 o'clock.",
+    "answers": [
+      {
+        "text": "have",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "Being",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "154. I always _____ hello.",
+    "answers": [
+      {
+        "text": "say",
+        "is_correct": true
+      },
+      {
+        "text": "to says",
+        "is_correct": false
+      },
+      {
+        "text": "said",
+        "is_correct": false
+      },
+      {
+        "text": "saw",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "155. I don't _____ coffee. I prefer tea.",
+    "answers": [
+      {
+        "text": "like",
+        "is_correct": true
+      },
+      {
+        "text": "lie",
+        "is_correct": false
+      },
+      {
+        "text": "liking",
+        "is_correct": false
+      },
+      {
+        "text": "did like",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "156. I have 2 _____. My first ____ is 6 years old.",
+    "answers": [
+      {
+        "text": "children /child",
+        "is_correct": true
+      },
+      {
+        "text": "children / people",
+        "is_correct": false
+      },
+      {
+        "text": "women/ children",
+        "is_correct": false
+      },
+      {
+        "text": "husband/ child",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "157. I have a book _____ Stephen King.",
+    "answers": [
+      {
+        "text": "by",
+        "is_correct": true
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "text": "from",
+        "is_correct": false
+      },
+      {
+        "text": "for",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "158. I have two _______.",
+    "answers": [
+      {
+        "text": "sisters",
+        "is_correct": true
+      },
+      {
+        "text": "sister",
+        "is_correct": false
+      },
+      {
+        "text": "a sister",
+        "is_correct": false
+      },
+      {
+        "text": "sister's",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "159. I like _____ football, but my brother doesn't.",
+    "answers": [
+      {
+        "text": "playing",
+        "is_correct": true
+      },
+      {
+        "text": "put",
+        "is_correct": false
+      },
+      {
+        "text": "putting",
+        "is_correct": false
+      },
+      {
+        "text": "Plays",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "160. I live ___ Urgench.",
+    "answers": [
+      {
+        "text": "in",
+        "is_correct": true
+      },
+      {
+        "text": "at",
+        "is_correct": false
+      },
+      {
+        "text": "under",
+        "is_correct": false
+      },
+      {
+        "text": "down",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "162. I usually ___ tea in the morning.",
+    "answers": [
+      {
+        "text": "drink",
+        "is_correct": true
+      },
+      {
+        "text": "write",
+        "is_correct": false
+      },
+      {
+        "text": "read",
+        "is_correct": false
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "163. I usually ___ up at 7 o'clock.",
+    "answers": [
+      {
+        "text": "get",
+        "is_correct": true
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "many",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "164. I usually have _____ biscuit and _____ cup of coffee at 11 a.m.",
+    "answers": [
+      {
+        "text": "a/a",
+        "is_correct": true
+      },
+      {
+        "text": "some/some",
+        "is_correct": false
+      },
+      {
+        "text": "a/any",
+        "is_correct": false
+      },
+      {
+        "text": "a/some",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "165. I____ in Australia.",
+    "answers": [
+      {
+        "text": "live",
+        "is_correct": true
+      },
+      {
+        "text": "would",
+        "is_correct": false
+      },
+      {
+        "text": "want",
+        "is_correct": false
+      },
+      {
+        "text": "like",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "166. I______fairy tales.",
+    "answers": [
+      {
+        "text": "read",
+        "is_correct": true
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "to wash",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "167. I'd like _____ bananas.",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "168. I'd like _____ mineral water.",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "169. Identify the antonym for \"intelligent.\"",
+    "answers": [
+      {
+        "text": "stupid",
+        "is_correct": true
+      },
+      {
+        "text": "smart",
+        "is_correct": false
+      },
+      {
+        "text": "mad",
+        "is_correct": false
+      },
+      {
+        "text": "lazy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "170. Identify the synonym for \"famous.\"",
+    "answers": [
+      {
+        "text": "popular",
+        "is_correct": true
+      },
+      {
+        "text": "unknown",
+        "is_correct": false
+      },
+      {
+        "text": "ordinary",
+        "is_correct": false
+      },
+      {
+        "text": "person",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "171. I'm not sure if I ____ to the party tonight.",
+    "answers": [
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "run",
+        "is_correct": false
+      },
+      {
+        "text": "will go",
+        "is_correct": true
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "172. Is the cat ____ the table? Yes, it is.",
+    "answers": [
+      {
+        "text": "under",
+        "is_correct": true
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "173. Is there _____ tea?",
+    "answers": [
+      {
+        "text": "any",
+        "is_correct": true
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "some",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "174. Is there a dog in the house? No, ___.",
+    "answers": [
+      {
+        "text": "there isn't",
+        "is_correct": true
+      },
+      {
+        "text": "there is no",
+        "is_correct": false
+      },
+      {
+        "text": "there aren't",
+        "is_correct": false
+      },
+      {
+        "text": "there are no",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "175. Is your surname Anderson?",
+    "answers": [
+      {
+        "text": "Yes, it is.",
+        "is_correct": true
+      },
+      {
+        "text": "Yes, you are",
+        "is_correct": false
+      },
+      {
+        "text": "Yes, my is.",
+        "is_correct": false
+      },
+      {
+        "text": "Yes, your",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "176. Is your surname Karabayev?",
+    "answers": [
+      {
+        "text": "Yes, it is",
+        "is_correct": true
+      },
+      {
+        "text": "Yes, you are",
+        "is_correct": false
+      },
+      {
+        "text": "Yes, I am",
+        "is_correct": false
+      },
+      {
+        "text": "Yes, my is.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "177. It ___ hot today.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "178. It _____ Monday today.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "179. It is a quarter past eight.",
+    "answers": [
+      {
+        "text": "8:15",
+        "is_correct": true
+      },
+      {
+        "text": "17:15",
+        "is_correct": false
+      },
+      {
+        "text": "7:30",
+        "is_correct": false
+      },
+      {
+        "text": "8:30",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "180. It is five past nine.",
+    "answers": [
+      {
+        "text": "9:05",
+        "is_correct": true
+      },
+      {
+        "text": "9:35",
+        "is_correct": false
+      },
+      {
+        "text": "8:55",
+        "is_correct": false
+      },
+      {
+        "text": "9:55",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "181. It is five to nine.",
+    "answers": [
+      {
+        "text": "8:55",
+        "is_correct": true
+      },
+      {
+        "text": "9:55",
+        "is_correct": false
+      },
+      {
+        "text": "9:35",
+        "is_correct": false
+      },
+      {
+        "text": "9:05",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "182. It is half past eight.",
+    "answers": [
+      {
+        "text": "8:30",
+        "is_correct": true
+      },
+      {
+        "text": "7:30",
+        "is_correct": false
+      },
+      {
+        "text": "18:30",
+        "is_correct": false
+      },
+      {
+        "text": "17:30",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "183. It is very nice shirt. _____ does it cost?",
+    "answers": [
+      {
+        "text": "How much",
+        "is_correct": true
+      },
+      {
+        "text": "Much how",
+        "is_correct": false
+      },
+      {
+        "text": "How many",
+        "is_correct": false
+      },
+      {
+        "text": "What money",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "184. It will be ready _____ two weeks.",
+    "answers": [
+      {
+        "text": "in",
+        "is_correct": true
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "for",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "185. Jack works _______ home.",
+    "answers": [
+      {
+        "text": "at",
+        "is_correct": true
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "under",
+        "is_correct": false
+      },
+      {
+        "text": "next",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "186. Jane's a doctor. She _____ ill people.",
+    "answers": [
+      {
+        "text": "helps",
+        "is_correct": true
+      },
+      {
+        "text": "speaks to",
+        "is_correct": false
+      },
+      {
+        "text": "looks at",
+        "is_correct": false
+      },
+      {
+        "text": "serves drinks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "187. Jim was born in nineteen seventy-five.",
+    "answers": [
+      {
+        "text": "1975",
+        "is_correct": true
+      },
+      {
+        "text": "1875",
+        "is_correct": false
+      },
+      {
+        "text": "1795",
+        "is_correct": false
+      },
+      {
+        "text": "1970",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "188. Jun is from China. He is _______.",
+    "answers": [
+      {
+        "text": "Chineese",
+        "is_correct": true
+      },
+      {
+        "text": "White color",
+        "is_correct": false
+      },
+      {
+        "text": "Indian",
+        "is_correct": false
+      },
+      {
+        "text": "Pakistani",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "189. Many birds _____ south every winter.",
+    "answers": [
+      {
+        "text": "Fly",
+        "is_correct": true
+      },
+      {
+        "text": "flew",
+        "is_correct": false
+      },
+      {
+        "text": "are flying",
+        "is_correct": false
+      },
+      {
+        "text": "will fly",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "190. Many people _______ by plane.",
+    "answers": [
+      {
+        "text": "travel",
+        "is_correct": true
+      },
+      {
+        "text": "travelled",
+        "is_correct": false
+      },
+      {
+        "text": "to travels",
+        "is_correct": false
+      },
+      {
+        "text": "say",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "191. Mark______ 19, but Brian and Denis ______ 26 and 28.",
+    "answers": [
+      {
+        "text": "is/are",
+        "is_correct": true
+      },
+      {
+        "text": "are/is",
+        "is_correct": false
+      },
+      {
+        "text": "are/are",
+        "is_correct": false
+      },
+      {
+        "text": "am/are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "192. Marta earns a lot ______ money.",
+    "answers": [
+      {
+        "text": "of",
+        "is_correct": true
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "text": "under",
+        "is_correct": false
+      },
+      {
+        "text": "to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "193. Mary _____ face every morning.",
+    "answers": [
+      {
+        "text": "washes her",
+        "is_correct": true
+      },
+      {
+        "text": "wash he",
+        "is_correct": false
+      },
+      {
+        "text": "washes their",
+        "is_correct": false
+      },
+      {
+        "text": "washes his",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "194. Mary ___ to school in the mornings.",
+    "answers": [
+      {
+        "text": "doesn't go",
+        "is_correct": false
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "did go",
+        "is_correct": false
+      },
+      {
+        "text": "goes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "195. Most of the people _____ work at 8 o'clock every morning.",
+    "answers": [
+      {
+        "text": "start",
+        "is_correct": true
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "finishes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "196. Mr. Smith ______ a tall man.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "197. Mr. Williams, ___ you in the house?",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "or",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "198. Mrs. Brown is sitting on _____.",
+    "answers": [
+      {
+        "text": "a chair",
+        "is_correct": true
+      },
+      {
+        "text": "the room",
+        "is_correct": false
+      },
+      {
+        "text": "the table",
+        "is_correct": false
+      },
+      {
+        "text": "the home",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "199. Mrs. Smith ____ tea at 5 every day.",
+    "answers": [
+      {
+        "text": "has",
+        "is_correct": true
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "having",
+        "is_correct": false
+      },
+      {
+        "text": "is have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "200. My brother ___ 10 years old.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "201. My brother's son is my ______.",
+    "answers": [
+      {
+        "text": "nephew",
+        "is_correct": true
+      },
+      {
+        "text": "niece",
+        "is_correct": false
+      },
+      {
+        "text": "aunt",
+        "is_correct": false
+      },
+      {
+        "text": "uncle",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "202. My classmates _____ on picnic every month.",
+    "answers": [
+      {
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "text": "went",
+        "is_correct": false
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "text": "Goes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "203. My cousin ______ to the disco.",
+    "answers": [
+      {
+        "text": "goes",
+        "is_correct": true
+      },
+      {
+        "text": "to read",
+        "is_correct": false
+      },
+      {
+        "text": "to have",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "204. My dad _____ at 7 o'clock everyday.",
+    "answers": [
+      {
+        "text": "gets up",
+        "is_correct": true
+      },
+      {
+        "text": "looks up",
+        "is_correct": false
+      },
+      {
+        "text": "stands up",
+        "is_correct": false
+      },
+      {
+        "text": "jumps up",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "205. My father ___ in a bank.",
+    "answers": [
+      {
+        "text": "works",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "play",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "206. My father ______ for the tickets.",
+    "answers": [
+      {
+        "text": "pays",
+        "is_correct": true
+      },
+      {
+        "text": "to pay",
+        "is_correct": false
+      },
+      {
+        "text": "to do",
+        "is_correct": false
+      },
+      {
+        "text": "to have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "207. My father ______ to Spain twice a year.",
+    "answers": [
+      {
+        "text": "travels",
+        "is_correct": true
+      },
+      {
+        "text": "to travel",
+        "is_correct": false
+      },
+      {
+        "text": "travelled",
+        "is_correct": false
+      },
+      {
+        "text": "travelling",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "208. My father ________ .",
+    "answers": [
+      {
+        "text": "doesn't cook",
+        "is_correct": true
+      },
+      {
+        "text": "does cooking",
+        "is_correct": false
+      },
+      {
+        "text": "cans cook",
+        "is_correct": false
+      },
+      {
+        "text": "cook",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "209. My favorite color is ______.",
+    "answers": [
+      {
+        "text": "white",
+        "is_correct": true
+      },
+      {
+        "text": "cat",
+        "is_correct": false
+      },
+      {
+        "text": "dog",
+        "is_correct": false
+      },
+      {
+        "text": "fast",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "210. My favorite fruit ___ apples.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "211. My friend ______ a lot of coffee.",
+    "answers": [
+      {
+        "text": "drinks",
+        "is_correct": true
+      },
+      {
+        "text": "eats",
+        "is_correct": false
+      },
+      {
+        "text": "eating",
+        "is_correct": false
+      },
+      {
+        "text": "drank",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "212. My friend ___ English and French.",
+    "answers": [
+      {
+        "text": "speaks",
+        "is_correct": true
+      },
+      {
+        "text": "good",
+        "is_correct": false
+      },
+      {
+        "text": "bad",
+        "is_correct": false
+      },
+      {
+        "text": "Is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "213. My friend ___ from Germany.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "did",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "214. My friend's son _____ Turkish and English at university.",
+    "answers": [
+      {
+        "text": "studies",
+        "is_correct": true
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "plays",
+        "is_correct": false
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "215. My friends are from Poland. They are _______.",
+    "answers": [
+      {
+        "text": "Polish",
+        "is_correct": true
+      },
+      {
+        "text": "American",
+        "is_correct": false
+      },
+      {
+        "text": "Chineese",
+        "is_correct": false
+      },
+      {
+        "text": "Uzbeks",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "216. My mother _____ food.",
+    "answers": [
+      {
+        "text": "buys",
+        "is_correct": true
+      },
+      {
+        "text": "to buy",
+        "is_correct": false
+      },
+      {
+        "text": "bought",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "217. My mother _______ on Sundays.",
+    "answers": [
+      {
+        "text": "works",
+        "is_correct": true
+      },
+      {
+        "text": "to work",
+        "is_correct": false
+      },
+      {
+        "text": "worked",
+        "is_correct": false
+      },
+      {
+        "text": "to live",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "218. My mother _____ bread every morning.",
+    "answers": [
+      {
+        "text": "buys",
+        "is_correct": true
+      },
+      {
+        "text": "buy",
+        "is_correct": false
+      },
+      {
+        "text": "is buy",
+        "is_correct": false
+      },
+      {
+        "text": "bought",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "219. My name is Lisa. ______ Lisa Peterson.",
+    "answers": [
+      {
+        "text": "I am",
+        "is_correct": true
+      },
+      {
+        "text": "I",
+        "is_correct": false
+      },
+      {
+        "text": "I is",
+        "is_correct": false
+      },
+      {
+        "text": "My am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "220. My parents ___ at home now.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "221. My parents _____ eat meat.",
+    "answers": [
+      {
+        "text": "don't",
+        "is_correct": true
+      },
+      {
+        "text": "aren't",
+        "is_correct": false
+      },
+      {
+        "text": "doesn't",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "222. My phone is ___ my bag.",
+    "answers": [
+      {
+        "text": "in",
+        "is_correct": true
+      },
+      {
+        "text": "your",
+        "is_correct": false
+      },
+      {
+        "text": "at",
+        "is_correct": false
+      },
+      {
+        "text": "before",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "223. My sister ____ anything on Saturdays.",
+    "answers": [
+      {
+        "text": "Doesn't do",
+        "is_correct": true
+      },
+      {
+        "text": "Doesn't",
+        "is_correct": false
+      },
+      {
+        "text": "Don't",
+        "is_correct": false
+      },
+      {
+        "text": "Don't does",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "224. My sister's daughter is my ______.",
+    "answers": [
+      {
+        "text": "niece",
+        "is_correct": true
+      },
+      {
+        "text": "mother",
+        "is_correct": false
+      },
+      {
+        "text": "father",
+        "is_correct": false
+      },
+      {
+        "text": "step-mother",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "225. Nancy's uncle is a pilot. He _____ all over the world.",
+    "answers": [
+      {
+        "text": "travels",
+        "is_correct": true
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "sees",
+        "is_correct": false
+      },
+      {
+        "text": "delivers",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "226. People _______ on Sundays.",
+    "answers": [
+      {
+        "text": "don't work",
+        "is_correct": true
+      },
+      {
+        "text": "does work",
+        "is_correct": false
+      },
+      {
+        "text": "doesn't work",
+        "is_correct": false
+      },
+      {
+        "text": "didn't works",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "227. Please ___ the door.",
+    "answers": [
+      {
+        "text": "close",
+        "is_correct": true
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "start",
+        "is_correct": false
+      },
+      {
+        "text": "begin",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "228. Please ___ the window.",
+    "answers": [
+      {
+        "text": "open",
+        "is_correct": true
+      },
+      {
+        "text": "write",
+        "is_correct": false
+      },
+      {
+        "text": "read",
+        "is_correct": false
+      },
+      {
+        "text": "Go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "229. Robert is a ______.",
+    "answers": [
+      {
+        "text": "boy",
+        "is_correct": true
+      },
+      {
+        "text": "woman",
+        "is_correct": false
+      },
+      {
+        "text": "men",
+        "is_correct": false
+      },
+      {
+        "text": "she",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "230. Rosemary _____ three languages.",
+    "answers": [
+      {
+        "text": "speaks",
+        "is_correct": true
+      },
+      {
+        "text": "talks",
+        "is_correct": false
+      },
+      {
+        "text": "Tells",
+        "is_correct": false
+      },
+      {
+        "text": "know",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "231. She _____ Spanish and Italian very well.",
+    "answers": [
+      {
+        "text": "speaks",
+        "is_correct": true
+      },
+      {
+        "text": "speaking",
+        "is_correct": false
+      },
+      {
+        "text": "say",
+        "is_correct": false
+      },
+      {
+        "text": "saying",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "232. She ___ books every evening.",
+    "answers": [
+      {
+        "text": "reads",
+        "is_correct": true
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "doing",
+        "is_correct": false
+      },
+      {
+        "text": "cannot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "233. She ___ to music every day.",
+    "answers": [
+      {
+        "text": "listens",
+        "is_correct": true
+      },
+      {
+        "text": "write",
+        "is_correct": false
+      },
+      {
+        "text": "computer",
+        "is_correct": false
+      },
+      {
+        "text": "Can",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "234. She ___ to school every day.",
+    "answers": [
+      {
+        "text": "goes",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "did",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "235. She ____ her sister every day.",
+    "answers": [
+      {
+        "text": "sees",
+        "is_correct": true
+      },
+      {
+        "text": "look",
+        "is_correct": false
+      },
+      {
+        "text": "meeting",
+        "is_correct": false
+      },
+      {
+        "text": "to see",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "236. She _____ a white coat.",
+    "answers": [
+      {
+        "text": "wears",
+        "is_correct": true
+      },
+      {
+        "text": "wear",
+        "is_correct": false
+      },
+      {
+        "text": "does wear",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "237. She _____ from England.",
+    "answers": [
+      {
+        "text": "comes",
+        "is_correct": true
+      },
+      {
+        "text": "come",
+        "is_correct": false
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "don't come",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "238. She _____ from Uzbekistan.",
+    "answers": [
+      {
+        "text": "comes",
+        "is_correct": true
+      },
+      {
+        "text": "come",
+        "is_correct": false
+      },
+      {
+        "text": "don't come",
+        "is_correct": false
+      },
+      {
+        "text": "goed",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "239. She _____ see me.",
+    "answers": [
+      {
+        "text": "couldn't",
+        "is_correct": true
+      },
+      {
+        "text": "isn't",
+        "is_correct": false
+      },
+      {
+        "text": "aren't",
+        "is_correct": false
+      },
+      {
+        "text": "don't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "240. She _____ television every evening.",
+    "answers": [
+      {
+        "text": "watches",
+        "is_correct": true
+      },
+      {
+        "text": "watch",
+        "is_correct": false
+      },
+      {
+        "text": "see",
+        "is_correct": false
+      },
+      {
+        "text": "buy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "241. She _____ the Rolling Stones records.",
+    "answers": [
+      {
+        "text": "likes",
+        "is_correct": true
+      },
+      {
+        "text": "is liked",
+        "is_correct": false
+      },
+      {
+        "text": "to like",
+        "is_correct": false
+      },
+      {
+        "text": "liking",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "242. She _____ to the beach every summer.",
+    "answers": [
+      {
+        "text": "goes",
+        "is_correct": true
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "went",
+        "is_correct": false
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "243. She ______ rugby.",
+    "answers": [
+      {
+        "text": "plays",
+        "is_correct": true
+      },
+      {
+        "text": "to play",
+        "is_correct": false
+      },
+      {
+        "text": "went",
+        "is_correct": false
+      },
+      {
+        "text": "played",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "244. She _______ Uzbekistan.",
+    "answers": [
+      {
+        "text": "is from",
+        "is_correct": true
+      },
+      {
+        "text": "is at",
+        "is_correct": false
+      },
+      {
+        "text": "am from",
+        "is_correct": false
+      },
+      {
+        "text": "are from",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "245. She ________ her homework.",
+    "answers": [
+      {
+        "text": "does",
+        "is_correct": true
+      },
+      {
+        "text": "to do",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "to see",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "246. She ____ letters to her mother every week.",
+    "answers": [
+      {
+        "text": "writes",
+        "is_correct": true
+      },
+      {
+        "text": "write",
+        "is_correct": false
+      },
+      {
+        "text": "writing",
+        "is_correct": false
+      },
+      {
+        "text": "are writing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "247. She is ______ good girl.",
+    "answers": [
+      {
+        "text": "a",
+        "is_correct": true
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "248. She likes _____ TV, but her husband doesn't.",
+    "answers": [
+      {
+        "text": "watching",
+        "is_correct": true
+      },
+      {
+        "text": "watch",
+        "is_correct": false
+      },
+      {
+        "text": "watches",
+        "is_correct": false
+      },
+      {
+        "text": "watched",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "249. She never _____chess.",
+    "answers": [
+      {
+        "text": "plays",
+        "is_correct": true
+      },
+      {
+        "text": "to play",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "to live",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "250. Snow is _____.",
+    "answers": [
+      {
+        "text": "cold",
+        "is_correct": true
+      },
+      {
+        "text": "hot",
+        "is_correct": false
+      },
+      {
+        "text": "small",
+        "is_correct": false
+      },
+      {
+        "text": "cheap",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "251. Some children ______ Chinese.",
+    "answers": [
+      {
+        "text": "learn",
+        "is_correct": true
+      },
+      {
+        "text": "learns",
+        "is_correct": false
+      },
+      {
+        "text": "to show",
+        "is_correct": false
+      },
+      {
+        "text": "see",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "252. Sonia ______ to work early.",
+    "answers": [
+      {
+        "text": "goes",
+        "is_correct": true
+      },
+      {
+        "text": "go",
+        "is_correct": false
+      },
+      {
+        "text": "went",
+        "is_correct": false
+      },
+      {
+        "text": "gone",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "253. Spaghetti is from Italy. It is ______.",
+    "answers": [
+      {
+        "text": "Italian",
+        "is_correct": true
+      },
+      {
+        "text": "Chineese",
+        "is_correct": false
+      },
+      {
+        "text": "Fast food",
+        "is_correct": false
+      },
+      {
+        "text": "Slow food",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "254. Summer holidays _____ in June.",
+    "answers": [
+      {
+        "text": "begin",
+        "is_correct": true
+      },
+      {
+        "text": "beginning",
+        "is_correct": false
+      },
+      {
+        "text": "began",
+        "is_correct": false
+      },
+      {
+        "text": "begins",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "255. Susan, _____ a chair in the garden?",
+    "answers": [
+      {
+        "text": "is there",
+        "is_correct": true
+      },
+      {
+        "text": "are there",
+        "is_correct": false
+      },
+      {
+        "text": "there are",
+        "is_correct": false
+      },
+      {
+        "text": "there is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "257. Synonym of \"ancient\"?",
+    "answers": [
+      {
+        "text": "Old",
+        "is_correct": true
+      },
+      {
+        "text": "Modern",
+        "is_correct": false
+      },
+      {
+        "text": "Antique",
+        "is_correct": false
+      },
+      {
+        "text": "Primitive",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "259. Synonym of \"intelligent\"?",
+    "answers": [
+      {
+        "text": "smart",
+        "is_correct": true
+      },
+      {
+        "text": "inquisitive",
+        "is_correct": false
+      },
+      {
+        "text": "sceptial",
+        "is_correct": false
+      },
+      {
+        "text": "Light",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "260. Synonym of \"nervous\"?",
+    "answers": [
+      {
+        "text": "anxious",
+        "is_correct": true
+      },
+      {
+        "text": "callous",
+        "is_correct": false
+      },
+      {
+        "text": "upset",
+        "is_correct": false
+      },
+      {
+        "text": "disinterested",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "261. Synonym of \"occupied\"?",
+    "answers": [
+      {
+        "text": "busy",
+        "is_correct": true
+      },
+      {
+        "text": "rushed",
+        "is_correct": false
+      },
+      {
+        "text": "occult",
+        "is_correct": false
+      },
+      {
+        "text": "fill",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "262. That is ___ pencil.",
+    "answers": [
+      {
+        "text": "my",
+        "is_correct": true
+      },
+      {
+        "text": "I",
+        "is_correct": false
+      },
+      {
+        "text": "we",
+        "is_correct": false
+      },
+      {
+        "text": "book",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "263. The baby ___ sleeping.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "264. The boy and the girl ___ in the room.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "isn't",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "are no",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "265. The boys ______ in the room.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "266. The Buckingham Palace _____ lots of rooms.",
+    "answers": [
+      {
+        "text": "has",
+        "is_correct": true
+      },
+      {
+        "text": "had",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      },
+      {
+        "text": "having",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "267. The cat _______ the mouse.",
+    "answers": [
+      {
+        "text": "catches",
+        "is_correct": true
+      },
+      {
+        "text": "to catch",
+        "is_correct": false
+      },
+      {
+        "text": "show",
+        "is_correct": false
+      },
+      {
+        "text": "went",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "268. The cat ______ under the table.",
+    "answers": [
+      {
+        "text": "isn't",
+        "is_correct": true
+      },
+      {
+        "text": "am not",
+        "is_correct": false
+      },
+      {
+        "text": "aren't",
+        "is_correct": false
+      },
+      {
+        "text": "no is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "269. The chair ______ in the garden.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "270. The children _____ playing.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "271. The children often _____ with the dog in the garden.",
+    "answers": [
+      {
+        "text": "play",
+        "is_correct": true
+      },
+      {
+        "text": "plays",
+        "is_correct": false
+      },
+      {
+        "text": "is playing",
+        "is_correct": false
+      },
+      {
+        "text": "played",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "272. The concert ____ at 7 p.m. tonight.",
+    "answers": [
+      {
+        "text": "starts",
+        "is_correct": true
+      },
+      {
+        "text": "start",
+        "is_correct": false
+      },
+      {
+        "text": "started",
+        "is_correct": false
+      },
+      {
+        "text": "starting",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "273. The dog _____ the cat are sitting in the room.",
+    "answers": [
+      {
+        "text": "and",
+        "is_correct": true
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "not",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "274. The father _____ with his children in the evening.",
+    "answers": [
+      {
+        "text": "plays",
+        "is_correct": true
+      },
+      {
+        "text": "played",
+        "is_correct": false
+      },
+      {
+        "text": "playing",
+        "is_correct": false
+      },
+      {
+        "text": "are playing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "275. The gardener _____ the grass.",
+    "answers": [
+      {
+        "text": "cuts",
+        "is_correct": true
+      },
+      {
+        "text": "to cut",
+        "is_correct": false
+      },
+      {
+        "text": "like",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "276. The girl ______ a lot.",
+    "answers": [
+      {
+        "text": "cries",
+        "is_correct": true
+      },
+      {
+        "text": "to cry",
+        "is_correct": false
+      },
+      {
+        "text": "to do",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "277. The Kangaroos ______ in Australia.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "and",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "278. The mother ______ money to the children every week.",
+    "answers": [
+      {
+        "text": "gives",
+        "is_correct": true
+      },
+      {
+        "text": "give",
+        "is_correct": false
+      },
+      {
+        "text": "is giving",
+        "is_correct": false
+      },
+      {
+        "text": "Are give",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "279. The pyramids _____ in Egypt.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "and",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "280. The shoes ___ new.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "text": "Am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "281. The sun ____ early in the morning.",
+    "answers": [
+      {
+        "text": "rises",
+        "is_correct": true
+      },
+      {
+        "text": "to rise",
+        "is_correct": false
+      },
+      {
+        "text": "rising",
+        "is_correct": false
+      },
+      {
+        "text": "to rose",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "282. The table is ______ in the room.",
+    "answers": [
+      {
+        "text": "not",
+        "is_correct": true
+      },
+      {
+        "text": "no",
+        "is_correct": false
+      },
+      {
+        "text": "or",
+        "is_correct": false
+      },
+      {
+        "text": "and",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "283. The tables _____ in the house.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "and",
+        "is_correct": false
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "284. The teacher always _____ clearly.",
+    "answers": [
+      {
+        "text": "speaks",
+        "is_correct": true
+      },
+      {
+        "text": "is speaking",
+        "is_correct": false
+      },
+      {
+        "text": "are speak",
+        "is_correct": false
+      },
+      {
+        "text": "spoke",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "285. The train ____ at 8 o'clock every morning.",
+    "answers": [
+      {
+        "text": "leaves",
+        "is_correct": true
+      },
+      {
+        "text": "leave",
+        "is_correct": false
+      },
+      {
+        "text": "left",
+        "is_correct": false
+      },
+      {
+        "text": "leaving",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "286. Their son _____ in this hospital.",
+    "answers": [
+      {
+        "text": "works",
+        "is_correct": true
+      },
+      {
+        "text": "begin",
+        "is_correct": false
+      },
+      {
+        "text": "start",
+        "is_correct": false
+      },
+      {
+        "text": "like",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "287. There ___ a cat under the table.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "Can",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "288. There ___ a lot of people at the party.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "Did",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "289. There ___ a pen on the desk.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "Am",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "290. There _____ a post box in front of the chemist's.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "291. There ____ a nice door in this house.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "292. There _____ two little trees in the garden.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "293. There are _____ oranges on the table.",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "294. There is _____ cheese on the table.",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "295. There isn't _____ coffee.",
+    "answers": [
+      {
+        "text": "much",
+        "is_correct": true
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "many",
+        "is_correct": false
+      },
+      {
+        "text": "The",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "296. These people never ______ on time.",
+    "answers": [
+      {
+        "text": "come",
+        "is_correct": true
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "text": "coming",
+        "is_correct": false
+      },
+      {
+        "text": "is coming",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "297. They ___ from India.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "Am",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "298. They ___ students.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "299. They _____ boys, they are girls.",
+    "answers": [
+      {
+        "text": "aren't",
+        "is_correct": true
+      },
+      {
+        "text": "isn't",
+        "is_correct": false
+      },
+      {
+        "text": "am not",
+        "is_correct": false
+      },
+      {
+        "text": "no",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "300. They ____ in coffee bars.",
+    "answers": [
+      {
+        "text": "don't smoke",
+        "is_correct": true
+      },
+      {
+        "text": "doesn't",
+        "is_correct": false
+      },
+      {
+        "text": "don't smoked",
+        "is_correct": false
+      },
+      {
+        "text": "foot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "301. They _____ not cats. They are dogs.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "and",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "302. You _____ in the bars.",
+    "answers": [
+      {
+        "text": "don't smoke",
+        "is_correct": true
+      },
+      {
+        "text": "doesn't",
+        "is_correct": false
+      },
+      {
+        "text": "don't play",
+        "is_correct": false
+      },
+      {
+        "text": "washes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "303. This is ___ book.",
+    "answers": [
+      {
+        "text": "a",
+        "is_correct": true
+      },
+      {
+        "text": "30the",
+        "is_correct": false
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "304. This is ___ pen.",
+    "answers": [
+      {
+        "text": "a",
+        "is_correct": true
+      },
+      {
+        "text": "the",
+        "is_correct": false
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "put",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "305. This woman _______ the lorry.",
+    "answers": [
+      {
+        "text": "drives",
+        "is_correct": true
+      },
+      {
+        "text": "to drive",
+        "is_correct": false
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      },
+      {
+        "text": "goI",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "306. Toyotas ______ Japanese ______.",
+    "answers": [
+      {
+        "text": "are/cars",
+        "is_correct": true
+      },
+      {
+        "text": "is a/car",
+        "is_correct": false
+      },
+      {
+        "text": "is/car",
+        "is_correct": false
+      },
+      {
+        "text": "is/cars",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "307. Umida _____ hands every morning.",
+    "answers": [
+      {
+        "text": "washes her",
+        "is_correct": true
+      },
+      {
+        "text": "washes his",
+        "is_correct": false
+      },
+      {
+        "text": "wash my",
+        "is_correct": false
+      },
+      {
+        "text": "washes their",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "308. Visitors _____ to India's Independence Day from all over the world.",
+    "answers": [
+      {
+        "text": "come",
+        "is_correct": true
+      },
+      {
+        "text": "visits",
+        "is_correct": false
+      },
+      {
+        "text": "leave",
+        "is_correct": false
+      },
+      {
+        "text": "goes",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "309. We ___ a big house.",
+    "answers": [
+      {
+        "text": "have",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "did",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "310. We ___ English at school.",
+    "answers": [
+      {
+        "text": "study",
+        "is_correct": true
+      },
+      {
+        "text": "run",
+        "is_correct": false
+      },
+      {
+        "text": "down",
+        "is_correct": false
+      },
+      {
+        "text": "try",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "311. We ___ from Uzbekistan.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "312. We ___ go to school on Saturday.",
+    "answers": [
+      {
+        "text": "don't",
+        "is_correct": true
+      },
+      {
+        "text": "can",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "313. We ___ in class now.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "314. We ___ our grandparents on Sundays.",
+    "answers": [
+      {
+        "text": "visit",
+        "is_correct": true
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "text": "doing",
+        "is_correct": false
+      },
+      {
+        "text": "play",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "315. We ___ to school on foot.",
+    "answers": [
+      {
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "text": "book",
+        "is_correct": false
+      },
+      {
+        "text": "run",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "316. We _____ badminton on Tuesday evenings, but my little sister _____ on Saturdays.",
+    "answers": [
+      {
+        "text": "play/plays",
+        "is_correct": true
+      },
+      {
+        "text": "plays/play",
+        "is_correct": false
+      },
+      {
+        "text": "play/play",
+        "is_correct": false
+      },
+      {
+        "text": "plays/plays",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "317. We _____ doctors.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "318. We _____  juice every day.",
+    "answers": [
+      {
+        "text": "drink",
+        "is_correct": true
+      },
+      {
+        "text": "to drinks",
+        "is_correct": false
+      },
+      {
+        "text": "o eat",
+        "is_correct": false
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "319. We ______ in England.",
+    "answers": [
+      {
+        "text": "live",
+        "is_correct": true
+      },
+      {
+        "text": "likes",
+        "is_correct": false
+      },
+      {
+        "text": "to have",
+        "is_correct": false
+      },
+      {
+        "text": "has",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "320. We _______ the answers.",
+    "answers": [
+      {
+        "text": "write",
+        "is_correct": true
+      },
+      {
+        "text": "wrotes",
+        "is_correct": false
+      },
+      {
+        "text": "to write",
+        "is_correct": false
+      },
+      {
+        "text": "to play",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "321. We _____ a newspaper in the train.",
+    "answers": [
+      {
+        "text": "read",
+        "is_correct": true
+      },
+      {
+        "text": "reads",
+        "is_correct": false
+      },
+      {
+        "text": "reading",
+        "is_correct": false
+      },
+      {
+        "text": "rode",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "322. We _____ to the cinema on Sunday evenings.",
+    "answers": [
+      {
+        "text": "go",
+        "is_correct": true
+      },
+      {
+        "text": "going",
+        "is_correct": false
+      },
+      {
+        "text": "have",
+        "is_correct": false
+      },
+      {
+        "text": "Are going",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "323. We _____ TV every evening.",
+    "answers": [
+      {
+        "text": "watch",
+        "is_correct": true
+      },
+      {
+        "text": "watches",
+        "is_correct": false
+      },
+      {
+        "text": "Is watch",
+        "is_correct": false
+      },
+      {
+        "text": "Are watch",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "324. We always ______ the room.",
+    "answers": [
+      {
+        "text": "tidy",
+        "is_correct": true
+      },
+      {
+        "text": "to like",
+        "is_correct": false
+      },
+      {
+        "text": "to go",
+        "is_correct": false
+      },
+      {
+        "text": "to do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "325. We go to school on ______.",
+    "answers": [
+      {
+        "text": "foot",
+        "is_correct": true
+      },
+      {
+        "text": "write",
+        "is_correct": false
+      },
+      {
+        "text": "read",
+        "is_correct": false
+      },
+      {
+        "text": "Run",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "326. We have a class ___ the morning.",
+    "answers": [
+      {
+        "text": "in",
+        "is_correct": true
+      },
+      {
+        "text": "at",
+        "is_correct": false
+      },
+      {
+        "text": "begin",
+        "is_correct": false
+      },
+      {
+        "text": "start",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "327. We never ____ tennis on Sundays.",
+    "answers": [
+      {
+        "text": "play",
+        "is_correct": true
+      },
+      {
+        "text": "is play",
+        "is_correct": false
+      },
+      {
+        "text": "playing",
+        "is_correct": false
+      },
+      {
+        "text": "plays",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "328. We never ____ water with meals.",
+    "answers": [
+      {
+        "text": "drink",
+        "is_correct": true
+      },
+      {
+        "text": "drinking",
+        "is_correct": false
+      },
+      {
+        "text": "is drink",
+        "is_correct": false
+      },
+      {
+        "text": "are drink",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "329. We stayed _____ the Heathrow Hotel.",
+    "answers": [
+      {
+        "text": "at",
+        "is_correct": true
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "into",
+        "is_correct": false
+      },
+      {
+        "text": "to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "330. We write ______ pens and pencils.",
+    "answers": [
+      {
+        "text": "with",
+        "is_correct": true
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "of",
+        "is_correct": false
+      },
+      {
+        "text": "to",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "331. We_________ engineers.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "332. What _____ of music do you like?",
+    "answers": [
+      {
+        "text": "kind",
+        "is_correct": true
+      },
+      {
+        "text": "name",
+        "is_correct": false
+      },
+      {
+        "text": "time",
+        "is_correct": false
+      },
+      {
+        "text": "place",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "333. What _____ your favorite color?",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "334. What ____ her name?",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "did",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "335. What ____ his name?",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "336. What ____ your name?",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "337. What ____ you ____ for breakfast?",
+    "answers": [
+      {
+        "text": "do/have",
+        "is_correct": true
+      },
+      {
+        "text": "does/have",
+        "is_correct": false
+      },
+      {
+        "text": "do/has",
+        "is_correct": false
+      },
+      {
+        "text": "does/has",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "338. What ____ you do on Sundays?",
+    "answers": [
+      {
+        "text": "do",
+        "is_correct": true
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      },
+      {
+        "text": "don't",
+        "is_correct": false
+      },
+      {
+        "text": "Doesn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "339. What color ___ your car?",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "bo",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "340. What does \"inshoat\" mean in English?",
+    "answers": [
+      {
+        "text": "Structure",
+        "is_correct": true
+      },
+      {
+        "text": "innovation",
+        "is_correct": false
+      },
+      {
+        "text": "invention",
+        "is_correct": false
+      },
+      {
+        "text": "imagination",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "341. What is your favorite subject?",
+    "answers": [
+      {
+        "text": "English",
+        "is_correct": true
+      },
+      {
+        "text": "Monday",
+        "is_correct": false
+      },
+      {
+        "text": "I'm 15",
+        "is_correct": false
+      },
+      {
+        "text": "book",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "342. What time did you arrive at the hotel?",
+    "answers": [
+      {
+        "text": "At 10:00 p.m.",
+        "is_correct": true
+      },
+      {
+        "text": "My taxi.",
+        "is_correct": false
+      },
+      {
+        "text": "In the hotel Bella.",
+        "is_correct": false
+      },
+      {
+        "text": "Thank you.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "343. What time does the lesson ___?",
+    "answers": [
+      {
+        "text": "start",
+        "is_correct": true
+      },
+      {
+        "text": "visit",
+        "is_correct": false
+      },
+      {
+        "text": "read",
+        "is_correct": false
+      },
+      {
+        "text": "tell",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "344. What time is it?",
+    "answers": [
+      {
+        "text": "It's 5 o'clock",
+        "is_correct": true
+      },
+      {
+        "text": "It's sunny",
+        "is_correct": false
+      },
+      {
+        "text": "I'm tired",
+        "is_correct": false
+      },
+      {
+        "text": "I don't think so",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "345. What time is it?",
+    "answers": [
+      {
+        "text": "It's 3 o'clock",
+        "is_correct": true
+      },
+      {
+        "text": "Monday",
+        "is_correct": false
+      },
+      {
+        "text": "Good",
+        "is_correct": false
+      },
+      {
+        "text": "No, it isn't",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "346. What's this?",
+    "answers": [
+      {
+        "text": "It's a pencil.",
+        "is_correct": true
+      },
+      {
+        "text": "I'm 20.",
+        "is_correct": false
+      },
+      {
+        "text": "She is student.",
+        "is_correct": false
+      },
+      {
+        "text": "We are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "347. What's your father's job?",
+    "answers": [
+      {
+        "text": "He's a doctor",
+        "is_correct": true
+      },
+      {
+        "text": "Yes, he is",
+        "is_correct": false
+      },
+      {
+        "text": "at home",
+        "is_correct": false
+      },
+      {
+        "text": "school",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "348. What's your favorite ___?",
+    "answers": [
+      {
+        "text": "food",
+        "is_correct": true
+      },
+      {
+        "text": "cooked",
+        "is_correct": false
+      },
+      {
+        "text": "Drinked",
+        "is_correct": false
+      },
+      {
+        "text": "do",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "349. What's your mother's job?",
+    "answers": [
+      {
+        "text": "She's a doctor",
+        "is_correct": true
+      },
+      {
+        "text": "at home",
+        "is_correct": false
+      },
+      {
+        "text": "Yes, she is",
+        "is_correct": false
+      },
+      {
+        "text": "hospital",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "350. When ____ Mary ____ to school?",
+    "answers": [
+      {
+        "text": "does/go",
+        "is_correct": true
+      },
+      {
+        "text": "does/goes",
+        "is_correct": false
+      },
+      {
+        "text": "do/goes",
+        "is_correct": false
+      },
+      {
+        "text": "do/go",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "351. Where ___ the supermarket?",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "be",
+        "is_correct": false
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "352. Where _____ they live?",
+    "answers": [
+      {
+        "text": "do",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "does",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "353. Where ______ you ______?",
+    "answers": [
+      {
+        "text": "are/from",
+        "is_correct": true
+      },
+      {
+        "text": "are/is",
+        "is_correct": false
+      },
+      {
+        "text": "are/in",
+        "is_correct": false
+      },
+      {
+        "text": "is/from",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "354. Where _____ the boys? They are in the garden.",
+    "answers": [
+      {
+        "text": "are",
+        "is_correct": true
+      },
+      {
+        "text": "is",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "355. Where __ the cat? It is in the room.",
+    "answers": [
+      {
+        "text": "is",
+        "is_correct": true
+      },
+      {
+        "text": "are",
+        "is_correct": false
+      },
+      {
+        "text": "am",
+        "is_correct": false
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "356. Where do you come ….. ?",
+    "answers": [
+      {
+        "text": "from",
+        "is_correct": true
+      },
+      {
+        "text": "*",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      },
+      {
+        "text": "of",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "357. Where do you live?",
+    "answers": [
+      {
+        "text": "I live in Tashkent.",
+        "is_correct": true
+      },
+      {
+        "text": "He loves Tashkent.",
+        "is_correct": false
+      },
+      {
+        "text": "Yes, I am.",
+        "is_correct": false
+      },
+      {
+        "text": "No, he is.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "358. Where is _____ chair? It is in the room.",
+    "answers": [
+      {
+        "text": "the",
+        "is_correct": true
+      },
+      {
+        "text": "An",
+        "is_correct": false
+      },
+      {
+        "text": "on",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "359. Where is the table? _____ is in the room.",
+    "answers": [
+      {
+        "text": "It",
+        "is_correct": true
+      },
+      {
+        "text": "He",
+        "is_correct": false
+      },
+      {
+        "text": "She",
+        "is_correct": false
+      },
+      {
+        "text": "-",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "360. Which is a synonym of: difficult?",
+    "answers": [
+      {
+        "text": "Hard",
+        "is_correct": true
+      },
+      {
+        "text": "soft",
+        "is_correct": false
+      },
+      {
+        "text": "easy",
+        "is_correct": false
+      },
+      {
+        "text": "old",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "361. Which is a synonym of: disgusting?",
+    "answers": [
+      {
+        "text": "Gross",
+        "is_correct": true
+      },
+      {
+        "text": "flavorful",
+        "is_correct": false
+      },
+      {
+        "text": "good",
+        "is_correct": false
+      },
+      {
+        "text": "tasty",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "362. Which is a synonym of: inexpensive?",
+    "answers": [
+      {
+        "text": "Cheap",
+        "is_correct": true
+      },
+      {
+        "text": "difficult",
+        "is_correct": false
+      },
+      {
+        "text": "costly",
+        "is_correct": false
+      },
+      {
+        "text": "pricey",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "363. Which is a synonym of: polite?",
+    "answers": [
+      {
+        "text": "Well-mannered",
+        "is_correct": true
+      },
+      {
+        "text": "educated",
+        "is_correct": false
+      },
+      {
+        "text": "clever",
+        "is_correct": false
+      },
+      {
+        "text": "Friendly",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "364. Which is a synonym of: solo?",
+    "answers": [
+      {
+        "text": "alone",
+        "is_correct": true
+      },
+      {
+        "text": "crowded",
+        "is_correct": false
+      },
+      {
+        "text": "light",
+        "is_correct": false
+      },
+      {
+        "text": "heavy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "365. Which is a synonym of: super?",
+    "answers": [
+      {
+        "text": "great",
+        "is_correct": true
+      },
+      {
+        "text": "good",
+        "is_correct": false
+      },
+      {
+        "text": "rainy",
+        "is_correct": false
+      },
+      {
+        "text": "lousy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "366. Which is an antonym of: bad?",
+    "answers": [
+      {
+        "text": "good",
+        "is_correct": true
+      },
+      {
+        "text": "cruel",
+        "is_correct": false
+      },
+      {
+        "text": "happy",
+        "is_correct": false
+      },
+      {
+        "text": "angry",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "367. Which is an antonym of: beautiful?",
+    "answers": [
+      {
+        "text": "ugly",
+        "is_correct": true
+      },
+      {
+        "text": "hostile",
+        "is_correct": false
+      },
+      {
+        "text": "expensive",
+        "is_correct": false
+      },
+      {
+        "text": "brave",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "368. Which is an antonym of: happy?",
+    "answers": [
+      {
+        "text": "sad",
+        "is_correct": true
+      },
+      {
+        "text": "disturbed",
+        "is_correct": false
+      },
+      {
+        "text": "mad",
+        "is_correct": false
+      },
+      {
+        "text": "afraid",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "369. Which is an antonym of: rare?",
+    "answers": [
+      {
+        "text": "common",
+        "is_correct": true
+      },
+      {
+        "text": "normal",
+        "is_correct": false
+      },
+      {
+        "text": "creepy",
+        "is_correct": false
+      },
+      {
+        "text": "painful",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "370. Which is an antonym of: sick?",
+    "answers": [
+      {
+        "text": "healthy",
+        "is_correct": true
+      },
+      {
+        "text": "upset",
+        "is_correct": false
+      },
+      {
+        "text": "energetic",
+        "is_correct": false
+      },
+      {
+        "text": "dizzy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "371. Which is an antonym of: strong?",
+    "answers": [
+      {
+        "text": "weak",
+        "is_correct": true
+      },
+      {
+        "text": "thin",
+        "is_correct": false
+      },
+      {
+        "text": "young",
+        "is_correct": false
+      },
+      {
+        "text": "light",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "372. Which is an antonym of: tiny?",
+    "answers": [
+      {
+        "text": "large",
+        "is_correct": true
+      },
+      {
+        "text": "small",
+        "is_correct": false
+      },
+      {
+        "text": "maximum",
+        "is_correct": false
+      },
+      {
+        "text": "puny",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "373. Which one is a synonym of: hurt?",
+    "answers": [
+      {
+        "text": "injured",
+        "is_correct": true
+      },
+      {
+        "text": "snapped",
+        "is_correct": false
+      },
+      {
+        "text": "broken",
+        "is_correct": false
+      },
+      {
+        "text": "bad",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "374. Which one is an antonym of: ancient.",
+    "answers": [
+      {
+        "text": "Modern",
+        "is_correct": true
+      },
+      {
+        "text": "old",
+        "is_correct": false
+      },
+      {
+        "text": "antique",
+        "is_correct": false
+      },
+      {
+        "text": "history",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "375. Which one is an antonym of: \"different\"?",
+    "answers": [
+      {
+        "text": "same",
+        "is_correct": true
+      },
+      {
+        "text": "safe",
+        "is_correct": false
+      },
+      {
+        "text": "several",
+        "is_correct": false
+      },
+      {
+        "text": "many",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "376. Which one is an antonym of: \"dry\"?",
+    "answers": [
+      {
+        "text": "wet",
+        "is_correct": true
+      },
+      {
+        "text": "full",
+        "is_correct": false
+      },
+      {
+        "text": "short",
+        "is_correct": false
+      },
+      {
+        "text": "same",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "377. Which one is an antonym of: \"hide\"?",
+    "answers": [
+      {
+        "text": "show",
+        "is_correct": true
+      },
+      {
+        "text": "light",
+        "is_correct": false
+      },
+      {
+        "text": "never",
+        "is_correct": false
+      },
+      {
+        "text": "good",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "378. Which one is an antonym of: \"tall\"?",
+    "answers": [
+      {
+        "text": "short",
+        "is_correct": true
+      },
+      {
+        "text": "long",
+        "is_correct": false
+      },
+      {
+        "text": "big",
+        "is_correct": false
+      },
+      {
+        "text": "small",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "379. Which one is an antonym of: easy?",
+    "answers": [
+      {
+        "text": "difficult",
+        "is_correct": true
+      },
+      {
+        "text": "fast",
+        "is_correct": false
+      },
+      {
+        "text": "strong",
+        "is_correct": false
+      },
+      {
+        "text": "fine",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "380. Which one is an antonym of: last?",
+    "answers": [
+      {
+        "text": "first",
+        "is_correct": true
+      },
+      {
+        "text": "closing",
+        "is_correct": false
+      },
+      {
+        "text": "ending",
+        "is_correct": false
+      },
+      {
+        "text": "primary",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "381. Which one is an antonym of: loose?",
+    "answers": [
+      {
+        "text": "tight",
+        "is_correct": true
+      },
+      {
+        "text": "super",
+        "is_correct": false
+      },
+      {
+        "text": "sticky",
+        "is_correct": false
+      },
+      {
+        "text": "strong",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "382. Which one is an antonym of: polite?",
+    "answers": [
+      {
+        "text": "rude",
+        "is_correct": true
+      },
+      {
+        "text": "educated",
+        "is_correct": false
+      },
+      {
+        "text": "friendly",
+        "is_correct": false
+      },
+      {
+        "text": "clever",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "383. Which one is the means of transport?",
+    "answers": [
+      {
+        "text": "car",
+        "is_correct": true
+      },
+      {
+        "text": "fridge",
+        "is_correct": false
+      },
+      {
+        "text": "Phone",
+        "is_correct": false
+      },
+      {
+        "text": "tube",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "384. Which one is the public transport?",
+    "answers": [
+      {
+        "text": "tram",
+        "is_correct": true
+      },
+      {
+        "text": "mobile",
+        "is_correct": false
+      },
+      {
+        "text": "Rocket",
+        "is_correct": false
+      },
+      {
+        "text": "spaceship",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "385. Whisky is from Scotland. It is ____.",
+    "answers": [
+      {
+        "text": "Scottish",
+        "is_correct": true
+      },
+      {
+        "text": "English",
+        "is_correct": false
+      },
+      {
+        "text": "Road",
+        "is_correct": false
+      },
+      {
+        "text": "Highway",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "386. Why is their dog ______?",
+    "answers": [
+      {
+        "text": "barking",
+        "is_correct": true
+      },
+      {
+        "text": "bark",
+        "is_correct": false
+      },
+      {
+        "text": "barked",
+        "is_correct": false
+      },
+      {
+        "text": "bear",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "387. Would you like _____ milk?",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "an",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "388. Would you like a drink? Yes, some mineral ______ , please.",
+    "answers": [
+      {
+        "text": "water",
+        "is_correct": true
+      },
+      {
+        "text": "coke",
+        "is_correct": false
+      },
+      {
+        "text": "juice",
+        "is_correct": false
+      },
+      {
+        "text": "apple",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "389. Would you like to listen to _____ music?",
+    "answers": [
+      {
+        "text": "some",
+        "is_correct": true
+      },
+      {
+        "text": "many",
+        "is_correct": false
+      },
+      {
+        "text": "a",
+        "is_correct": false
+      },
+      {
+        "text": "any",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "390. Yes, ______ a lamp in the room.",
+    "answers": [
+      {
+        "text": "there is",
+        "is_correct": true
+      },
+      {
+        "text": "There are",
+        "is_correct": false
+      },
+      {
+        "text": "Is there",
+        "is_correct": false
+      },
+      {
+        "text": "Are there",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "391. You ______ too much television.",
+    "answers": [
+      {
+        "text": "watch",
+        "is_correct": true
+      },
+      {
+        "text": "watches",
+        "is_correct": false
+      },
+      {
+        "text": "to have",
+        "is_correct": false
+      },
+      {
+        "text": "to drive",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "392. You ______ in the house with garden.",
+    "answers": [
+      {
+        "text": "live",
+        "is_correct": true
+      },
+      {
+        "text": "lives",
+        "is_correct": false
+      },
+      {
+        "text": "book",
+        "is_correct": false
+      },
+      {
+        "text": "Film",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "393. You____ in Mexico.",
+    "answers": [
+      {
+        "text": "live",
+        "is_correct": true
+      },
+      {
+        "text": "love",
+        "is_correct": false
+      },
+      {
+        "text": "want",
+        "is_correct": false
+      },
+      {
+        "text": "liking",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "394. Your children _____ a lot of chips.",
+    "answers": [
+      {
+        "text": "eat",
+        "is_correct": true
+      },
+      {
+        "text": "drink",
+        "is_correct": false
+      },
+      {
+        "text": "wash",
+        "is_correct": false
+      },
+      {
+        "text": "joy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "395. The restaurant ______ at 11 o'clock.",
+    "answers": [
+      {
+        "text": "closes",
+        "is_correct": true
+      },
+      {
+        "text": "close",
+        "is_correct": false
+      },
+      {
+        "text": "closing",
+        "is_correct": false
+      },
+      {
+        "text": "closure",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "396. In the summer I go to the _______ every day.",
+    "answers": [
+      {
+        "text": "gym",
+        "is_correct": true
+      },
+      {
+        "text": "school",
+        "is_correct": false
+      },
+      {
+        "text": "morning",
+        "is_correct": false
+      },
+      {
+        "text": "swimming",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "397. A: May I ______ in, please. B: Yes, you may.",
+    "answers": [
+      {
+        "text": "come",
+        "is_correct": true
+      },
+      {
+        "text": "comes",
+        "is_correct": false
+      },
+      {
+        "text": "To come",
+        "is_correct": false
+      },
+      {
+        "text": "came",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "398. I ______ up at 7 o'clock.",
+    "answers": [
+      {
+        "text": "usually get",
+        "is_correct": true
+      },
+      {
+        "text": "get often",
+        "is_correct": false
+      },
+      {
+        "text": "get sometimes",
+        "is_correct": false
+      },
+      {
+        "text": "get seldom",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "399. Who works in the hospital?",
+    "answers": [
+      {
+        "text": "doctors",
+        "is_correct": true
+      },
+      {
+        "text": "farmers",
+        "is_correct": false
+      },
+      {
+        "text": "teachers",
+        "is_correct": false
+      },
+      {
+        "text": "students",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Xorijiy_400",
+    "text": "400. Wait _____ me in the street.",
+    "answers": [
+      {
+        "text": "For",
+        "is_correct": true
+      },
+      {
+        "text": "to",
+        "is_correct": false
+      },
+      {
+        "text": "at",
+        "is_correct": false
+      },
+      {
+        "text": "in",
+        "is_correct": false
+      }
+    ]
+  }
+]

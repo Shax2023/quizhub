@@ -1,0 +1,752 @@
+[
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "1. \\( i^{15} \\) ning qiymatini toping.",
+    "answers": [
+      {
+        "text": "\\( -i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "2. \\( z = 3 + 4i \\) kompleks sonining modulini toping.",
+    "answers": [
+      {
+        "text": "\\( 5 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 7 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 25 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{7} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "3. \\( (2 + 3i) + (5 - i) \\) amalini bajaring.",
+    "answers": [
+      {
+        "text": "\\( 7 + 2i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 7 - 2i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 + 4i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 10 - 3i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "4. \\( (1 - i)(1 + i) \\) ko'paytmani hisoblang.",
+    "answers": [
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "5. \\( z = -1 + i\\sqrt{3} \\) kompleks sonining argumentini toping.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{2\\pi}{3} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{\\pi}{3} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{4\\pi}{3} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{5\\pi}{3} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "6. \\( z = 1 - i \\) sonining trigonometrik shakli qanday?",
+    "answers": [
+      {
+        "text": "\\( \\sqrt{2}\\left(\\cos\\dfrac{7\\pi}{4} + i\\sin\\dfrac{7\\pi}{4}\\right) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\sqrt{2}\\left(\\cos\\dfrac{\\pi}{4} + i\\sin\\dfrac{\\pi}{4}\\right) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\left(\\cos\\dfrac{7\\pi}{4} + i\\sin\\dfrac{7\\pi}{4}\\right) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\cos\\dfrac{\\pi}{4} - i\\sin\\dfrac{\\pi}{4} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "7. \\( \\dfrac{1+i}{1-i} \\) bo'linmani hisoblang.",
+    "answers": [
+      {
+        "text": "\\( i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( -i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "8. \\( (1 + i)^{10} \\) ifodani hisoblang.",
+    "answers": [
+      {
+        "text": "\\( 32i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( -32i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 32 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1024i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "9. \\( x^2 + 25 = 0 \\) tenglamaning ildizlarini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( \\pm 5i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\pm 5 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 25i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 5 + i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "10. \\( z = -i \\) kompleks sonining argumenti nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{3\\pi}{2} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{\\pi}{2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "11. \\( (2 - i)^2 \\) ifodani algebraik shaklda yozing.",
+    "answers": [
+      {
+        "text": "\\( 3 - 4i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 5 - 4i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4 - i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 + 4i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "12. \\( z = \\sqrt{3} + i \\) bo'lsa, \\( z^6 \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( -64 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 64 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 64i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -64i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "13. \\( z = 2 - 5i \\) bo'lsa, \\( z \\cdot \\bar{z} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 29 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 21 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -21 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{29} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "14. \\( i^{2026} \\) ning qiymati qancha?",
+    "answers": [
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "15. \\( z = 2e^{i\\pi/6} \\) sonining algebraik shakli qanday?",
+    "answers": [
+      {
+        "text": "\\( \\sqrt{3} + i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 + i\\sqrt{3} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sqrt{3} - i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 + i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "16. \\( z = 1 + i\\sqrt{3} \\) bo'lsa, \\( |z^3| \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 8 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 16 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "17. \\( (1 + i)(2 + 2i) \\) ko'paytmani toping.",
+    "answers": [
+      {
+        "text": "\\( 4i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 + 2i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 8i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "18. \\( 2^{1+i} \\) ni algebraik shaklga keltiring.",
+    "answers": [
+      {
+        "text": "\\( 1 - i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 + i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 - 2i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "19. \\( z = -1 \\) kompleks sonining argumenti qancha?",
+    "answers": [
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{\\pi}{2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{3\\pi}{2} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "20. \\( (1 - i)^4 \\) ni hisoblang.",
+    "answers": [
+      {
+        "text": "\\( -4 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 4i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -4i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "21. \\( z = \\cos\\dfrac{\\pi}{3} + i\\sin\\dfrac{\\pi}{3} \\) bo'lsa, \\( z^3 \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "22. \\( z = 5 + 0i \\) sonining moduli qancha?",
+    "answers": [
+      {
+        "text": "\\( 5 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 25 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "23. \\( i + i^2 + i^3 + i^4 \\) yig'indini hisoblang.",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "24. \\( z = \\dfrac{\\sqrt{2}}{2} + i\\dfrac{\\sqrt{2}}{2} \\) bo'lsa, \\( z^{100} \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "25. Kompleks sonning modulini topish formulasini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( \\sqrt{x^2 + y^2} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( x^2 + y^2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( x + y \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\arctan\\dfrac{y}{x} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "26. \\( z = 4 - 3i \\) bo'lsa, qo'shma sonni toping.",
+    "answers": [
+      {
+        "text": "\\( 4 + 3i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( -4 - 3i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 3 - 4i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -4 + 3i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "27. \\( z = 1 + i \\) va \\( w = 1 - i \\) bo'lsa, \\( z/w \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( -i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "28. \\( z = -2 + 2i \\) kompleks soni qaysi chorakda yotadi?",
+    "answers": [
+      {
+        "text": "II chorak",
+        "is_correct": true
+      },
+      {
+        "text": "I chorak",
+        "is_correct": false
+      },
+      {
+        "text": "III chorak",
+        "is_correct": false
+      },
+      {
+        "text": "IV chorak",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "29. \\( z = -1 - i \\) sonining bosh argumentini toping.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{5\\pi}{4} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{\\pi}{4} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{3\\pi}{4} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{7\\pi}{4} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT 30 Tadan"
+    ],
+    "category": "Hisob_1",
+    "text": "30. \\( (x + iy)(1 + i) = 1 - i \\) bo'lsa, \\( x \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      }
+    ]
+  }
+]

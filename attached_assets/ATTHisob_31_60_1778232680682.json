@@ -1,0 +1,752 @@
+[
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "31. \\( i^7 + i^{17} \\) ifodaning qiymatini toping.",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -2i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "32. Eyler formulasini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( e^{i\\theta} = \\cos\\theta + i\\sin\\theta \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( e^{i\\theta} = \\cos\\theta - i\\sin\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( e^{x} = 1 + x \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( z = r(\\cos\\theta + i\\sin\\theta) \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "33. \\( |z - i| = 1 \\) tenglama nimani ifodalaydi?",
+    "answers": [
+      {
+        "text": "Markazi \\( (0,\\,1) \\) da bo'lgan aylanani",
+        "is_correct": true
+      },
+      {
+        "text": "Markazi \\( (1,\\,0) \\) da bo'lgan aylanani",
+        "is_correct": false
+      },
+      {
+        "text": "To'g'ri chiziqni",
+        "is_correct": false
+      },
+      {
+        "text": "Parabolani",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "34. \\( \\sqrt{-36} \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( \\pm 6i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 6 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -6 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 6i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "35. \\( z = 1 + i \\) bo'lsa, \\( z^2 - 2z + 2 \\) ni hisoblang.",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "36. \\( z = \\sqrt{2}\\left(\\cos\\dfrac{\\pi}{8} + i\\sin\\dfrac{\\pi}{8}\\right) \\) bo'lsa, \\( z^4 \\) ni toping.",
+    "answers": [
+      {
+        "text": "\\( 4i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 4 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -4 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -4i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "37. \\( z = \\dfrac{1}{i} \\) ifoda nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( -i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "38. \\( z = 8 + 6i \\) sonining modulini toping.",
+    "answers": [
+      {
+        "text": "\\( 10 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 14 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 100 \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "39. Muavr formulasini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( z^n = r^n(\\cos(n\\theta) + i\\sin(n\\theta)) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( z^n = r(\\cos\\theta + i\\sin\\theta) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( e^{i\\theta} = \\cos\\theta + i\\sin\\theta \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( z = x - iy \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "40. \\( z = \\dfrac{(1+i)^2}{1-i} \\) ifodani hisoblang.",
+    "answers": [
+      {
+        "text": "\\( -1 + i \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 + i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 1 - i \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( -1 - i \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "41. Davri \\( 2\\pi \\) bo'lgan \\( f(x) \\) funksiyaning trigonometrik Furye qatori yoyilmasini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{a_0}{2} + \\sum_{n=1}^{\\infty}(a_n\\cos nx + b_n\\sin nx) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\sum_{n=0}^{\\infty} a_n x^n \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{a_0}{2} + \\sum_{n=1}^{\\infty} a_n \\cos\\dfrac{n\\pi x}{l} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\sum_{n=1}^{\\infty} b_n \\sin nx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "42. \\( [-\\pi,\\,\\pi] \\) oraliqda Furye koeffitsienti \\( a_n \\) qanday formula bilan topiladi?",
+    "answers": [
+      {
+        "text": "\\( a_n = \\dfrac{1}{\\pi}\\int_{-\\pi}^{\\pi} f(x)\\cos nx\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( a_n = \\dfrac{1}{\\pi}\\int_{-\\pi}^{\\pi} f(x)\\sin nx\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( a_n = \\dfrac{2}{\\pi}\\int_{0}^{\\pi} f(x)\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( a_n = \\int_{-\\pi}^{\\pi} f(x)\\,dx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "43. Agar \\( f(x) \\) funksiya juft bo'lsa \\( (f(-x)=f(x)) \\), uning Furye qatorida qaysi koeffitsiyentlar nolga teng bo'ladi?",
+    "answers": [
+      {
+        "text": "\\( b_n = 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( a_n = 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( a_0 = 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Hech biri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "44. Agar \\( f(x) \\) funksiya toq bo'lsa \\( (f(-x)=-f(x)) \\), uning Furye qatorida qaysi hadlar saqlanib qoladi?",
+    "answers": [
+      {
+        "text": "Faqat sinusli hadlar \\( (b_n) \\)",
+        "is_correct": true
+      },
+      {
+        "text": "Faqat kosinusli hadlar \\( (a_n) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat o'zgarmas had \\( (a_0) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Ham sinus, ham kosinusli hadlar",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "45. Dirixle shartiga ko'ra, uzilish nuqtasi \\( x_0 \\) da Furye qatori qaysi qiymatga intiladi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{f(x_0-0)+f(x_0+0)}{2} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( f(x_0) \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\infty \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "46. Davri \\( 2l \\) bo'lgan funksiya uchun Furye qatorining argumenti qanday bo'ladi?",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{n\\pi x}{l} \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( nx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2n\\pi x \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{nx}{l} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "47. Parseval tengligini ko'rsating.",
+    "answers": [
+      {
+        "text": "\\( \\dfrac{a_0^2}{2} + \\sum(a_n^2 + b_n^2) = \\dfrac{1}{\\pi}\\int_{-\\pi}^{\\pi} f^2(x)\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( a_n + b_n = 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\int f(x)\\,dx = 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( a_0 = \\sum a_n \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "48. Furye qatorining kompleks shaklidagi \\( c_n \\) koeffitsienti qanday topiladi?",
+    "answers": [
+      {
+        "text": "\\( c_n = \\dfrac{1}{2\\pi}\\int_{-\\pi}^{\\pi} f(x)e^{-inx}\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( c_n = \\int f(x)e^{inx}\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( c_n = a_n + ib_n \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( c_n = a_n - b_n \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "49. \\( f(x) = \\sin^2 x \\) funksiyaning Furye qatori nechta haddan iborat?",
+    "answers": [
+      {
+        "text": "Chekli sondagi haddan",
+        "is_correct": true
+      },
+      {
+        "text": "Cheksiz sondagi haddan",
+        "is_correct": false
+      },
+      {
+        "text": "Faqat bitta haddan",
+        "is_correct": false
+      },
+      {
+        "text": "Hadi yo'q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "50. \\( [-\\pi,\\,\\pi] \\) oraliqda \\( f(x) = x^2 \\) funksiya uchun \\( b_n \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( \\dfrac{4}{n^2} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{(-1)^n}{n} \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( 2\\pi \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "51. Gibbs effekti nima bilan bog'liq?",
+    "answers": [
+      {
+        "text": "Uzilish nuqtasi yaqinidagi tebranishlar",
+        "is_correct": true
+      },
+      {
+        "text": "Qatorning uzoqlashishi",
+        "is_correct": false
+      },
+      {
+        "text": "Funksiyaning nollari",
+        "is_correct": false
+      },
+      {
+        "text": "Modulning xossasi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "52. Trigonometrik sistema \\( \\{1,\\,\\cos nx,\\,\\sin nx\\} \\) qanday asosiy xossaga ega?",
+    "answers": [
+      {
+        "text": "Ortogonallik",
+        "is_correct": true
+      },
+      {
+        "text": "Chiziqli bog'liqlik",
+        "is_correct": false
+      },
+      {
+        "text": "Chegaralanganlik",
+        "is_correct": false
+      },
+      {
+        "text": "Simmetriklik",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "53. \\( a_0 = \\dfrac{1}{\\pi}\\int_{-\\pi}^{\\pi} f(x)\\,dx \\) integrali geometrik jihatdan nimani bildiradi?",
+    "answers": [
+      {
+        "text": "Funksiyaning o'rtacha qiymatini (\\( 2\\pi \\) ga ko'paytirilgan)",
+        "is_correct": true
+      },
+      {
+        "text": "Funksiya maksimumini",
+        "is_correct": false
+      },
+      {
+        "text": "Funksiya davrini",
+        "is_correct": false
+      },
+      {
+        "text": "Funksiya hosilasini",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "54. Furye qatoridagi \\( n = 1 \\) bo'lgan had nima deyiladi?",
+    "answers": [
+      {
+        "text": "Asosiy garmonika",
+        "is_correct": true
+      },
+      {
+        "text": "Yuqori garmonika",
+        "is_correct": false
+      },
+      {
+        "text": "Modul",
+        "is_correct": false
+      },
+      {
+        "text": "Argument",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "55. \\( f(x) = \\operatorname{sign}(x) \\) funksiyasining \\( [-\\pi,\\,\\pi] \\) dagi yoyilmasida qaysi koeffitsiyentlar nolga teng?",
+    "answers": [
+      {
+        "text": "\\( a_n = 0 \\) (o'zgarmas had bilan birga)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( b_n = 0 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "Hamma koeffitsiyentlar",
+        "is_correct": false
+      },
+      {
+        "text": "Hech biri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "56. \\( [0,\\,\\pi] \\) oraliqda funksiyani faqat kosinuslar bo'yicha qatorga yoyish uchun uni qanday davom ettirish kerak?",
+    "answers": [
+      {
+        "text": "Juft usulda",
+        "is_correct": true
+      },
+      {
+        "text": "Toq usulda",
+        "is_correct": false
+      },
+      {
+        "text": "Davriy usulda",
+        "is_correct": false
+      },
+      {
+        "text": "Davom ettirib bo'lmaydi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "57. Furye koeffitsienti \\( b_n \\) uchun formula (\\( [-\\pi,\\,\\pi] \\) oraliqda):",
+    "answers": [
+      {
+        "text": "\\( b_n = \\dfrac{1}{\\pi}\\int_{-\\pi}^{\\pi} f(x)\\sin nx\\,dx \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( b_n = \\dfrac{1}{\\pi}\\int_{-\\pi}^{\\pi} f(x)\\cos nx\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( b_n = \\dfrac{1}{2\\pi}\\int f(x)\\,dx \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( b_n = \\int f(x)\\sin nx\\,dx \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "58. Garmonik tahlil radiofizikada asosan nima uchun ishlatiladi?",
+    "answers": [
+      {
+        "text": "Signal spektrini o'rganish uchun",
+        "is_correct": true
+      },
+      {
+        "text": "Vektorlarni qo'shish uchun",
+        "is_correct": false
+      },
+      {
+        "text": "Matritsa determinantini hisoblash uchun",
+        "is_correct": false
+      },
+      {
+        "text": "Limitlarni topish uchun",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "59. \\( f(x) = |x| \\) funksiyaning \\( [-\\pi,\\,\\pi] \\) dagi yoyilmasida \\( b_n \\) nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( 0 \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 1 \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{1}{n} \\)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Hisob_340",
+    "text": "60. Davri \\( T = 2 \\) bo'lgan funksiya uchun \\( \\omega_n \\) chastota nimaga teng?",
+    "answers": [
+      {
+        "text": "\\( n\\pi \\)",
+        "is_correct": true
+      },
+      {
+        "text": "\\( 2n\\pi \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( n \\)",
+        "is_correct": false
+      },
+      {
+        "text": "\\( \\dfrac{n}{2} \\)",
+        "is_correct": false
+      }
+    ]
+  }
+]

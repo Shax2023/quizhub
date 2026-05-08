@@ -1,6 +1,9 @@
 import json
 import random
+import re
 import uuid
+import urllib.request
+import urllib.error
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import login, logout, authenticate
@@ -547,72 +550,103 @@ def shared_quiz_take(request, token):
 # ===== QUIZ FILE UPLOAD =====
 
 def quiz_upload(request):
-    """Try to auto-parse uploaded file; on failure, show admin request form."""
+    """
+    Upload pipeline:
+      1. Extract raw text from file
+      2. Try native ====/#/++++ format parser
+      3. If native fails → try Gemini AI parser
+      4. If Gemini fails → email admin warning + show request form
+    """
     lang = get_lang(request)
 
     if request.method == 'POST' and request.FILES.get('file'):
         uploaded_file = request.FILES['file']
         filename = uploaded_file.name.lower()
+        quiz_title = request.POST.get('quiz_title', '').strip() or uploaded_file.name.rsplit('.', 1)[0]
+        category_id = request.POST.get('category')
+        time_limit = int(request.POST.get('time_limit', 30) or 30)
+
+        # ── Step 1: extract raw text ──────────────────────────────────────
+        raw_text = ''
+        extract_error = None
+        try:
+            raw_text = _extract_text_from_file(uploaded_file, filename)
+        except Exception as e:
+            extract_error = str(e)
+
         parsed = None
         parse_error = None
 
-        try:
-            if filename.endswith('.json'):
+        # ── Step 2: native format (====/#/++++) ────────────────────────────
+        if raw_text:
+            try:
+                parsed = _parse_native_format(raw_text)
+            except Exception:
+                parsed = None
+
+        # Also handle plain JSON regardless of format marker
+        if parsed is None and filename.endswith('.json'):
+            try:
+                uploaded_file.seek(0)
                 parsed = _parse_json_file(uploaded_file)
-            elif filename.endswith('.xlsx') or filename.endswith('.xls'):
-                parsed = _parse_excel_file(uploaded_file)
-            elif filename.endswith('.docx') or filename.endswith('.doc'):
-                parsed = _parse_word_file(uploaded_file)
-            elif filename.endswith('.pdf'):
-                parsed = _parse_pdf_file(uploaded_file)
+            except Exception as e:
+                parse_error = str(e)
+
+        # ── Step 3: Gemini AI fallback ────────────────────────────────────
+        if parsed is None and raw_text:
+            site_settings = SiteSettings.get_settings()
+            gemini_key = site_settings.gemini_api_key.strip() if site_settings.gemini_api_key else ''
+            if gemini_key:
+                try:
+                    parsed = _parse_with_gemini(raw_text, gemini_key)
+                except Exception as e:
+                    ai_error = str(e)
+                    parse_error = f"AI xatolik: {ai_error}"
+                    # Send admin warning email
+                    _send_ai_failure_email(site_settings, quiz_title, ai_error)
             else:
-                parse_error = _("Noto'g'ri fayl turi. JSON, Excel, Word yoki PDF yuklang.")
-        except Exception as e:
-            parse_error = str(e)
+                parse_error = extract_error or "Fayl avtomatik o'qilmadi. Gemini API kaliti sozlanmagan."
 
-        if parsed and not parse_error:
-            # Auto-import successful
-            category_id = request.POST.get('category')
-            quiz_title = request.POST.get('quiz_title', uploaded_file.name.rsplit('.', 1)[0])
-            time_limit = int(request.POST.get('time_limit', 30))
-
+        # ── Step 4: import or show request form ───────────────────────────
+        if parsed:
             try:
                 category = Category.objects.get(id=category_id)
             except (Category.DoesNotExist, TypeError, ValueError):
                 category = Category.objects.first()
 
-            from .models import UserCreatedQuiz as UCQ, UserCreatedQuestion as UCQn, UserCreatedChoice as UCQc
-            quiz = UCQ.objects.create(
+            from .models import UserCreatedQuestion as UCQn, UserCreatedChoice as UCQc
+            quiz = UserCreatedQuiz.objects.create(
                 author=request.user if request.user.is_authenticated else User.objects.filter(is_superuser=True).first(),
                 title=quiz_title,
                 category=category,
                 time_limit=time_limit,
                 is_published=False,
             )
-            for q_data in parsed:
+            for idx, q_data in enumerate(parsed):
                 q = UCQn.objects.create(
                     quiz=quiz,
-                    text=q_data.get('text', ''),
+                    text=q_data.get('text', '').strip(),
                     explanation=q_data.get('explanation', ''),
-                    order=q_data.get('order', 0),
+                    order=idx,
                 )
                 for c_data in q_data.get('choices', []):
                     UCQc.objects.create(
                         question=q,
-                        text=c_data.get('text', ''),
+                        text=c_data.get('text', '').strip(),
                         is_correct=c_data.get('is_correct', False),
                     )
-            messages.success(request, _("Test muvaffaqiyatli yuklandi!"))
+            q_count = len(parsed)
+            messages.success(request, _(f"Test muvaffaqiyatli yuklandi! {q_count} ta savol qo'shildi."))
             if request.user.is_authenticated:
                 return redirect('user_quiz_edit', quiz_id=quiz.id)
             return redirect('home')
         else:
-            # Auto-parse failed — show the admin request form
             categories = Category.objects.all().order_by('name_uz')
             return render(request, 'quiz/quiz_upload_request.html', {
                 'lang': lang,
-                'parse_error': parse_error or _("Fayl avtomatik o'qilmadi."),
+                'parse_error': parse_error or extract_error or "Fayl avtomatik o'qilmadi.",
                 'categories': categories,
+                'form': QuizUploadRequestForm(),
             })
 
     categories = Category.objects.all().order_by('name_uz')
@@ -634,7 +668,6 @@ def quiz_upload_request(request):
                     obj.user_email = request.user.email
             obj.save()
 
-            # Send email to admin
             try:
                 site_settings = SiteSettings.get_settings()
                 admin_email = site_settings.admin_email
@@ -654,9 +687,7 @@ def quiz_upload_request(request):
             except Exception:
                 pass
 
-            messages.success(request, _(
-                "So'rovingiz yuborildi! Admin ko'rib chiqib, siz bilan bog'lanadi."
-            ))
+            messages.success(request, _("So'rovingiz yuborildi! Admin ko'rib chiqib, siz bilan bog'lanadi."))
             return redirect('home')
     else:
         initial = {}
@@ -669,6 +700,88 @@ def quiz_upload_request(request):
     })
 
 
+# ──────────────────────────────────────────────────────────────────────────────
+# File parsers
+# ──────────────────────────────────────────────────────────────────────────────
+
+def _extract_text_from_file(f, filename):
+    """Extract raw plain text from any supported file type."""
+    if filename.endswith('.txt'):
+        return f.read().decode('utf-8', errors='replace')
+
+    if filename.endswith('.json'):
+        return f.read().decode('utf-8', errors='replace')
+
+    if filename.endswith('.docx') or filename.endswith('.doc'):
+        import docx as _docx
+        doc = _docx.Document(f)
+        return '\n'.join(p.text for p in doc.paragraphs)
+
+    if filename.endswith('.pdf'):
+        import pypdf
+        reader = pypdf.PdfReader(f)
+        return '\n'.join(page.extract_text() or '' for page in reader.pages)
+
+    if filename.endswith('.xlsx') or filename.endswith('.xls'):
+        import openpyxl
+        wb = openpyxl.load_workbook(f)
+        ws = wb.active
+        rows = []
+        for row in ws.iter_rows(values_only=True):
+            rows.append('\t'.join(str(c) if c is not None else '' for c in row))
+        return '\n'.join(rows)
+
+    raise ValueError("Noto'g'ri fayl turi.")
+
+
+def _parse_native_format(text):
+    """
+    Parse the ====/#/++++ native quiz format.
+
+    Format:
+        Question text
+        ====
+        #Correct choice   ← # marks the correct answer
+        ====
+        Wrong choice A
+        ====
+        Wrong choice B
+        ++++
+        Next question...
+    """
+    blocks = re.split(r'\+{3,}', text)
+    result = []
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        parts = re.split(r'={3,}', block)
+        parts = [p.strip() for p in parts if p.strip()]
+        if len(parts) < 3:
+            continue
+        question_text = parts[0]
+        choices = []
+        has_correct = False
+        for raw in parts[1:]:
+            is_correct = raw.lstrip().startswith('#')
+            choice_text = raw.lstrip('#').strip()
+            if choice_text:
+                choices.append({'text': choice_text, 'is_correct': is_correct})
+                if is_correct:
+                    has_correct = True
+        if question_text and len(choices) >= 2 and has_correct:
+            result.append({
+                'text': question_text,
+                'explanation': '',
+                'order': len(result),
+                'choices': choices,
+            })
+
+    if not result:
+        raise ValueError("Native format topilmadi.")
+    return result
+
+
 def _parse_json_file(f):
     data = json.loads(f.read().decode('utf-8'))
     if isinstance(data, dict):
@@ -677,7 +790,10 @@ def _parse_json_file(f):
     for item in data:
         choices = []
         for c in item.get('choices', []):
-            choices.append({'text': c.get('text', c.get('text_uz', '')), 'is_correct': c.get('is_correct', False)})
+            choices.append({
+                'text': c.get('text', c.get('text_uz', '')),
+                'is_correct': c.get('is_correct', False),
+            })
         result.append({
             'text': item.get('text', item.get('text_uz', '')),
             'explanation': item.get('explanation', item.get('explanation_uz', '')),
@@ -689,77 +805,98 @@ def _parse_json_file(f):
     return result
 
 
-def _parse_excel_file(f):
+def _parse_with_gemini(text, api_key):
+    """
+    Send raw text to Google Gemini Flash and get back structured quiz JSON.
+    Returns list of {text, explanation, choices:[{text, is_correct}]} dicts.
+    Raises on any API / parse error.
+    """
+    # Truncate very long texts to avoid token limits
+    if len(text) > 30000:
+        text = text[:30000]
+
+    prompt = (
+        "Quyidagi matndan test savollarini ajrat va faqat JSON formatida qaytargin.\n"
+        "JSON formati: [{\"text\": \"Savol matni\", \"explanation\": \"\", "
+        "\"choices\": [{\"text\": \"Variant A\", \"is_correct\": false}, "
+        "{\"text\": \"To'g'ri variant\", \"is_correct\": true}]}]\n"
+        "Qoidalar:\n"
+        "- Har bir savolda kamida 2 ta variant bo'lsin\n"
+        "- Har bir savolda aynan 1 ta to'g'ri javob bo'lsin (is_correct: true)\n"
+        "- Faqat JSON qaytargin, boshqa matn yozma\n"
+        "- Savollar soni cheksiz, barchasini ajrat\n\n"
+        f"MATN:\n{text}"
+    )
+
+    payload = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 8192},
+    }).encode('utf-8')
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    req = urllib.request.Request(
+        url, data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST"
+    )
+
     try:
-        import openpyxl
-        wb = openpyxl.load_workbook(f)
-        ws = wb.active
-        rows = list(ws.iter_rows(values_only=True))
-        if not rows:
-            raise ValueError("Excel fayl bo'sh.")
-        result = []
-        for row in rows[1:]:  # skip header
-            if not row or not row[0]:
-                continue
-            question_text = str(row[0]).strip()
-            choices = []
-            correct_idx = None
-            try:
-                correct_idx = int(row[-1]) - 1 if row[-1] else None
-            except (TypeError, ValueError):
-                pass
-            for i, cell in enumerate(row[1:-1]):
-                if cell:
-                    choices.append({
-                        'text': str(cell).strip(),
-                        'is_correct': (i == correct_idx),
-                    })
-            if question_text and choices:
-                result.append({'text': question_text, 'explanation': '', 'order': 0, 'choices': choices})
-        if not result:
-            raise ValueError("Excel faylda savollar topilmadi.")
-        return result
-    except ImportError:
-        raise ValueError("Excel fayllarni o'qish uchun openpyxl kutubxonasi kerak.")
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            response_body = resp.read().decode('utf-8')
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode('utf-8', errors='replace')
+        raise ValueError(f"Gemini API xatolik ({e.code}): {err_body[:300]}")
+    except Exception as e:
+        raise ValueError(f"Gemini ulanish xatoligi: {e}")
 
-
-def _parse_word_file(f):
+    data = json.loads(response_body)
     try:
-        import docx
-        doc = docx.Document(f)
-        paragraphs = [p.text.strip() for p in doc.paragraphs if p.text.strip()]
-        if not paragraphs:
-            raise ValueError("Word fayl bo'sh.")
-        result = []
-        i = 0
-        while i < len(paragraphs):
-            q_text = paragraphs[i]
-            i += 1
-            choices = []
-            while i < len(paragraphs) and paragraphs[i] and paragraphs[i][0] in 'ABCDabcd+-*':
-                line = paragraphs[i]
-                is_correct = line.startswith('+') or line.startswith('*')
-                text = line[1:].strip() if line[0] in '+-*' else line[2:].strip()
-                choices.append({'text': text, 'is_correct': is_correct})
-                i += 1
-            if choices:
-                result.append({'text': q_text, 'explanation': '', 'order': 0, 'choices': choices})
-        if not result:
-            raise ValueError("Word faylda savollar topilmadi.")
-        return result
-    except ImportError:
-        raise ValueError("Word fayllarni o'qish uchun python-docx kutubxonasi kerak.")
+        raw_text = data['candidates'][0]['content']['parts'][0]['text']
+    except (KeyError, IndexError):
+        raise ValueError("Gemini javob formati noto'g'ri.")
+
+    # Strip markdown code fences if present
+    raw_text = re.sub(r'^```(?:json)?\s*', '', raw_text.strip(), flags=re.IGNORECASE)
+    raw_text = re.sub(r'\s*```$', '', raw_text.strip())
+
+    parsed = json.loads(raw_text)
+    if not isinstance(parsed, list) or not parsed:
+        raise ValueError("Gemini bo'sh yoki noto'g'ri JSON qaytardi.")
+
+    # Validate each question has at least 1 correct choice
+    result = []
+    for item in parsed:
+        choices = item.get('choices', [])
+        if not choices or not any(c.get('is_correct') for c in choices):
+            continue
+        result.append({
+            'text': item.get('text', ''),
+            'explanation': item.get('explanation', ''),
+            'order': len(result),
+            'choices': choices,
+        })
+
+    if not result:
+        raise ValueError("Gemini hech qanday to'g'ri savol qaytarmadi.")
+    return result
 
 
-def _parse_pdf_file(f):
+def _send_ai_failure_email(site_settings, quiz_title, error_msg):
+    """Send a warning email to admin when Gemini AI fails."""
     try:
-        import pypdf
-        reader = pypdf.PdfReader(f)
-        text = ''
-        for page in reader.pages:
-            text += page.extract_text() or ''
-        if not text.strip():
-            raise ValueError("PDF fayldan matn o'qilmadi.")
-        raise ValueError("PDF avtomatik o'qilmadi. Iltimos, qo'lda so'rov yuboring.")
-    except ImportError:
-        raise ValueError("PDF fayllarni o'qish uchun pypdf kutubxonasi kerak.")
+        admin_email = site_settings.admin_email
+        from_email = site_settings.email_host_user or 'noreply@quizhub.uz'
+        if not admin_email:
+            return
+        subject = "[QuizHub] ⚠️ Gemini AI xatoligi — Fayl yuklanmadi"
+        body = (
+            f"Ogohlantirish: Foydalanuvchi fayl yuklashda Gemini AI ishlamadi.\n\n"
+            f"Test nomi: {quiz_title}\n"
+            f"Xatolik: {error_msg}\n\n"
+            f"Iltimos, admin panelda Gemini API kalitini tekshiring:\n"
+            f"Admin > Sayt sozlamalari > Google Gemini AI sozlamalari\n\n"
+            f"Foydalanuvchi so'rov formasiga yo'naltirildi."
+        )
+        send_mail(subject, body, from_email, [admin_email], fail_silently=True)
+    except Exception:
+        pass

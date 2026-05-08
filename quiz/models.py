@@ -298,6 +298,11 @@ class SiteSettings(models.Model):
     admin_email = models.EmailField(blank=True, verbose_name=_("Admin email manzili"))
     site_name = models.CharField(max_length=100, default='QuizHub', verbose_name=_("Sayt nomi"))
     site_url = models.URLField(blank=True, verbose_name=_("Sayt URL manzili"))
+    gemini_api_key = models.CharField(
+        max_length=255, blank=True,
+        verbose_name=_("Google Gemini API kaliti"),
+        help_text=_("Google AI Studio dan olingan API kalit. Fayl yuklashda AI tahlil uchun ishlatiladi.")
+    )
 
     class Meta:
         verbose_name = _("Sayt sozlamalari")

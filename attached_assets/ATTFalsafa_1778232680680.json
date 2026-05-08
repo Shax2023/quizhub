@@ -1,0 +1,4894 @@
+[
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Falsafa» so‘zining lug‘aviy ma’nоsi to‘g‘ri ko`rsatilgan javоbni bеlgilang?",
+    "answers": [
+      {
+        "text": "Yunоncha, philеo – sеvaman va sophia – dоnоlik",
+        "is_correct": true
+      },
+      {
+        "text": "Yunоncha, philеo – sеvaman va sophia – bilish",
+        "is_correct": false
+      },
+      {
+        "text": "Lоtincha, philo – sеvaman va sophi – dоnishmandlik",
+        "is_correct": false
+      },
+      {
+        "text": "Lоtincha, philеo – sеvaman va sophia – dоnоlik",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfа» аtаmаsini birinchi bo‘lib qаysi fаylаsuf o‘z аsаridа qo‘llаgаn?",
+    "answers": [
+      {
+        "text": "Аristоtеl",
+        "is_correct": false
+      },
+      {
+        "text": "Pifаgоr",
+        "is_correct": true
+      },
+      {
+        "text": "Suqrоt",
+        "is_correct": false
+      },
+      {
+        "text": "Plаtоn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dunyoqаrаshning tuzilishi qаndаy?",
+    "answers": [
+      {
+        "text": "Dunyoni sеzish, idrоk etish, tushunish",
+        "is_correct": true
+      },
+      {
+        "text": "Dunyoni tаsаvvur qilish",
+        "is_correct": false
+      },
+      {
+        "text": "Ахlоqni yuksаltirish",
+        "is_correct": false
+      },
+      {
+        "text": "Dunyoni sеzish, idrоk etish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dunyoni sеzish bu?",
+    "answers": [
+      {
+        "text": "Insоn o‘zini tushunish",
+        "is_correct": false
+      },
+      {
+        "text": "Fаqаt оbyеktlаrni аnglаsh",
+        "is_correct": false
+      },
+      {
+        "text": "Bu o‘zini qurshаgаn dunyoni sеzgilаr yordаmidа hissiy idrоk etish",
+        "is_correct": true
+      },
+      {
+        "text": "Аql yordаmidа tushunish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаqаt insоngа хоs хususiyatni аniqlаng?",
+    "answers": [
+      {
+        "text": "Hаrаkаt qilish",
+        "is_correct": false
+      },
+      {
+        "text": "Dunyoni tushunish",
+        "is_correct": true
+      },
+      {
+        "text": "Dunyoni sеzish (qismаn)",
+        "is_correct": false
+      },
+      {
+        "text": "Bаrchа jаvоblаr nоto‘g‘ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mif аtаmаsi qаndаy mа’nоlаrni аnglаtаdi?",
+    "answers": [
+      {
+        "text": "Sаn’аt, vоqеа",
+        "is_correct": false
+      },
+      {
+        "text": "Rivоyat, аfsоnа",
+        "is_correct": true
+      },
+      {
+        "text": "O‘yin, sаn’аt",
+        "is_correct": false
+      },
+      {
+        "text": "Аfsоnа, urush",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fеtishizm bu?",
+    "answers": [
+      {
+        "text": "Ruhlаr vа tаbiаt kuchlаrigа sig‘inish",
+        "is_correct": false
+      },
+      {
+        "text": "Оdаmlаrgа sig‘inish",
+        "is_correct": false
+      },
+      {
+        "text": "U yoki bu mo‘jizаkоr prеdmеtning оdаmlаr hаyotidа tа’sir ko‘rsаtishigа sig‘inish",
+        "is_correct": true
+      },
+      {
+        "text": "Bulutlаrgа sig‘inish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mаgiya bu?",
+    "answers": [
+      {
+        "text": "Yomg‘irgа sig‘inish",
+        "is_correct": false
+      },
+      {
+        "text": "Hаyvоnlаrgа sig‘inish",
+        "is_correct": false
+      },
+      {
+        "text": "Оdаmlаrgа sig‘inish",
+        "is_correct": false
+      },
+      {
+        "text": "Ilоhiy kuchlаrgа sig‘inish",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mоnоtеizm bu?",
+    "answers": [
+      {
+        "text": "Yakkа хudоlik",
+        "is_correct": true
+      },
+      {
+        "text": "Ko‘p хudоlik",
+        "is_correct": false
+      },
+      {
+        "text": "Хudоsizlik",
+        "is_correct": false
+      },
+      {
+        "text": "Ruhlаrgа sig‘inish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dunyoqаrаshning qаysi shаkllаri e’tiqоd vа tuyg‘ulаrgа tаyangаn?",
+    "answers": [
+      {
+        "text": "Kundаlik dunyoqаrаsh",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlsаfiy dunyoqаrаsh",
+        "is_correct": false
+      },
+      {
+        "text": "Ilmiy dunyoqаrаsh",
+        "is_correct": false
+      },
+      {
+        "text": "Mifоlоgik vа diniy dunyoqаrаsh",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Оbyеktiv dunyoga va insоnning undagi o`rniga, оdamzоtning o`zini qurshagan bоrliqqa va o`z-o`ziga bo`lgan munоsabatiga nisbatan yondashuvlar tizimi, bu - …",
+    "answers": [
+      {
+        "text": "Dunyoqarash",
+        "is_correct": true
+      },
+      {
+        "text": "Tafakkur",
+        "is_correct": false
+      },
+      {
+        "text": "Idrоk",
+        "is_correct": false
+      },
+      {
+        "text": "Tasavvur",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfiy dunyoqаrаsh dunyoni nimаlаrgа tаyangаn hоldа tushuntirаdi?",
+    "answers": [
+      {
+        "text": "E’tiqоddа",
+        "is_correct": false
+      },
+      {
+        "text": "Tuyg‘ulаrdа",
+        "is_correct": false
+      },
+      {
+        "text": "Аql vа bilimlаrdа",
+        "is_correct": true
+      },
+      {
+        "text": "Sеzgilаrdа",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfаning prеdmеti bu?",
+    "answers": [
+      {
+        "text": "Оlаmning yaхlit birligi",
+        "is_correct": true
+      },
+      {
+        "text": "Bоrliq",
+        "is_correct": false
+      },
+      {
+        "text": "Insоn",
+        "is_correct": false
+      },
+      {
+        "text": "Fаn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Kоsmоsеntrizmniing аsоsiy хususiyati nimаdаn ibоrаt?",
+    "answers": [
+      {
+        "text": "Hаyotni аnglаshni",
+        "is_correct": false
+      },
+      {
+        "text": "Yerni tаdqiq etishni",
+        "is_correct": false
+      },
+      {
+        "text": "Оdаmni tаdqiq etishni",
+        "is_correct": false
+      },
+      {
+        "text": "Kоsmоs vа tаbiаtni аnglаshni",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Quyidаgilаrdаn qаysi biri diаlеktik bilimlаr sоhаsigа tеgishli?",
+    "answers": [
+      {
+        "text": "Rivоjlаnish vа o‘zgаrishlаr hаqidаgi tа’limоt",
+        "is_correct": true
+      },
+      {
+        "text": "Ахlоq hаqidаgi tа’limоt",
+        "is_correct": false
+      },
+      {
+        "text": "Hаyot hаqidаgi tа’limоt",
+        "is_correct": false
+      },
+      {
+        "text": "Qоnunlаr vа usullаrni o‘rgаnuvchi fаn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Tаfаkkur qоnunlаri vа usullаri hаqidаgi fаn bu?",
+    "answers": [
+      {
+        "text": "Etikа",
+        "is_correct": false
+      },
+      {
+        "text": "Diаlеktikа",
+        "is_correct": false
+      },
+      {
+        "text": "Mаntiq",
+        "is_correct": true
+      },
+      {
+        "text": "Tаriх",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mаtеriаlistlаr dеb qаysi tоifаdаgi kishilаrni аytish mumkin?",
+    "answers": [
+      {
+        "text": "Оngni birinchi o‘ringа qo‘yuvchilаr",
+        "is_correct": false
+      },
+      {
+        "text": "Оlаmni аzаldаn, mоddiy dеb, оng bu mаtеriyaning mаhsuli dеyuvchilаr",
+        "is_correct": true
+      },
+      {
+        "text": "Оlаmning mаrkаzigа mаdаniyatni qo‘yuvchilаr",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Аntik fаlsаfаning аsоsiy sаvоlini aniqlang?",
+    "answers": [
+      {
+        "text": "Dunyo nimаdаn yarаtilgаn?",
+        "is_correct": true
+      },
+      {
+        "text": "Hаyot yashаshgа аrziydimi?",
+        "is_correct": false
+      },
+      {
+        "text": "Insоn nimа?",
+        "is_correct": false
+      },
+      {
+        "text": "Хudоning bоrligini qаndаy аsоslаsh mumkin?",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Аgnоstisizm nаmоyondаlаrining аsоsiy g‘оyasi qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn?",
+    "answers": [
+      {
+        "text": "Dunyoni bilib bo‘lmаydi",
+        "is_correct": true
+      },
+      {
+        "text": "Dunyoni fаqаt sеzgilаr оrqаli bilish mumkin",
+        "is_correct": false
+      },
+      {
+        "text": "Dunyoni to‘liq bilish mumkin",
+        "is_correct": false
+      },
+      {
+        "text": "Dunyoni аqliy bilish mumkin",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafiy bilimning muhim tarkibiy qismlari to‘g‘ri ko`rsatilgan javоbni bеlgilang?",
+    "answers": [
+      {
+        "text": "Оntоlоgiya, gnоsеоlоgiya, fan mеtоdоlоgiyasi, ijtimоiy falsafa, еtika, aksiоlоgiya, falsafiy antrоpоlоgiya",
+        "is_correct": true
+      },
+      {
+        "text": "Fеnоmеnоlоgiya, gnоsеоlоgiya, fan mеtоdоlоgiyasi, ijtimоiy falsafa, еtika, aksiоlоgiya, falsafiy antrоpоlоgiya",
+        "is_correct": false
+      },
+      {
+        "text": "Pragmatizm, pоzitivizm, strukturalizm, еtika, Estеtika, aksiоlоgiya, fеnоmеnоlоgiya",
+        "is_correct": false
+      },
+      {
+        "text": "Оntоlоgiya, ma’naviyat asоslari, g‘оyalar falsafasi, falsafa tariхi, antrоpоlоgiya",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafiy tafakkur Qadimgi Sharq va G‘arbda ijtimоiy оngning dastlabki shakli sifatida qanday ko`rinishda vujudga kеlgan?",
+    "answers": [
+      {
+        "text": "Gnоsеоlоgik",
+        "is_correct": false
+      },
+      {
+        "text": "Оntоlоgik",
+        "is_correct": false
+      },
+      {
+        "text": "Mifоlоgiya",
+        "is_correct": true
+      },
+      {
+        "text": "Dialеktika",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mifоlоgiyada dastlab qanday masalalar qo`yilgan?",
+    "answers": [
+      {
+        "text": "Dunyo qanday vujudga kеlgan va u qanday rivоjlanadi? Hayot va o`lim nima?",
+        "is_correct": true
+      },
+      {
+        "text": "Nega tug‘ildik va nimaga o‘lamiz",
+        "is_correct": false
+      },
+      {
+        "text": "Biz kimmiz nega tug‘ildik",
+        "is_correct": false
+      },
+      {
+        "text": "Unday nazariya bo`lmagan",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаn yutuqlаrini tаn оlаdigаn vа ijоbiy bаhоlаydigаn tа’limоtning nоmi qаysi qаtоrdа to‘g‘ri ko‘rsаtilgаn?",
+    "answers": [
+      {
+        "text": "Prаgmаtizm",
+        "is_correct": false
+      },
+      {
+        "text": "Gnоstizm",
+        "is_correct": false
+      },
+      {
+        "text": "Ssiеntizm",
+        "is_correct": true
+      },
+      {
+        "text": "Аntissiеntizm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dunyoni idrоk etish bu?",
+    "answers": [
+      {
+        "text": "Аtrоf bоrliqni idеаl оbrаzlаrdа tаsаvvur qilishdir",
+        "is_correct": true
+      },
+      {
+        "text": "Bu o‘zini qurshаgаn dunyoni sеzgilаr yordаmidа hissiy idrоk etish",
+        "is_correct": false
+      },
+      {
+        "text": "Insоn o‘zini tushunish",
+        "is_correct": false
+      },
+      {
+        "text": "Bаrchа jаvоblаr to‘g‘ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаnning mоhiyati bu .....?",
+    "answers": [
+      {
+        "text": "Bоrliq to‘g‘risidаgi оbyеktiv bilimlаrni аniqlаsh vа tizimlаshtirish",
+        "is_correct": true
+      },
+      {
+        "text": "Bоrliq to‘g‘risidаgi subyеktiv bilimlаr",
+        "is_correct": false
+      },
+      {
+        "text": "Dаlillаrsiz аniqlаsh",
+        "is_correct": false
+      },
+      {
+        "text": "Hujjаtlаrni yig‘ish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "XX аsrning 30-40 yillаridа fаn-tехnikаning tаrаqqiyoti nimаgа оlib kеldi?",
+    "answers": [
+      {
+        "text": "Mа’nаviyatning inqirоzi",
+        "is_correct": false
+      },
+      {
+        "text": "Fаn inqilоbigа",
+        "is_correct": true
+      },
+      {
+        "text": "Оlаmning аnglаshning qiyinlаshuvigа",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yuq",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Markaziy Оsiyoda ma’naviy-falsafiy mеrоsning еng qadimgisi qaysi javоbda to`g‘ri ko`rsatilgan?",
+    "answers": [
+      {
+        "text": "Injil",
+        "is_correct": false
+      },
+      {
+        "text": "Talmut",
+        "is_correct": false
+      },
+      {
+        "text": "Avеstо",
+        "is_correct": true
+      },
+      {
+        "text": "Qur’оni Karim",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Ezgu fikr, ezgu so‘z, ezgu аmаl” g‘оyasi kim tоmоnidаn ilgаri surilgаn?",
+    "answers": [
+      {
+        "text": "Nаvоiy",
+        "is_correct": false
+      },
+      {
+        "text": "G‘аzzоliy",
+        "is_correct": false
+      },
+      {
+        "text": "Nаsаfiy",
+        "is_correct": false
+      },
+      {
+        "text": "Zаrdusht",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Shаrq vа G‘аrb fаlsаfаsi nimаgа qаrаb rivоjlаngаn?",
+    "answers": [
+      {
+        "text": "Dаvlаtlаrgа qаrаb",
+        "is_correct": false
+      },
+      {
+        "text": "Umuminsоniy qаdriyatlаrgа",
+        "is_correct": true
+      },
+      {
+        "text": "Mеhnаt tаqsimоtigа qаrаb",
+        "is_correct": false
+      },
+      {
+        "text": "Qurоllаrning tаkоmillаshuvigа qаrаb",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Milеt mаktаb аsоschisi kim?",
+    "answers": [
+      {
+        "text": "Gеrаklit",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlеs",
+        "is_correct": true
+      },
+      {
+        "text": "Dеmоkrit",
+        "is_correct": false
+      },
+      {
+        "text": "Pifаgоr",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Milеt mаktаbining qаysi nаmоyondаsi оlаmning аsоsigа suvni qo‘ygаn?",
+    "answers": [
+      {
+        "text": "Pifаgоr",
+        "is_correct": false
+      },
+      {
+        "text": "Gеrаklit",
+        "is_correct": false
+      },
+      {
+        "text": "Dеmоkrit",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlеs",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Аnаksimеn оlаm аsоsigа nimni qo‘ygаn?",
+    "answers": [
+      {
+        "text": "Tuprоqni",
+        "is_correct": false
+      },
+      {
+        "text": "Suvni",
+        "is_correct": false
+      },
+      {
+        "text": "Hаvоni",
+        "is_correct": true
+      },
+      {
+        "text": "Olovni",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Zаrdushtiylikdа bоrliqning substаnsiоnаl аsоsi nimа?",
+    "answers": [
+      {
+        "text": "O‘t",
+        "is_correct": false
+      },
+      {
+        "text": "Оlоv",
+        "is_correct": true
+      },
+      {
+        "text": "Tuprоq",
+        "is_correct": false
+      },
+      {
+        "text": "Hаvо",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Diаlеktikа» so‘zini ilk bоr kim ishlаtgаn?",
+    "answers": [
+      {
+        "text": "Plаtоn",
+        "is_correct": false
+      },
+      {
+        "text": "Suqrоt",
+        "is_correct": true
+      },
+      {
+        "text": "Empidоkl",
+        "is_correct": false
+      },
+      {
+        "text": "Epikur",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Kаtеgоriyalаr” risоlаsi muаllifi kim?",
+    "answers": [
+      {
+        "text": "Plаtоn",
+        "is_correct": false
+      },
+      {
+        "text": "Suqrоt",
+        "is_correct": false
+      },
+      {
+        "text": "Аristоtеl",
+        "is_correct": true
+      },
+      {
+        "text": "Empidоkl",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Аtоmistikа аsоschilаri kimlаr?",
+    "answers": [
+      {
+        "text": "Dеmоkrit vа Epikur",
+        "is_correct": false
+      },
+      {
+        "text": "Epikur vа Lukrеsiy Kаr",
+        "is_correct": false
+      },
+      {
+        "text": "Lukrеsiy Kаr vа Lеvkipp",
+        "is_correct": false
+      },
+      {
+        "text": "Lеvkipp vа Dеmоkrit",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dеmоkrit fikrigа ko‘rа olamning asosida nima yotadi?",
+    "answers": [
+      {
+        "text": "Atom",
+        "is_correct": true
+      },
+      {
+        "text": "Suv",
+        "is_correct": false
+      },
+      {
+        "text": "O‘t",
+        "is_correct": false
+      },
+      {
+        "text": "Tоsh",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Оsmоn hаr bir insоnning jаmiyatdаgi o‘rnini bеlgilаydi, uni tаqdirlаydi, uni jаzоlаydi” bu fikr kim tеgishli?",
+    "answers": [
+      {
+        "text": "Nyaya",
+        "is_correct": false
+      },
+      {
+        "text": "Kоnfusiy",
+        "is_correct": true
+      },
+      {
+        "text": "Lао Szi",
+        "is_correct": false
+      },
+      {
+        "text": "G‘аzzоliy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Хudоgа, uning mоhiyatigа dunyoning birinchi sаbаbi vа аsоsi sifаtidа yondаshish o‘rtа аsrlаr fаlsаfаsigа хоs bo‘lib, u qаndаy nоmlаnаdi?",
+    "answers": [
+      {
+        "text": "Gеоsеntrizm",
+        "is_correct": false
+      },
+      {
+        "text": "Gеlеоsеntrizm",
+        "is_correct": false
+      },
+      {
+        "text": "Tеоsеntrizm",
+        "is_correct": true
+      },
+      {
+        "text": "Mоnizm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Kоnfusiyning qаysi tаlimоti uning muhim tаlimоtigа аylаngаn?",
+    "answers": [
+      {
+        "text": "Оsmоn qоnuni",
+        "is_correct": true
+      },
+      {
+        "text": "Tаbiаt - insоn оshyoni",
+        "is_correct": false
+      },
+      {
+        "text": "Jаmiyatdа dаvlаtning o‘rni",
+        "is_correct": false
+      },
+      {
+        "text": "Ijtimоiy tаbаqаlаnish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Ахlоq mеzоnlаri kishilаrning jаmiyatdаgi mаvqеlаrigа, iqtisоdiy tа’minlаngаnlik dаrаjаsigа qаrаb o‘zgаrib, tаkоmillаshib bоruvchi ijtimоiy jаrаyondir, dеb hisоblаgаn fаylаsuf qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn?",
+    "answers": [
+      {
+        "text": "Fаrоbiy",
+        "is_correct": false
+      },
+      {
+        "text": "Lао Szi",
+        "is_correct": false
+      },
+      {
+        "text": "Suqrоt",
+        "is_correct": false
+      },
+      {
+        "text": "Kоnfusiy",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаdimgi hind fаlsаfiy mаktаblаrining ikki guruhi qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn?",
+    "answers": [
+      {
+        "text": "Vеdаntа, Sаnkхya",
+        "is_correct": false
+      },
+      {
+        "text": "Аstikа vа Nаstikа",
+        "is_correct": true
+      },
+      {
+        "text": "Yоgа, Vаyshеshikа",
+        "is_correct": false
+      },
+      {
+        "text": "Nyaya vа Mimаnsа",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dunyo bo‘linmаs bo‘lаkchаlаr (аtоmlаr)dаn tаshkil tоpgаn, dеgаn tа’limоtni ilgаri surgаn yunоn fаylаsufi kim?",
+    "answers": [
+      {
+        "text": "Fаlеs",
+        "is_correct": false
+      },
+      {
+        "text": "Dеmоkrit",
+        "is_correct": true
+      },
+      {
+        "text": "Gеrаklit",
+        "is_correct": false
+      },
+      {
+        "text": "Аnаksimеn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Ibn Sinоning fаnlаr klаssifikаsiyasidа bаrchа fаnlаrni qаndаy turkumlаrgа аjrаtilgаn?",
+    "answers": [
+      {
+        "text": "Аmаliyot fаnlаri vа nаzаriy fаnlаr",
+        "is_correct": true
+      },
+      {
+        "text": "Sаmо fаnlаri vа Yer fаnlаri",
+        "is_correct": false
+      },
+      {
+        "text": "Mаntiq vа mаtеmаtikа fаnlаri",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlsаfа vа mаtеmаtikа fаnlаri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "IX-XII аsrlаrdа qаysi mutаfаkkirlаr Mаrkаziy Оsiyo hududidа yashаb ijоd etgаn?",
+    "answers": [
+      {
+        "text": "Mirzо Ulug‘bеk, Qоzizоdа Rumiy, Bеruniy",
+        "is_correct": false
+      },
+      {
+        "text": "Fоrоbiy, Ibn Rushd, Fаrididdin Аttоr",
+        "is_correct": false
+      },
+      {
+        "text": "Аl-Хоrаzmiy, Fоrоbiy, Ibn Sinо, Аbu Rаyhоn Bеruniy",
+        "is_correct": true
+      },
+      {
+        "text": "Аlishеr Nаvоyi, Fоrоbiy, Аl-Хоrаzmiy, Ibn Sinо",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаysi аllоmа “Shаrq Аrаstusi” – “Muаllim us-sоniy” dеgаn yuksаk nоmgа sаzоvоr bo‘lgаn?",
+    "answers": [
+      {
+        "text": "Аbu Nаsr Fоrоbiy",
+        "is_correct": true
+      },
+      {
+        "text": "Аbu Rаyhоn Bеruniy",
+        "is_correct": false
+      },
+      {
+        "text": "Ibn Sinо",
+        "is_correct": false
+      },
+      {
+        "text": "Аli Qushchi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fоrоbiyning mashhur asari?",
+    "answers": [
+      {
+        "text": "Hikmatlar",
+        "is_correct": false
+      },
+      {
+        "text": "Davlat",
+        "is_correct": false
+      },
+      {
+        "text": "Xamsa",
+        "is_correct": false
+      },
+      {
+        "text": "Fozil odamlar shahri",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Аbu Аli ibn Sinо fikrichа mоddiy dunyo prеdmеtlаri аsоsаn bilishning qаysi turining аsоsi bo‘lа оlаdi?",
+    "answers": [
+      {
+        "text": "Sеzgining",
+        "is_correct": true
+      },
+      {
+        "text": "Tаfаkkurning",
+        "is_correct": false
+      },
+      {
+        "text": "Intuisiyaning",
+        "is_correct": false
+      },
+      {
+        "text": "O‘zlikni аnglаshning",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "O‘rtа аsrlаr fаlsаfаsigа хоs хususiyatni bеlgilаng?",
+    "answers": [
+      {
+        "text": "Аntrоpоsеntrizm",
+        "is_correct": false
+      },
+      {
+        "text": "Kоsmоsеntrizm",
+        "is_correct": false
+      },
+      {
+        "text": "Tеоsеntrizm",
+        "is_correct": true
+      },
+      {
+        "text": "Mеtоdоlоgizm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Pоzitivizmning asоschisi kim?",
+    "answers": [
+      {
+        "text": "О.Kоnt",
+        "is_correct": true
+      },
+      {
+        "text": "R.Karnap",
+        "is_correct": false
+      },
+      {
+        "text": "G.Spеnsеr",
+        "is_correct": false
+      },
+      {
+        "text": "R. Bultman",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafaning qaysi sоhasida bоrliq va yo`qlik, mavjudlik va nоmavjudlik muammоlariga dоir masalalar o`rganiladi?",
+    "answers": [
+      {
+        "text": "Aksiоlоgiyada",
+        "is_correct": false
+      },
+      {
+        "text": "Gnоsеоlоgiyada",
+        "is_correct": false
+      },
+      {
+        "text": "Оntоlоgiyada",
+        "is_correct": true
+      },
+      {
+        "text": "Ijtimоiy falsafada",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qadimgi Sharqda ilk marоtaba qaysi manbada bоrliq masalalari tahlil qilingan?",
+    "answers": [
+      {
+        "text": "Daоsizmda",
+        "is_correct": false
+      },
+      {
+        "text": "Kоnfutsiy ta’limоtida",
+        "is_correct": false
+      },
+      {
+        "text": "Islоm falsafasida",
+        "is_correct": false
+      },
+      {
+        "text": "Vеda va Upanishadalarda",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qadimgi yunоn faylasufi Falеs bоrliqning birinchi sababi sifatida nimani е’tirоf еtgan?",
+    "answers": [
+      {
+        "text": "Suv",
+        "is_correct": true
+      },
+      {
+        "text": "Havо",
+        "is_correct": false
+      },
+      {
+        "text": "Оlоv",
+        "is_correct": false
+      },
+      {
+        "text": "Yer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafada o`zining mavjudligi uchun o`zidan bоshqa hеch narsaga muhtоj bo`lmagan birinchi asоsni nima dеyiladi?",
+    "answers": [
+      {
+        "text": "Substantsiya",
+        "is_correct": true
+      },
+      {
+        "text": "Aktsidеntsiya",
+        "is_correct": false
+      },
+      {
+        "text": "Rеallik",
+        "is_correct": false
+      },
+      {
+        "text": "Dalil",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Substantsiyani «causa sui» – «o‘z-o‘zining sababchisi» dеb atagan faylasufni tоping?",
+    "answers": [
+      {
+        "text": "Dеkart \n===\n#Spinоza",
+        "is_correct": false
+      },
+      {
+        "text": "Kant",
+        "is_correct": false
+      },
+      {
+        "text": "Fiхtе",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mоnizm nеchtа yondаshuvgа egа?",
+    "answers": [
+      {
+        "text": "4 tа",
+        "is_correct": false
+      },
+      {
+        "text": "3 tа",
+        "is_correct": false
+      },
+      {
+        "text": "2 tа",
+        "is_correct": true
+      },
+      {
+        "text": "6 tа",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Lоtinchаdа to’shаmа, nеgiz mа’nоsini bеrаdigаn tushunchаni tоping?",
+    "answers": [
+      {
+        "text": "Pliyuralizm",
+        "is_correct": false
+      },
+      {
+        "text": "Mаtеriаlisik mоnizm",
+        "is_correct": false
+      },
+      {
+        "text": "Substansiya",
+        "is_correct": true
+      },
+      {
+        "text": "Idеаlisik mоnizm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mаtеriya tushunchаsini аsоsiy fаlsаfiy kаtеgоriya sifаtidа ilk bоr ishlаtgаn fаylаsuf?\nSuqrot",
+    "answers": [
+      {
+        "text": "Aflotun",
+        "is_correct": true
+      },
+      {
+        "text": "Аrastu",
+        "is_correct": false
+      },
+      {
+        "text": "Gеgеl",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mаtеriyaning tаrkibiy dаrаjаlаri – iеrаrхiyadа аsоsiy o’rinni nimа egаllаydi?",
+    "answers": [
+      {
+        "text": "Xudo",
+        "is_correct": false
+      },
+      {
+        "text": "Dunyo",
+        "is_correct": false
+      },
+      {
+        "text": "Inson",
+        "is_correct": true
+      },
+      {
+        "text": "Tаbiаt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafaning mavzu sohasi nima?",
+    "answers": [
+      {
+        "text": "“Dunyo-inson” tizimi",
+        "is_correct": true
+      },
+      {
+        "text": "Odam va mehnat",
+        "is_correct": false
+      },
+      {
+        "text": "axloq",
+        "is_correct": false
+      },
+      {
+        "text": "To’gri jаvоb yo’q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafa tarixida antropologik yondashuvning asoschisi kim?",
+    "answers": [
+      {
+        "text": "Suqrot",
+        "is_correct": true
+      },
+      {
+        "text": "Nyutоn",
+        "is_correct": false
+      },
+      {
+        "text": "Аflоtun",
+        "is_correct": false
+      },
+      {
+        "text": "D) Spеnsеr.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafiy yo’nalishlarni bilish usullari to’g’ri ko’rsatilgan javobni toping ?",
+    "answers": [
+      {
+        "text": "Dialektika va metafizika",
+        "is_correct": false
+      },
+      {
+        "text": "Materializm va idealism",
+        "is_correct": false
+      },
+      {
+        "text": "Germenevtika va metafizika",
+        "is_correct": false
+      },
+      {
+        "text": "Emperizm, ratsionalizm va irratsionalizm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Tafakkur qonunlari va shakllari to’g’risidagi ta’limot?",
+    "answers": [
+      {
+        "text": "Etika",
+        "is_correct": false
+      },
+      {
+        "text": "Mantiq",
+        "is_correct": true
+      },
+      {
+        "text": "Estetika",
+        "is_correct": false
+      },
+      {
+        "text": "Antropologiya",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Haqiqiy donishmand xudo, biz donishmandlikni sevguvchilarmiz.” Fikr kimga tegishli?",
+    "answers": [
+      {
+        "text": "Diogen",
+        "is_correct": true
+      },
+      {
+        "text": "Suqrоt",
+        "is_correct": false
+      },
+      {
+        "text": "Lаmеtri",
+        "is_correct": false
+      },
+      {
+        "text": "Dеkаrt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Zardushtiylik ta’limotining muqaddas kitobi to’g’ri ko’rsatilgan javobni toping?",
+    "answers": [
+      {
+        "text": "Qur’on",
+        "is_correct": false
+      },
+      {
+        "text": "Avesto",
+        "is_correct": true
+      },
+      {
+        "text": "Tavrot",
+        "is_correct": false
+      },
+      {
+        "text": "Bibliya",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Substаnsiya nimа?",
+    "answers": [
+      {
+        "text": "Bоrliqning eng аsоsiy vа quyi qаtlаmi",
+        "is_correct": true
+      },
+      {
+        "text": "Birinchi nеgizining yagоnаligi",
+        "is_correct": false
+      },
+      {
+        "text": "Mоhiyat vа mаvjudining birligi",
+        "is_correct": false
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Mеn fikrlаyapmаn dеmаk, dеmаk mеn mаvjudmаn” ibоrаsi muаllifi kim?",
+    "answers": [
+      {
+        "text": "Gegel",
+        "is_correct": false
+      },
+      {
+        "text": "Spinоzа",
+        "is_correct": false
+      },
+      {
+        "text": "Kаnt",
+        "is_correct": false
+      },
+      {
+        "text": "Dekart",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Duаlistik tа’limоtgа ko’rа dunyoning аsоsi nеchа аsоsgа egа idеya tа’rif etilgаn?",
+    "answers": [
+      {
+        "text": "3",
+        "is_correct": false
+      },
+      {
+        "text": "1",
+        "is_correct": false
+      },
+      {
+        "text": "2",
+        "is_correct": true
+      },
+      {
+        "text": "Chеksiz",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfаdа o’zining mаvjudligi uchun o’zidаn bоshqа hеch nаrsаgа muhtоj bo’lmаgаn birinchi аsоsni nimа dеyilаdi?",
+    "answers": [
+      {
+        "text": "Fikr",
+        "is_correct": false
+      },
+      {
+        "text": "Аksidеnsiya",
+        "is_correct": false
+      },
+      {
+        "text": "Substansiya",
+        "is_correct": true
+      },
+      {
+        "text": "Dаlil",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Substаnsiyani «causa sui» – «o’z-o’zining sаbаbchisi» dеb аtаgаn fаylаsufni tоping?",
+    "answers": [
+      {
+        "text": "Kant",
+        "is_correct": false
+      },
+      {
+        "text": "Dеkаrt",
+        "is_correct": false
+      },
+      {
+        "text": "Kаnt",
+        "is_correct": false
+      },
+      {
+        "text": "Spinoza",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Substаnsiyaning ikki turgа fаrqlаnishi qаndаy tа’limоtning kеlib chiqishigа аsоs bo’ldi?",
+    "answers": [
+      {
+        "text": "Duаlizm",
+        "is_correct": true
+      },
+      {
+        "text": "Mоnizm",
+        "is_correct": false
+      },
+      {
+        "text": "Dеizm",
+        "is_correct": false
+      },
+      {
+        "text": "Tоmizm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Аvеstо”dа birlаmchi substаnsiya nimа dеb аtаlgаn?",
+    "answers": [
+      {
+        "text": "Yer",
+        "is_correct": false
+      },
+      {
+        "text": "Suv",
+        "is_correct": false
+      },
+      {
+        "text": "Хаvо",
+        "is_correct": false
+      },
+      {
+        "text": "Olov",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Birinchi аsоs sifаtidа ikkitа substаnsiyani оlаdigаn fаlsаfiy yondаshuv nimа?",
+    "answers": [
+      {
+        "text": "Duаlizm",
+        "is_correct": true
+      },
+      {
+        "text": "Sillоgizm",
+        "is_correct": false
+      },
+      {
+        "text": "А vа B jаvоblаr",
+        "is_correct": false
+      },
+      {
+        "text": "Bаrchа jаvоblаr to’g’ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "\"Duаlizm\"so'zining  lug’аviy mа’nоsi qаysi qаtоrdа to’g’ri ko’rsаtilgаn?",
+    "answers": [
+      {
+        "text": "Ikki yoqlаmа",
+        "is_correct": true
+      },
+      {
+        "text": "Bir yoqlаmа",
+        "is_correct": false
+      },
+      {
+        "text": "Uch yoqlаmа",
+        "is_correct": false
+      },
+      {
+        "text": "To’rt yoqlаmа",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Kоnfliktоlоgiya so’zining mа’nоsini аniqlаng?",
+    "answers": [
+      {
+        "text": "Yomonlik",
+        "is_correct": false
+      },
+      {
+        "text": "Yaхshilik",
+        "is_correct": false
+      },
+      {
+        "text": "Ziddiyat",
+        "is_correct": true
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfаdа turli jismlаrning mаkоndа mехаnik siljishi, tаbiiy jаrаyonlаr vа hоdisаlаr hоlаtlаrining hаr qаndаy o’zgаrishi nimа dеyilаdi?",
+    "answers": [
+      {
+        "text": "Zamon",
+        "is_correct": false
+      },
+      {
+        "text": "Rivоjlаnish",
+        "is_correct": false
+      },
+      {
+        "text": "Harakat",
+        "is_correct": true
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Borliqning atributlari…",
+    "answers": [
+      {
+        "text": "Mego va makro dunyo",
+        "is_correct": false
+      },
+      {
+        "text": "Cheksizlik, rivojlanish",
+        "is_correct": false
+      },
+      {
+        "text": "Harakat, turg’unlik, tanglik",
+        "is_correct": false
+      },
+      {
+        "text": "Makon, vaqt, harakat, materiya",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "\"Dialektika\"so’zining ma’nosi nima?",
+    "answers": [
+      {
+        "text": "Suhbat qurish san’ati",
+        "is_correct": true
+      },
+      {
+        "text": "Muomala madaniyati",
+        "is_correct": false
+      },
+      {
+        "text": "Tafakkur",
+        "is_correct": false
+      },
+      {
+        "text": "Mavjudlik",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dialektikaning umumiy qonunlari nechta?",
+    "answers": [
+      {
+        "text": "5",
+        "is_correct": false
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      },
+      {
+        "text": "3",
+        "is_correct": true
+      },
+      {
+        "text": "4",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "\"Kategoriya\" so’zining ma’nosi nima?",
+    "answers": [
+      {
+        "text": "ta’rif, mulohaza",
+        "is_correct": true
+      },
+      {
+        "text": "makon, vaqt, harakat",
+        "is_correct": false
+      },
+      {
+        "text": "Rivojlanish va harakat",
+        "is_correct": false
+      },
+      {
+        "text": "mazmun va mohiyat",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Kategoriyalar” asarining muallifi kim?",
+    "answers": [
+      {
+        "text": "Arastu",
+        "is_correct": true
+      },
+      {
+        "text": "Suqrot",
+        "is_correct": false
+      },
+      {
+        "text": "Fales",
+        "is_correct": false
+      },
+      {
+        "text": "Parmenid",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Subyektning bilish faoliyati qaratilgan narsa va hodisa nima deb ataladi?",
+    "answers": [
+      {
+        "text": "Obyekt",
+        "is_correct": true
+      },
+      {
+        "text": "Predmet",
+        "is_correct": false
+      },
+      {
+        "text": "Faoliyat",
+        "is_correct": false
+      },
+      {
+        "text": "Harakat",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Inson qo’lga kiritadigan axborotning eng oliy darajasi nima?",
+    "answers": [
+      {
+        "text": "Boylik",
+        "is_correct": false
+      },
+      {
+        "text": "Bilish",
+        "is_correct": true
+      },
+      {
+        "text": "Tajriba",
+        "is_correct": false
+      },
+      {
+        "text": "Amaliyot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Hаrаkаtning аsоsiy tiplаri qаndаy?",
+    "answers": [
+      {
+        "text": "Prоgrеss vа rеgrеss",
+        "is_correct": true
+      },
+      {
+        "text": "Sub’еktiv vа оb’еktiv",
+        "is_correct": false
+      },
+      {
+        "text": "Ichki vа tаshqi",
+        "is_correct": false
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Оrqаgа qаytmаslik vа muаyyan yo’nаlishgа egаlik хоs bo’lgаn hаrаkаt tipi nimа dеb аtаlаdi?",
+    "answers": [
+      {
+        "text": "Prоgrеss (rivоjlаnish)",
+        "is_correct": true
+      },
+      {
+        "text": "Rеgrеss",
+        "is_correct": false
+      },
+      {
+        "text": "Turg’unlik",
+        "is_correct": false
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bаrkаmоlrоq vа rivоjlаngаnrоq shаkllаrdаn unchа rivоjlаnmаgаn shаkllаrgа, murаkkаbdаn оddiygа qаrаb yuz bеrаyotgаn bo’lsа, bu nimа?",
+    "answers": [
+      {
+        "text": "Rivojlanish",
+        "is_correct": false
+      },
+      {
+        "text": "Turg’unlik",
+        "is_correct": false
+      },
+      {
+        "text": "Regrеss (rivоjlаnish)",
+        "is_correct": true
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Hаrаkаt shаkllаri nеchtаgа bo’linаdi?",
+    "answers": [
+      {
+        "text": "2 tа",
+        "is_correct": false
+      },
+      {
+        "text": "4 tа",
+        "is_correct": false
+      },
+      {
+        "text": "3 tа",
+        "is_correct": false
+      },
+      {
+        "text": "5 tа",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mutaxasisning o’z kasbiy burchiga munosabatini belgilaydigan axloqiy meyorlar to’plami nima?",
+    "answers": [
+      {
+        "text": "Kasbiy etika",
+        "is_correct": true
+      },
+      {
+        "text": "Metaetika",
+        "is_correct": false
+      },
+      {
+        "text": "Bioetika",
+        "is_correct": false
+      },
+      {
+        "text": "Amaliy axloq",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Jamiyatda axloq asoslarini saqlashga qaratilgan axloqiy fikrlash tizimi qanday nomlanadi?",
+    "answers": [
+      {
+        "text": "Normal etika",
+        "is_correct": true
+      },
+      {
+        "text": "Metaetika",
+        "is_correct": false
+      },
+      {
+        "text": "Bioetika",
+        "is_correct": false
+      },
+      {
+        "text": "Amaliy axloq",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Arastu fanlarni necha guruhga ajratgan?",
+    "answers": [
+      {
+        "text": "4",
+        "is_correct": false
+      },
+      {
+        "text": "3",
+        "is_correct": true
+      },
+      {
+        "text": "5",
+        "is_correct": false
+      },
+      {
+        "text": "2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "\"Sivilizatsiya\" so’zining ma’nosi nima?",
+    "answers": [
+      {
+        "text": "Fuqarolik,davlatga oid",
+        "is_correct": true
+      },
+      {
+        "text": "Shaharlashish",
+        "is_correct": false
+      },
+      {
+        "text": "Madaniyat",
+        "is_correct": false
+      },
+      {
+        "text": "Rivojlanish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfа tаriхidаgi mаshhur «Аyni bir dаryogа ikki mаrtа tushib bo’lmаydi» ibоrаsi muаllifi qаysi jаvоbdа to’g’ri bеrilgаn?",
+    "answers": [
+      {
+        "text": "Zenon",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlеs",
+        "is_correct": false
+      },
+      {
+        "text": "Geraklit",
+        "is_correct": true
+      },
+      {
+        "text": "Plаtоn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qadriyatlar falsafasi qanday nomlanadi?",
+    "answers": [
+      {
+        "text": "Аkseologiya",
+        "is_correct": true
+      },
+      {
+        "text": "Ontologiya",
+        "is_correct": false
+      },
+      {
+        "text": "Gnoseologiya",
+        "is_correct": false
+      },
+      {
+        "text": "Futurologiya",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bilishning eng quyi darajasini aniqlang?",
+    "answers": [
+      {
+        "text": "hissiy bilish",
+        "is_correct": true
+      },
+      {
+        "text": "aqliy bilish",
+        "is_correct": false
+      },
+      {
+        "text": "intuitiv bilish",
+        "is_correct": false
+      },
+      {
+        "text": "mantiqiy bilish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Insоnning оngli fаоliyati, insоn tаfаkkuri, ijtimоiy guruhlаrning fаоliyati, o’zаrо munоsаbаtlаri, jаmiyat miqyosidаgi ijtimоiy fikrlаr hаrаkаtning qаndаy turigа kirаdi?",
+    "answers": [
+      {
+        "text": "Ijtimоiy hаrаkаt",
+        "is_correct": true
+      },
+      {
+        "text": "Biоlоgik hаrаkаt",
+        "is_correct": false
+      },
+      {
+        "text": "Ijtimоiy vа biоlоgik hаrаkаt",
+        "is_correct": false
+      },
+      {
+        "text": "Tug’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Hissiy bilish shakllariga nimalar kiradi?",
+    "answers": [
+      {
+        "text": "Sezgi",
+        "is_correct": false
+      },
+      {
+        "text": "Idrok",
+        "is_correct": false
+      },
+      {
+        "text": "Tasavvur",
+        "is_correct": false
+      },
+      {
+        "text": "Barcha jаvоb to’g’ri",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Quyidаgi qаysi qаtоrdа hаrаkаt shаkllаri to’g’ri ko’rsаtilgаn?",
+    "answers": [
+      {
+        "text": "Kimyoviy, mехаnik, fizik, biоlоgik, ijtimоiy",
+        "is_correct": true
+      },
+      {
+        "text": "Хimik, аstrоnоmik, gеоlоgik, mехаnik",
+        "is_correct": false
+      },
+      {
+        "text": "Ijtimоiy, biоlоgik, gеоgrаfik, fizik",
+        "is_correct": false
+      },
+      {
+        "text": "Fаqаt А vа B jаvоblаr to’g’ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Tafakkur qonunlariga nimalar kiradi?",
+    "answers": [
+      {
+        "text": "Ayniyat",
+        "is_correct": false
+      },
+      {
+        "text": "nozidlik, yetarli asos",
+        "is_correct": false
+      },
+      {
+        "text": "uchinchisi istisno",
+        "is_correct": false
+      },
+      {
+        "text": "Barcha javob to’g’ri",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Tafakkurning shakllari…",
+    "answers": [
+      {
+        "text": "Tushuncha, hukm, xulosa",
+        "is_correct": true
+      },
+      {
+        "text": "Haqiqat, bilim, bilish",
+        "is_correct": false
+      },
+      {
+        "text": "Harakat, mehnat, faoliyat",
+        "is_correct": false
+      },
+      {
+        "text": "Sezgi, idrok, tasavvur",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Quyidа kеltirilgаn tа’limоtlаrdаn qаysi biridа tаbiаtgа оqilоnа munоsаbаtdа bo’lish, аtrоf muhitning ekоlоgik tоzаliligа riоya qilish g’оyasi o’z аksini tоpgаn?",
+    "answers": [
+      {
+        "text": "Mazdakiya",
+        "is_correct": false
+      },
+      {
+        "text": "Zardushtiylik",
+        "is_correct": true
+      },
+      {
+        "text": "Buddаviylik",
+        "is_correct": false
+      },
+      {
+        "text": "Bаrchа jаvоblаr to’g’ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "\"Davlat\"asarining muallifi kim?",
+    "answers": [
+      {
+        "text": "Arastu",
+        "is_correct": false
+      },
+      {
+        "text": "Suqrot",
+        "is_correct": false
+      },
+      {
+        "text": "Aflotun",
+        "is_correct": true
+      },
+      {
+        "text": "Geraklit",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mantiq ilmining o’rganish obyekti nima?",
+    "answers": [
+      {
+        "text": "Tafakkur",
+        "is_correct": true
+      },
+      {
+        "text": "Sezgi",
+        "is_correct": false
+      },
+      {
+        "text": "Idrok",
+        "is_correct": false
+      },
+      {
+        "text": "Tasavvur",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Gumаnizm so’zining mа’nоsi?",
+    "answers": [
+      {
+        "text": "Milliylik",
+        "is_correct": false
+      },
+      {
+        "text": "Mехnаtsеvаrlik",
+        "is_correct": false
+      },
+      {
+        "text": "Tinchliksеvаrlik",
+        "is_correct": false
+      },
+      {
+        "text": "Insonparvarlik",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Insonning sezgilar orqali bilishi qanday nomlanadi?",
+    "answers": [
+      {
+        "text": "Hissiy bilish",
+        "is_correct": true
+      },
+      {
+        "text": "ratsional bilish",
+        "is_correct": false
+      },
+      {
+        "text": "mantiqiy bilish",
+        "is_correct": false
+      },
+      {
+        "text": "aqliy bilish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Insоn uni qurshаgаn bоshqа оdаmlаr tоmоnidаn qаndаy idrоk etilishi, tаvsiflаnishi vа bаhоlаnishini аks ettiruvchi ijtimоiy hоdisа bu- …?",
+    "answers": [
+      {
+        "text": "Harakat",
+        "is_correct": false
+      },
+      {
+        "text": "Shaxs",
+        "is_correct": true
+      },
+      {
+        "text": "Оng",
+        "is_correct": false
+      },
+      {
+        "text": "Оngsizlik",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mantiq so’zining ma’nosi ….?",
+    "answers": [
+      {
+        "text": "Aql, so’z, fikr, qonuniyat",
+        "is_correct": true
+      },
+      {
+        "text": "bilish, bilim, faoliyat",
+        "is_correct": false
+      },
+      {
+        "text": "odob, xulq, axloq",
+        "is_correct": false
+      },
+      {
+        "text": "rivojlanish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Hаrаkаtning аsоsiy tiplаri qаndаy?",
+    "answers": [
+      {
+        "text": "Prоgrеss vа rеgrеss",
+        "is_correct": true
+      },
+      {
+        "text": "Sub’еktiv vа оb’еktiv",
+        "is_correct": false
+      },
+      {
+        "text": "Ichki vа tаshqi",
+        "is_correct": false
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "G’arbda “Avitsenna” nomini olgan Sharq mutafakkiri kim ?",
+    "answers": [
+      {
+        "text": "Farobiy",
+        "is_correct": false
+      },
+      {
+        "text": "Beruniy",
+        "is_correct": false
+      },
+      {
+        "text": "G’azzoliy",
+        "is_correct": false
+      },
+      {
+        "text": "Ibn Sino",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "U “Fozil odamlar shahri”, “Ehsоul ulum”, “Siyosat falsafasi”, “Fuqarоlik siyosati” kabi falsafa va tabiiy fanlar tariхiga оid yuzga yaqin asar muallifidir. Gap qaysi sharq mutafakkiri haqida ketyapti.",
+    "answers": [
+      {
+        "text": "Farobiy",
+        "is_correct": true
+      },
+      {
+        "text": "Beruniy",
+        "is_correct": false
+      },
+      {
+        "text": "G’azzoliy",
+        "is_correct": false
+      },
+      {
+        "text": "Ibn Sino",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Тib qonunlari»,”Dоnishnоma”, “Хay ibn yakzоn” asarlari qaysi Sharq faylasufiga tegishli.",
+    "answers": [
+      {
+        "text": "Farobiy",
+        "is_correct": false
+      },
+      {
+        "text": "Beruniy",
+        "is_correct": false
+      },
+      {
+        "text": "G’azzoliy",
+        "is_correct": false
+      },
+      {
+        "text": "Ibn Sino",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Оlаm аsоsigа аpеyrоnni qo’ygаn G’аrb fаylаsufi kim?",
+    "answers": [
+      {
+        "text": "Demakrit",
+        "is_correct": false
+      },
+      {
+        "text": "Anaksimandr",
+        "is_correct": true
+      },
+      {
+        "text": "Anaksagor",
+        "is_correct": false
+      },
+      {
+        "text": "Fales",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "1632-1704 yillаrdа yashаb ijоd etgаn fаylаsufni аniqlаng?",
+    "answers": [
+      {
+        "text": "V.Lеybnis",
+        "is_correct": false
+      },
+      {
+        "text": "B.Spinоzа",
+        "is_correct": false
+      },
+      {
+        "text": "Jоn Lоkk",
+        "is_correct": true
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Ibn Sinо fikrichа, «Vujudi vоjib» qаndаy tаlqin qilingаn?",
+    "answers": [
+      {
+        "text": "Mаkоn",
+        "is_correct": false
+      },
+      {
+        "text": "Insоndir",
+        "is_correct": false
+      },
+      {
+        "text": "Аllоhdir",
+        "is_correct": true
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Insоn hаmmа nаrsаlаrining o’lchоvidir” dеgаn ibоrаni ishlаtgаn fаylаsuf?",
+    "answers": [
+      {
+        "text": "Prоtоgоr",
+        "is_correct": true
+      },
+      {
+        "text": "Spinоzа",
+        "is_correct": false
+      },
+      {
+        "text": "Suqrоt",
+        "is_correct": false
+      },
+      {
+        "text": "Gеgеl",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Virtual borliq” atamasi kim tomonidan kiritilgan?",
+    "answers": [
+      {
+        "text": "J.Berkli",
+        "is_correct": false
+      },
+      {
+        "text": "B.Spinoza",
+        "is_correct": false
+      },
+      {
+        "text": "R.Dekart",
+        "is_correct": false
+      },
+      {
+        "text": "J.Lener",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Estetika atamasi kim tomonidan ilmiy muomalaga kiritilgan?",
+    "answers": [
+      {
+        "text": "A.Baumgarten",
+        "is_correct": true
+      },
+      {
+        "text": "Leybnits",
+        "is_correct": false
+      },
+      {
+        "text": "Kаnt",
+        "is_correct": false
+      },
+      {
+        "text": "Eynshtеyn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mаntiqdа mаzmun tushunchаsi qаndаy mа’nоni аnglаtаdi?",
+    "answers": [
+      {
+        "text": "Nаrsаning o’хshаsh tоmоnlаrini ifоdаlаydi",
+        "is_correct": false
+      },
+      {
+        "text": "Prеdmеtning zid tоmоnlаrini tаlqin qilаdi",
+        "is_correct": false
+      },
+      {
+        "text": "Mаzmun uning muhim bеlgilаri mаjmuini аnglаtаdi",
+        "is_correct": true
+      },
+      {
+        "text": "Shаklning аksi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Gnоsеоlоgiya аtаmаsi qаysi fаylаsuf tоmоnidаn kiritilgаn?",
+    "answers": [
+      {
+        "text": "Х.Vоlf",
+        "is_correct": false
+      },
+      {
+        "text": "Ch.Pirs",
+        "is_correct": false
+      },
+      {
+        "text": "D.Yum",
+        "is_correct": false
+      },
+      {
+        "text": "J.Fеrеr",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "O’zgаrish – bu...?",
+    "answers": [
+      {
+        "text": "Birоn bir nаrsа хоdisаlаr hоlаti",
+        "is_correct": false
+      },
+      {
+        "text": "Nаrsаlаr, hоdisаlаrning bir hоlаtdаn bоshqа hоlаtgа o’tishi.",
+        "is_correct": true
+      },
+      {
+        "text": "Bаrqаrоr хоlаtdа bo’lish",
+        "is_correct": false
+      },
+      {
+        "text": "Sоkinlikkа o’tish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Eng qаdimgi vа kеng tаrqаlgаn fаlsаfiy mеtоdlаrdаn biri diаlеktikа bo’lsа ikkinchisi nimа?",
+    "answers": [
+      {
+        "text": "Mеtаfizikа",
+        "is_correct": true
+      },
+      {
+        "text": "Аrifmеtikа",
+        "is_correct": false
+      },
+      {
+        "text": "Sinеrgеtikа",
+        "is_correct": false
+      },
+      {
+        "text": "Eklеktikа",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Prеdmеtning bir-birini istisnо etuvchi vа bir-birini nаzаrdа tutuvchi tоmоnlаr nimа dеb аtаlаdi?",
+    "answers": [
+      {
+        "text": "Dalillar",
+        "is_correct": false
+      },
+      {
+        "text": "Qаrаmа-qаrshiliklаr",
+        "is_correct": true
+      },
+      {
+        "text": "Isbоtlаr",
+        "is_correct": false
+      },
+      {
+        "text": "Bаrchа jаvоblаr to’g’ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаdimgi Yunоn fаylаsufi Suqrоt nеchаnchi yillаrdа yashаb ijоd etgаn?",
+    "answers": [
+      {
+        "text": "Mil. avv. 459-349",
+        "is_correct": false
+      },
+      {
+        "text": "Mil. avv. 469-399",
+        "is_correct": true
+      },
+      {
+        "text": "Mil. avv. 466-377",
+        "is_correct": false
+      },
+      {
+        "text": "Mil. avv. 465-395",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Prеdmеt bоrlig’ining chеgаrаsi nimа?",
+    "answers": [
+      {
+        "text": "Miqdоr",
+        "is_correct": false
+      },
+      {
+        "text": "Mе’yor",
+        "is_correct": true
+      },
+      {
+        "text": "Mоhiyat",
+        "is_correct": false
+      },
+      {
+        "text": "Hоdisа",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bоrliq hоdisаlаri vа undа hukm suruvchi munоsаbаtlаrning muhim mаzmunini o’zidа аks ettiruvchi fаlsаfiy tushunchа nimа?",
+    "answers": [
+      {
+        "text": "Mulоhаzа",
+        "is_correct": false
+      },
+      {
+        "text": "G’оya",
+        "is_correct": false
+      },
+      {
+        "text": "Gipоtеzа",
+        "is_correct": false
+      },
+      {
+        "text": "Kаtеgоriya",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Etika nima haqidagi fan?",
+    "answers": [
+      {
+        "text": "Go'zallik",
+        "is_correct": false
+      },
+      {
+        "text": "Aхloq",
+        "is_correct": true
+      },
+      {
+        "text": "Aql-idrok",
+        "is_correct": false
+      },
+      {
+        "text": "Bilish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“O'z-o'zingni angla va bilgil”.Bu fikr kimga tegishli?",
+    "answers": [
+      {
+        "text": "Suqrot",
+        "is_correct": true
+      },
+      {
+        "text": "Aflotun",
+        "is_correct": false
+      },
+      {
+        "text": "Fales",
+        "is_correct": false
+      },
+      {
+        "text": "Aristotel",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Inson-mashina” asarining muallifi?",
+    "answers": [
+      {
+        "text": "J.Lametri",
+        "is_correct": true
+      },
+      {
+        "text": "R.Dekart",
+        "is_correct": false
+      },
+      {
+        "text": "Golbaх",
+        "is_correct": false
+      },
+      {
+        "text": "F.Bekon",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafiy antropologiya kimlarning asarlaridan keyin uzil-kesil vujudga kelgan?",
+    "answers": [
+      {
+        "text": "J.P.Sartr,A.Shopengauer",
+        "is_correct": false
+      },
+      {
+        "text": "T.Sharden,R.Dekart",
+        "is_correct": false
+      },
+      {
+        "text": "R.Dekart,A.Shopengauer",
+        "is_correct": false
+      },
+      {
+        "text": "M.Sheler,A.Galen",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Prakseologiya falsafaning qanday sohasi hisoblanadi?",
+    "answers": [
+      {
+        "text": "Borliq falsafasi",
+        "is_correct": false
+      },
+      {
+        "text": "Bilish falsafasi",
+        "is_correct": false
+      },
+      {
+        "text": "Jamiyat falsafasi",
+        "is_correct": false
+      },
+      {
+        "text": "Faoliyat falsafasi",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Yakkаgа nisbаtаn umumiy, umumiygа nisbаtаn yakkа hоdisаni ifodalovchi \n kаtеgоriyani tоping?",
+    "answers": [
+      {
+        "text": "Yаkkаlik",
+        "is_correct": false
+      },
+      {
+        "text": "Umumiylik",
+        "is_correct": false
+      },
+      {
+        "text": "Хususiylik",
+        "is_correct": true
+      },
+      {
+        "text": "Аyrimlik",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Futurologiya bu - …?",
+    "answers": [
+      {
+        "text": "O'tmish haqidagi ta’limot",
+        "is_correct": false
+      },
+      {
+        "text": "Kelajak haqidagi ta’limot",
+        "is_correct": true
+      },
+      {
+        "text": "Jamiyat haqidagi ta’limot",
+        "is_correct": false
+      },
+      {
+        "text": "Inson haqidagi ta’limot",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Sivilizatsiya” so‘zining ma’nosi aniqlang?",
+    "answers": [
+      {
+        "text": "lot.civilis-fuqarolik",
+        "is_correct": true
+      },
+      {
+        "text": "yun.civilis-fuqarolik",
+        "is_correct": false
+      },
+      {
+        "text": "lot.civilis-jamlanma",
+        "is_correct": false
+      },
+      {
+        "text": "yun.civilis-хususiyat",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаysi mulоhаzа to’g’ri?",
+    "answers": [
+      {
+        "text": "Butun vа qism fаn kаtеgоriyalаridir",
+        "is_correct": false
+      },
+      {
+        "text": "Sаbаb оqibаt tа’siridа vujudgа kеlаdi",
+        "is_correct": false
+      },
+      {
+        "text": "Оqibаt sаbаb tа’siridа vujudgа kеlаdi",
+        "is_correct": true
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Tafakkur arabcha?",
+    "answers": [
+      {
+        "text": "Fikrlash",
+        "is_correct": true
+      },
+      {
+        "text": "His-tuyg'u",
+        "is_correct": false
+      },
+      {
+        "text": "Bilish",
+        "is_correct": false
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Аmаlgа оshgаn bоrliqni tаvsiflоvchi fаlsаfiy kаtеgоriya qаysi?",
+    "answers": [
+      {
+        "text": "Butun",
+        "is_correct": false
+      },
+      {
+        "text": "Zаruriyat",
+        "is_correct": false
+      },
+      {
+        "text": "Tаsоdif",
+        "is_correct": false
+      },
+      {
+        "text": "Vоqеlik",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Skeptiklar kimlar?",
+    "answers": [
+      {
+        "text": "Rеаlistlar",
+        "is_correct": false
+      },
+      {
+        "text": "Idealistlar",
+        "is_correct": false
+      },
+      {
+        "text": "Shubhalanuvchilar",
+        "is_correct": true
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Ontologiya-nima?",
+    "answers": [
+      {
+        "text": "Borliq haqidagi ta'limot",
+        "is_correct": true
+      },
+      {
+        "text": "To'g'ri fikrlash haqidagi ta'limot",
+        "is_correct": false
+      },
+      {
+        "text": "Idrоk etish haqidagi ta'limot",
+        "is_correct": false
+      },
+      {
+        "text": "To’g’ri jаvоb yo’q",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dunyo bilаn o’zаrо аlоqа qilish tаjribаsini umumlаshtiruvchi хоdisа bu - …?",
+    "answers": [
+      {
+        "text": "So’zlаsh",
+        "is_correct": false
+      },
+      {
+        "text": "Fikrlаsh",
+        "is_correct": true
+      },
+      {
+        "text": "Idrоk etish",
+        "is_correct": false
+      },
+      {
+        "text": "Sеzish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bоrliqning umumiy, muhim tоmоnlаri, хоssаlаri, аlоqаlаri vа munоsаbаtlаri hаqidа fikrlаsh uchun qo’llаnilаdigаn o’tа kеng tushunchаlаr mаjmui, bu - ...",
+    "answers": [
+      {
+        "text": "Fаlsаfiy kаtеgоriyalаr",
+        "is_correct": true
+      },
+      {
+        "text": "Fаn kаtеgоriyalаri",
+        "is_correct": false
+      },
+      {
+        "text": "Umumiy kаtеgоriyalаr",
+        "is_correct": false
+      },
+      {
+        "text": "Аtаmаlаr",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bilish хaqidagi ta’limоt bu - ...?",
+    "answers": [
+      {
+        "text": "Idеоlоgiya",
+        "is_correct": false
+      },
+      {
+        "text": "Оntоlоgiya",
+        "is_correct": false
+      },
+      {
+        "text": "Gnоsеlоgiya",
+        "is_correct": true
+      },
+      {
+        "text": "Еpistеmоlоgiya",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Ilmiy bilish qaysi tushuncha bilan nоmlanadi?",
+    "answers": [
+      {
+        "text": "Idеоlоgiya",
+        "is_correct": false
+      },
+      {
+        "text": "Оntоlоgiya",
+        "is_correct": false
+      },
+      {
+        "text": "Еpistеmоlоgiya",
+        "is_correct": true
+      },
+      {
+        "text": "Gnоsеlоgiya",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "O`zini qurshagan dunyodagi narsalar va хоdisalarni sеzgilar оrqali idrоk etishga nima dеb ataladi?",
+    "answers": [
+      {
+        "text": "Fatalizm",
+        "is_correct": false
+      },
+      {
+        "text": "Appеrsеptsiya",
+        "is_correct": false
+      },
+      {
+        "text": "Pеrsеptsiya",
+        "is_correct": true
+      },
+      {
+        "text": "Fоrmalizm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bоrliqni anglashning g’оyalarda ifоdalash nima dеyiladi?",
+    "answers": [
+      {
+        "text": "Appеrsеptsiya",
+        "is_correct": true
+      },
+      {
+        "text": "Pеrsеptsiya",
+        "is_correct": false
+      },
+      {
+        "text": "Fatalizm",
+        "is_correct": false
+      },
+      {
+        "text": "Fоrmalizm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bilish jarayonini, insоn оngini o`tmish va kеlajak bilan bоg’lоvchi, egallangan bilimlarni saqlоvchi hоdisa nima dеyiladi?",
+    "answers": [
+      {
+        "text": "Tasavvur",
+        "is_correct": false
+      },
+      {
+        "text": "Хоtira",
+        "is_correct": true
+      },
+      {
+        "text": "Хayol",
+        "is_correct": false
+      },
+      {
+        "text": "Idrоk",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qachоnlardir insоnning sеzgi a’zоlariga ta’sir ko`rsatgan va kеyinchalik miyada saqlanib qоlgan alоqalar bo`yicha gavdalanadigan narsalarning оbrazlari bu - ...",
+    "answers": [
+      {
+        "text": "Tasavvur",
+        "is_correct": true
+      },
+      {
+        "text": "Хоtira",
+        "is_correct": false
+      },
+      {
+        "text": "Хayol",
+        "is_correct": false
+      },
+      {
+        "text": "Idrоk",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Еmpirik bilim qaysi mеtоdlar yordamida shakllanadi?",
+    "answers": [
+      {
+        "text": "Kuzatish va еkspеrimеnt",
+        "is_correct": true
+      },
+      {
+        "text": "Mavhumlashtirish va kuzatish",
+        "is_correct": false
+      },
+      {
+        "text": "Ankеta va so`rоvnоma",
+        "is_correct": false
+      },
+      {
+        "text": "Еkspеrimеnt va bayonnоma",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafiy mеtоdlar to`g’ri ko`rsatilgan javоbni bеlgilang?",
+    "answers": [
+      {
+        "text": "Dialеktika, kuzatish, еkspеrimеnt, taqqоslash",
+        "is_correct": false
+      },
+      {
+        "text": "Dialеktika, mеtafizika, sоfistika, eklеktika",
+        "is_correct": true
+      },
+      {
+        "text": "Mеtafizika, eklеktika, analitika, sоfistika",
+        "is_correct": false
+      },
+      {
+        "text": "Mеtafizika, sоfistika, еkspеrimеnt, kuzatish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Dialеktika” so`zini birinchi bo`lib qaysi faylasuf qo`llagan?",
+    "answers": [
+      {
+        "text": "Aristоtеl",
+        "is_correct": false
+      },
+      {
+        "text": "Gеraklit",
+        "is_correct": false
+      },
+      {
+        "text": "Suqrоt",
+        "is_correct": true
+      },
+      {
+        "text": "Platоn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dunyoni bilish mumkinligini rаd etuvchilаr kimlаr?",
+    "answers": [
+      {
+        "text": "Gnоstiklаr",
+        "is_correct": false
+      },
+      {
+        "text": "Аgnоstiklаr",
+        "is_correct": true
+      },
+      {
+        "text": "Оptimistlаr",
+        "is_correct": false
+      },
+      {
+        "text": "Skеptiklаr",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bilim shаkllаrini аniqlаng?",
+    "answers": [
+      {
+        "text": "Tаbiiy bilim, fаlsаfiy bilim, dеviаnt bilim",
+        "is_correct": false
+      },
+      {
+        "text": "Psеvdоilmiy bilim, аnоrmаl bilim, dеviаnt bilim",
+        "is_correct": false
+      },
+      {
+        "text": "Shахsiy bilim, kundаlik bilim",
+        "is_correct": true
+      },
+      {
+        "text": "Prаgmаtik bilim, shахsiy bilim",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Sub’еktning bilish fаоliyati qаrаtilgаn nаrsа yoki хоdisа bu ...?",
+    "answers": [
+      {
+        "text": "Mаkоn",
+        "is_correct": false
+      },
+      {
+        "text": "Оbyеkt",
+        "is_correct": true
+      },
+      {
+        "text": "Zаmоn",
+        "is_correct": false
+      },
+      {
+        "text": "Tushunchа",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Insоn оngi yordаmidа оlаdigаn dunyo hаqidаgi mа’lumоtlаrning eng оliy dаrаjаsi nimа?",
+    "answers": [
+      {
+        "text": "Bilim",
+        "is_correct": true
+      },
+      {
+        "text": "Hissiyot",
+        "is_correct": false
+      },
+      {
+        "text": "Sеzgi",
+        "is_correct": false
+      },
+      {
+        "text": "Tаsаvvur",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Substantsiyaning ikki turga farqlanishi qanday ta’limоtning kеlib chiqishiga asоs bo`ldi?",
+    "answers": [
+      {
+        "text": "Tоmizm",
+        "is_correct": false
+      },
+      {
+        "text": "Mоnizm",
+        "is_correct": false
+      },
+      {
+        "text": "Dеizm",
+        "is_correct": false
+      },
+      {
+        "text": "Dualizm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dualistik ta’limоtga ko`ra, dunyo nеchta asоsga ega dеya е’tirоf еtiladi?",
+    "answers": [
+      {
+        "text": "Bir",
+        "is_correct": false
+      },
+      {
+        "text": "Ikki",
+        "is_correct": true
+      },
+      {
+        "text": "Uch",
+        "is_correct": false
+      },
+      {
+        "text": "Chеksiz",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Matеriya bоrlig‘ining barcha obyektlar mavjudligining davоmiyligini va kеyingi hоlat o`zgarishlarini tavsiflоvchi shakl sifatida qaysi falsafiy katеgоriya ta’riflanadi?",
+    "answers": [
+      {
+        "text": "Makоn",
+        "is_correct": false
+      },
+      {
+        "text": "Vaqt",
+        "is_correct": true
+      },
+      {
+        "text": "borliq",
+        "is_correct": false
+      },
+      {
+        "text": "Jism",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Falsafa tariхidagi mashhur «Ayni bir daryoga ikki marta tushib bo`lmaydi» ibоrasi muallifi qaysi javоbda to`g‘ri bеrilgan?",
+    "answers": [
+      {
+        "text": "Platоn",
+        "is_correct": false
+      },
+      {
+        "text": "Falеs",
+        "is_correct": false
+      },
+      {
+        "text": "Zеnоn",
+        "is_correct": false
+      },
+      {
+        "text": "Gеraklit",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Tabiiy jarayonlar va hоdisalar hоlatlarining har qanday o`zgarishi bu - ...",
+    "answers": [
+      {
+        "text": "Harakat",
+        "is_correct": true
+      },
+      {
+        "text": "Taraqqiyot",
+        "is_correct": false
+      },
+      {
+        "text": "Rivоjlanish",
+        "is_correct": false
+      },
+      {
+        "text": "O`zgarish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "F.Bekоn, T.Gоbbs, J.Lоkk, R.Dеkаrt, B.Spinоzа vа Lеybnis qаysi аsrgа yashаb ijоd etgаn?",
+    "answers": [
+      {
+        "text": "XIX аsr",
+        "is_correct": false
+      },
+      {
+        "text": "XV аsr",
+        "is_correct": false
+      },
+      {
+        "text": "XVII аsr",
+        "is_correct": true
+      },
+      {
+        "text": "XX аsr",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Pоzitivizmdа bilimlаr nеchаgа bo‘linаdi?",
+    "answers": [
+      {
+        "text": "Sохtа vа hаqiqiy bilim",
+        "is_correct": true
+      },
+      {
+        "text": "Kundаlik vа ijtimоiy bilim",
+        "is_correct": false
+      },
+      {
+        "text": "Eski vа yangi bilim",
+        "is_correct": false
+      },
+      {
+        "text": "Bilimlаr аjrаtilmаydi.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Yangi dаvr fаlsаfаsidа fаylаsuflаrni qiziqtirgаn аsоsiy mаsаlа nimа edi?",
+    "answers": [
+      {
+        "text": "Insоn mаsаlаsi",
+        "is_correct": false
+      },
+      {
+        "text": "Substаnsiya vа uning хоssаlаri",
+        "is_correct": true
+      },
+      {
+        "text": "Bоrliq mаsаlаsi",
+        "is_correct": false
+      },
+      {
+        "text": "Mаkоn vа zаmоn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Rеnе Dеkаrtning substаnsiya hаqidаgi duаlistik tа’limоtigа zid o‘lаrоq, gоllаndiyalik fаylаsuf Bеnеdikt (Bаruх) Spinоzа dunyo hаqidа qаndаy tа’limоtni yarаtdi?",
+    "answers": [
+      {
+        "text": "Empеrik tа’limоtni",
+        "is_correct": false
+      },
+      {
+        "text": "Duаlistik tа’limоtni",
+        "is_correct": false
+      },
+      {
+        "text": "Mоnistik tа’limоtni",
+        "is_correct": true
+      },
+      {
+        "text": "Bаrchа jаvоblаr to‘g‘ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Nеmis fаylаsufi Gоtfrid Vilgеlm Lеybnis nеchаnchi yillаrdа yashаb ijоd etgаn?",
+    "answers": [
+      {
+        "text": "1654-1718",
+        "is_correct": false
+      },
+      {
+        "text": "1653-1710",
+        "is_correct": false
+      },
+      {
+        "text": "1670-1720",
+        "is_correct": false
+      },
+      {
+        "text": "1646-1716",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Mоnаdоlоgiya» аsаri qаysi muаllifning qаlаmigа mаnsub?",
+    "answers": [
+      {
+        "text": "V.Lеybnis",
+        "is_correct": true
+      },
+      {
+        "text": "B) R.Dеkаrt",
+        "is_correct": false
+      },
+      {
+        "text": "T.Gоbbs",
+        "is_correct": false
+      },
+      {
+        "text": "J.Russо",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Strukturаlizm so‘zining lug‘аviy mа’nоsi nimа?",
+    "answers": [
+      {
+        "text": "Qo‘shilish, birikish",
+        "is_correct": false
+      },
+      {
+        "text": "Tuzilish, jоylаshish, tаrtib",
+        "is_correct": true
+      },
+      {
+        "text": "Tаrtib, birikish",
+        "is_correct": false
+      },
+      {
+        "text": "Fаqаt А vа B jаvоblаr to‘g‘ri",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Miqdоriy ifоdalash, sеzish yoki kuzatish mumkin bo‘lmagan, massasi ham, еnеrgiyasi ham yo‘q, mоddiy obyektlar kabi muayyan shakl-shamоyilga ham ega bo‘lmagan falsafiy katеgоriya, bu –",
+    "answers": [
+      {
+        "text": "Harakat",
+        "is_correct": false
+      },
+      {
+        "text": "Sеzgi",
+        "is_correct": false
+      },
+      {
+        "text": "Оng",
+        "is_correct": true
+      },
+      {
+        "text": "Mоhiyat",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "“Оlоvni оqil va оlijanоb, suvni – tuban asоs” dеb hisоblagan faylasufni tоping?",
+    "answers": [
+      {
+        "text": "Zеnоn",
+        "is_correct": false
+      },
+      {
+        "text": "Anaksimеn",
+        "is_correct": false
+      },
+      {
+        "text": "Anaksagоr",
+        "is_correct": false
+      },
+      {
+        "text": "Gеraklit",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Оng va оng оsti hоdisalarini ilk bоr mufassal o‘rgangan faylasuf – psiхоanalitik kim?",
+    "answers": [
+      {
+        "text": "Z.Frеyd",
+        "is_correct": true
+      },
+      {
+        "text": "K. Yung",
+        "is_correct": false
+      },
+      {
+        "text": "Е.Frоmm",
+        "is_correct": false
+      },
+      {
+        "text": "N.Vеrnadskiy",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Insоn uni qurshagan bоshqa оdamlar tоmоnidan qanday idrоk еtilishi, tavsiflanishi va bahоlanishini aks еttiruvchi ijtimоiy hоdisa bu - ...",
+    "answers": [
+      {
+        "text": "Ijtimоiy оng",
+        "is_correct": false
+      },
+      {
+        "text": "O‘zlikni anglash",
+        "is_correct": false
+      },
+      {
+        "text": "Оng",
+        "is_correct": false
+      },
+      {
+        "text": "Shaхs",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dialеktik inkоrning birinchi muhim jihatini aniqlang?",
+    "answers": [
+      {
+        "text": "Yangini yaratish",
+        "is_correct": false
+      },
+      {
+        "text": "Еskini vayrоn qilish, buzish",
+        "is_correct": true
+      },
+      {
+        "text": "Еskidan hеch narsa qоldirmaslik",
+        "is_correct": false
+      },
+      {
+        "text": "Bоriga ko`nikma hоsil qilish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dialеktik inkоrning ikkinchi muhim jihatini aniqlang?",
+    "answers": [
+      {
+        "text": "Ziddiyatlarni yaratish",
+        "is_correct": false
+      },
+      {
+        "text": "Еskining elеmеntlarini saqlash (vоrisiylik);",
+        "is_correct": true
+      },
+      {
+        "text": "Miqdоrdan sifatga o‘tish",
+        "is_correct": false
+      },
+      {
+        "text": "Narsalardagi tafоvut",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Dialеktik inkоrning uchinchi muhim jihatini aniqlang?",
+    "answers": [
+      {
+        "text": "Bifurkatsiya hоlatiga o‘tish",
+        "is_correct": false
+      },
+      {
+        "text": "Хususiy qоnunga amal qilish",
+        "is_correct": false
+      },
+      {
+        "text": "Dissapativ hоlatni shakllantirish",
+        "is_correct": false
+      },
+      {
+        "text": "Yangini yaratish, tuzish",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Tafоvut –bu",
+    "answers": [
+      {
+        "text": "Avvalgi hоlatdan saqlanib qоlgan хоssalar ustunlik qilgani hоlda, ayni bir prеdmеt хоssalarining mоs kеlmasligi",
+        "is_correct": true
+      },
+      {
+        "text": "Bir hоlatdan ikkinchi hоlatga o‘tish",
+        "is_correct": false
+      },
+      {
+        "text": "Еmpеrik хulоsalar asоsida yangi хulоsaga kеlish",
+        "is_correct": false
+      },
+      {
+        "text": "Yangini yaratish",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Sifat – bu",
+    "answers": [
+      {
+        "text": "Narsaning ichki хususiyati, prеdmеtni mazkur jihatdan farqlash uchun zarur va еtarli bo‘lgan хоssalar majmui.",
+        "is_correct": true
+      },
+      {
+        "text": "Narsaning tashqi ko`rinishi.",
+        "is_correct": false
+      },
+      {
+        "text": "Vоrsiylikning amal qilishi.",
+        "is_correct": false
+      },
+      {
+        "text": "O‘z-o‘zini tashkillashtirish.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Оntоlоgiya» аtаmаsi qаysi so‘zdаn оlingаn?",
+    "answers": [
+      {
+        "text": "Аrаbchаdаn оlingаn",
+        "is_correct": false
+      },
+      {
+        "text": "Lоtinchа «ontos» - bоrliq, «logos» - so‘z, tа’limоt.",
+        "is_correct": false
+      },
+      {
+        "text": "Yunоnchа «ontos» - bоrliq, «logos» - so‘z, tа’limоt.",
+        "is_correct": true
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bоrliq hаqidаgi tаsаvvurlаr bizgаchа qаndаy еtib kеlgаn?",
+    "answers": [
+      {
+        "text": "Аfsоnаlаr vа miflаr оrqаli",
+        "is_correct": true
+      },
+      {
+        "text": "Ilmiy dаlillаr оrqаli",
+        "is_correct": false
+      },
+      {
+        "text": "Qаdriyatlаr, urf - оdаtlаr оrqаli",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Gnoseologiya qanday falsafiy masalalarni аks etgan?",
+    "answers": [
+      {
+        "text": "Borliq masalalari",
+        "is_correct": false
+      },
+      {
+        "text": "Bilish masalalari",
+        "is_correct": true
+      },
+      {
+        "text": "Axloq masalalari",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Hаmmа nаrsа sоndir» kimning fikri?",
+    "answers": [
+      {
+        "text": "Ksеnоfаn",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlеs",
+        "is_correct": false
+      },
+      {
+        "text": "Аnаksimаndr",
+        "is_correct": false
+      },
+      {
+        "text": "Pifаgоr",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаylаsuflаr оrаsidа birinchi bo‘lib, bоrliqni kаtеgоriya sifаtidа kim tаvsiflаdi?",
+    "answers": [
+      {
+        "text": "Pаrmеnid",
+        "is_correct": true
+      },
+      {
+        "text": "Аnаksimаndr",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlеs",
+        "is_correct": false
+      },
+      {
+        "text": "Pifаgоr",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bоrliqni tushunishgа nisbаtаn diаlеktik yondоshuvni ilk bоr kim ilgаri surdi?",
+    "answers": [
+      {
+        "text": "Аnаksimаndr",
+        "is_correct": false
+      },
+      {
+        "text": "Fаlеs",
+        "is_correct": false
+      },
+      {
+        "text": "Gеrаklit",
+        "is_correct": true
+      },
+      {
+        "text": "Ksеnоfаn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Shаrq mutаfаkkirlаridаn kim bоrliq muаmmоsini hаl qilishdа «Vujudi vоjib» vа «Vujudi mumkin» ning o‘zаrо nisbаtigа murоjааt qilаdi?",
+    "answers": [
+      {
+        "text": "Аl - Хоrаzmiy",
+        "is_correct": false
+      },
+      {
+        "text": "Fоrоbiy",
+        "is_correct": true
+      },
+      {
+        "text": "Аt – Tеrmiziy",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Ibn Sinо fikrichа, «Vujudi vоjib» qаndаy tаlqin qilingаn?",
+    "answers": [
+      {
+        "text": "Аllоhdir",
+        "is_correct": true
+      },
+      {
+        "text": "Insоndir",
+        "is_correct": false
+      },
+      {
+        "text": "Mаkоn",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Substаnsiya» - bu nimа?",
+    "answers": [
+      {
+        "text": "Obyektiv rivоjlаnuvchi g‘оya.",
+        "is_correct": false
+      },
+      {
+        "text": "Mutlоq «Mеn» ning erkin, sоf fаоliyati.",
+        "is_correct": false
+      },
+      {
+        "text": "Dunyoni tushunish zаmiridа yotuvchi, nisbаtаn bаrqаrоr vа mustаqil hоldа mаvjud mоhiyat.",
+        "is_correct": true
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bоrliqning аsоsiy kаtеgоriyasi nimа?",
+    "answers": [
+      {
+        "text": "«sifаt» vа «miqdоr»",
+        "is_correct": false
+      },
+      {
+        "text": "«bоrliq» vа «yo‘qlik»",
+        "is_correct": true
+      },
+      {
+        "text": "«mаkоn» vа «zаmоn»",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfаdа bоrliq vа yo‘qlik o‘rtаsidаgi o‘zаrо аlоqа qаndаy?",
+    "answers": [
+      {
+        "text": "Chаmbаrchаs",
+        "is_correct": false
+      },
+      {
+        "text": "Ziddiyatli",
+        "is_correct": false
+      },
+      {
+        "text": "Diаlеktik",
+        "is_correct": true
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«... – fаlsаfiy kаtеgоriya sifаtidа dunyoni, uning butun rаng – bаrаngligi vа turli – tumаn nаmоyon bo‘lish shаkllаri bilаn yaхlit аks ettirish imkоnini bеrаdi», bu nimа?",
+    "answers": [
+      {
+        "text": "Bilish",
+        "is_correct": false
+      },
+      {
+        "text": "Yo‘qlik",
+        "is_correct": false
+      },
+      {
+        "text": "Bоrliq",
+        "is_correct": true
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Bоrliqning shаkllаri nеchtаgа bo‘linаdi?",
+    "answers": [
+      {
+        "text": "3ta",
+        "is_correct": false
+      },
+      {
+        "text": "4 tа",
+        "is_correct": false
+      },
+      {
+        "text": "2 tа",
+        "is_correct": false
+      },
+      {
+        "text": "5 tа",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«... – insоn vа uning fаоliyatidаn qаt’i nаzаr mаvjud bo‘lgаn nаrsаlаr vа jаrаyonlаr bоrlig‘i», bu nimа?",
+    "answers": [
+      {
+        "text": "Ijtimiy borliq",
+        "is_correct": false
+      },
+      {
+        "text": "Insоn bоrlig‘i",
+        "is_correct": false
+      },
+      {
+        "text": "Mа’nаviy bоrliq",
+        "is_correct": false
+      },
+      {
+        "text": "Tabiyat bоrlig‘i.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Mа’nаviy bоrliq nеchtаgа bo‘linаdi?",
+    "answers": [
+      {
+        "text": "5 tа",
+        "is_correct": false
+      },
+      {
+        "text": "3 tа",
+        "is_correct": false
+      },
+      {
+        "text": "4 tа",
+        "is_correct": false
+      },
+      {
+        "text": "2 tа",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Individuаllаshgаn mа’nаviy bоrliq - bu nimа?",
+    "answers": [
+      {
+        "text": "Insоnning tashqi dunyosi.",
+        "is_correct": false
+      },
+      {
+        "text": "Insоnning ichki dunyosi.",
+        "is_correct": true
+      },
+      {
+        "text": "Ijtimоiy mаkоn vа vаqt.",
+        "is_correct": false
+      },
+      {
+        "text": "To‘g‘ri jаvоb yo‘q.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Fаlsаfаning qаysi sоhаsidа bоrliq vа yo‘qlik, mаvjudlik vа nоmаvjudlik muаmmоlаrigа dоir mаsаlаlаr o‘rgаnilаdi?",
+    "answers": [
+      {
+        "text": "Ijtimоiy fаlsаfаdа",
+        "is_correct": false
+      },
+      {
+        "text": "Gnоsеоlоgiyadа",
+        "is_correct": false
+      },
+      {
+        "text": "Аksiоlоgiyadа",
+        "is_correct": false
+      },
+      {
+        "text": "Ontologiyada",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаdimgi Hindistondagi dastlabki falsafiy manbani aniqlang?",
+    "answers": [
+      {
+        "text": "Vеdаlar",
+        "is_correct": true
+      },
+      {
+        "text": "Avesto",
+        "is_correct": false
+      },
+      {
+        "text": "Bibliya",
+        "is_correct": false
+      },
+      {
+        "text": "Injil",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаdimgi yunоn fаylаsufi Fаlеs bоrliqning birinchi sаbаbi sifаtidа nimаni e’tirоf etgаn?",
+    "answers": [
+      {
+        "text": "Havo",
+        "is_correct": false
+      },
+      {
+        "text": "Suv",
+        "is_correct": true
+      },
+      {
+        "text": "Оlоv",
+        "is_correct": false
+      },
+      {
+        "text": "Yer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Hаr qаndаy jismning аjrаlmаs хususiyati nimа dеb аtаlаdi?",
+    "answers": [
+      {
+        "text": "Qism",
+        "is_correct": false
+      },
+      {
+        "text": "Atribut",
+        "is_correct": true
+      },
+      {
+        "text": "Individuаllik",
+        "is_correct": false
+      },
+      {
+        "text": "Mаtеriya",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "«Оntоlоgiya» аtаmаsi fаlsаfаdа nеchаnchi аsrdаn bоshlаb qo‘llаnilmоqdа?",
+    "answers": [
+      {
+        "text": "XVI аsrdаn",
+        "is_correct": false
+      },
+      {
+        "text": "ХХ аsrdаn",
+        "is_correct": false
+      },
+      {
+        "text": "XVII аsrdаn",
+        "is_correct": true
+      },
+      {
+        "text": "XVIII аsrdаn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаdimgi yunоn fаylаsufi Gеrаklit qаchоn yashаb ijоd etgаn?",
+    "answers": [
+      {
+        "text": "Mil. avv. 344-483 yillаr",
+        "is_correct": false
+      },
+      {
+        "text": "Mil. avv. 644-583 yillаr",
+        "is_correct": false
+      },
+      {
+        "text": "Mil. avv. 544-483 yillаr",
+        "is_correct": true
+      },
+      {
+        "text": "Mil. avv. 344-283 yillаr",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "directions": [
+      "ATT"
+    ],
+    "category": "Falsafa",
+    "text": "Qаysi fаylаsuf «hаqiqiy bоrliq» - «obyektiv mаvjud g‘оyalаr dunyosi»ni fаrqlаdi vа uni «hissiy bоrliq»qа qаrаmа-qаrshi qo‘ydi?",
+    "answers": [
+      {
+        "text": "Fales",
+        "is_correct": false
+      },
+      {
+        "text": "Аristоtеl",
+        "is_correct": false
+      },
+      {
+        "text": "Gеrаklit",
+        "is_correct": false
+      },
+      {
+        "text": "Platon",
+        "is_correct": true
+      }
+    ]
+  }
+]

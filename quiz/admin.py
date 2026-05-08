@@ -276,6 +276,13 @@ class SiteSettingsAdmin(ModelAdmin):
         (_("Sayt sozlamalari"), {
             'fields': ['site_name', 'site_url'],
         }),
+        (_("Google Gemini AI sozlamalari"), {
+            'fields': ['gemini_api_key'],
+            'description': _(
+                "Google AI Studio (aistudio.google.com) dan bepul API kalit oling. "
+                "Bu kalit foydalanuvchilar noto'g'ri formatdagi fayl yuklashda AI tahlil uchun ishlatiladi."
+            ),
+        }),
     ]
 
     def has_add_permission(self, request):
