@@ -1,76 +1,284 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block title %}{% if mode == 'create' %}Test yaratish{% else %}Test tahrirlash{% endif %} — QuizHub{% endblock %}
-
-{% block content %}
-<div style="max-width:600px; margin:0 auto; padding:24px 16px;">
-  <div style="margin-bottom:24px;">
-    <a href="{% url 'my_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px;">
-      ← {% if lang == 'uz' %}Mening testlarim{% else %}My Quizzes{% endif %}
-    </a>
-    <h1 style="font-size:22px; font-weight:800; color:var(--text-primary); margin-top:10px;">
-      {% if mode == 'create' %}
-        {% if lang == 'uz' %}Yangi test yaratish{% else %}Create New Quiz{% endif %}
-      {% else %}
-        {% if lang == 'uz' %}Test ma'lumotlari{% else %}Quiz Info{% endif %}
-      {% endif %}
-    </h1>
-  </div>
-
-  {% if messages %}
-    {% for msg in messages %}
-    <div style="padding:12px 16px; border-radius:10px; margin-bottom:16px; background:var(--success-light); color:var(--success); border:1px solid var(--success); font-size:13px;">{{ msg }}</div>
-    {% endfor %}
+{% block title %}
+  {% if mode == 'create' %}
+    {% if lang == 'uz' %}Test yaratish{% elif lang == 'ru' %}Создать тест{% else %}Create Quiz{% endif %}
+  {% else %}
+    {% if lang == 'uz' %}Test tahrirlash{% elif lang == 'ru' %}Редактировать{% else %}Edit Quiz{% endif %}
   {% endif %}
+  — QuizHub
+{% endblock %}
 
-  <div style="background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px;">
-    <form method="post">
-      {% csrf_token %}
-      {% if mode != 'create' %}<input type="hidden" name="save_info" value="1">{% endif %}
-
-      {% for field in form %}
-      <div style="margin-bottom:18px;">
-        <label style="display:block; font-size:13px; font-weight:600; color:var(--text-secondary); margin-bottom:6px;">
-          {{ field.label }}{% if field.field.required %} *{% endif %}
-        </label>
-        {{ field }}
-        {% if field.help_text %}
-        <div style="font-size:11px; color:var(--text-muted); margin-top:4px;">{{ field.help_text }}</div>
-        {% endif %}
-        {% for error in field.errors %}
-        <div style="font-size:12px; color:var(--error); margin-top:4px;">{{ error }}</div>
-        {% endfor %}
-      </div>
-      {% endfor %}
-
-      <button type="submit" class="btn-primary" style="width:100%; justify-content:center; margin-top:8px;">
-        {% if mode == 'create' %}
-          {% if lang == 'uz' %}Yaratish va savollar qo'shish{% else %}Create & Add Questions{% endif %}
-        {% else %}
-          {% if lang == 'uz' %}Saqlash{% else %}Save{% endif %}
-        {% endif %}
-      </button>
-    </form>
-  </div>
-</div>
-
+{% block extra_css %}
 <style>
-.form-input, input[name], select, textarea {
+.quiz-form-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+}
+.field-group {
+  margin-bottom: 20px;
+}
+.field-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+.field-label span.req {
+  color: var(--accent);
+  margin-left: 2px;
+}
+.field-input {
   width: 100%;
-  padding: 10px 12px;
+  padding: 10px 13px;
   border-radius: var(--radius-md);
-  border: 1px solid var(--border-strong);
+  border: 1.5px solid var(--border-strong);
   background: var(--bg-primary);
   color: var(--text-primary);
   font-size: 14px;
   font-family: var(--font);
   outline: none;
   transition: border-color 0.2s;
+  box-sizing: border-box;
 }
-.form-input:focus, input:focus, select:focus, textarea:focus {
-  border-color: var(--accent);
+.field-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
+textarea.field-input { resize: vertical; min-height: 80px; }
+select.field-input { cursor: pointer; }
+.field-hint { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+.field-error { font-size: 12px; color: var(--error); margin-top: 4px; }
+
+.math-tip {
+  background: var(--info-light);
+  border: 1px solid var(--info);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
 }
-input[type="checkbox"] { width: auto; }
+.math-tip .material-icons-round { color: var(--info); font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+.math-tip-body { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+.math-tip-body strong { color: var(--text-primary); }
+.math-tip-body code {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 12px;
+  font-family: monospace;
+  color: var(--accent-text);
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: var(--bg-elevated);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.toggle-row:hover { border-color: var(--accent); }
+.toggle-row input[type="checkbox"] { display: none; }
+.toggle-switch {
+  width: 40px;
+  height: 22px;
+  border-radius: 11px;
+  background: var(--border-strong);
+  position: relative;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+.toggle-switch::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.2s;
+}
+.toggle-row.checked .toggle-switch { background: var(--accent); }
+.toggle-row.checked .toggle-switch::after { transform: translateX(18px); }
+.toggle-label-text { font-size: 14px; font-weight: 500; color: var(--text-primary); }
+.toggle-label-sub { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 500px) { .two-col { grid-template-columns: 1fr; } }
 </style>
+{% endblock %}
+
+{% block content %}
+<div style="max-width:620px; margin:0 auto; padding:24px 16px;">
+  <div style="margin-bottom:24px;">
+    <a href="{% url 'my_quizzes' %}" style="font-size:13px; color:var(--text-secondary); display:inline-flex; align-items:center; gap:4px;">
+      ← {% if lang == 'uz' %}Mening testlarim{% elif lang == 'ru' %}Мои тесты{% else %}My Quizzes{% endif %}
+    </a>
+    <h1 style="font-size:22px; font-weight:800; color:var(--text-primary); margin-top:10px;">
+      {% if mode == 'create' %}
+        {% if lang == 'uz' %}Yangi test yaratish{% elif lang == 'ru' %}Создать новый тест{% else %}Create New Quiz{% endif %}
+      {% else %}
+        {% if lang == 'uz' %}Test ma'lumotlari{% elif lang == 'ru' %}Настройки теста{% else %}Quiz Settings{% endif %}
+      {% endif %}
+    </h1>
+  </div>
+
+  {% if messages %}
+    {% for msg in messages %}
+    <div style="padding:12px 16px; border-radius:10px; margin-bottom:16px; background:var(--success-light); color:var(--success); border:1px solid var(--success); font-size:13px; display:flex; align-items:center; gap:8px;">
+      <span class="material-icons-round" style="font-size:16px;">check_circle</span>{{ msg }}
+    </div>
+    {% endfor %}
+  {% endif %}
+
+  <!-- MathJax formula hint -->
+  <div class="math-tip">
+    <span class="material-icons-round">functions</span>
+    <div class="math-tip-body">
+      <strong>
+        {% if lang == 'uz' %}Matematik formula qo'shish{% elif lang == 'ru' %}Добавление математических формул{% else %}Adding Math Formulas{% endif %}
+      </strong><br>
+      {% if lang == 'uz' %}
+        Savol yoki variantlarda matematik formulalar yozish uchun <strong>LaTeX</strong> sintaksisini ishlating:<br>
+        • Qatorich formula: <code>\( x^2 + y^2 = z^2 \)</code><br>
+        • Alohida qator: <code>\[ \frac{a}{b} = c \]</code><br>
+        Misol: <code>\( E = mc^2 \)</code> → <span style="font-style:italic;">E = mc²</span>
+      {% elif lang == 'ru' %}
+        Для математических формул в вопросах используйте синтаксис <strong>LaTeX</strong>:<br>
+        • Строчная формула: <code>\( x^2 + y^2 = z^2 \)</code><br>
+        • Отдельная строка: <code>\[ \frac{a}{b} = c \]</code><br>
+        Пример: <code>\( E = mc^2 \)</code> → <span style="font-style:italic;">E = mc²</span>
+      {% else %}
+        To include math formulas in questions or answers, use <strong>LaTeX</strong> syntax:<br>
+        • Inline: <code>\( x^2 + y^2 = z^2 \)</code><br>
+        • Display block: <code>\[ \frac{a}{b} = c \]</code><br>
+        Example: <code>\( E = mc^2 \)</code> → <span style="font-style:italic;">E = mc²</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="quiz-form-card">
+    <form method="post" id="quiz-create-form">
+      {% csrf_token %}
+      {% if mode != 'create' %}<input type="hidden" name="save_info" value="1">{% endif %}
+
+      <!-- Title -->
+      <div class="field-group">
+        <label class="field-label" for="id_title">
+          {% if lang == 'uz' %}Sarlavha{% elif lang == 'ru' %}Название{% else %}Title{% endif %}
+          <span class="req">*</span>
+        </label>
+        <input type="text" name="title" id="id_title" class="field-input"
+          value="{{ form.title.value|default:'' }}"
+          placeholder="{% if lang == 'uz' %}Test sarlavhasi{% elif lang == 'ru' %}Название теста{% else %}Quiz title{% endif %}"
+          required>
+        {% for error in form.title.errors %}<div class="field-error">{{ error }}</div>{% endfor %}
+      </div>
+
+      <!-- Description -->
+      <div class="field-group">
+        <label class="field-label" for="id_description">
+          {% if lang == 'uz' %}Tavsif{% elif lang == 'ru' %}Описание{% else %}Description{% endif %}
+        </label>
+        <textarea name="description" id="id_description" class="field-input" rows="3"
+          placeholder="{% if lang == 'uz' %}Ixtiyoriy qisqa tavsif...{% elif lang == 'ru' %}Краткое описание (необязательно)...{% else %}Optional short description...{% endif %}">{{ form.description.value|default:'' }}</textarea>
+        {% for error in form.description.errors %}<div class="field-error">{{ error }}</div>{% endfor %}
+      </div>
+
+      <!-- Category + Difficulty -->
+      <div class="two-col">
+        <div class="field-group">
+          <label class="field-label" for="id_category">
+            {% if lang == 'uz' %}Kategoriya{% elif lang == 'ru' %}Категория{% else %}Category{% endif %}
+            <span class="req">*</span>
+          </label>
+          <select name="category" id="id_category" class="field-input">
+            <option value="">{% if lang == 'uz' %}— Tanlang —{% elif lang == 'ru' %}— Выберите —{% else %}— Select —{% endif %}</option>
+            {% for cat in form.category.field.queryset %}
+            <option value="{{ cat.pk }}" {% if form.category.value == cat.pk|stringformat:"s" %}selected{% endif %}>
+              {% if lang == 'uz' %}{{ cat.name_uz }}{% elif lang == 'ru' %}{{ cat.name_ru }}{% else %}{{ cat.name_en }}{% endif %}
+            </option>
+            {% endfor %}
+          </select>
+          {% for error in form.category.errors %}<div class="field-error">{{ error }}</div>{% endfor %}
+        </div>
+
+        <div class="field-group">
+          <label class="field-label" for="id_difficulty">
+            {% if lang == 'uz' %}Daraja{% elif lang == 'ru' %}Сложность{% else %}Difficulty{% endif %}
+          </label>
+          <select name="difficulty" id="id_difficulty" class="field-input">
+            <option value="easy" {% if form.difficulty.value == 'easy' %}selected{% endif %}>
+              {% if lang == 'uz' %}Oson{% elif lang == 'ru' %}Лёгкий{% else %}Easy{% endif %}
+            </option>
+            <option value="medium" {% if form.difficulty.value == 'medium' or not form.difficulty.value %}selected{% endif %}>
+              {% if lang == 'uz' %}O'rta{% elif lang == 'ru' %}Средний{% else %}Medium{% endif %}
+            </option>
+            <option value="hard" {% if form.difficulty.value == 'hard' %}selected{% endif %}>
+              {% if lang == 'uz' %}Qiyin{% elif lang == 'ru' %}Сложный{% else %}Hard{% endif %}
+            </option>
+          </select>
+          {% for error in form.difficulty.errors %}<div class="field-error">{{ error }}</div>{% endfor %}
+        </div>
+      </div>
+
+      <!-- Time limit -->
+      <div class="field-group">
+        <label class="field-label" for="id_time_limit">
+          {% if lang == 'uz' %}Vaqt limiti (daqiqa){% elif lang == 'ru' %}Лимит времени (минут){% else %}Time Limit (minutes){% endif %}
+          <span class="req">*</span>
+        </label>
+        <input type="number" name="time_limit" id="id_time_limit" class="field-input"
+          value="{{ form.time_limit.value|default:'30' }}" min="1" max="180"
+          style="max-width:160px;">
+        <div class="field-hint">{% if lang == 'uz' %}1–180 daqiqa{% elif lang == 'ru' %}1–180 минут{% else %}1–180 minutes{% endif %}</div>
+        {% for error in form.time_limit.errors %}<div class="field-error">{{ error }}</div>{% endfor %}
+      </div>
+
+      <!-- Published toggle -->
+      <div class="field-group">
+        <label class="toggle-row {% if form.is_published.value %}checked{% endif %}" id="publishToggle" for="id_is_published">
+          <div>
+            <div class="toggle-label-text">
+              {% if lang == 'uz' %}Testni nashr etish{% elif lang == 'ru' %}Опубликовать тест{% else %}Publish Quiz{% endif %}
+            </div>
+            <div class="toggle-label-sub">
+              {% if lang == 'uz' %}Boshqalar bu testni ko'ra oladi{% elif lang == 'ru' %}Другие пользователи смогут видеть тест{% else %}Others will be able to see and take this quiz{% endif %}
+            </div>
+          </div>
+          <div class="toggle-switch"></div>
+          <input type="checkbox" name="is_published" id="id_is_published" {% if form.is_published.value %}checked{% endif %}>
+        </label>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width:100%; justify-content:center; margin-top:8px; padding:13px;">
+        <span class="material-icons-round">{% if mode == 'create' %}add_circle{% else %}save{% endif %}</span>
+        {% if mode == 'create' %}
+          {% if lang == 'uz' %}Yaratish va savollar qo'shish{% elif lang == 'ru' %}Создать и добавить вопросы{% else %}Create & Add Questions{% endif %}
+        {% else %}
+          {% if lang == 'uz' %}Saqlash{% elif lang == 'ru' %}Сохранить{% else %}Save{% endif %}
+        {% endif %}
+      </button>
+    </form>
+  </div>
+</div>
+
+<script>
+const publishToggle = document.getElementById('publishToggle');
+const publishCheckbox = document.getElementById('id_is_published');
+publishToggle.addEventListener('click', function(e) {
+  if (e.target === publishCheckbox) return;
+  publishCheckbox.checked = !publishCheckbox.checked;
+  publishToggle.classList.toggle('checked', publishCheckbox.checked);
+});
+</script>
 {% endblock %}
