@@ -13,3 +13,11 @@ psycopg2-binary
 python-decouple
 whitenoise
 dj-database-url
+dj-database-url
+django
+django-rosetta
+django-unfold
+Pillow
+psycopg2-binary
+python-decouple
+whitenoise
