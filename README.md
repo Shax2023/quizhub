@@ -1,3 +1,4 @@
+![Uploading image.png…]()
 # QuizHub — Django Quiz Ilovasi
 
 ## Kompyuterda ishga tushirish (Local Setup)
