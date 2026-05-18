@@ -1,4 +1,4 @@
-# Demao site: testishla.uz
+# Demao site: testishla.uz (https://www.testishla.uz/en/)
 # QuizHub — Django Quiz Ilovasi
 
 ## Kompyuterda ishga tushirish (Local Setup)
