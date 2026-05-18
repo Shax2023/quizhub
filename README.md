@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+# Demao site: testishla.uz
 # QuizHub — Django Quiz Ilovasi
 
 ## Kompyuterda ishga tushirish (Local Setup)
